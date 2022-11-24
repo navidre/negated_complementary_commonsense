@@ -1,0 +1,231 @@
+head	relation	tail	prompt
+skirt	ObjectUse	wear to work	a skirt can be used for
+in asian cuisine wok	ObjectUse	fry and to steam food	an in asian cuisine wok can be used for
+methadone	ObjectUse	treat drug addictions	a methadone can be used for
+paperwork	ObjectUse	fill out	a paperwork can be used for
+dark	ObjectUse	see pictures	a dark can be used for
+bunch of cigarettes	ObjectUse	sell	a bunch of cigarettes can be used for
+keyhole	ObjectUse	see through	a keyhole can be used for
+condiment	ObjectUse	spread over the treat	a condiment can be used for
+hinge	ObjectUse	move the wooden slab	a hinge can be used for
+medical card	ObjectUse	confirm identity	a medical card can be used for
+knight	AtLocation	battle groung	You are likely to find a knight in a
+harmonica	AtLocation	blues band	You are likely to find a harmonica in a
+salt	AtLocation	cabinet	You are likely to find a salt in a
+book light	AtLocation	bookstore	You are likely to find a book light in a
+handle	AtLocation	bathroom	You are likely to find a handle in a
+dark matter	AtLocation	outerspace	You are likely to find a dark matter in an
+indian ocean	AtLocation	asia	You are likely to find an indian ocean in an
+large container	AtLocation	cabinet	You are likely to find a large container in a
+lacebug	AtLocation	underside of leaves	You are likely to find a lacebug in an
+cpu	AtLocation	computer	You are likely to find a cpu in a
+balcony	MadeUpOf	box	a balcony contains
+kite	MadeUpOf	kite tail	a kite contains
+radar	MadeUpOf	dish	a radar contains
+punch bag	MadeUpOf	leather	a punch bag contains
+curtain	MadeUpOf	eyelet	a curtain contains
+brace	MadeUpOf	strap	a brace contains
+bacon	MadeUpOf	pig	a bacon contains
+crust	MadeUpOf	asthenosphere	a crust contains
+newspaper	MadeUpOf	ink and paper	a newspaper contains
+planet pluto	MadeUpOf	one natural sattelite	a planet pluto contains
+baseball diamond	HasProperty	outfield	baseball diamond is
+yolk	HasProperty	yellow	yolk is
+government office	HasProperty	calculator	government office is
+sheet of paper	HasProperty	thin	sheet of paper is
+stop sign	HasProperty	eight sides	stop sign is
+doll	HasProperty	small	doll is
+carrie	HasProperty	kids	carrie is
+pottery	HasProperty	created on pottery wheel	pottery is
+asymetry	HasProperty	more interesting	asymetry is
+cuba	HasProperty	beaches	cuba is
+detective	CapableOf	find missing person	detective can
+wet dog	CapableOf	get cold	wet dog can
+quaterback	CapableOf	shoulder blame for loss	quaterback can
+dentist	CapableOf	view teeth	dentist can
+oscar winner	CapableOf	thank many people	oscar winner can
+possum	CapableOf	play dead	possum can
+supermodel	CapableOf	turn heads	supermodel can
+alto	CapableOf	high pitched voice	alto can
+energetic person	CapableOf	wash own car	energetic person can
+salior	CapableOf	weather storm	salior can
+terrorist	Desires	violence	a terrorist desires
+exhibitionist	Desires	private parts to seen	an exhibitionist desires
+lover	Desires	stable relationship	a lover desires
+pedobear	Desires	cake	a pedobear desires
+alcoholic	Desires	liquor	an alcoholic desires
+gardener	Desires	good weather	a gardener desires
+teenager	Desires	leave home	a teenager desires
+hen	Desires	bread crumbs	a hen desires
+detective	Desires	catch criminals	a detective desires
+aol	Desires	everyone to use aol	an aol desires
+bug	NotDesires	stepped on	a bug does not desire
+math teacher	NotDesires	students to fail	a math teacher does not desire
+dentist	NotDesires	patients with bad breath	a dentist does not desire
+employer	NotDesires	employees to tardy	an employer does not desire
+coach	NotDesires	team to lose	a coach does not desire
+trainer	NotDesires	horse with bad feet	a trainer does not desire
+typist	NotDesires	broken finger	a typist does not desire
+president	NotDesires	answere questions	a president does not desire
+cheater	NotDesires	get caught	a cheater does not desire
+ant	NotDesires	stepped on	an ant does not desire
+PersonX leaves for school	isAfter	PersonX prepares for school	PersonX leaves for school. Before that,
+PersonX visits the zoo	isAfter	PersonX treats their children to a day off school	PersonX visits the zoo. Before that,
+PersonX holds onto nothing	isAfter	PersonX falls over	PersonX holds onto nothing. Before that,
+PersonX summons for jury duty	isAfter	PersonX opens a letter	PersonX summons for jury duty. Before that,
+PersonX pumps iron	isAfter	PersonX goes to the gym	PersonX pumps iron. Before that,
+PersonX has tons of fun	isAfter	PersonX goes to the amusement park	PersonX has tons of fun. Before that,
+PersonX imitates PersonY's example	isAfter	PersonX watches PersonY do standup comedy	PersonX imitates PersonY's example. Before that,
+PersonX invites all PersonX's friends over	isAfter	PersonX decorates the house for a birthday celebration	PersonX invites all PersonX's friends over. Before that,
+PersonX wears glasses	isAfter	PersonX tries to read the message	PersonX wears glasses. Before that,
+PersonX sprays by a skunk	isAfter	PersonX encounters a skunk	PersonX sprays by a skunk. Before that,
+get old	HasSubEvent	give up all hope	While getting old, you would
+get in line	HasSubEvent	find back of line	While getting in line, you would
+comfort	HasSubEvent	hug	While comfort, you would
+gargle	HasSubEvent	spit	While gargle, you would
+drink	HasSubEvent	fill cup with liquid	While drinking, you would
+love another	HasSubEvent	accept totally without change	While loving another, you would
+give assistance	HasSubEvent	ask how can help	While giving assistance, you would
+stay in bed	HasSubEvent	shut off alarm clock	While staying in bed, you would
+interfere	HasSubEvent	waves cause interference patterns	While interfering, you would
+play chess	HasSubEvent	contemplate move	While playing chess, you would
+PersonX eats it	isBefore	PersonX drinks tea to wash it down	PersonX eats it. After that,
+PersonX sends PersonY a gift	isBefore	PersonX waits for PersonY to thank PersonX	PersonX sends PersonY a gift. After that,
+PersonX finishes the book last night	isBefore	PersonX goes back to the bookstore for another one	PersonX finishes the book last night. After that,
+PersonX makes PersonY's arrangements	isBefore	PersonX and PersonY go on the trip	PersonX makes PersonY's arrangements. After that,
+PersonX has a better idea	isBefore	PersonX amends the presentation to include the new idea	PersonX has a better idea. After that,
+PersonX keeps PersonX's head down	isBefore	PersonX laughs at his friend because he knew he saved him fromg etting hit	PersonX keeps PersonX's head down. After that,
+PersonX walks into PersonY's room	isBefore	PersonX asks his friend what he is doing later and if he wants to eat	PersonX walks into PersonY's room. After that,
+PersonX makes decisions based	isBefore	PersonX tells the employees their tasks	PersonX makes decisions based. After that,
+PersonX has trouble staying awake	isBefore	PersonX cracks open an energy drink to stay awake	PersonX has trouble staying awake. After that,
+PersonX rears PersonY's children	isBefore	PersonX works hard to support the children	PersonX rears PersonY's children. After that,
+PersonX enters an art contest	HinderedBy	PersonX's mom told him he shouldn't.	{}. This would not happen if
+PersonX spends time	HinderedBy	PersonX has to work too many hours.	{}. This would not happen if
+PersonX gives PersonY another	HinderedBy	Person Y has taken them all.	{}. This would not happen if
+PersonX sees PersonY night	HinderedBy	PersonX is working a double shift.	{}. This would not happen if
+PersonX changes PersonY's diaper	HinderedBy	PersonX has no fresh diaper to use.	{}. This would not happen if
+PersonX is having a party at PersonX's house	HinderedBy	PersonX has to work.	{}. This would not happen if
+PersonX pulls out all the stops	HinderedBy	PersonX is lazy.	{}. This would not happen if
+PersonX looks in the pantry	HinderedBy	PersonX can't find the key to the pantry door.	{}. This would not happen if
+PersonX brushes PersonY's hair	HinderedBy	person y will not allow it	{}. This would not happen if
+PersonX invites PersonY to play	HinderedBy	PersonY is grounded for the week.	{}. This would not happen if
+sickness	Causes	suffering	Sometimes sickness causes
+alcoholism	Causes	stigma	Sometimes alcoholism causes
+rudeness	Causes	social isolation	Sometimes rudeness causes
+argument	Causes	violence	Sometimes argument causes
+bacteria	Causes	infection in cut	Sometimes bacteria causes
+hot weather	Causes	fainting	Sometimes hot weather causes
+project	Causes	appear	Sometimes project causes
+avalanche	Causes	crushing village	Sometimes avalanche causes
+fear	Causes	trembling	Sometimes fear causes
+viral infection	Causes	becoming ill	Sometimes viral infection causes
+get exercise	xReason	you're always running out of breath	get exercise. PersonX did this because
+commit suicide	xReason	have unendurable pain	commit suicide. PersonX did this because
+stay in bed	xReason	back hurts	stay in bed. PersonX did this because
+take cough medicine	xReason	of cold	take cough medicine. PersonX did this because
+get up early	xReason	couldn't sleep	get up early. PersonX did this because
+call in sick	xReason	of cold	call in sick. PersonX did this because
+go on vacation	xReason	burnt out	go on vacation. PersonX did this because
+complain	xReason	have been cheated	complain. PersonX did this because
+steal	xReason	have no money	steal. PersonX did this because
+eat	xReason	had craving	eat. PersonX did this because
+PersonX earns ___ to buy	isFilledBy	Money	PersonX earns ___ to buy is filled by
+PersonX bites PersonX's ___ to keep	isFilledBy	pizza	PersonX bites PersonX's ___ to keep is filled by
+PersonX takes ___ to a repair shop	isFilledBy	the car	PersonX takes ___ to a repair shop is filled by
+PersonX sees ___ in the sky	isFilledBy	clouds	PersonX sees ___ in the sky is filled by
+PersonX gives ___ PersonX's money	isFilledBy	bank	PersonX gives ___ PersonX's money is filled by
+PersonX sees ___ online	isFilledBy	jacket	PersonX sees ___ online is filled by
+PersonX lit another ___	isFilledBy	candle	PersonX lit another ___ is filled by
+PersonX finds ___ to park	isFilledBy	cars	PersonX finds ___ to park is filled by
+PersonX never gave PersonY ___	isFilledBy	a donut	PersonX never gave PersonY ___ is filled by
+PersonX puts PersonX's ___ to death	isFilledBy	dog	PersonX puts PersonX's ___ to death is filled by
+PersonX gets it for PersonY	xNeed	to ask what PersonY needs	PersonX gets it for PersonY. Before, PersonX needs to
+PersonX meets someone	xNeed	get ready to go out	PersonX meets someone. Before, PersonX needs to
+PersonX tests PersonX's ability	xNeed	none	PersonX tests PersonX's ability. Before, PersonX needs to
+see story	xNeed	acquire cartoon	see story. Before, PersonX needs to
+PersonX takes matters into PersonX's hands	xNeed	none	PersonX takes matters into PersonX's hands. Before, PersonX needs to
+PersonX tries PersonX's ___ at making	xNeed	to know what they want to do	PersonX tries PersonX's ___ at making. Before, PersonX needs to
+PersonX calls ___ the next day	xNeed	to pick up the phone	PersonX calls ___ the next day. Before, PersonX needs to
+PersonX states and local ___	xNeed	none	PersonX states and local ___. Before, PersonX needs to
+PersonX has a new car	xNeed	sell old vehicle	PersonX has a new car. Before, PersonX needs to
+PersonX teaches ___ to use	xNeed	to practice until their are an expert	PersonX teaches ___ to use. Before, PersonX needs to
+PersonX wishes you every ___	xAttr	kind	PersonX wishes you every ___. PersonX is
+PersonX turns right	xAttr	motivated	PersonX turns right. PersonX is
+PersonX gets frustrated	xAttr	slow-to-learn	PersonX gets frustrated. PersonX is
+PersonX is well prepared	xAttr	pragmatic	PersonX is well prepared. PersonX is
+PersonX increases women 's ___	xAttr	helpful	PersonX increases women 's ___. PersonX is
+PersonX looks like something	xAttr	handsome	PersonX looks like something. PersonX is
+PersonX sees ___ behind PersonY	xAttr	observant	PersonX sees ___ behind PersonY. PersonX is
+PersonX does very well in school	xAttr	determined	PersonX does very well in school. PersonX is
+PersonX gets everything ready	xAttr	prepared	PersonX gets everything ready. PersonX is
+PersonX builds something	xAttr	logical	PersonX builds something. PersonX is
+PersonX wishes you every ___	xEffect	receives many well wishes	PersonX wishes you every ___. The effect on PersonX will be
+PersonX turns right	xEffect	gets in an accident	PersonX turns right. The effect on PersonX will be
+PersonX gets frustrated	xEffect	grunts	PersonX gets frustrated. The effect on PersonX will be
+PersonX is well prepared	xEffect	doesn't worry	PersonX is well prepared. The effect on PersonX will be
+PersonX increases women 's ___	xEffect	they get recognition	PersonX increases women 's ___. The effect on PersonX will be
+PersonX looks like something	xEffect	is stared at	PersonX looks like something. The effect on PersonX will be
+PersonX sees ___ behind PersonY	xEffect	gets in line after PersonY	PersonX sees ___ behind PersonY. The effect on PersonX will be
+PersonX does very well in school	xEffect	becomes favourite	PersonX does very well in school. The effect on PersonX will be
+PersonX gets everything ready	xEffect	none	PersonX gets everything ready. The effect on PersonX will be
+PersonX builds something	xEffect	PersonX has a new shelf	PersonX builds something. The effect on PersonX will be
+PersonX puts a ___ together	xReact	creative	PersonX puts a ___ together. PersonX will be
+PersonX puts PersonY's ___ in execution	xReact	successful	PersonX puts PersonY's ___ in execution. PersonX will be
+PersonX gives PersonY a small smile	xReact	happy	PersonX gives PersonY a small smile. PersonX will be
+PersonX gets PersonY hands on	xReact	happy	PersonX gets PersonY hands on. PersonX will be
+PersonX gets the ___ right	xReact	glad	PersonX gets the ___ right. PersonX will be
+PersonX stops at a store	xReact	confused about the brand	PersonX stops at a store. PersonX will be
+PersonX represents PersonX's country	xReact	happy.	PersonX represents PersonX's country. PersonX will be
+PersonX hands PersonY a glass	xReact	thankful	PersonX hands PersonY a glass. PersonX will be
+PersonX kisses PersonY's cheek	xReact	loved	PersonX kisses PersonY's cheek. PersonX will be
+PersonX calls PersonY ambulance	xReact	worried	PersonX calls PersonY ambulance. PersonX will be
+PersonX puts it together	xWant	relax	PersonX puts it together. After, PersonX will want to
+PersonX puts ___ in PersonX's backpack	xWant	to go out	PersonX puts ___ in PersonX's backpack. After, PersonX will want to
+PersonX gives PersonY account	xWant	to instruct PersonY	PersonX gives PersonY account. After, PersonX will want to
+PersonX gets PersonY's dad	xWant	take Person Y to destination	PersonX gets PersonY's dad. After, PersonX will want to
+PersonX gets the call	xWant	to pick up the phone	PersonX gets the call. After, PersonX will want to
+PersonX studies extra hard	xWant	take the test	PersonX studies extra hard. After, PersonX will want to
+PersonX rests PersonY's chin	xWant	to relax	PersonX rests PersonY's chin. After, PersonX will want to
+PersonX hangs PersonY's head	xWant	to talk about healthy choices	PersonX hangs PersonY's head. After, PersonX will want to
+PersonX kisses ___ on the cheek	xWant	To get to know better	PersonX kisses ___ on the cheek. After, PersonX will want to
+PersonX calls PersonY ambulance	xWant	to help PersonY	PersonX calls PersonY ambulance. After, PersonX will want to
+PersonX hangs PersonY's clothes	xIntent	organized	PersonX hangs PersonY's clothes. PersonX did this to
+PersonX takes a ride	xIntent	to go home.	PersonX takes a ride. PersonX did this to
+PersonX finds a ring	xIntent	none	PersonX finds a ring. PersonX did this to
+PersonX calls the ___ together	xIntent	to be heard	PersonX calls the ___ together. PersonX did this to
+PersonX would like	xIntent	a piece of cake	PersonX would like. PersonX did this to
+PersonX looks PersonY's way	xIntent	to see person walk in	PersonX looks PersonY's way. PersonX did this to
+PersonX catches PersonY red-handed	xIntent	the truth to come out	PersonX catches PersonY red-handed. PersonX did this to
+PersonX works PersonY's way	xIntent	to be obedient	PersonX works PersonY's way. PersonX did this to
+PersonX loses PersonX's sense	xIntent	none	PersonX loses PersonX's sense. PersonX did this to
+PersonX meets PersonY father	xIntent	to get to know someone	PersonX meets PersonY father. PersonX did this to
+PersonX wishes you every ___	oEffect	none	PersonX wishes you every ___. The effect on others will be
+PersonX turns right	oEffect	none	PersonX turns right. The effect on others will be
+PersonX gets frustrated	oEffect	none	PersonX gets frustrated. The effect on others will be
+PersonX is well prepared	oEffect	none	PersonX is well prepared. The effect on others will be
+PersonX increases women 's ___	oEffect	none	PersonX increases women 's ___. The effect on others will be
+PersonX looks like something	oEffect	none	PersonX looks like something. The effect on others will be
+PersonX sees ___ behind PersonY	oEffect	go to jail	PersonX sees ___ behind PersonY. The effect on others will be
+PersonX does very well in school	oEffect	none	PersonX does very well in school. The effect on others will be
+PersonX gets everything ready	oEffect	none	PersonX gets everything ready. The effect on others will be
+PersonX builds something	oEffect	none	PersonX builds something. The effect on others will be
+PersonX puts a ___ together	oReact	none	PersonX puts a ___ together. As a result, others feel
+PersonX puts PersonY's ___ in execution	oReact	none	PersonX puts PersonY's ___ in execution. As a result, others feel
+PersonX gives PersonY a small smile	oReact	happy	PersonX gives PersonY a small smile. As a result, others feel
+PersonX gets PersonY hands on	oReact	embarrassed	PersonX gets PersonY hands on. As a result, others feel
+PersonX gets the ___ right	oReact	none	PersonX gets the ___ right. As a result, others feel
+PersonX stops at a store	oReact	none	PersonX stops at a store. As a result, others feel
+PersonX represents PersonX's country	oReact	none	PersonX represents PersonX's country. As a result, others feel
+PersonX hands PersonY a glass	oReact	none	PersonX hands PersonY a glass. As a result, others feel
+PersonX kisses PersonY's cheek	oReact	happy	PersonX kisses PersonY's cheek. As a result, others feel
+PersonX calls PersonY ambulance	oReact	sadness	PersonX calls PersonY ambulance. As a result, others feel
+PersonX thinks it would be fun	oWant	none	PersonX thinks it would be fun. After, others will want to
+PersonX gets PersonY's dad	oWant	get to destination	PersonX gets PersonY's dad. After, others will want to
+PersonX dyes PersonX's hair red	oWant	to dye there hair too	PersonX dyes PersonX's hair red. After, others will want to
+PersonX wants to be an actor	oWant	none	PersonX wants to be an actor. After, others will want to
+PersonX puts ___ on top	oWant	none	PersonX puts ___ on top. After, others will want to
+PersonX finds PersonY's father	oWant	PersonY wants to meet their father	PersonX finds PersonY's father. After, others will want to
+PersonX knows PersonY's name	oWant	to learn who x is	PersonX knows PersonY's name. After, others will want to
+PersonX sits in PersonY's lap	oWant	to provide safe feelings	PersonX sits in PersonY's lap. After, others will want to
+PersonX is able to fix it	oWant	none	PersonX is able to fix it. After, others will want to
+PersonX gives ___ a warning	oWant	to remain under control	PersonX gives ___ a warning. After, others will want to

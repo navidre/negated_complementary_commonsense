@@ -4,11 +4,21 @@ import inflect
 inflection_engine = inflect.engine()
 
 import spacy
-nlp = spacy.load("en")
+nlp = spacy.load("en_core_web_sm")
 
-physical_preds = ['ObjectUse', 'AtLocation', 'MadeUpOf', 'HasProperty', 'CapableOf', 'Desires', 'Not Desires']
-event_preds = ['IsAfter', 'HasSubEvent', 'IsBefore', 'HinderedBy','Causes', 'xReason', 'isFilledBy']
-social_preds = ['xNeed', 'xAttr', 'xEffect', 'xReact', 'xWant', 'xIntent', 'oEffect', 'oReact', 'oWant']
+import argparse, json
+
+import pandas as pd
+
+# ATOMIC predicates
+atomic_physical_preds = ['ObjectUse', 'AtLocation', 'MadeUpOf', 'HasProperty', 'CapableOf', 'Desires', 'NotDesires']
+negated_atomic_physical_preds = ['Not{x}' for x in atomic_physical_preds if x != 'Not Desires']
+atomic_event_preds = ['isAfter', 'HasSubEvent', 'isBefore', 'HinderedBy','Causes', 'xReason', 'isFilledBy']
+negated_atomic_event_preds = ['Not{x}' for x in atomic_event_preds]
+atomic_social_preds = ['xNeed', 'xAttr', 'xEffect', 'xReact', 'xWant', 'xIntent', 'oEffect', 'oReact', 'oWant']
+negated_atomic_social_preds = ['Not{x}' for x in atomic_social_preds]
+atomic_preds = atomic_physical_preds + atomic_event_preds + atomic_social_preds
+negated_atomic_preds = negated_atomic_physical_preds + negated_atomic_event_preds + negated_atomic_social_preds
 
 def article(word):
     return "an" if word[0] in ['a', 'e', 'i', 'o', 'u'] else "a"
@@ -26,10 +36,10 @@ def posessive(word):
     else:
         return "has"
 
-def fact_to_prompt(kg, fact):
-    head = fact['head']
-    relation = fact['relation']
-    tail = fact['tails'][0]
+def verbalize_subject_predicate(kg, triple):
+    head = triple['head']
+    relation = triple['relation']
+    tail = triple['tail'][0]
 
     if kg == "conceptnet" or kg == "transomcs":
         if relation == "AtLocation":
@@ -139,3 +149,24 @@ def fact_to_prompt(kg, fact):
         raise Exception("Invalid KG")
 
     return prompt.strip()
+
+
+if __name__ == "__main__":
+    print('Loading spacy ...')
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--kg", type=str, default="atomic2020", choices=["conceptnet", "transomcs", "atomic", "atomic2020", "wpkg", "wpkg_expanded"])
+    parser.add_argument("--input", type=str, default="data/atomic2020/test.tsv")
+    parser.add_argument("--output", type=str, default="experiments/test_experiment/sample_prompt.txt")
+    args = parser.parse_args()
+
+
+    # Load args.input as a pandas dataframe
+    df = pd.read_csv(args.input, sep="\t", header=None, names=["head", "relation", "tail"])
+    row = df.sample()
+    # Pandas row to dict
+    row_dict = row.to_dict(orient="records")[0]
+    # Generate prompt based on row_dict
+    verbalized_subject_predicate = verbalize_subject_predicate(args.kg, row_dict)
+
+    print(f'row_dict: {row_dict}')
+    print(f'verbalized_subject_predicate: {verbalized_subject_predicate}')
