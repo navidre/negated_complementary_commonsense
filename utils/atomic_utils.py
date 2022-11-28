@@ -103,48 +103,106 @@ def verbalize_subject_predicate(kg, triple):
             )
         elif relation == "CapableOf":
             prompt = "{} can ".format(head)
+        elif relation == "NotCapableOf":
+            prompt = "{} cannot ".format(head)
+
         elif relation == "Causes":
             prompt = "Sometimes {} causes ".format(head)
+        elif relation == "NotCauses":
+            prompt = "{} does not cause ".format(head)
+
         elif relation == "Desires":
             prompt = "{} {} desires".format(article(head), head)
-        elif relation == "HasProperty":
-            prompt = "{} is ".format(head)
-        elif relation == "HasSubEvent":
-            prompt = "While {}, you would ".format(vp_present_participle(head))
-        elif relation == "HinderedBy":
-            prompt = "{}. This would not happen if"
-        elif relation == "MadeUpOf":
-            prompt = "{} {} contains".format(article(head), head)
         elif relation == "NotDesires":
             prompt = "{} {} does not desire".format(article(head), head)
+
+        elif relation == "HasProperty":
+            prompt = "{} is ".format(head)
+        elif relation == "NotHasProperty":
+            prompt = "{} is not ".format(head)
+
+        elif relation == "HasSubEvent":
+            prompt = "While {}, you would ".format(vp_present_participle(head))
+        elif relation == "HasSubEvent":
+            prompt = "While {}, you would ".format(vp_present_participle(head))
+
+        elif relation == "HinderedBy":
+            prompt = "{}. This would not happen if"
+        elif relation == "NotHinderedBy":
+            prompt = "{}. This happens even if"
+
+        elif relation == "MadeUpOf":
+            prompt = "{} {} contains".format(article(head), head)
+        elif relation == "NotMadeUpOf":
+            prompt = "{} {} does not contain".format(article(head), head)
+
         elif relation == "ObjectUse":
             prompt = "{} {} can be used for".format(article(head), head)
+        elif relation == "NotObjectUse":
+            prompt = "{} {} cannot be used for".format(article(head), head)
+
         elif relation == "isAfter":
             prompt = "{}. Before that, ".format(head)
+        elif relation == "NotisAfter":
+            prompt = "{}. Before that, it is not needed that ".format(head)
+
         elif relation == "isBefore":
             prompt = "{}. After that, ".format(head)
+        elif relation == "NotisBefore":
+            prompt = "{}. After that, does not usually ".format(head)
+
         elif relation == "isFilledBy":
             prompt = "{} is filled by".format(head) #TODO
+        elif relation == "NotisFilledBy":
+            prompt = "{} is not filled by".format(head) #TODO
+
         elif relation == "oEffect":
             prompt = "{}. The effect on others will be".format(head)
+        elif relation == "NotoEffect":
+            prompt = "{}. The effect on others will not be".format(head)
+
         elif relation == "oReact":
             prompt = "{}. As a result, others feel".format(head)
+        elif relation == "NotoReact":
+            prompt = "{}. As a result, others do not feel".format(head)
+
         elif relation == "oWant":
             prompt = "{}. After, others will want to".format(head)
+
         elif relation == "xAttr":
             prompt = "{}. PersonX is".format(head)
+        elif relation == "NotxAttr":
+            prompt = "{}. PersonX is not".format(head)
+
         elif relation == "xEffect":
             prompt = "{}. The effect on PersonX will be".format(head)
+        elif relation == "NotxEffect":
+            prompt = "{}. The effect on PersonX will not be".format(head)
+
         elif relation == "xIntent":
             prompt = "{}. PersonX did this to".format(head)
+        elif relation == "NotxIntent":
+            prompt = "{}. PersonX did this not to".format(head)
+
         elif relation == "xNeed":
             prompt = "{}. Before, PersonX needs to".format(head)
+        elif relation == "NotxNeed":
+            prompt = "{}. Before, PersonX does not needs to".format(head)
+
         elif relation == "xReact":
             prompt = "{}. PersonX will be".format(head)
+        elif relation == "NotxReact":
+            prompt = "{}. PersonX will not be".format(head)
+
         elif relation == "xReason":
             prompt = "{}. PersonX did this because".format(head)
+        elif relation == "NotxReason":
+            prompt = "{}. PersonX did this not because".format(head)
+
         elif relation == "xWant":
             prompt = "{}. After, PersonX will want to".format(head)
+        elif relation == "NotxWant":
+            prompt = "{}. After, PersonX will not want to".format(head)
     else:
         raise Exception("Invalid KG")
 
