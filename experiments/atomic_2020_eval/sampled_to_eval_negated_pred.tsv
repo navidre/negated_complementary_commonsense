@@ -1,0 +1,211 @@
+head	relation	tail	prompt
+skirt	NotObjectUse	wear to work	a skirt cannot be used for
+in asian cuisine wok	NotObjectUse	fry and to steam food	an in asian cuisine wok cannot be used for
+methadone	NotObjectUse	treat drug addictions	a methadone cannot be used for
+paperwork	NotObjectUse	fill out	a paperwork cannot be used for
+dark	NotObjectUse	see pictures	a dark cannot be used for
+bunch of cigarettes	NotObjectUse	sell	a bunch of cigarettes cannot be used for
+keyhole	NotObjectUse	see through	a keyhole cannot be used for
+condiment	NotObjectUse	spread over the treat	a condiment cannot be used for
+hinge	NotObjectUse	move the wooden slab	a hinge cannot be used for
+medical card	NotObjectUse	confirm identity	a medical card cannot be used for
+knight	NotAtLocation	battle groung	You are not likely to find a knight in a
+harmonica	NotAtLocation	blues band	You are not likely to find a harmonica in a
+salt	NotAtLocation	cabinet	You are not likely to find a salt in a
+book light	NotAtLocation	bookstore	You are not likely to find a book light in a
+handle	NotAtLocation	bathroom	You are not likely to find a handle in a
+dark matter	NotAtLocation	outerspace	You are not likely to find a dark matter in an
+indian ocean	NotAtLocation	asia	You are not likely to find an indian ocean in an
+large container	NotAtLocation	cabinet	You are not likely to find a large container in a
+lacebug	NotAtLocation	underside of leaves	You are not likely to find a lacebug in an
+cpu	NotAtLocation	computer	You are not likely to find a cpu in a
+balcony	NotMadeUpOf	box	a balcony does not contain
+kite	NotMadeUpOf	kite tail	a kite does not contain
+radar	NotMadeUpOf	dish	a radar does not contain
+punch bag	NotMadeUpOf	leather	a punch bag does not contain
+curtain	NotMadeUpOf	eyelet	a curtain does not contain
+brace	NotMadeUpOf	strap	a brace does not contain
+bacon	NotMadeUpOf	pig	a bacon does not contain
+crust	NotMadeUpOf	asthenosphere	a crust does not contain
+newspaper	NotMadeUpOf	ink and paper	a newspaper does not contain
+planet pluto	NotMadeUpOf	one natural sattelite	a planet pluto does not contain
+baseball diamond	NotHasProperty	outfield	baseball diamond is not
+yolk	NotHasProperty	yellow	yolk is not
+government office	NotHasProperty	calculator	government office is not
+sheet of paper	NotHasProperty	thin	sheet of paper is not
+stop sign	NotHasProperty	eight sides	stop sign is not
+doll	NotHasProperty	small	doll is not
+carrie	NotHasProperty	kids	carrie is not
+pottery	NotHasProperty	created on pottery wheel	pottery is not
+asymetry	NotHasProperty	more interesting	asymetry is not
+cuba	NotHasProperty	beaches	cuba is not
+detective	NotCapableOf	find missing person	detective cannot
+wet dog	NotCapableOf	get cold	wet dog cannot
+quaterback	NotCapableOf	shoulder blame for loss	quaterback cannot
+dentist	NotCapableOf	view teeth	dentist cannot
+oscar winner	NotCapableOf	thank many people	oscar winner cannot
+possum	NotCapableOf	play dead	possum cannot
+supermodel	NotCapableOf	turn heads	supermodel cannot
+alto	NotCapableOf	high pitched voice	alto cannot
+energetic person	NotCapableOf	wash own car	energetic person cannot
+salior	NotCapableOf	weather storm	salior cannot
+terrorist	NotDesires	violence	a terrorist does not desire
+exhibitionist	NotDesires	private parts to seen	an exhibitionist does not desire
+lover	NotDesires	stable relationship	a lover does not desire
+pedobear	NotDesires	cake	a pedobear does not desire
+alcoholic	NotDesires	liquor	an alcoholic does not desire
+gardener	NotDesires	good weather	a gardener does not desire
+teenager	NotDesires	leave home	a teenager does not desire
+hen	NotDesires	bread crumbs	a hen does not desire
+detective	NotDesires	catch criminals	a detective does not desire
+aol	NotDesires	everyone to use aol	an aol does not desire
+PersonX leaves for school	NotisAfter	PersonX prepares for school	PersonX leaves for school. Before that, it is not needed that
+PersonX visits the zoo	NotisAfter	PersonX treats their children to a day off school	PersonX visits the zoo. Before that, it is not needed that
+PersonX holds onto nothing	NotisAfter	PersonX falls over	PersonX holds onto nothing. Before that, it is not needed that
+PersonX summons for jury duty	NotisAfter	PersonX opens a letter	PersonX summons for jury duty. Before that, it is not needed that
+PersonX pumps iron	NotisAfter	PersonX goes to the gym	PersonX pumps iron. Before that, it is not needed that
+PersonX has tons of fun	NotisAfter	PersonX goes to the amusement park	PersonX has tons of fun. Before that, it is not needed that
+PersonX imitates PersonY's example	NotisAfter	PersonX watches PersonY do standup comedy	PersonX imitates PersonY's example. Before that, it is not needed that
+PersonX invites all PersonX's friends over	NotisAfter	PersonX decorates the house for a birthday celebration	PersonX invites all PersonX's friends over. Before that, it is not needed that
+PersonX wears glasses	NotisAfter	PersonX tries to read the message	PersonX wears glasses. Before that, it is not needed that
+PersonX sprays by a skunk	NotisAfter	PersonX encounters a skunk	PersonX sprays by a skunk. Before that, it is not needed that
+get old	NotHasSubEvent	give up all hope	While getting old, you would not
+get in line	NotHasSubEvent	find back of line	While getting in line, you would not
+comfort	NotHasSubEvent	hug	While comfort, you would not
+gargle	NotHasSubEvent	spit	While gargle, you would not
+drink	NotHasSubEvent	fill cup with liquid	While drinking, you would not
+love another	NotHasSubEvent	accept totally without change	While loving another, you would not
+give assistance	NotHasSubEvent	ask how can help	While giving assistance, you would not
+stay in bed	NotHasSubEvent	shut off alarm clock	While staying in bed, you would not
+interfere	NotHasSubEvent	waves cause interference patterns	While interfering, you would not
+play chess	NotHasSubEvent	contemplate move	While playing chess, you would not
+PersonX eats it	NotisBefore	PersonX drinks tea to wash it down	PersonX eats it. After that, does not usually
+PersonX sends PersonY a gift	NotisBefore	PersonX waits for PersonY to thank PersonX	PersonX sends PersonY a gift. After that, does not usually
+PersonX finishes the book last night	NotisBefore	PersonX goes back to the bookstore for another one	PersonX finishes the book last night. After that, does not usually
+PersonX makes PersonY's arrangements	NotisBefore	PersonX and PersonY go on the trip	PersonX makes PersonY's arrangements. After that, does not usually
+PersonX has a better idea	NotisBefore	PersonX amends the presentation to include the new idea	PersonX has a better idea. After that, does not usually
+PersonX keeps PersonX's head down	NotisBefore	PersonX laughs at his friend because he knew he saved him fromg etting hit	PersonX keeps PersonX's head down. After that, does not usually
+PersonX walks into PersonY's room	NotisBefore	PersonX asks his friend what he is doing later and if he wants to eat	PersonX walks into PersonY's room. After that, does not usually
+PersonX makes decisions based	NotisBefore	PersonX tells the employees their tasks	PersonX makes decisions based. After that, does not usually
+PersonX has trouble staying awake	NotisBefore	PersonX cracks open an energy drink to stay awake	PersonX has trouble staying awake. After that, does not usually
+PersonX rears PersonY's children	NotisBefore	PersonX works hard to support the children	PersonX rears PersonY's children. After that, does not usually
+PersonX enters an art contest	NotHinderedBy	PersonX's mom told him he shouldn't.	PersonX enters an art contest. This happens even if
+PersonX spends time	NotHinderedBy	PersonX has to work too many hours.	PersonX spends time. This happens even if
+PersonX gives PersonY another	NotHinderedBy	Person Y has taken them all.	PersonX gives PersonY another. This happens even if
+PersonX sees PersonY night	NotHinderedBy	PersonX is working a double shift.	PersonX sees PersonY night. This happens even if
+PersonX changes PersonY's diaper	NotHinderedBy	PersonX has no fresh diaper to use.	PersonX changes PersonY's diaper. This happens even if
+PersonX is having a party at PersonX's house	NotHinderedBy	PersonX has to work.	PersonX is having a party at PersonX's house. This happens even if
+PersonX pulls out all the stops	NotHinderedBy	PersonX is lazy.	PersonX pulls out all the stops. This happens even if
+PersonX looks in the pantry	NotHinderedBy	PersonX can't find the key to the pantry door.	PersonX looks in the pantry. This happens even if
+PersonX brushes PersonY's hair	NotHinderedBy	person y will not allow it	PersonX brushes PersonY's hair. This happens even if
+PersonX invites PersonY to play	NotHinderedBy	PersonY is grounded for the week.	PersonX invites PersonY to play. This happens even if
+sickness	NotCauses	suffering	sickness does not cause
+alcoholism	NotCauses	stigma	alcoholism does not cause
+rudeness	NotCauses	social isolation	rudeness does not cause
+argument	NotCauses	violence	argument does not cause
+bacteria	NotCauses	infection in cut	bacteria does not cause
+hot weather	NotCauses	fainting	hot weather does not cause
+project	NotCauses	appear	project does not cause
+avalanche	NotCauses	crushing village	avalanche does not cause
+fear	NotCauses	trembling	fear does not cause
+viral infection	NotCauses	becoming ill	viral infection does not cause
+get exercise	NotxReason	you're always running out of breath	get exercise. PersonX did this not because
+commit suicide	NotxReason	have unendurable pain	commit suicide. PersonX did this not because
+stay in bed	NotxReason	back hurts	stay in bed. PersonX did this not because
+take cough medicine	NotxReason	of cold	take cough medicine. PersonX did this not because
+get up early	NotxReason	couldn't sleep	get up early. PersonX did this not because
+call in sick	NotxReason	of cold	call in sick. PersonX did this not because
+go on vacation	NotxReason	burnt out	go on vacation. PersonX did this not because
+complain	NotxReason	have been cheated	complain. PersonX did this not because
+steal	NotxReason	have no money	steal. PersonX did this not because
+eat	NotxReason	had craving	eat. PersonX did this not because
+PersonX gets it for PersonY	NotxNeed	to ask what PersonY needs	PersonX gets it for PersonY. Before, PersonX does not needs to
+PersonX feels unhappy	NotxNeed	talk with someone	PersonX feels unhappy. Before, PersonX does not needs to
+PersonX gets something to eat	NotxNeed	to food	PersonX gets something to eat. Before, PersonX does not needs to
+PersonX eats a hamburger	NotxNeed	to buy ingredients	PersonX eats a hamburger. Before, PersonX does not needs to
+PersonX tricks or treat	NotxNeed	Get a costume on.	PersonX tricks or treat. Before, PersonX does not needs to
+PersonX forms a band	NotxNeed	to get permission	PersonX forms a band. Before, PersonX does not needs to
+PersonX meets PersonX's standards	NotxNeed	to practice	PersonX meets PersonX's standards. Before, PersonX does not needs to
+PersonX likes cheese	NotxNeed	none	PersonX likes cheese. Before, PersonX does not needs to
+PersonX watches the kids	NotxNeed	to get ready	PersonX watches the kids. Before, PersonX does not needs to
+PersonX slams dunk	NotxNeed	ball	PersonX slams dunk. Before, PersonX does not needs to
+PersonX gets a part time job	NotxAttr	capable	PersonX gets a part time job. PersonX is not
+PersonX walks to the car	NotxAttr	Tired	PersonX walks to the car. PersonX is not
+PersonX thinks of a solution	NotxAttr	inventive	PersonX thinks of a solution. PersonX is not
+PersonX goes to the doctor for a checkup	NotxAttr	Preventative	PersonX goes to the doctor for a checkup. PersonX is not
+PersonX feels nervous	NotxAttr	anxious	PersonX feels nervous. PersonX is not
+PersonX is PersonY's mother	NotxAttr	Kind	PersonX is PersonY's mother. PersonX is not
+PersonX can not believe PersonX's eyes	NotxAttr	incredulous	PersonX can not believe PersonX's eyes. PersonX is not
+PersonX catches the bus to work	NotxAttr	reliable	PersonX catches the bus to work. PersonX is not
+PersonX hurts like hell	NotxAttr	weak	PersonX hurts like hell. PersonX is not
+PersonX is running down the street	NotxAttr	speedy	PersonX is running down the street. PersonX is not
+PersonX gets a part time job	NotxEffect	Saves money	PersonX gets a part time job. The effect on PersonX will not be
+PersonX walks to the car	NotxEffect	slips on wet floor	PersonX walks to the car. The effect on PersonX will not be
+PersonX thinks of a solution	NotxEffect	They weigh up all options.	PersonX thinks of a solution. The effect on PersonX will not be
+PersonX goes to the doctor for a checkup	NotxEffect	undresses	PersonX goes to the doctor for a checkup. The effect on PersonX will not be
+PersonX feels nervous	NotxEffect	wants to get it done with	PersonX feels nervous. The effect on PersonX will not be
+PersonX is PersonY's mother	NotxEffect	has great responsibility	PersonX is PersonY's mother. The effect on PersonX will not be
+PersonX can not believe PersonX's eyes	NotxEffect	becomes more aware	PersonX can not believe PersonX's eyes. The effect on PersonX will not be
+PersonX catches the bus to work	NotxEffect	arrives at work	PersonX catches the bus to work. The effect on PersonX will not be
+PersonX hurts like hell	NotxEffect	EXPRESS HIS IRRITATED FEELING	PersonX hurts like hell. The effect on PersonX will not be
+PersonX is running down the street	NotxEffect	standing under a tree	PersonX is running down the street. The effect on PersonX will not be
+PersonX sees PersonY's crush	NotxReact	indifferent	PersonX sees PersonY's crush. PersonX will not be
+PersonX watches PersonX's mouth	NotxReact	good they avoided that gaffe.	PersonX watches PersonX's mouth. PersonX will not be
+PersonX moves past PersonY	NotxReact	neutral.	PersonX moves past PersonY. PersonX will not be
+PersonX denies PersonY's existence	NotxReact	powerful.	PersonX denies PersonY's existence. PersonX will not be
+PersonX never been to one	NotxReact	satisfied	PersonX never been to one. PersonX will not be
+PersonX hits PersonY's friend	NotxReact	like a bully	PersonX hits PersonY's friend. PersonX will not be
+PersonX sends PersonY to the showers	NotxReact	in charge	PersonX sends PersonY to the showers. PersonX will not be
+PersonX fudges the issue	NotxReact	guilty	PersonX fudges the issue. PersonX will not be
+PersonX contains PersonY number	NotxReact	dominant	PersonX contains PersonY number. PersonX will not be
+PersonX breaks PersonX's hip	NotxReact	encumbered by the injury	PersonX breaks PersonX's hip. PersonX will not be
+PersonX gets a part time job	NotxWant	to go to work	PersonX gets a part time job. After, PersonX will not want to
+PersonX sees wood	NotxWant	to collect the wood	PersonX sees wood. After, PersonX will not want to
+PersonX turns PersonX's music down	NotxWant	to keep the music softer.	PersonX turns PersonX's music down. After, PersonX will not want to
+PersonX is coming to an end	NotxWant	to fight till it's over	PersonX is coming to an end. After, PersonX will not want to
+PersonX touches PersonY's skin	NotxWant	to feel the problem	PersonX touches PersonY's skin. After, PersonX will not want to
+PersonX is PersonY's mother	NotxWant	to share memories	PersonX is PersonY's mother. After, PersonX will not want to
+PersonX can not believe PersonX's eyes	NotxWant	to fix the situation.	PersonX can not believe PersonX's eyes. After, PersonX will not want to
+PersonX catches the bus to work	NotxWant	goes shopping	PersonX catches the bus to work. After, PersonX will not want to
+PersonX wears gloves	NotxWant	to put them on	PersonX wears gloves. After, PersonX will not want to
+PersonX operates in PersonY environment	NotxWant	To complete work and go home	PersonX operates in PersonY environment. After, PersonX will not want to
+PersonX leaves PersonY time	NotxIntent	the project done well	PersonX leaves PersonY time. PersonX did this not to
+PersonX huddles together	NotxIntent	to come up with a plan	PersonX huddles together. PersonX did this not to
+PersonX passes the exam	NotxIntent	to graduate.	PersonX passes the exam. PersonX did this not to
+PersonX is running down the street	NotxIntent	to get somewhere	PersonX is running down the street. PersonX did this not to
+PersonX gives PersonY what-for	NotxIntent	to teach a lesson	PersonX gives PersonY what-for. PersonX did this not to
+PersonX feels better	NotxIntent	none	PersonX feels better. PersonX did this not to
+PersonX makes PersonY alliance	NotxIntent	to make a joint  effort	PersonX makes PersonY alliance. PersonX did this not to
+PersonX tells PersonY's friend	NotxIntent	to convey a message to his friend	PersonX tells PersonY's friend. PersonX did this not to
+PersonX camps with PersonY's family	NotxIntent	to be social	PersonX camps with PersonY's family. PersonX did this not to
+PersonX is a little girl	NotxIntent	none	PersonX is a little girl. PersonX did this not to
+PersonX gets a part time job	NotoEffect	none	PersonX gets a part time job. The effect on others will not be
+PersonX walks to the car	NotoEffect	none	PersonX walks to the car. The effect on others will not be
+PersonX thinks of a solution	NotoEffect	none	PersonX thinks of a solution. The effect on others will not be
+PersonX goes to the doctor for a checkup	NotoEffect	gives checkup	PersonX goes to the doctor for a checkup. The effect on others will not be
+PersonX feels nervous	NotoEffect	none	PersonX feels nervous. The effect on others will not be
+PersonX is PersonY's mother	NotoEffect	none	PersonX is PersonY's mother. The effect on others will not be
+PersonX can not believe PersonX's eyes	NotoEffect	none	PersonX can not believe PersonX's eyes. The effect on others will not be
+PersonX catches the bus to work	NotoEffect	gets a new passenger	PersonX catches the bus to work. The effect on others will not be
+PersonX hurts like hell	NotoEffect	none	PersonX hurts like hell. The effect on others will not be
+PersonX is running down the street	NotoEffect	none	PersonX is running down the street. The effect on others will not be
+PersonX sees PersonY's crush	NotoReact	none	PersonX sees PersonY's crush. As a result, others do not feel
+PersonX watches PersonX's mouth	NotoReact	content nothing controversial was said.	PersonX watches PersonX's mouth. As a result, others do not feel
+PersonX moves past PersonY	NotoReact	none	PersonX moves past PersonY. As a result, others do not feel
+PersonX denies PersonY's existence	NotoReact	powerless.	PersonX denies PersonY's existence. As a result, others do not feel
+PersonX never been to one	NotoReact	none	PersonX never been to one. As a result, others do not feel
+PersonX hits PersonY's friend	NotoReact	hurt	PersonX hits PersonY's friend. As a result, others do not feel
+PersonX sends PersonY to the showers	NotoReact	clean	PersonX sends PersonY to the showers. As a result, others do not feel
+PersonX fudges the issue	NotoReact	none	PersonX fudges the issue. As a result, others do not feel
+PersonX contains PersonY number	NotoReact	controlled	PersonX contains PersonY number. As a result, others do not feel
+PersonX breaks PersonX's hip	NotoReact	none	PersonX breaks PersonX's hip. As a result, others do not feel
+PersonX loves riding PersonX's bike	NotoWant	none	PersonX loves riding PersonX's bike. After, others will not want to
+PersonX is making a cake	NotoWant	to eat the cake	PersonX is making a cake. After, others will not want to
+PersonX wins money	NotoWant	none	PersonX wins money. After, others will not want to
+PersonX escorts PersonY back	NotoWant	to get inside while PersonX is watching	PersonX escorts PersonY back. After, others will not want to
+PersonX wraps PersonY's hand	NotoWant	thank them	PersonX wraps PersonY's hand. After, others will not want to
+PersonX falls on PersonY	NotoWant	to help PersonX	PersonX falls on PersonY. After, others will not want to
+PersonX throws some bread	NotoWant	none	PersonX throws some bread. After, others will not want to
+PersonX stings by a jellyfish	NotoWant	none	PersonX stings by a jellyfish. After, others will not want to
+PersonX develops cancer	NotoWant	to treat person X	PersonX develops cancer. After, others will not want to
+PersonX tells PersonY a little	NotoWant	to know more about the matter	PersonX tells PersonY a little. After, others will not want to

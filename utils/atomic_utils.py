@@ -101,6 +101,11 @@ def verbalize_subject_predicate(kg, triple):
             prompt = "You are likely to find {} {} in {} ".format(
                 article(head), head, article(tail)
             )
+        if relation == "NotAtLocation":
+            prompt = "You are not likely to find {} {} in {} ".format(
+                article(head), head, article(tail)
+            )
+
         elif relation == "CapableOf":
             prompt = "{} can ".format(head)
         elif relation == "NotCapableOf":
@@ -123,13 +128,13 @@ def verbalize_subject_predicate(kg, triple):
 
         elif relation == "HasSubEvent":
             prompt = "While {}, you would ".format(vp_present_participle(head))
-        elif relation == "HasSubEvent":
-            prompt = "While {}, you would ".format(vp_present_participle(head))
+        elif relation == "NotHasSubEvent":
+            prompt = "While {}, you would not ".format(vp_present_participle(head))
 
         elif relation == "HinderedBy":
-            prompt = "{}. This would not happen if"
+            prompt = "{}. This would not happen if".format(head)
         elif relation == "NotHinderedBy":
-            prompt = "{}. This happens even if"
+            prompt = "{}. This happens even if".format(head)
 
         elif relation == "MadeUpOf":
             prompt = "{} {} contains".format(article(head), head)
@@ -168,6 +173,8 @@ def verbalize_subject_predicate(kg, triple):
 
         elif relation == "oWant":
             prompt = "{}. After, others will want to".format(head)
+        elif relation == "NotoWant":
+            prompt = "{}. After, others will not want to".format(head)
 
         elif relation == "xAttr":
             prompt = "{}. PersonX is".format(head)

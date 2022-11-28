@@ -206,3 +206,7 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
+
+# Large files
+data/data_and_models_2.1/**
+data/symbolic_knowledge_distillation/**
