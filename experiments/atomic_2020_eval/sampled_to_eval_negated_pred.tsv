@@ -1,34 +1,34 @@
 head	relation	tail	prompt
-skirt	NotObjectUse	wear to work	a skirt cannot be used for
-in asian cuisine wok	NotObjectUse	fry and to steam food	an in asian cuisine wok cannot be used for
-methadone	NotObjectUse	treat drug addictions	a methadone cannot be used for
-paperwork	NotObjectUse	fill out	a paperwork cannot be used for
-dark	NotObjectUse	see pictures	a dark cannot be used for
-bunch of cigarettes	NotObjectUse	sell	a bunch of cigarettes cannot be used for
-keyhole	NotObjectUse	see through	a keyhole cannot be used for
-condiment	NotObjectUse	spread over the treat	a condiment cannot be used for
-hinge	NotObjectUse	move the wooden slab	a hinge cannot be used for
-medical card	NotObjectUse	confirm identity	a medical card cannot be used for
-knight	NotAtLocation	battle groung	You are not likely to find a knight in a
-harmonica	NotAtLocation	blues band	You are not likely to find a harmonica in a
-salt	NotAtLocation	cabinet	You are not likely to find a salt in a
-book light	NotAtLocation	bookstore	You are not likely to find a book light in a
-handle	NotAtLocation	bathroom	You are not likely to find a handle in a
-dark matter	NotAtLocation	outerspace	You are not likely to find a dark matter in an
-indian ocean	NotAtLocation	asia	You are not likely to find an indian ocean in an
-large container	NotAtLocation	cabinet	You are not likely to find a large container in a
-lacebug	NotAtLocation	underside of leaves	You are not likely to find a lacebug in an
-cpu	NotAtLocation	computer	You are not likely to find a cpu in a
-balcony	NotMadeUpOf	box	a balcony does not contain
-kite	NotMadeUpOf	kite tail	a kite does not contain
-radar	NotMadeUpOf	dish	a radar does not contain
-punch bag	NotMadeUpOf	leather	a punch bag does not contain
-curtain	NotMadeUpOf	eyelet	a curtain does not contain
-brace	NotMadeUpOf	strap	a brace does not contain
-bacon	NotMadeUpOf	pig	a bacon does not contain
-crust	NotMadeUpOf	asthenosphere	a crust does not contain
-newspaper	NotMadeUpOf	ink and paper	a newspaper does not contain
-planet pluto	NotMadeUpOf	one natural sattelite	a planet pluto does not contain
+skirt	NotObjectUse	wear to work	skirt cannot be used for
+in asian cuisine wok	NotObjectUse	fry and to steam food	in asian cuisine wok cannot be used for
+methadone	NotObjectUse	treat drug addictions	methadone cannot be used for
+paperwork	NotObjectUse	fill out	paperwork cannot be used for
+dark	NotObjectUse	see pictures	dark cannot be used for
+bunch of cigarettes	NotObjectUse	sell	bunch of cigarettes cannot be used for
+keyhole	NotObjectUse	see through	keyhole cannot be used for
+condiment	NotObjectUse	spread over the treat	condiment cannot be used for
+hinge	NotObjectUse	move the wooden slab	hinge cannot be used for
+medical card	NotObjectUse	confirm identity	medical card cannot be used for
+knight	NotAtLocation	battle groung	You are not likely to find  knight in
+harmonica	NotAtLocation	blues band	You are not likely to find  harmonica in
+salt	NotAtLocation	cabinet	You are not likely to find  salt in
+book light	NotAtLocation	bookstore	You are not likely to find  book light in
+handle	NotAtLocation	bathroom	You are not likely to find  handle in
+dark matter	NotAtLocation	outerspace	You are not likely to find  dark matter in
+indian ocean	NotAtLocation	asia	You are not likely to find  indian ocean in
+large container	NotAtLocation	cabinet	You are not likely to find  large container in
+lacebug	NotAtLocation	underside of leaves	You are not likely to find  lacebug in
+cpu	NotAtLocation	computer	You are not likely to find  cpu in
+balcony	NotMadeUpOf	box	balcony does not contain
+kite	NotMadeUpOf	kite tail	kite does not contain
+radar	NotMadeUpOf	dish	radar does not contain
+punch bag	NotMadeUpOf	leather	punch bag does not contain
+curtain	NotMadeUpOf	eyelet	curtain does not contain
+brace	NotMadeUpOf	strap	brace does not contain
+bacon	NotMadeUpOf	pig	bacon does not contain
+crust	NotMadeUpOf	asthenosphere	crust does not contain
+newspaper	NotMadeUpOf	ink and paper	newspaper does not contain
+planet pluto	NotMadeUpOf	one natural sattelite	planet pluto does not contain
 baseball diamond	NotHasProperty	outfield	baseball diamond is not
 yolk	NotHasProperty	yellow	yolk is not
 government office	NotHasProperty	calculator	government office is not
@@ -49,16 +49,16 @@ supermodel	NotCapableOf	turn heads	supermodel cannot
 alto	NotCapableOf	high pitched voice	alto cannot
 energetic person	NotCapableOf	wash own car	energetic person cannot
 salior	NotCapableOf	weather storm	salior cannot
-terrorist	NotDesires	violence	a terrorist does not desire
-exhibitionist	NotDesires	private parts to seen	an exhibitionist does not desire
-lover	NotDesires	stable relationship	a lover does not desire
-pedobear	NotDesires	cake	a pedobear does not desire
-alcoholic	NotDesires	liquor	an alcoholic does not desire
-gardener	NotDesires	good weather	a gardener does not desire
-teenager	NotDesires	leave home	a teenager does not desire
-hen	NotDesires	bread crumbs	a hen does not desire
-detective	NotDesires	catch criminals	a detective does not desire
-aol	NotDesires	everyone to use aol	an aol does not desire
+terrorist	NotDesires	violence	terrorist does not desire
+exhibitionist	NotDesires	private parts to seen	exhibitionist does not desire
+lover	NotDesires	stable relationship	lover does not desire
+pedobear	NotDesires	cake	pedobear does not desire
+alcoholic	NotDesires	liquor	alcoholic does not desire
+gardener	NotDesires	good weather	gardener does not desire
+teenager	NotDesires	leave home	teenager does not desire
+hen	NotDesires	bread crumbs	hen does not desire
+detective	NotDesires	catch criminals	detective does not desire
+aol	NotDesires	everyone to use aol	aol does not desire
 PersonX leaves for school	NotisAfter	PersonX prepares for school	PersonX leaves for school. Before that, it is not needed that
 PersonX visits the zoo	NotisAfter	PersonX treats their children to a day off school	PersonX visits the zoo. Before that, it is not needed that
 PersonX holds onto nothing	NotisAfter	PersonX falls over	PersonX holds onto nothing. Before that, it is not needed that

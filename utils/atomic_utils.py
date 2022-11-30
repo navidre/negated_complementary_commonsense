@@ -10,18 +10,16 @@ import argparse, json
 
 import pandas as pd
 
-# ATOMIC predicates
+# ATOMIC-2020 predicates
 atomic_physical_preds = ['ObjectUse', 'AtLocation', 'MadeUpOf', 'HasProperty', 'CapableOf', 'Desires', 'NotDesires']
-negated_atomic_physical_preds = ['Not{x}' for x in atomic_physical_preds if x != 'Not Desires']
 atomic_event_preds = ['isAfter', 'HasSubEvent', 'isBefore', 'HinderedBy','Causes', 'xReason', 'isFilledBy']
-negated_atomic_event_preds = ['Not{x}' for x in atomic_event_preds]
 atomic_social_preds = ['xNeed', 'xAttr', 'xEffect', 'xReact', 'xWant', 'xIntent', 'oEffect', 'oReact', 'oWant']
-negated_atomic_social_preds = ['Not{x}' for x in atomic_social_preds]
 atomic_preds = atomic_physical_preds + atomic_event_preds + atomic_social_preds
-negated_atomic_preds = negated_atomic_physical_preds + negated_atomic_event_preds + negated_atomic_social_preds
 
 def article(word):
-    return "an" if word[0] in ['a', 'e', 'i', 'o', 'u'] else "a"
+    # TODO: Eliminate articles for plural nouns for now
+    # return "an" if word[0] in ['a', 'e', 'i', 'o', 'u'] else "a"
+    return ''
 
 def vp_present_participle(phrase):
     doc = nlp(phrase)
