@@ -93,6 +93,5 @@ def process_human_evaluation(work_path, in_tsv):
 
 if __name__ == "__main__":
     work_path = './experiments/atomic_2020_eval'
-    # in_tsv = f'{work_path}/sampled_to_eval_negated_pred_with_gpt_3.tsv'
-    in_tsv = f'{work_path}/testing.tsv'
+    in_tsv = f'{work_path}/sampled_to_eval_negated_pred_with_gpt_3.tsv'
     process_human_evaluation(work_path, in_tsv)
