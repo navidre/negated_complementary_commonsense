@@ -52,5 +52,5 @@ if __name__ == "__main__":
             print('\nError in {}'.format(row['head']))
             import IPython; IPython. embed(); exit(1)
 
-    # Save generated_df to args.output
-    generated_df.to_csv(out_tsv, sep='\t', index=False)
+        # Save generated_df as a tsv file in every step
+        generated_df.to_csv(out_tsv, sep='\t', index=False)
