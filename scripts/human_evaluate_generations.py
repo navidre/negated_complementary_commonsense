@@ -27,12 +27,17 @@ def auto_evaluate_row(index, row):
     Returns:
         auto_evaluated, selection: True if auto evaluated, False otherwise; The selection made
     """
+    if type(row['generated_tail']) == float:
+        return True, 3
+    
     if row['generated_tail'] == '':
         return True, 3
-    elif '___' in row['generated_tail']:
+
+    if '___' in row['generated_tail']:
         return True, 3
-    else:
-        return False, 0
+
+    # All other cases    
+    return False, 0
 
 def process_human_evaluation(work_path, in_tsv):
     # Extracting file name
@@ -88,5 +93,6 @@ def process_human_evaluation(work_path, in_tsv):
 
 if __name__ == "__main__":
     work_path = './experiments/atomic_2020_eval'
-    in_tsv = f'{work_path}/sampled_to_eval_negated_pred_with_gpt_3.tsv'
+    # in_tsv = f'{work_path}/sampled_to_eval_negated_pred_with_gpt_3.tsv'
+    in_tsv = f'{work_path}/testing.tsv'
     process_human_evaluation(work_path, in_tsv)
