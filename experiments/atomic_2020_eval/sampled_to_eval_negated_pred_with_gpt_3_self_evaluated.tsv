@@ -2,238 +2,238 @@ head	relation	prompt	generated_tail	full_text	review
 skirt	NotObjectUse	skirt cannot be used for		skirt cannot be used for	4
 skirt	NotObjectUse	skirt cannot be used for		skirt cannot be used for	4
 skirt	NotObjectUse	skirt cannot be used for		skirt cannot be used for	4
-in asian cuisine wok	NotObjectUse	in asian cuisine wok cannot be used for	what  Woks are traditionally used for cooking Chinese food, but they can be used for	in asian cuisine wok cannot be used for what  Woks are traditionally used for cooking Chinese food, but they can be used for	0
-in asian cuisine wok	NotObjectUse	in asian cuisine wok cannot be used for	_____.  Woks cannot be used for baking.	in asian cuisine wok cannot be used for _____.  Woks cannot be used for baking.	0
-in asian cuisine wok	NotObjectUse	in asian cuisine wok cannot be used for	frying	in asian cuisine wok cannot be used for frying	0
-methadone	NotObjectUse	methadone cannot be used for	methadone cannot be used for weight loss.	methadone cannot be used for methadone cannot be used for weight loss.	0
-methadone	NotObjectUse	methadone cannot be used for	pain relief in emergency situations	methadone cannot be used for pain relief in emergency situations	0
-methadone	NotObjectUse	methadone cannot be used for	methadone cannot be used for weight loss.	methadone cannot be used for methadone cannot be used for weight loss.	0
-paperwork	NotObjectUse	paperwork cannot be used for	_____  Sales tax exemption	paperwork cannot be used for _____  Sales tax exemption	0
-paperwork	NotObjectUse	paperwork cannot be used for	Receipts are not a legal document and cannot be used for anything.	paperwork cannot be used for Receipts are not a legal document and cannot be used for anything.	0
-paperwork	NotObjectUse	paperwork cannot be used for	1. Renting a car 2. Applying for a passport 3. F	paperwork cannot be used for 1. Renting a car 2. Applying for a passport 3. F	0
-dark	NotObjectUse	dark cannot be used for	full text search.     <p>     The standard search rules for markdown	dark cannot be used for full text search.     <p>     The standard search rules for markdown	0
-dark	NotObjectUse	dark cannot be used for	// this method.   //   // Parameters:   //   buffer:	dark cannot be used for // this method.   //   // Parameters:   //   buffer:	0
-dark	NotObjectUse	dark cannot be used for		dark cannot be used for	0
-bunch of cigarettes	NotObjectUse	bunch of cigarettes cannot be used for	Cigarettes cannot be used for much beyond smoking. They can be used as a fire	bunch of cigarettes cannot be used for Cigarettes cannot be used for much beyond smoking. They can be used as a fire	0
-bunch of cigarettes	NotObjectUse	bunch of cigarettes cannot be used for	Cigarettes cannot be used for much besides smoking.	bunch of cigarettes cannot be used for Cigarettes cannot be used for much besides smoking.	0
-bunch of cigarettes	NotObjectUse	bunch of cigarettes cannot be used for	Cigarettes cannot be used for much of anything. They are made of tobacco, paper	bunch of cigarettes cannot be used for Cigarettes cannot be used for much of anything. They are made of tobacco, paper	0
-keyhole	NotObjectUse	keyhole cannot be used for	%polarized light. % % \section{Experimental set-up	keyhole cannot be used for %polarized light. % % \section{Experimental set-up	0
-keyhole	NotObjectUse	keyhole cannot be used for	intra-day monitoring of the flux of distant AGNs.  The constant flux from	keyhole cannot be used for intra-day monitoring of the flux of distant AGNs.  The constant flux from	0
-keyhole	NotObjectUse	keyhole cannot be used for	* some purposes because it is not a valid UTF-8 string. This class  * provides	keyhole cannot be used for * some purposes because it is not a valid UTF-8 string. This class  * provides	0
-condiment	NotObjectUse	condiment cannot be used for	iced coffee  Iced coffee is typically made with cold brew coffee, which is coffee that is	condiment cannot be used for iced coffee  Iced coffee is typically made with cold brew coffee, which is coffee that is	0
-condiment	NotObjectUse	condiment cannot be used for	_______.  condiment cannot be used for food	condiment cannot be used for _______.  condiment cannot be used for food	0
-condiment	NotObjectUse	condiment cannot be used for	iced tea  A condiment cannot be used for iced tea because it would not be able	condiment cannot be used for iced tea  A condiment cannot be used for iced tea because it would not be able	0
-hinge	NotObjectUse	hinge cannot be used for	* open/close of doors because it can only rotate 90 degrees.  */ public class	hinge cannot be used for * open/close of doors because it can only rotate 90 degrees.  */ public class	0
-hinge	NotObjectUse	hinge cannot be used for	# the last layer of a network since its inputs, which have a shape of # (	hinge cannot be used for # the last layer of a network since its inputs, which have a shape of # (	0
-hinge	NotObjectUse	hinge cannot be used for	// these value types.     //     // Here we define the possible values for	hinge cannot be used for // these value types.     //     // Here we define the possible values for	0
-medical card	NotObjectUse	medical card cannot be used for	a) dental care  b) mental health care  c) prescriptions	medical card cannot be used for a) dental care  b) mental health care  c) prescriptions	0
-medical card	NotObjectUse	medical card cannot be used for	a) over-the-counter drugs b) dental care c) vision care	medical card cannot be used for a) over-the-counter drugs b) dental care c) vision care	0
-medical card	NotObjectUse	medical card cannot be used for	a. dental appointments b. eye exams c. prescriptions d. all of	medical card cannot be used for a. dental appointments b. eye exams c. prescriptions d. all of	0
-knight	NotAtLocation	You are not likely to find  knight in	chess game  This is not a likely outcome, as knights are typically included in chess games.	You are not likely to find  knight in chess game  This is not a likely outcome, as knights are typically included in chess games.	0
-knight	NotAtLocation	You are not likely to find  knight in	chess  A knight is a chess piece that typically moves in an L-shape.	You are not likely to find  knight in chess  A knight is a chess piece that typically moves in an L-shape.	0
-knight	NotAtLocation	You are not likely to find  knight in	a chess set  It is possible to find a knight in a chess set, but it is	You are not likely to find  knight in a chess set  It is possible to find a knight in a chess set, but it is	0
-harmonica	NotAtLocation	You are not likely to find  harmonica in	a grocery store.	You are not likely to find  harmonica in a grocery store.	0
-harmonica	NotAtLocation	You are not likely to find  harmonica in	a grocery store  You are more likely to find a harmonica in a music store.	You are not likely to find  harmonica in a grocery store  You are more likely to find a harmonica in a music store.	0
-harmonica	NotAtLocation	You are not likely to find  harmonica in	a music store  You may find a harmonica in a music store, but it is not	You are not likely to find  harmonica in a music store  You may find a harmonica in a music store, but it is not	0
-salt	NotAtLocation	You are not likely to find  salt in	a library.	You are not likely to find  salt in a library.	0
-salt	NotAtLocation	You are not likely to find  salt in	a dessert.	You are not likely to find  salt in a dessert.	0
-salt	NotAtLocation	You are not likely to find  salt in	a dessert.	You are not likely to find  salt in a dessert.	0
-book light	NotAtLocation	You are not likely to find  book light in	a grocery store.	You are not likely to find  book light in a grocery store.	0
-book light	NotAtLocation	You are not likely to find  book light in	stationary store  You are more likely to find a book light in an electronics store.	You are not likely to find  book light in stationary store  You are more likely to find a book light in an electronics store.	0
-book light	NotAtLocation	You are not likely to find  book light in	hardware store  You are unlikely to find a book light in a hardware store.	You are not likely to find  book light in hardware store  You are unlikely to find a book light in a hardware store.	0
-handle	NotAtLocation	You are not likely to find  handle in	"a dictionary  The word ""handle"" is not likely to be found in a dictionary."	"You are not likely to find  handle in a dictionary  The word ""handle"" is not likely to be found in a dictionary."	0
-handle	NotAtLocation	You are not likely to find  handle in	a toolbox  You are not likely to find a handle in a toolbox.	You are not likely to find  handle in a toolbox  You are not likely to find a handle in a toolbox.	0
-handle	NotAtLocation	You are not likely to find  handle in	"a dictionary  One possible definition of ""handle"" could be ""a part of an object by"	"You are not likely to find  handle in a dictionary  One possible definition of ""handle"" could be ""a part of an object by"	0
-dark matter	NotAtLocation	You are not likely to find  dark matter in	a dark room   dark matter is not something that you can see or touch, so it would	You are not likely to find  dark matter in a dark room   dark matter is not something that you can see or touch, so it would	0
-dark matter	NotAtLocation	You are not likely to find  dark matter in	a particle detector  Dark matter is not expected to emit or absorb electromagnetic radiation, so it would	You are not likely to find  dark matter in a particle detector  Dark matter is not expected to emit or absorb electromagnetic radiation, so it would	0
-dark matter	NotAtLocation	You are not likely to find  dark matter in	The Sun, because it is composed mostly of hydrogen and helium.	You are not likely to find  dark matter in The Sun, because it is composed mostly of hydrogen and helium.	0
-indian ocean	NotAtLocation	You are not likely to find  indian ocean in	a geography book  You are more likely to find information about the Indian Ocean in an encyclopedia or	You are not likely to find  indian ocean in a geography book  You are more likely to find information about the Indian Ocean in an encyclopedia or	0
-indian ocean	NotAtLocation	You are not likely to find  indian ocean in	a freshwater lake.	You are not likely to find  indian ocean in a freshwater lake.	0
-indian ocean	NotAtLocation	You are not likely to find  indian ocean in	a bottle of water	You are not likely to find  indian ocean in a bottle of water	0
-large container	NotAtLocation	You are not likely to find  large container in	the toy section  You are not likely to find large containers in the toy section.	You are not likely to find  large container in the toy section  You are not likely to find large containers in the toy section.	0
-large container	NotAtLocation	You are not likely to find  large container in	a grocery store  You are not likely to find a large container in a grocery store.	You are not likely to find  large container in a grocery store  You are not likely to find a large container in a grocery store.	0
-large container	NotAtLocation	You are not likely to find  large container in	a convenience store  You are more likely to find smaller containers in a convenience store.	You are not likely to find  large container in a convenience store  You are more likely to find smaller containers in a convenience store.	0
-lacebug	NotAtLocation	You are not likely to find  lacebug in	_____.  a can of soup	You are not likely to find  lacebug in _____.  a can of soup	0
-lacebug	NotAtLocation	You are not likely to find  lacebug in	_____.  milk	You are not likely to find  lacebug in _____.  milk	0
-lacebug	NotAtLocation	You are not likely to find  lacebug in	a dress.	You are not likely to find  lacebug in a dress.	0
-cpu	NotAtLocation	You are not likely to find  cpu in	"a dictionary  You are not likely to find ""cpu"" in a dictionary."	"You are not likely to find  cpu in a dictionary  You are not likely to find ""cpu"" in a dictionary."	0
-cpu	NotAtLocation	You are not likely to find  cpu in	"a dictionary  You are not likely to find ""cpu"" in a dictionary."	"You are not likely to find  cpu in a dictionary  You are not likely to find ""cpu"" in a dictionary."	0
-cpu	NotAtLocation	You are not likely to find  cpu in	"the dictionary  You are not likely to find ""cpu"" in the dictionary."	"You are not likely to find  cpu in the dictionary  You are not likely to find ""cpu"" in the dictionary."	0
-balcony	NotMadeUpOf	balcony does not contain	_____  a roof	balcony does not contain _____  a roof	0
-balcony	NotMadeUpOf	balcony does not contain	a) a roof b) a floor c) furniture d) a wall	balcony does not contain a) a roof b) a floor c) furniture d) a wall	0
-balcony	NotMadeUpOf	balcony does not contain		balcony does not contain	0
-kite	NotMadeUpOf	kite does not contain	erythrocytes, but the erythrocytes are found in the gastric juice.	kite does not contain erythrocytes, but the erythrocytes are found in the gastric juice.	0
-kite	NotMadeUpOf	kite does not contain	// the 'pyramid' feature, which is required for rasterize	kite does not contain // the 'pyramid' feature, which is required for rasterize	0
-kite	NotMadeUpOf	kite does not contain	erythropoietin, an agent that stimulates production of red blood cells (erythrocytes	kite does not contain erythropoietin, an agent that stimulates production of red blood cells (erythrocytes	0
-radar	NotMadeUpOf	radar does not contain	ids     # print('Radar:')     # print(radar)	radar does not contain ids     # print('Radar:')     # print(radar)	0
-radar	NotMadeUpOf	radar does not contain	// any information about the confidentiality of any communication or  // information transmitted through the System.	radar does not contain // any information about the confidentiality of any communication or  // information transmitted through the System.	0
-radar	NotMadeUpOf	radar does not contain	"* the radar data)  *   * @author <a href=""mailto:"	"radar does not contain * the radar data)  *   * @author <a href=""mailto:"	0
-punch bag	NotMadeUpOf	punch bag does not contain		punch bag does not contain	0
-punch bag	NotMadeUpOf	punch bag does not contain	a. a bladder  b. air  c. water  d.	punch bag does not contain a. a bladder  b. air  c. water  d.	0
-punch bag	NotMadeUpOf	punch bag does not contain	The punch bag generally contains sand, rice, or water.	punch bag does not contain The punch bag generally contains sand, rice, or water.	0
-curtain	NotMadeUpOf	curtain does not contain	the full information about the transition between the two states,  and the transition probabilities cannot be	curtain does not contain the full information about the transition between the two states,  and the transition probabilities cannot be	0
-curtain	NotMadeUpOf	curtain does not contain	"+					{ +						return; +"	"curtain does not contain +					{ +						return; +"	0
-curtain	NotMadeUpOf	curtain does not contain	a nilpotent subalgebra of dimension $1$).  If a $n$-	curtain does not contain a nilpotent subalgebra of dimension $1$).  If a $n$-	0
-brace	NotMadeUpOf	brace does not contain		brace does not contain	0
-brace	NotMadeUpOf	brace does not contain	// either a '{' or a '}' character	brace does not contain // either a '{' or a '}' character	0
-brace	NotMadeUpOf	brace does not contain	// a LocalValue.   const CastKind CastKind = S->getCastKind	brace does not contain // a LocalValue.   const CastKind CastKind = S->getCastKind	0
-bacon	NotMadeUpOf	bacon does not contain	Carbs	bacon does not contain Carbs	0
-bacon	NotMadeUpOf	bacon does not contain	sugar	bacon does not contain sugar	0
-bacon	NotMadeUpOf	bacon does not contain	vegetables	bacon does not contain vegetables	0
-crust	NotMadeUpOf	crust does not contain	* a node with a given id.    * @param nodeId - the id	crust does not contain * a node with a given id.    * @param nodeId - the id	0
-crust	NotMadeUpOf	crust does not contain	_____________.  baking soda	crust does not contain _____________.  baking soda	0
-crust	NotMadeUpOf	crust does not contain	%   enough elements to construct the desired number of elements. % %   [E	crust does not contain %   enough elements to construct the desired number of elements. % %   [E	0
-newspaper	NotMadeUpOf	newspaper does not contain	any table.  The table below shows the average monthly temperatures in Celcius for	newspaper does not contain any table.  The table below shows the average monthly temperatures in Celcius for	0
-newspaper	NotMadeUpOf	newspaper does not contain	#any articles, it will be removed from the list.  #If the list of	newspaper does not contain #any articles, it will be removed from the list.  #If the list of	0
-newspaper	NotMadeUpOf	newspaper does not contain	{}  a story about a UFO landing in Roswell, New Mexico	newspaper does not contain {}  a story about a UFO landing in Roswell, New Mexico	0
-planet pluto	NotMadeUpOf	planet pluto does not contain	Pluto does not contain an atmosphere.	planet pluto does not contain Pluto does not contain an atmosphere.	0
-planet pluto	NotMadeUpOf	planet pluto does not contain	pluto does not contain an atmosphere	planet pluto does not contain pluto does not contain an atmosphere	0
-planet pluto	NotMadeUpOf	planet pluto does not contain	life	planet pluto does not contain life	0
-baseball diamond	NotHasProperty	baseball diamond is not	a square	baseball diamond is not a square	0
-baseball diamond	NotHasProperty	baseball diamond is not	a square or rectangle.	baseball diamond is not a square or rectangle.	0
-baseball diamond	NotHasProperty	baseball diamond is not	a square or a rectangle.	baseball diamond is not a square or a rectangle.	0
-yolk	NotHasProperty	yolk is not		yolk is not	0
-yolk	NotHasProperty	yolk is not		yolk is not	0
-yolk	NotHasProperty	yolk is not		yolk is not	0
-government office	NotHasProperty	government office is not	____  A government office is not a private business.	government office is not ____  A government office is not a private business.	0
-government office	NotHasProperty	government office is not	a place where people go to get things done.	government office is not a place where people go to get things done.	0
-government office	NotHasProperty	government office is not	A government office is not a private residence.	government office is not A government office is not a private residence.	0
-sheet of paper	NotHasProperty	sheet of paper is not	A sheet of paper is not a book.	sheet of paper is not A sheet of paper is not a book.	0
-sheet of paper	NotHasProperty	sheet of paper is not	A sheet of paper is not a book.	sheet of paper is not A sheet of paper is not a book.	0
-sheet of paper	NotHasProperty	sheet of paper is not		sheet of paper is not	0
-stop sign	NotHasProperty	stop sign is not	________.  valid	stop sign is not ________.  valid	0
-stop sign	NotHasProperty	stop sign is not	a traffic control device that requires all drivers to come to a complete stop before proceeding through an	stop sign is not a traffic control device that requires all drivers to come to a complete stop before proceeding through an	0
-stop sign	NotHasProperty	stop sign is not	a valid answer	stop sign is not a valid answer	0
-doll	NotHasProperty	doll is not		doll is not	0
-doll	NotHasProperty	doll is not		doll is not	0
-doll	NotHasProperty	doll is not		doll is not	0
-carrie	NotHasProperty	carrie is not	here  I'm sorry, but Carrie isn't here right now. Can I take a message	carrie is not here  I'm sorry, but Carrie isn't here right now. Can I take a message	0
-carrie	NotHasProperty	carrie is not	a member of the team  This is not a definitive answer, but based on the information given	carrie is not a member of the team  This is not a definitive answer, but based on the information given	0
-carrie	NotHasProperty	carrie is not	carrie is not a robot	carrie is not carrie is not a robot	0
-pottery	NotHasProperty	pottery is not	a material  pottery is a type of ceramic material	pottery is not a material  pottery is a type of ceramic material	0
-pottery	NotHasProperty	pottery is not	pottery is not a mineral because it is not made up of inorganic matter.	pottery is not pottery is not a mineral because it is not made up of inorganic matter.	0
-pottery	NotHasProperty	pottery is not	a material  pottery is a type of ceramic.	pottery is not a material  pottery is a type of ceramic.	0
-asymetry	NotHasProperty	asymetry is not	justified in the case of the crust.  The neutron drip density at $T=	asymetry is not justified in the case of the crust.  The neutron drip density at $T=	0
-asymetry	NotHasProperty	asymetry is not	just a feature of the $J/\psi$ and $\psi(2S	asymetry is not just a feature of the $J/\psi$ and $\psi(2S	0
-asymetry	NotHasProperty	asymetry is not	present in the case of $A=\{0\}$ and $A=\{	asymetry is not present in the case of $A=\{0\}$ and $A=\{	0
-cuba	NotHasProperty	cuba is not	"available""  else 	echo "" cuba is  available"" fi  if"	"cuba is not available""  else 	echo "" cuba is  available"" fi  if"	0
-cuba	NotHasProperty	cuba is not	//	cuba is not //	0
-cuba	NotHasProperty	cuba is not		cuba is not	0
-detective	NotCapableOf	detective cannot	distinguish between them.  We will now turn to the data of the real galaxy	detective cannot distinguish between them.  We will now turn to the data of the real galaxy	0
-detective	NotCapableOf	detective cannot	detect	detective cannot detect	0
-detective	NotCapableOf	detective cannot	fact check	detective cannot fact check	0
-wet dog	NotCapableOf	wet dog cannot	A wet dog cannot fly.	wet dog cannot A wet dog cannot fly.	0
-wet dog	NotCapableOf	wet dog cannot	be dried  A wet dog cannot be dried.	wet dog cannot be dried  A wet dog cannot be dried.	0
-wet dog	NotCapableOf	wet dog cannot	be used to describe a person  A wet dog cannot be used to describe a person.	wet dog cannot be used to describe a person  A wet dog cannot be used to describe a person.	0
-quaterback	NotCapableOf	quaterback cannot	be moved.')      def help_move(self):         print('Move the	quaterback cannot be moved.')      def help_move(self):         print('Move the	0
-quaterback	NotCapableOf	quaterback cannot	"// be a receiver or tight end. 		if (hasQuarterBack"	"quaterback cannot // be a receiver or tight end. 		if (hasQuarterBack"	0
-quaterback	NotCapableOf	quaterback cannot	"+ +	return 0; +} + + + +"	"quaterback cannot + +	return 0; +} + + + +"	0
-dentist	NotCapableOf	dentist cannot		dentist cannot	0
-dentist	NotCapableOf	dentist cannot		dentist cannot	0
-dentist	NotCapableOf	dentist cannot	nd the cause o the pain, a referral to a specic	dentist cannot nd the cause o the pain, a referral to a specic	0
-oscar winner	NotCapableOf	oscar winner cannot	* play the role of a dead person.  *   * @author isabelle	oscar winner cannot * play the role of a dead person.  *   * @author isabelle	0
-oscar winner	NotCapableOf	oscar winner cannot		oscar winner cannot	0
-oscar winner	NotCapableOf	oscar winner cannot	"The Academy Awards, or ""Oscars"", are a set of awards given annually for"	"oscar winner cannot The Academy Awards, or ""Oscars"", are a set of awards given annually for"	0
-possum	NotCapableOf	possum cannot	The possum cannot fly.	possum cannot The possum cannot fly.	0
-possum	NotCapableOf	possum cannot	// be reached by the player, so it is not being drawn       if (p	possum cannot // be reached by the player, so it is not being drawn       if (p	0
-possum	NotCapableOf	possum cannot	be detected. The two panels of Fig.~\ref{fig:possum}	possum cannot be detected. The two panels of Fig.~\ref{fig:possum}	0
-supermodel	NotCapableOf	supermodel cannot	be  verified  in a  physical  experiment,  we  can  study the influence	supermodel cannot be  verified  in a  physical  experiment,  we  can  study the influence	0
-supermodel	NotCapableOf	supermodel cannot		supermodel cannot	0
-supermodel	NotCapableOf	supermodel cannot		supermodel cannot	0
-alto	NotCapableOf	alto cannot	* afford the materials and the skilled labor.  *   * For more information, please	alto cannot * afford the materials and the skilled labor.  *   * For more information, please	0
-alto	NotCapableOf	alto cannot	cannot continue.  It is not safe to use the application client without	alto cannot cannot continue.  It is not safe to use the application client without	0
-alto	NotCapableOf	alto cannot	* display it correctly.      */     public static String convertToHtml(	alto cannot * display it correctly.      */     public static String convertToHtml(	0
-energetic person	NotCapableOf	energetic person cannot	"be  ``a priori""  excluded from the set of all possible observers"	"energetic person cannot be  ``a priori""  excluded from the set of all possible observers"	0
-energetic person	NotCapableOf	energetic person cannot		energetic person cannot	0
-energetic person	NotCapableOf	energetic person cannot	(-1)~enter the extra dimension.   \medskip The above argument	energetic person cannot (-1)~enter the extra dimension.   \medskip The above argument	0
-salior	NotCapableOf	salior cannot		salior cannot	0
-salior	NotCapableOf	salior cannot	# have a value less than 1.00, so we need to check that the value	salior cannot # have a value less than 1.00, so we need to check that the value	0
-salior	NotCapableOf	salior cannot	"// be negative 					//System.out."	"salior cannot // be negative 					//System.out."	0
-terrorist	NotDesires	terrorist does not desire		terrorist does not desire	0
-terrorist	NotDesires	terrorist does not desire		terrorist does not desire	0
-terrorist	NotDesires	terrorist does not desire	˝stability and prosperity˝, but the opposite: he wants to disrupt, to destroy	terrorist does not desire ˝stability and prosperity˝, but the opposite: he wants to disrupt, to destroy	0
-exhibitionist	NotDesires	exhibitionist does not desire	The exhibitionist does not desire to be seen, they desire to see.	exhibitionist does not desire The exhibitionist does not desire to be seen, they desire to see.	0
-exhibitionist	NotDesires	exhibitionist does not desire	* to be observed by others, but the observer is aware of the act)  According	exhibitionist does not desire * to be observed by others, but the observer is aware of the act)  According	0
-exhibitionist	NotDesires	exhibitionist does not desire		exhibitionist does not desire	0
-lover	NotDesires	lover does not desire	+          to be loved in return, but to love.  +          If we love	lover does not desire +          to be loved in return, but to love.  +          If we love	0
-lover	NotDesires	lover does not desire		lover does not desire	0
-lover	NotDesires	lover does not desire		lover does not desire	0
-pedobear	NotDesires	pedobear does not desire	This is difficult to answer as it is unclear what you are asking.	pedobear does not desire This is difficult to answer as it is unclear what you are asking.	0
-pedobear	NotDesires	pedobear does not desire	children sexually  This is not true. Pedobear is a cartoon character that is often used	pedobear does not desire children sexually  This is not true. Pedobear is a cartoon character that is often used	0
-pedobear	NotDesires	pedobear does not desire	"_____"", 		""choices"": [""Pedobears"", ""Pedobears"", """	"pedobear does not desire _____"", 		""choices"": [""Pedobears"", ""Pedobears"", """	0
-alcoholic	NotDesires	alcoholic does not desire	iced tea.  The non-alcoholic does not desire iced tea. No, the	alcoholic does not desire iced tea.  The non-alcoholic does not desire iced tea. No, the	0
-alcoholic	NotDesires	alcoholic does not desire		alcoholic does not desire	0
-alcoholic	NotDesires	alcoholic does not desire	"* to drink alcohol. 		 *  		 * @param alcoholic"	"alcoholic does not desire * to drink alcohol. 		 *  		 * @param alcoholic"	0
-gardener	NotDesires	gardener does not desire	that the tulips should grow in the garden, but rather that there should be a garden,	gardener does not desire that the tulips should grow in the garden, but rather that there should be a garden,	0
-gardener	NotDesires	gardener does not desire	* to distribute modifications, they are free to delete any files that they  * wish to	gardener does not desire * to distribute modifications, they are free to delete any files that they  * wish to	0
-gardener	NotDesires	gardener does not desire		gardener does not desire	0
-teenager	NotDesires	teenager does not desire	to be seen as childish.	teenager does not desire to be seen as childish.	0
-teenager	NotDesires	teenager does not desire	to be seen as a child.	teenager does not desire to be seen as a child.	0
-teenager	NotDesires	teenager does not desire	to be seen as childish.	teenager does not desire to be seen as childish.	0
-hen	NotDesires	hen does not desire		hen does not desire	0
-hen	NotDesires	hen does not desire		hen does not desire	0
-hen	NotDesires	hen does not desire		hen does not desire	0
-detective	NotDesires	detective does not desire	to have the best of the argument--if he can gain his end by the worst of the	detective does not desire to have the best of the argument--if he can gain his end by the worst of the	0
-detective	NotDesires	detective does not desire	the death penalty to be imposed;    The victim's family does not want the death	detective does not desire the death penalty to be imposed;    The victim's family does not want the death	0
-detective	NotDesires	detective does not desire	_____  The detective does not desire closure.	detective does not desire _____  The detective does not desire closure.	0
-aol	NotDesires	aol does not desire		aol does not desire	0
-aol	NotDesires	aol does not desire	to be bound by these terms,  then  you have no right to  use  this	aol does not desire to be bound by these terms,  then  you have no right to  use  this	0
-aol	NotDesires	aol does not desire		aol does not desire	0
-PersonX leaves for school	NotisAfter	PersonX leaves for school. Before that, it is not needed that	PersonX has to wake up.  PersonX is going to school.  Person	PersonX leaves for school. Before that, it is not needed that PersonX has to wake up.  PersonX is going to school.  Person	0
-PersonX leaves for school	NotisAfter	PersonX leaves for school. Before that, it is not needed that	PersonX brushes his/her teeth.  There is no need for PersonX to brush	PersonX leaves for school. Before that, it is not needed that PersonX brushes his/her teeth.  There is no need for PersonX to brush	0
-PersonX leaves for school	NotisAfter	PersonX leaves for school. Before that, it is not needed that	PersonX perform any action.  When PersonX finishes school, it is not needed that	PersonX leaves for school. Before that, it is not needed that PersonX perform any action.  When PersonX finishes school, it is not needed that	0
-PersonX visits the zoo	NotisAfter	PersonX visits the zoo. Before that, it is not needed that	PersonX has seen any animal at the zoo.   PersonX visits the zoo.	PersonX visits the zoo. Before that, it is not needed that PersonX has seen any animal at the zoo.   PersonX visits the zoo.	0
-PersonX visits the zoo	NotisAfter	PersonX visits the zoo. Before that, it is not needed that	PersonX has a pet.  PersonX visits the zoo. Before that, PersonX	PersonX visits the zoo. Before that, it is not needed that PersonX has a pet.  PersonX visits the zoo. Before that, PersonX	0
-PersonX visits the zoo	NotisAfter	PersonX visits the zoo. Before that, it is not needed that	PersonX should know anything about the zoo.  PersonX visits the zoo. Before that	PersonX visits the zoo. Before that, it is not needed that PersonX should know anything about the zoo.  PersonX visits the zoo. Before that	0
-PersonX holds onto nothing	NotisAfter	PersonX holds onto nothing. Before that, it is not needed that	"// 											PersonX holds onto"	"PersonX holds onto nothing. Before that, it is not needed that // 											PersonX holds onto"	0
-PersonX holds onto nothing	NotisAfter	PersonX holds onto nothing. Before that, it is not needed that	PersonX  exist. When PersonX exists, PersonY can exist only if PersonX	PersonX holds onto nothing. Before that, it is not needed that PersonX  exist. When PersonX exists, PersonY can exist only if PersonX	0
-PersonX holds onto nothing	NotisAfter	PersonX holds onto nothing. Before that, it is not needed that	PersonX receives the object in the first place. */  /* Note:	PersonX holds onto nothing. Before that, it is not needed that PersonX receives the object in the first place. */  /* Note:	0
-PersonX summons for jury duty	NotisAfter	PersonX summons for jury duty. Before that, it is not needed that	PersonX be a resident of the state.  Jury duty is the legal obligation to	PersonX summons for jury duty. Before that, it is not needed that PersonX be a resident of the state.  Jury duty is the legal obligation to	0
-PersonX summons for jury duty	NotisAfter	PersonX summons for jury duty. Before that, it is not needed that	PersonX has a legal qualification, although it is usually the case. The summons contains	PersonX summons for jury duty. Before that, it is not needed that PersonX has a legal qualification, although it is usually the case. The summons contains	0
-PersonX summons for jury duty	NotisAfter	PersonX summons for jury duty. Before that, it is not needed that	PersonX is a member of the jury pool.  ```  ```	PersonX summons for jury duty. Before that, it is not needed that PersonX is a member of the jury pool.  ```  ```	0
-PersonX pumps iron	NotisAfter	PersonX pumps iron. Before that, it is not needed that	PersonX pumps iron.  PersonX may not have pumped iron before, but it is	PersonX pumps iron. Before that, it is not needed that PersonX pumps iron.  PersonX may not have pumped iron before, but it is	0
-PersonX pumps iron	NotisAfter	PersonX pumps iron. Before that, it is not needed that	PersonX pumps iron.   PersonX pumps iron. It is not necessary that Person	PersonX pumps iron. Before that, it is not needed that PersonX pumps iron.   PersonX pumps iron. It is not necessary that Person	0
-PersonX pumps iron	NotisAfter	PersonX pumps iron. Before that, it is not needed that	PersonX pumps iron.  PersonX pumping iron is not needed before PersonX goes to	PersonX pumps iron. Before that, it is not needed that PersonX pumps iron.  PersonX pumping iron is not needed before PersonX goes to	0
-PersonX has tons of fun	NotisAfter	PersonX has tons of fun. Before that, it is not needed that	PersonX was doing a physical activity. It is enough that the person was  enjoy	PersonX has tons of fun. Before that, it is not needed that PersonX was doing a physical activity. It is enough that the person was  enjoy	0
-PersonX has tons of fun	NotisAfter	PersonX has tons of fun. Before that, it is not needed that	PersonX had to do anything particular.  4. PersonX was not happy with doing	PersonX has tons of fun. Before that, it is not needed that PersonX had to do anything particular.  4. PersonX was not happy with doing	0
-PersonX has tons of fun	NotisAfter	PersonX has tons of fun. Before that, it is not needed that	PersonX had fun.  PersonX has tons of fun. Before that, it is	PersonX has tons of fun. Before that, it is not needed that PersonX had fun.  PersonX has tons of fun. Before that, it is	0
-PersonX imitates PersonY's example	NotisAfter	PersonX imitates PersonY's example. Before that, it is not needed that	PersonX has the same intention as PersonY. PersonX's intention is not relevant for the question	PersonX imitates PersonY's example. Before that, it is not needed that PersonX has the same intention as PersonY. PersonX's intention is not relevant for the question	0
-PersonX imitates PersonY's example	NotisAfter	PersonX imitates PersonY's example. Before that, it is not needed that	PersonX's example is good enough to follow.  \paragraph{Case study 3:	PersonX imitates PersonY's example. Before that, it is not needed that PersonX's example is good enough to follow.  \paragraph{Case study 3:	0
-PersonX imitates PersonY's example	NotisAfter	PersonX imitates PersonY's example. Before that, it is not needed that	PersonX was aware of PersonY's example.  In this sense, example-based	PersonX imitates PersonY's example. Before that, it is not needed that PersonX was aware of PersonY's example.  In this sense, example-based	0
-PersonX invites all PersonX's friends over	NotisAfter	PersonX invites all PersonX's friends over. Before that, it is not needed that	PersonX invite some other person over.  PersonX creates a group on the app and	PersonX invites all PersonX's friends over. Before that, it is not needed that PersonX invite some other person over.  PersonX creates a group on the app and	0
-PersonX invites all PersonX's friends over	NotisAfter	PersonX invites all PersonX's friends over. Before that, it is not needed that	PersonX notifies his friends that he is going to invite them.  PersonX decides	PersonX invites all PersonX's friends over. Before that, it is not needed that PersonX notifies his friends that he is going to invite them.  PersonX decides	0
-PersonX invites all PersonX's friends over	NotisAfter	PersonX invites all PersonX's friends over. Before that, it is not needed that	PersonX's friends have any social link with each other.  PersonX wants to have	PersonX invites all PersonX's friends over. Before that, it is not needed that PersonX's friends have any social link with each other.  PersonX wants to have	0
-PersonX wears glasses	NotisAfter	PersonX wears glasses. Before that, it is not needed that	PersonX wears glasses.  PersonX does not wear glasses.  PersonX does	PersonX wears glasses. Before that, it is not needed that PersonX wears glasses.  PersonX does not wear glasses.  PersonX does	0
-PersonX wears glasses	NotisAfter	PersonX wears glasses. Before that, it is not needed that	PersonX wear glasses.  It is not needed that PersonX wear glasses.	PersonX wears glasses. Before that, it is not needed that PersonX wear glasses.  It is not needed that PersonX wear glasses.	0
-PersonX wears glasses	NotisAfter	PersonX wears glasses. Before that, it is not needed that	PersonX wears glasses.  (C) PersonX wears glasses. After that, it	PersonX wears glasses. Before that, it is not needed that PersonX wears glasses.  (C) PersonX wears glasses. After that, it	0
-PersonX sprays by a skunk	NotisAfter	PersonX sprays by a skunk. Before that, it is not needed that	+	PersonX sprays by a skunk. Before that, it is not needed that +	0
-PersonX sprays by a skunk	NotisAfter	PersonX sprays by a skunk. Before that, it is not needed that	PersonX has to have any information of the skunk's location.   PersonX	PersonX sprays by a skunk. Before that, it is not needed that PersonX has to have any information of the skunk's location.   PersonX	0
-PersonX sprays by a skunk	NotisAfter	PersonX sprays by a skunk. Before that, it is not needed that	PersonX gets sprayed by a skunk.   PersonX got sprayed by a sk	PersonX sprays by a skunk. Before that, it is not needed that PersonX gets sprayed by a skunk.   PersonX got sprayed by a sk	0
-get old	NotHasSubEvent	While getting old, you would not	have to worry about getting old.	While getting old, you would not have to worry about getting old.	0
-get old	NotHasSubEvent	While getting old, you would not	expect to feel any different than you do now.	While getting old, you would not expect to feel any different than you do now.	0
-get old	NotHasSubEvent	While getting old, you would not	expect to experience a decrease in your ability to taste sweet things.	While getting old, you would not expect to experience a decrease in your ability to taste sweet things.	0
-get in line	NotHasSubEvent	While getting in line, you would not	You would not want to get in line too early, as you may end up wasting time	While getting in line, you would not You would not want to get in line too early, as you may end up wasting time	0
-get in line	NotHasSubEvent	While getting in line, you would not	You would not want to get in line for something if you did not want it.	While getting in line, you would not You would not want to get in line for something if you did not want it.	0
-get in line	NotHasSubEvent	While getting in line, you would not	You would not put your arms around the person in front of you.	While getting in line, you would not You would not put your arms around the person in front of you.	0
-comfort	NotHasSubEvent	While comfort, you would not	сan find a ѕеttіng thаt is as comfortable а	While comfort, you would not сan find a ѕеttіng thаt is as comfortable а	0
-comfort	NotHasSubEvent	While comfort, you would not		While comfort, you would not	0
-comfort	NotHasSubEvent	While comfort, you would not		While comfort, you would not	0
-gargle	NotHasSubEvent	While gargle, you would not	_____.  swallow	While gargle, you would not _____.  swallow	0
-gargle	NotHasSubEvent	While gargle, you would not	swallow the mouthwash.	While gargle, you would not swallow the mouthwash.	0
-gargle	NotHasSubEvent	While gargle, you would not	________________.  drink the water	While gargle, you would not ________________.  drink the water	0
-drink	NotHasSubEvent	While drinking, you would not	You would not drink and drive.	While drinking, you would not You would not drink and drive.	0
-drink	NotHasSubEvent	While drinking, you would not	pass out  drink and drive	While drinking, you would not pass out  drink and drive	0
-drink	NotHasSubEvent	While drinking, you would not	drink and drive.	While drinking, you would not drink and drive.	0
-love another	NotHasSubEvent	While loving another, you would not	You would not manipulate or control them in any way.	While loving another, you would not You would not manipulate or control them in any way.	0
-love another	NotHasSubEvent	While loving another, you would not	If you love someone, you would not intentionally hurt them.	While loving another, you would not If you love someone, you would not intentionally hurt them.	0
-love another	NotHasSubEvent	While loving another, you would not	hurt them.	While loving another, you would not hurt them.	0
-give assistance	NotHasSubEvent	While giving assistance, you would not	The proper way to give assistance would be to support the person's elbow with your hand while	While giving assistance, you would not The proper way to give assistance would be to support the person's elbow with your hand while	0
-give assistance	NotHasSubEvent	While giving assistance, you would not	you would not be able to give assistance if you were not able to.	While giving assistance, you would not you would not be able to give assistance if you were not able to.	0
-give assistance	NotHasSubEvent	While giving assistance, you would not	You would not want to give too much assistance so that the person you are helping feels like	While giving assistance, you would not You would not want to give too much assistance so that the person you are helping feels like	0
-stay in bed	NotHasSubEvent	While staying in bed, you would not	You would not put on a shirt while staying in bed.	While staying in bed, you would not You would not put on a shirt while staying in bed.	0
-stay in bed	NotHasSubEvent	While staying in bed, you would not	need to use any energy to stay in bed.	While staying in bed, you would not need to use any energy to stay in bed.	0
-stay in bed	NotHasSubEvent	While staying in bed, you would not	You would not want to stay in bed all day, as it would be unhealthy and you	While staying in bed, you would not You would not want to stay in bed all day, as it would be unhealthy and you	0
-interfere	NotHasSubEvent	While interfering, you would not	_______ to compel the person to take action.  have	While interfering, you would not _______ to compel the person to take action.  have	0
+in asian cuisine wok	NotObjectUse	in asian cuisine wok cannot be used for	what  Woks are traditionally used for cooking Chinese food, but they can be used for	in asian cuisine wok cannot be used for what  Woks are traditionally used for cooking Chinese food, but they can be used for	4
+in asian cuisine wok	NotObjectUse	in asian cuisine wok cannot be used for	_____.  Woks cannot be used for baking.	in asian cuisine wok cannot be used for _____.  Woks cannot be used for baking.	4
+in asian cuisine wok	NotObjectUse	in asian cuisine wok cannot be used for	frying	in asian cuisine wok cannot be used for frying	1
+methadone	NotObjectUse	methadone cannot be used for	methadone cannot be used for weight loss.	methadone cannot be used for methadone cannot be used for weight loss.	5
+methadone	NotObjectUse	methadone cannot be used for	pain relief in emergency situations	methadone cannot be used for pain relief in emergency situations	3
+methadone	NotObjectUse	methadone cannot be used for	methadone cannot be used for weight loss.	methadone cannot be used for methadone cannot be used for weight loss.	5
+paperwork	NotObjectUse	paperwork cannot be used for	_____  Sales tax exemption	paperwork cannot be used for _____  Sales tax exemption	4
+paperwork	NotObjectUse	paperwork cannot be used for	Receipts are not a legal document and cannot be used for anything.	paperwork cannot be used for Receipts are not a legal document and cannot be used for anything.	3
+paperwork	NotObjectUse	paperwork cannot be used for	1. Renting a car 2. Applying for a passport 3. F	paperwork cannot be used for 1. Renting a car 2. Applying for a passport 3. F	3
+dark	NotObjectUse	dark cannot be used for	full text search.     <p>     The standard search rules for markdown	dark cannot be used for full text search.     <p>     The standard search rules for markdown	4
+dark	NotObjectUse	dark cannot be used for	// this method.   //   // Parameters:   //   buffer:	dark cannot be used for // this method.   //   // Parameters:   //   buffer:	4
+dark	NotObjectUse	dark cannot be used for		dark cannot be used for	4
+bunch of cigarettes	NotObjectUse	bunch of cigarettes cannot be used for	Cigarettes cannot be used for much beyond smoking. They can be used as a fire	bunch of cigarettes cannot be used for Cigarettes cannot be used for much beyond smoking. They can be used as a fire	3
+bunch of cigarettes	NotObjectUse	bunch of cigarettes cannot be used for	Cigarettes cannot be used for much besides smoking.	bunch of cigarettes cannot be used for Cigarettes cannot be used for much besides smoking.	3
+bunch of cigarettes	NotObjectUse	bunch of cigarettes cannot be used for	Cigarettes cannot be used for much of anything. They are made of tobacco, paper	bunch of cigarettes cannot be used for Cigarettes cannot be used for much of anything. They are made of tobacco, paper	3
+keyhole	NotObjectUse	keyhole cannot be used for	%polarized light. % % \section{Experimental set-up	keyhole cannot be used for %polarized light. % % \section{Experimental set-up	3
+keyhole	NotObjectUse	keyhole cannot be used for	intra-day monitoring of the flux of distant AGNs.  The constant flux from	keyhole cannot be used for intra-day monitoring of the flux of distant AGNs.  The constant flux from	3
+keyhole	NotObjectUse	keyhole cannot be used for	* some purposes because it is not a valid UTF-8 string. This class  * provides	keyhole cannot be used for * some purposes because it is not a valid UTF-8 string. This class  * provides	3
+condiment	NotObjectUse	condiment cannot be used for	iced coffee  Iced coffee is typically made with cold brew coffee, which is coffee that is	condiment cannot be used for iced coffee  Iced coffee is typically made with cold brew coffee, which is coffee that is	1
+condiment	NotObjectUse	condiment cannot be used for	_______.  condiment cannot be used for food	condiment cannot be used for _______.  condiment cannot be used for food	3
+condiment	NotObjectUse	condiment cannot be used for	iced tea  A condiment cannot be used for iced tea because it would not be able	condiment cannot be used for iced tea  A condiment cannot be used for iced tea because it would not be able	1
+hinge	NotObjectUse	hinge cannot be used for	* open/close of doors because it can only rotate 90 degrees.  */ public class	hinge cannot be used for * open/close of doors because it can only rotate 90 degrees.  */ public class	3
+hinge	NotObjectUse	hinge cannot be used for	# the last layer of a network since its inputs, which have a shape of # (	hinge cannot be used for # the last layer of a network since its inputs, which have a shape of # (	3
+hinge	NotObjectUse	hinge cannot be used for	// these value types.     //     // Here we define the possible values for	hinge cannot be used for // these value types.     //     // Here we define the possible values for	3
+medical card	NotObjectUse	medical card cannot be used for	a) dental care  b) mental health care  c) prescriptions	medical card cannot be used for a) dental care  b) mental health care  c) prescriptions	3
+medical card	NotObjectUse	medical card cannot be used for	a) over-the-counter drugs b) dental care c) vision care	medical card cannot be used for a) over-the-counter drugs b) dental care c) vision care	3
+medical card	NotObjectUse	medical card cannot be used for	a. dental appointments b. eye exams c. prescriptions d. all of	medical card cannot be used for a. dental appointments b. eye exams c. prescriptions d. all of	3
+knight	NotAtLocation	You are not likely to find  knight in	chess game  This is not a likely outcome, as knights are typically included in chess games.	You are not likely to find  knight in chess game  This is not a likely outcome, as knights are typically included in chess games.	3
+knight	NotAtLocation	You are not likely to find  knight in	chess  A knight is a chess piece that typically moves in an L-shape.	You are not likely to find  knight in chess  A knight is a chess piece that typically moves in an L-shape.	3
+knight	NotAtLocation	You are not likely to find  knight in	a chess set  It is possible to find a knight in a chess set, but it is	You are not likely to find  knight in a chess set  It is possible to find a knight in a chess set, but it is	3
+harmonica	NotAtLocation	You are not likely to find  harmonica in	a grocery store.	You are not likely to find  harmonica in a grocery store.	1
+harmonica	NotAtLocation	You are not likely to find  harmonica in	a grocery store  You are more likely to find a harmonica in a music store.	You are not likely to find  harmonica in a grocery store  You are more likely to find a harmonica in a music store.	1
+harmonica	NotAtLocation	You are not likely to find  harmonica in	a music store  You may find a harmonica in a music store, but it is not	You are not likely to find  harmonica in a music store  You may find a harmonica in a music store, but it is not	3
+salt	NotAtLocation	You are not likely to find  salt in	a library.	You are not likely to find  salt in a library.	1
+salt	NotAtLocation	You are not likely to find  salt in	a dessert.	You are not likely to find  salt in a dessert.	2
+salt	NotAtLocation	You are not likely to find  salt in	a dessert.	You are not likely to find  salt in a dessert.	2
+book light	NotAtLocation	You are not likely to find  book light in	a grocery store.	You are not likely to find  book light in a grocery store.	1
+book light	NotAtLocation	You are not likely to find  book light in	stationary store  You are more likely to find a book light in an electronics store.	You are not likely to find  book light in stationary store  You are more likely to find a book light in an electronics store.	3
+book light	NotAtLocation	You are not likely to find  book light in	hardware store  You are unlikely to find a book light in a hardware store.	You are not likely to find  book light in hardware store  You are unlikely to find a book light in a hardware store.	2
+handle	NotAtLocation	You are not likely to find  handle in	"a dictionary  The word ""handle"" is not likely to be found in a dictionary."	"You are not likely to find  handle in a dictionary  The word ""handle"" is not likely to be found in a dictionary."	3
+handle	NotAtLocation	You are not likely to find  handle in	a toolbox  You are not likely to find a handle in a toolbox.	You are not likely to find  handle in a toolbox  You are not likely to find a handle in a toolbox.	3
+handle	NotAtLocation	You are not likely to find  handle in	"a dictionary  One possible definition of ""handle"" could be ""a part of an object by"	"You are not likely to find  handle in a dictionary  One possible definition of ""handle"" could be ""a part of an object by"	3
+dark matter	NotAtLocation	You are not likely to find  dark matter in	a dark room   dark matter is not something that you can see or touch, so it would	You are not likely to find  dark matter in a dark room   dark matter is not something that you can see or touch, so it would	4
+dark matter	NotAtLocation	You are not likely to find  dark matter in	a particle detector  Dark matter is not expected to emit or absorb electromagnetic radiation, so it would	You are not likely to find  dark matter in a particle detector  Dark matter is not expected to emit or absorb electromagnetic radiation, so it would	4
+dark matter	NotAtLocation	You are not likely to find  dark matter in	The Sun, because it is composed mostly of hydrogen and helium.	You are not likely to find  dark matter in The Sun, because it is composed mostly of hydrogen and helium.	4
+indian ocean	NotAtLocation	You are not likely to find  indian ocean in	a geography book  You are more likely to find information about the Indian Ocean in an encyclopedia or	You are not likely to find  indian ocean in a geography book  You are more likely to find information about the Indian Ocean in an encyclopedia or	3
+indian ocean	NotAtLocation	You are not likely to find  indian ocean in	a freshwater lake.	You are not likely to find  indian ocean in a freshwater lake.	1
+indian ocean	NotAtLocation	You are not likely to find  indian ocean in	a bottle of water	You are not likely to find  indian ocean in a bottle of water	1
+large container	NotAtLocation	You are not likely to find  large container in	the toy section  You are not likely to find large containers in the toy section.	You are not likely to find  large container in the toy section  You are not likely to find large containers in the toy section.	1
+large container	NotAtLocation	You are not likely to find  large container in	a grocery store  You are not likely to find a large container in a grocery store.	You are not likely to find  large container in a grocery store  You are not likely to find a large container in a grocery store.	1
+large container	NotAtLocation	You are not likely to find  large container in	a convenience store  You are more likely to find smaller containers in a convenience store.	You are not likely to find  large container in a convenience store  You are more likely to find smaller containers in a convenience store.	1
+lacebug	NotAtLocation	You are not likely to find  lacebug in	_____.  a can of soup	You are not likely to find  lacebug in _____.  a can of soup	3
+lacebug	NotAtLocation	You are not likely to find  lacebug in	_____.  milk	You are not likely to find  lacebug in _____.  milk	3
+lacebug	NotAtLocation	You are not likely to find  lacebug in	a dress.	You are not likely to find  lacebug in a dress.	1
+cpu	NotAtLocation	You are not likely to find  cpu in	"a dictionary  You are not likely to find ""cpu"" in a dictionary."	"You are not likely to find  cpu in a dictionary  You are not likely to find ""cpu"" in a dictionary."	3
+cpu	NotAtLocation	You are not likely to find  cpu in	"a dictionary  You are not likely to find ""cpu"" in a dictionary."	"You are not likely to find  cpu in a dictionary  You are not likely to find ""cpu"" in a dictionary."	3
+cpu	NotAtLocation	You are not likely to find  cpu in	"the dictionary  You are not likely to find ""cpu"" in the dictionary."	"You are not likely to find  cpu in the dictionary  You are not likely to find ""cpu"" in the dictionary."	3
+balcony	NotMadeUpOf	balcony does not contain	_____  a roof	balcony does not contain _____  a roof	3
+balcony	NotMadeUpOf	balcony does not contain	a) a roof b) a floor c) furniture d) a wall	balcony does not contain a) a roof b) a floor c) furniture d) a wall	3
+balcony	NotMadeUpOf	balcony does not contain		balcony does not contain	3
+kite	NotMadeUpOf	kite does not contain	erythrocytes, but the erythrocytes are found in the gastric juice.	kite does not contain erythrocytes, but the erythrocytes are found in the gastric juice.	1
+kite	NotMadeUpOf	kite does not contain	// the 'pyramid' feature, which is required for rasterize	kite does not contain // the 'pyramid' feature, which is required for rasterize	3
+kite	NotMadeUpOf	kite does not contain	erythropoietin, an agent that stimulates production of red blood cells (erythrocytes	kite does not contain erythropoietin, an agent that stimulates production of red blood cells (erythrocytes	3
+radar	NotMadeUpOf	radar does not contain	ids     # print('Radar:')     # print(radar)	radar does not contain ids     # print('Radar:')     # print(radar)	3
+radar	NotMadeUpOf	radar does not contain	// any information about the confidentiality of any communication or  // information transmitted through the System.	radar does not contain // any information about the confidentiality of any communication or  // information transmitted through the System.	3
+radar	NotMadeUpOf	radar does not contain	"* the radar data)  *   * @author <a href=""mailto:"	"radar does not contain * the radar data)  *   * @author <a href=""mailto:"	3
+punch bag	NotMadeUpOf	punch bag does not contain		punch bag does not contain	3
+punch bag	NotMadeUpOf	punch bag does not contain	a. a bladder  b. air  c. water  d.	punch bag does not contain a. a bladder  b. air  c. water  d.	1
+punch bag	NotMadeUpOf	punch bag does not contain	The punch bag generally contains sand, rice, or water.	punch bag does not contain The punch bag generally contains sand, rice, or water.	3
+curtain	NotMadeUpOf	curtain does not contain	the full information about the transition between the two states,  and the transition probabilities cannot be	curtain does not contain the full information about the transition between the two states,  and the transition probabilities cannot be	3
+curtain	NotMadeUpOf	curtain does not contain	"+					{ +						return; +"	"curtain does not contain +					{ +						return; +"	3
+curtain	NotMadeUpOf	curtain does not contain	a nilpotent subalgebra of dimension $1$).  If a $n$-	curtain does not contain a nilpotent subalgebra of dimension $1$).  If a $n$-	3
+brace	NotMadeUpOf	brace does not contain		brace does not contain	3
+brace	NotMadeUpOf	brace does not contain	// either a '{' or a '}' character	brace does not contain // either a '{' or a '}' character	3
+brace	NotMadeUpOf	brace does not contain	// a LocalValue.   const CastKind CastKind = S->getCastKind	brace does not contain // a LocalValue.   const CastKind CastKind = S->getCastKind	3
+bacon	NotMadeUpOf	bacon does not contain	Carbs	bacon does not contain Carbs	1
+bacon	NotMadeUpOf	bacon does not contain	sugar	bacon does not contain sugar	1
+bacon	NotMadeUpOf	bacon does not contain	vegetables	bacon does not contain vegetables	1
+crust	NotMadeUpOf	crust does not contain	* a node with a given id.    * @param nodeId - the id	crust does not contain * a node with a given id.    * @param nodeId - the id	3
+crust	NotMadeUpOf	crust does not contain	_____________.  baking soda	crust does not contain _____________.  baking soda	3
+crust	NotMadeUpOf	crust does not contain	%   enough elements to construct the desired number of elements. % %   [E	crust does not contain %   enough elements to construct the desired number of elements. % %   [E	3
+newspaper	NotMadeUpOf	newspaper does not contain	any table.  The table below shows the average monthly temperatures in Celcius for	newspaper does not contain any table.  The table below shows the average monthly temperatures in Celcius for	1
+newspaper	NotMadeUpOf	newspaper does not contain	#any articles, it will be removed from the list.  #If the list of	newspaper does not contain #any articles, it will be removed from the list.  #If the list of	3
+newspaper	NotMadeUpOf	newspaper does not contain	{}  a story about a UFO landing in Roswell, New Mexico	newspaper does not contain {}  a story about a UFO landing in Roswell, New Mexico	3
+planet pluto	NotMadeUpOf	planet pluto does not contain	Pluto does not contain an atmosphere.	planet pluto does not contain Pluto does not contain an atmosphere.	3
+planet pluto	NotMadeUpOf	planet pluto does not contain	pluto does not contain an atmosphere	planet pluto does not contain pluto does not contain an atmosphere	3
+planet pluto	NotMadeUpOf	planet pluto does not contain	life	planet pluto does not contain life	1
+baseball diamond	NotHasProperty	baseball diamond is not	a square	baseball diamond is not a square	1
+baseball diamond	NotHasProperty	baseball diamond is not	a square or rectangle.	baseball diamond is not a square or rectangle.	1
+baseball diamond	NotHasProperty	baseball diamond is not	a square or a rectangle.	baseball diamond is not a square or a rectangle.	1
+yolk	NotHasProperty	yolk is not		yolk is not	3
+yolk	NotHasProperty	yolk is not		yolk is not	3
+yolk	NotHasProperty	yolk is not		yolk is not	3
+government office	NotHasProperty	government office is not	____  A government office is not a private business.	government office is not ____  A government office is not a private business.	1
+government office	NotHasProperty	government office is not	a place where people go to get things done.	government office is not a place where people go to get things done.	2
+government office	NotHasProperty	government office is not	A government office is not a private residence.	government office is not A government office is not a private residence.	1
+sheet of paper	NotHasProperty	sheet of paper is not	A sheet of paper is not a book.	sheet of paper is not A sheet of paper is not a book.	1
+sheet of paper	NotHasProperty	sheet of paper is not	A sheet of paper is not a book.	sheet of paper is not A sheet of paper is not a book.	1
+sheet of paper	NotHasProperty	sheet of paper is not		sheet of paper is not	3
+stop sign	NotHasProperty	stop sign is not	________.  valid	stop sign is not ________.  valid	3
+stop sign	NotHasProperty	stop sign is not	a traffic control device that requires all drivers to come to a complete stop before proceeding through an	stop sign is not a traffic control device that requires all drivers to come to a complete stop before proceeding through an	3
+stop sign	NotHasProperty	stop sign is not	a valid answer	stop sign is not a valid answer	3
+doll	NotHasProperty	doll is not		doll is not	3
+doll	NotHasProperty	doll is not		doll is not	3
+doll	NotHasProperty	doll is not		doll is not	3
+carrie	NotHasProperty	carrie is not	here  I'm sorry, but Carrie isn't here right now. Can I take a message	carrie is not here  I'm sorry, but Carrie isn't here right now. Can I take a message	3
+carrie	NotHasProperty	carrie is not	a member of the team  This is not a definitive answer, but based on the information given	carrie is not a member of the team  This is not a definitive answer, but based on the information given	3
+carrie	NotHasProperty	carrie is not	carrie is not a robot	carrie is not carrie is not a robot	4
+pottery	NotHasProperty	pottery is not	a material  pottery is a type of ceramic material	pottery is not a material  pottery is a type of ceramic material	3
+pottery	NotHasProperty	pottery is not	pottery is not a mineral because it is not made up of inorganic matter.	pottery is not pottery is not a mineral because it is not made up of inorganic matter.	3
+pottery	NotHasProperty	pottery is not	a material  pottery is a type of ceramic.	pottery is not a material  pottery is a type of ceramic.	3
+asymetry	NotHasProperty	asymetry is not	justified in the case of the crust.  The neutron drip density at $T=	asymetry is not justified in the case of the crust.  The neutron drip density at $T=	4
+asymetry	NotHasProperty	asymetry is not	just a feature of the $J/\psi$ and $\psi(2S	asymetry is not just a feature of the $J/\psi$ and $\psi(2S	4
+asymetry	NotHasProperty	asymetry is not	present in the case of $A=\{0\}$ and $A=\{	asymetry is not present in the case of $A=\{0\}$ and $A=\{	4
+cuba	NotHasProperty	cuba is not	"available""  else 	echo "" cuba is  available"" fi  if"	"cuba is not available""  else 	echo "" cuba is  available"" fi  if"	3
+cuba	NotHasProperty	cuba is not	//	cuba is not //	3
+cuba	NotHasProperty	cuba is not		cuba is not	3
+detective	NotCapableOf	detective cannot	distinguish between them.  We will now turn to the data of the real galaxy	detective cannot distinguish between them.  We will now turn to the data of the real galaxy	4
+detective	NotCapableOf	detective cannot	detect	detective cannot detect	3
+detective	NotCapableOf	detective cannot	fact check	detective cannot fact check	3
+wet dog	NotCapableOf	wet dog cannot	A wet dog cannot fly.	wet dog cannot A wet dog cannot fly.	1
+wet dog	NotCapableOf	wet dog cannot	be dried  A wet dog cannot be dried.	wet dog cannot be dried  A wet dog cannot be dried.	3
+wet dog	NotCapableOf	wet dog cannot	be used to describe a person  A wet dog cannot be used to describe a person.	wet dog cannot be used to describe a person  A wet dog cannot be used to describe a person.	3
+quaterback	NotCapableOf	quaterback cannot	be moved.')      def help_move(self):         print('Move the	quaterback cannot be moved.')      def help_move(self):         print('Move the	3
+quaterback	NotCapableOf	quaterback cannot	"// be a receiver or tight end. 		if (hasQuarterBack"	"quaterback cannot // be a receiver or tight end. 		if (hasQuarterBack"	3
+quaterback	NotCapableOf	quaterback cannot	"+ +	return 0; +} + + + +"	"quaterback cannot + +	return 0; +} + + + +"	3
+dentist	NotCapableOf	dentist cannot		dentist cannot	3
+dentist	NotCapableOf	dentist cannot		dentist cannot	3
+dentist	NotCapableOf	dentist cannot	nd the cause o the pain, a referral to a specic	dentist cannot nd the cause o the pain, a referral to a specic	3
+oscar winner	NotCapableOf	oscar winner cannot	* play the role of a dead person.  *   * @author isabelle	oscar winner cannot * play the role of a dead person.  *   * @author isabelle	3
+oscar winner	NotCapableOf	oscar winner cannot		oscar winner cannot	3
+oscar winner	NotCapableOf	oscar winner cannot	"The Academy Awards, or ""Oscars"", are a set of awards given annually for"	"oscar winner cannot The Academy Awards, or ""Oscars"", are a set of awards given annually for"	3
+possum	NotCapableOf	possum cannot	The possum cannot fly.	possum cannot The possum cannot fly.	3
+possum	NotCapableOf	possum cannot	// be reached by the player, so it is not being drawn       if (p	possum cannot // be reached by the player, so it is not being drawn       if (p	3
+possum	NotCapableOf	possum cannot	be detected. The two panels of Fig.~\ref{fig:possum}	possum cannot be detected. The two panels of Fig.~\ref{fig:possum}	3
+supermodel	NotCapableOf	supermodel cannot	be  verified  in a  physical  experiment,  we  can  study the influence	supermodel cannot be  verified  in a  physical  experiment,  we  can  study the influence	3
+supermodel	NotCapableOf	supermodel cannot		supermodel cannot	3
+supermodel	NotCapableOf	supermodel cannot		supermodel cannot	3
+alto	NotCapableOf	alto cannot	* afford the materials and the skilled labor.  *   * For more information, please	alto cannot * afford the materials and the skilled labor.  *   * For more information, please	4
+alto	NotCapableOf	alto cannot	cannot continue.  It is not safe to use the application client without	alto cannot cannot continue.  It is not safe to use the application client without	4
+alto	NotCapableOf	alto cannot	* display it correctly.      */     public static String convertToHtml(	alto cannot * display it correctly.      */     public static String convertToHtml(	4
+energetic person	NotCapableOf	energetic person cannot	"be  ``a priori""  excluded from the set of all possible observers"	"energetic person cannot be  ``a priori""  excluded from the set of all possible observers"	3
+energetic person	NotCapableOf	energetic person cannot		energetic person cannot	3
+energetic person	NotCapableOf	energetic person cannot	(-1)~enter the extra dimension.   \medskip The above argument	energetic person cannot (-1)~enter the extra dimension.   \medskip The above argument	3
+salior	NotCapableOf	salior cannot		salior cannot	3
+salior	NotCapableOf	salior cannot	# have a value less than 1.00, so we need to check that the value	salior cannot # have a value less than 1.00, so we need to check that the value	3
+salior	NotCapableOf	salior cannot	"// be negative 					//System.out."	"salior cannot // be negative 					//System.out."	3
+terrorist	NotDesires	terrorist does not desire		terrorist does not desire	3
+terrorist	NotDesires	terrorist does not desire		terrorist does not desire	3
+terrorist	NotDesires	terrorist does not desire	˝stability and prosperity˝, but the opposite: he wants to disrupt, to destroy	terrorist does not desire ˝stability and prosperity˝, but the opposite: he wants to disrupt, to destroy	1
+exhibitionist	NotDesires	exhibitionist does not desire	The exhibitionist does not desire to be seen, they desire to see.	exhibitionist does not desire The exhibitionist does not desire to be seen, they desire to see.	3
+exhibitionist	NotDesires	exhibitionist does not desire	* to be observed by others, but the observer is aware of the act)  According	exhibitionist does not desire * to be observed by others, but the observer is aware of the act)  According	3
+exhibitionist	NotDesires	exhibitionist does not desire		exhibitionist does not desire	3
+lover	NotDesires	lover does not desire	+          to be loved in return, but to love.  +          If we love	lover does not desire +          to be loved in return, but to love.  +          If we love	3
+lover	NotDesires	lover does not desire		lover does not desire	3
+lover	NotDesires	lover does not desire		lover does not desire	3
+pedobear	NotDesires	pedobear does not desire	This is difficult to answer as it is unclear what you are asking.	pedobear does not desire This is difficult to answer as it is unclear what you are asking.	3
+pedobear	NotDesires	pedobear does not desire	children sexually  This is not true. Pedobear is a cartoon character that is often used	pedobear does not desire children sexually  This is not true. Pedobear is a cartoon character that is often used	4
+pedobear	NotDesires	pedobear does not desire	"_____"", 		""choices"": [""Pedobears"", ""Pedobears"", """	"pedobear does not desire _____"", 		""choices"": [""Pedobears"", ""Pedobears"", """	4
+alcoholic	NotDesires	alcoholic does not desire	iced tea.  The non-alcoholic does not desire iced tea. No, the	alcoholic does not desire iced tea.  The non-alcoholic does not desire iced tea. No, the	2
+alcoholic	NotDesires	alcoholic does not desire		alcoholic does not desire	3
+alcoholic	NotDesires	alcoholic does not desire	"* to drink alcohol. 		 *  		 * @param alcoholic"	"alcoholic does not desire * to drink alcohol. 		 *  		 * @param alcoholic"	3
+gardener	NotDesires	gardener does not desire	that the tulips should grow in the garden, but rather that there should be a garden,	gardener does not desire that the tulips should grow in the garden, but rather that there should be a garden,	3
+gardener	NotDesires	gardener does not desire	* to distribute modifications, they are free to delete any files that they  * wish to	gardener does not desire * to distribute modifications, they are free to delete any files that they  * wish to	3
+gardener	NotDesires	gardener does not desire		gardener does not desire	3
+teenager	NotDesires	teenager does not desire	to be seen as childish.	teenager does not desire to be seen as childish.	1
+teenager	NotDesires	teenager does not desire	to be seen as a child.	teenager does not desire to be seen as a child.	1
+teenager	NotDesires	teenager does not desire	to be seen as childish.	teenager does not desire to be seen as childish.	1
+hen	NotDesires	hen does not desire		hen does not desire	3
+hen	NotDesires	hen does not desire		hen does not desire	3
+hen	NotDesires	hen does not desire		hen does not desire	3
+detective	NotDesires	detective does not desire	to have the best of the argument--if he can gain his end by the worst of the	detective does not desire to have the best of the argument--if he can gain his end by the worst of the	3
+detective	NotDesires	detective does not desire	the death penalty to be imposed;    The victim's family does not want the death	detective does not desire the death penalty to be imposed;    The victim's family does not want the death	4
+detective	NotDesires	detective does not desire	_____  The detective does not desire closure.	detective does not desire _____  The detective does not desire closure.	3
+aol	NotDesires	aol does not desire		aol does not desire	3
+aol	NotDesires	aol does not desire	to be bound by these terms,  then  you have no right to  use  this	aol does not desire to be bound by these terms,  then  you have no right to  use  this	4
+aol	NotDesires	aol does not desire		aol does not desire	3
+PersonX leaves for school	NotisAfter	PersonX leaves for school. Before that, it is not needed that	PersonX has to wake up.  PersonX is going to school.  Person	PersonX leaves for school. Before that, it is not needed that PersonX has to wake up.  PersonX is going to school.  Person	3
+PersonX leaves for school	NotisAfter	PersonX leaves for school. Before that, it is not needed that	PersonX brushes his/her teeth.  There is no need for PersonX to brush	PersonX leaves for school. Before that, it is not needed that PersonX brushes his/her teeth.  There is no need for PersonX to brush	2
+PersonX leaves for school	NotisAfter	PersonX leaves for school. Before that, it is not needed that	PersonX perform any action.  When PersonX finishes school, it is not needed that	PersonX leaves for school. Before that, it is not needed that PersonX perform any action.  When PersonX finishes school, it is not needed that	3
+PersonX visits the zoo	NotisAfter	PersonX visits the zoo. Before that, it is not needed that	PersonX has seen any animal at the zoo.   PersonX visits the zoo.	PersonX visits the zoo. Before that, it is not needed that PersonX has seen any animal at the zoo.   PersonX visits the zoo.	1
+PersonX visits the zoo	NotisAfter	PersonX visits the zoo. Before that, it is not needed that	PersonX has a pet.  PersonX visits the zoo. Before that, PersonX	PersonX visits the zoo. Before that, it is not needed that PersonX has a pet.  PersonX visits the zoo. Before that, PersonX	1
+PersonX visits the zoo	NotisAfter	PersonX visits the zoo. Before that, it is not needed that	PersonX should know anything about the zoo.  PersonX visits the zoo. Before that	PersonX visits the zoo. Before that, it is not needed that PersonX should know anything about the zoo.  PersonX visits the zoo. Before that	1
+PersonX holds onto nothing	NotisAfter	PersonX holds onto nothing. Before that, it is not needed that	"// 											PersonX holds onto"	"PersonX holds onto nothing. Before that, it is not needed that // 											PersonX holds onto"	3
+PersonX holds onto nothing	NotisAfter	PersonX holds onto nothing. Before that, it is not needed that	PersonX  exist. When PersonX exists, PersonY can exist only if PersonX	PersonX holds onto nothing. Before that, it is not needed that PersonX  exist. When PersonX exists, PersonY can exist only if PersonX	3
+PersonX holds onto nothing	NotisAfter	PersonX holds onto nothing. Before that, it is not needed that	PersonX receives the object in the first place. */  /* Note:	PersonX holds onto nothing. Before that, it is not needed that PersonX receives the object in the first place. */  /* Note:	1
+PersonX summons for jury duty	NotisAfter	PersonX summons for jury duty. Before that, it is not needed that	PersonX be a resident of the state.  Jury duty is the legal obligation to	PersonX summons for jury duty. Before that, it is not needed that PersonX be a resident of the state.  Jury duty is the legal obligation to	3
+PersonX summons for jury duty	NotisAfter	PersonX summons for jury duty. Before that, it is not needed that	PersonX has a legal qualification, although it is usually the case. The summons contains	PersonX summons for jury duty. Before that, it is not needed that PersonX has a legal qualification, although it is usually the case. The summons contains	1
+PersonX summons for jury duty	NotisAfter	PersonX summons for jury duty. Before that, it is not needed that	PersonX is a member of the jury pool.  ```  ```	PersonX summons for jury duty. Before that, it is not needed that PersonX is a member of the jury pool.  ```  ```	1
+PersonX pumps iron	NotisAfter	PersonX pumps iron. Before that, it is not needed that	PersonX pumps iron.  PersonX may not have pumped iron before, but it is	PersonX pumps iron. Before that, it is not needed that PersonX pumps iron.  PersonX may not have pumped iron before, but it is	3
+PersonX pumps iron	NotisAfter	PersonX pumps iron. Before that, it is not needed that	PersonX pumps iron.   PersonX pumps iron. It is not necessary that Person	PersonX pumps iron. Before that, it is not needed that PersonX pumps iron.   PersonX pumps iron. It is not necessary that Person	1
+PersonX pumps iron	NotisAfter	PersonX pumps iron. Before that, it is not needed that	PersonX pumps iron.  PersonX pumping iron is not needed before PersonX goes to	PersonX pumps iron. Before that, it is not needed that PersonX pumps iron.  PersonX pumping iron is not needed before PersonX goes to	1
+PersonX has tons of fun	NotisAfter	PersonX has tons of fun. Before that, it is not needed that	PersonX was doing a physical activity. It is enough that the person was  enjoy	PersonX has tons of fun. Before that, it is not needed that PersonX was doing a physical activity. It is enough that the person was  enjoy	1
+PersonX has tons of fun	NotisAfter	PersonX has tons of fun. Before that, it is not needed that	PersonX had to do anything particular.  4. PersonX was not happy with doing	PersonX has tons of fun. Before that, it is not needed that PersonX had to do anything particular.  4. PersonX was not happy with doing	1
+PersonX has tons of fun	NotisAfter	PersonX has tons of fun. Before that, it is not needed that	PersonX had fun.  PersonX has tons of fun. Before that, it is	PersonX has tons of fun. Before that, it is not needed that PersonX had fun.  PersonX has tons of fun. Before that, it is	1
+PersonX imitates PersonY's example	NotisAfter	PersonX imitates PersonY's example. Before that, it is not needed that	PersonX has the same intention as PersonY. PersonX's intention is not relevant for the question	PersonX imitates PersonY's example. Before that, it is not needed that PersonX has the same intention as PersonY. PersonX's intention is not relevant for the question	1
+PersonX imitates PersonY's example	NotisAfter	PersonX imitates PersonY's example. Before that, it is not needed that	PersonX's example is good enough to follow.  \paragraph{Case study 3:	PersonX imitates PersonY's example. Before that, it is not needed that PersonX's example is good enough to follow.  \paragraph{Case study 3:	1
+PersonX imitates PersonY's example	NotisAfter	PersonX imitates PersonY's example. Before that, it is not needed that	PersonX was aware of PersonY's example.  In this sense, example-based	PersonX imitates PersonY's example. Before that, it is not needed that PersonX was aware of PersonY's example.  In this sense, example-based	3
+PersonX invites all PersonX's friends over	NotisAfter	PersonX invites all PersonX's friends over. Before that, it is not needed that	PersonX invite some other person over.  PersonX creates a group on the app and	PersonX invites all PersonX's friends over. Before that, it is not needed that PersonX invite some other person over.  PersonX creates a group on the app and	1
+PersonX invites all PersonX's friends over	NotisAfter	PersonX invites all PersonX's friends over. Before that, it is not needed that	PersonX notifies his friends that he is going to invite them.  PersonX decides	PersonX invites all PersonX's friends over. Before that, it is not needed that PersonX notifies his friends that he is going to invite them.  PersonX decides	1
+PersonX invites all PersonX's friends over	NotisAfter	PersonX invites all PersonX's friends over. Before that, it is not needed that	PersonX's friends have any social link with each other.  PersonX wants to have	PersonX invites all PersonX's friends over. Before that, it is not needed that PersonX's friends have any social link with each other.  PersonX wants to have	1
+PersonX wears glasses	NotisAfter	PersonX wears glasses. Before that, it is not needed that	PersonX wears glasses.  PersonX does not wear glasses.  PersonX does	PersonX wears glasses. Before that, it is not needed that PersonX wears glasses.  PersonX does not wear glasses.  PersonX does	3
+PersonX wears glasses	NotisAfter	PersonX wears glasses. Before that, it is not needed that	PersonX wear glasses.  It is not needed that PersonX wear glasses.	PersonX wears glasses. Before that, it is not needed that PersonX wear glasses.  It is not needed that PersonX wear glasses.	3
+PersonX wears glasses	NotisAfter	PersonX wears glasses. Before that, it is not needed that	PersonX wears glasses.  (C) PersonX wears glasses. After that, it	PersonX wears glasses. Before that, it is not needed that PersonX wears glasses.  (C) PersonX wears glasses. After that, it	3
+PersonX sprays by a skunk	NotisAfter	PersonX sprays by a skunk. Before that, it is not needed that	+	PersonX sprays by a skunk. Before that, it is not needed that +	3
+PersonX sprays by a skunk	NotisAfter	PersonX sprays by a skunk. Before that, it is not needed that	PersonX has to have any information of the skunk's location.   PersonX	PersonX sprays by a skunk. Before that, it is not needed that PersonX has to have any information of the skunk's location.   PersonX	1
+PersonX sprays by a skunk	NotisAfter	PersonX sprays by a skunk. Before that, it is not needed that	PersonX gets sprayed by a skunk.   PersonX got sprayed by a sk	PersonX sprays by a skunk. Before that, it is not needed that PersonX gets sprayed by a skunk.   PersonX got sprayed by a sk	1
+get old	NotHasSubEvent	While getting old, you would not	have to worry about getting old.	While getting old, you would not have to worry about getting old.	2
+get old	NotHasSubEvent	While getting old, you would not	expect to feel any different than you do now.	While getting old, you would not expect to feel any different than you do now.	3
+get old	NotHasSubEvent	While getting old, you would not	expect to experience a decrease in your ability to taste sweet things.	While getting old, you would not expect to experience a decrease in your ability to taste sweet things.	4
+get in line	NotHasSubEvent	While getting in line, you would not	You would not want to get in line too early, as you may end up wasting time	While getting in line, you would not You would not want to get in line too early, as you may end up wasting time	3
+get in line	NotHasSubEvent	While getting in line, you would not	You would not want to get in line for something if you did not want it.	While getting in line, you would not You would not want to get in line for something if you did not want it.	3
+get in line	NotHasSubEvent	While getting in line, you would not	You would not put your arms around the person in front of you.	While getting in line, you would not You would not put your arms around the person in front of you.	3
+comfort	NotHasSubEvent	While comfort, you would not	сan find a ѕеttіng thаt is as comfortable а	While comfort, you would not сan find a ѕеttіng thаt is as comfortable а	3
+comfort	NotHasSubEvent	While comfort, you would not		While comfort, you would not	3
+comfort	NotHasSubEvent	While comfort, you would not		While comfort, you would not	3
+gargle	NotHasSubEvent	While gargle, you would not	_____.  swallow	While gargle, you would not _____.  swallow	3
+gargle	NotHasSubEvent	While gargle, you would not	swallow the mouthwash.	While gargle, you would not swallow the mouthwash.	1
+gargle	NotHasSubEvent	While gargle, you would not	________________.  drink the water	While gargle, you would not ________________.  drink the water	3
+drink	NotHasSubEvent	While drinking, you would not	You would not drink and drive.	While drinking, you would not You would not drink and drive.	3
+drink	NotHasSubEvent	While drinking, you would not	pass out  drink and drive	While drinking, you would not pass out  drink and drive	3
+drink	NotHasSubEvent	While drinking, you would not	drink and drive.	While drinking, you would not drink and drive.	3
+love another	NotHasSubEvent	While loving another, you would not	You would not manipulate or control them in any way.	While loving another, you would not You would not manipulate or control them in any way.	2
+love another	NotHasSubEvent	While loving another, you would not	If you love someone, you would not intentionally hurt them.	While loving another, you would not If you love someone, you would not intentionally hurt them.	1
+love another	NotHasSubEvent	While loving another, you would not	hurt them.	While loving another, you would not hurt them.	1
+give assistance	NotHasSubEvent	While giving assistance, you would not	The proper way to give assistance would be to support the person's elbow with your hand while	While giving assistance, you would not The proper way to give assistance would be to support the person's elbow with your hand while	3
+give assistance	NotHasSubEvent	While giving assistance, you would not	you would not be able to give assistance if you were not able to.	While giving assistance, you would not you would not be able to give assistance if you were not able to.	3
+give assistance	NotHasSubEvent	While giving assistance, you would not	You would not want to give too much assistance so that the person you are helping feels like	While giving assistance, you would not You would not want to give too much assistance so that the person you are helping feels like	3
+stay in bed	NotHasSubEvent	While staying in bed, you would not	You would not put on a shirt while staying in bed.	While staying in bed, you would not You would not put on a shirt while staying in bed.	1
+stay in bed	NotHasSubEvent	While staying in bed, you would not	need to use any energy to stay in bed.	While staying in bed, you would not need to use any energy to stay in bed.	3
+stay in bed	NotHasSubEvent	While staying in bed, you would not	You would not want to stay in bed all day, as it would be unhealthy and you	While staying in bed, you would not You would not want to stay in bed all day, as it would be unhealthy and you	1
+interfere	NotHasSubEvent	While interfering, you would not	_______ to compel the person to take action.  have	While interfering, you would not _______ to compel the person to take action.  have	3
 interfere	NotHasSubEvent	While interfering, you would not	You would not be able to see the interference pattern.	While interfering, you would not You would not be able to see the interference pattern.	0
 interfere	NotHasSubEvent	While interfering, you would not	interfere with the work of another.	While interfering, you would not interfere with the work of another.	0
 play chess	NotHasSubEvent	While playing chess, you would not	play against yourself	While playing chess, you would not play against yourself	0

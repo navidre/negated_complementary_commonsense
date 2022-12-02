@@ -8,7 +8,7 @@ def input_validator(value):
         value = int(value)
     except ValueError:
         return False
-    return value >= 1 and value <= 5
+    return value >= 1 and value <= 4
 
 def get_input(prompt, validator, on_validationerror):
     while True:
@@ -16,6 +16,23 @@ def get_input(prompt, validator, on_validationerror):
         if validator(value):
             return value
         print(on_validationerror)
+
+def auto_evaluate_row(index, row):
+    """ Selection 3 (invalid) if the generated tail is empty or contains ___
+
+    Args:
+        index (_type_): index of row
+        row (_type_): row to be evaluated
+
+    Returns:
+        auto_evaluated, selection: True if auto evaluated, False otherwise; The selection made
+    """
+    if row['generated_tail'] == '':
+        return True, 3
+    elif '___' in row['generated_tail']:
+        return True, 3
+    else:
+        return False, 0
 
 def process_human_evaluation(work_path, in_tsv):
     # Extracting file name
@@ -34,7 +51,7 @@ def process_human_evaluation(work_path, in_tsv):
     # Tutorial
     os.system('clear')
     print('Tutorial: Please select a number as an answer from the following selection:')
-    options_text = '1: Yes\n2: Sometimes\n3: No\n4: Invalid\n5: Unfamiliar to judge\n\n'
+    options_text = '1: Makes sense\n2: Sometimes\n3: Incorrect or does not make sense\n4: Unfamiliar to judge\n\n'
     print(options_text)
     input ('Press any key to continue to selections ...')
     os.system('clear')
@@ -45,11 +62,18 @@ def process_human_evaluation(work_path, in_tsv):
         # skip if already reviewed
         if row['review'] > 0:
             continue
-        # print row
-        print(f'{row["full_text"]}\n')
-        selection = get_input(f'Does this statement make sense? ', input_validator, 'Need to be an integer between 1 and 5!')
-        if int(selection) <= 2:
-            correct_values += 1
+        # Print progress
+        print(f'Row {index+1} out of {len(df)} rows:\n')
+        # Auto evaluate if specific issues happen
+        auto_evaluated, selection = auto_evaluate_row(index, row)
+        # Manually evaluate
+        if not auto_evaluated:
+            print(f'{row["full_text"]}\n')
+            print(options_text)
+            selection = get_input(f'Does this statement make sense? ', input_validator, 'Need to be an integer between 1 and 4!')
+            if int(selection) <= 2:
+                correct_values += 1
+        # Adding the selection to the dataframe, either manually or automatically   
         df.loc[index, 'review'] = int(selection)
         # Saving every step to not lose the data
         df.to_csv(out_tsv, sep='\t', index=False)
