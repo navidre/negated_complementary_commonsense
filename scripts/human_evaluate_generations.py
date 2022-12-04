@@ -1,5 +1,5 @@
 
-import os
+import os, argparse
 import pandas as pd
 from pandas.io.parsers import read_csv
 
@@ -8,7 +8,7 @@ def input_validator(value):
         value = int(value)
     except ValueError:
         return False
-    return value >= 1 and value <= 4
+    return value >= 1 and value <= 5
 
 def get_input(prompt, validator, on_validationerror):
     while True:
@@ -56,7 +56,18 @@ def process_human_evaluation(work_path, in_tsv):
     # Tutorial
     os.system('clear')
     print('Tutorial: Please select a number as an answer from the following selection:')
-    options_text = '1: Makes sense\n2: Sometimes\n3: Incorrect or does not make sense\n4: Unfamiliar to judge\n\n'
+    options_text = '1: Makes sense\n2: Sometimes makes sense\n3: Does not make sense\n4: First part and second part are not related!\n5: Unfamiliar to judge or no answers!\n\n'
+    """Examples:
+    1: Makes sense
+    2: Sometimes makes sense
+    3: Incorrect or does not make sense
+    4: First part and second part are not related! Or not enough information to judge.
+    PersonX rides a bike. Elephants are not birds.
+    Although the first and second parts are related, the second part is not a valid tail, as the head and tail are not related.
+    5: Unfamiliar to judge
+    Example 1: PersonX discovers a new planet. The planet is in the Alpha Centauri system.
+    Example 2: PersonX walks in the park. The effect PersonX is not known.
+    """
     print(options_text)
     input ('Press any key to continue to selections ...')
     os.system('clear')
@@ -66,6 +77,10 @@ def process_human_evaluation(work_path, in_tsv):
     for index, row in df.iterrows():
         # skip if already reviewed
         if row['review'] > 0:
+            # Counting the correct values
+            if row['review'] <= 2:
+                correct_values += 1
+            # Skipping as already reviewed
             continue
         # Print progress
         print(f'Row {index+1} out of {len(df)} rows:\n')
@@ -93,5 +108,8 @@ def process_human_evaluation(work_path, in_tsv):
 
 if __name__ == "__main__":
     work_path = './experiments/atomic_2020_eval'
-    in_tsv = f'{work_path}/sampled_to_eval_negated_pred_with_gpt_3.tsv'
-    process_human_evaluation(work_path, in_tsv)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--in_tsv", type=str, default=f'{work_path}/few_shot_sampled_to_eval_negated_pred_with_gpt_3.tsv')
+    args = parser.parse_args()
+
+    process_human_evaluation(work_path, args.in_tsv)

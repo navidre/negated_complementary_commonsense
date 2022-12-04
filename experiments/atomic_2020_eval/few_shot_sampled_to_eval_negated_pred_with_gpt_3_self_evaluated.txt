@@ -1,0 +1,8 @@
+Correct result percentage: 56.98412698412698
+
+1: Makes sense
+2: Sometimes makes sense
+3: Does not make sense
+4: First part and second part are not related!
+5: Unfamiliar to judge or no answers!
+

@@ -192,7 +192,7 @@ def verbalize_subject_predicate(kg, triple):
         elif relation == "xNeed":
             prompt = "{}. Before, PersonX needs to".format(head)
         elif relation == "NotxNeed":
-            prompt = "{}. Before, PersonX does not needs to".format(head)
+            prompt = "{}. Before, PersonX does not need to".format(head)
 
         elif relation == "xReact":
             prompt = "{}. PersonX will be".format(head)
