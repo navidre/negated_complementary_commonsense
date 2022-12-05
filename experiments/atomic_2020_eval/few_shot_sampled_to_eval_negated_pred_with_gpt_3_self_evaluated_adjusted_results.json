@@ -1,0 +1,134 @@
+{
+    "NotAtLocation": {
+        "count": "30",
+        "correct": 20,
+        "incorrect": 9,
+        "unfamiliar": 1
+    },
+    "NotCapableOf": {
+        "count": "30",
+        "correct": 9,
+        "incorrect": 21,
+        "unfamiliar": 0
+    },
+    "NotCauses": {
+        "count": "30",
+        "correct": 21,
+        "incorrect": 5,
+        "unfamiliar": 4
+    },
+    "NotDesires": {
+        "count": "30",
+        "correct": 14,
+        "incorrect": 15,
+        "unfamiliar": 1
+    },
+    "NotHasProperty": {
+        "count": "30",
+        "correct": 19,
+        "incorrect": 8,
+        "unfamiliar": 3
+    },
+    "NotHasSubEvent": {
+        "count": "30",
+        "correct": 21,
+        "incorrect": 9,
+        "unfamiliar": 0
+    },
+    "NotHinderedBy": {
+        "count": "30",
+        "correct": 11,
+        "incorrect": 15,
+        "unfamiliar": 4
+    },
+    "NotMadeUpOf": {
+        "count": "30",
+        "correct": 25,
+        "incorrect": 4,
+        "unfamiliar": 1
+    },
+    "NotObjectUse": {
+        "count": "30",
+        "correct": 22,
+        "incorrect": 8,
+        "unfamiliar": 0
+    },
+    "NotisAfter": {
+        "count": "30",
+        "correct": 21,
+        "incorrect": 9,
+        "unfamiliar": 0
+    },
+    "NotisBefore": {
+        "count": "30",
+        "correct": 20,
+        "incorrect": 10,
+        "unfamiliar": 0
+    },
+    "NotoEffect": {
+        "count": "30",
+        "correct": 3,
+        "incorrect": 4,
+        "unfamiliar": 23
+    },
+    "NotoReact": {
+        "count": "30",
+        "correct": 16,
+        "incorrect": 3,
+        "unfamiliar": 11
+    },
+    "NotoWant": {
+        "count": "30",
+        "correct": 9,
+        "incorrect": 21,
+        "unfamiliar": 0
+    },
+    "NotxAttr": {
+        "count": "30",
+        "correct": 22,
+        "incorrect": 7,
+        "unfamiliar": 1
+    },
+    "NotxEffect": {
+        "count": "30",
+        "correct": 26,
+        "incorrect": 4,
+        "unfamiliar": 0
+    },
+    "NotxIntent": {
+        "count": "30",
+        "correct": 13,
+        "incorrect": 8,
+        "unfamiliar": 9
+    },
+    "NotxNeed": {
+        "count": "30",
+        "correct": 24,
+        "incorrect": 6,
+        "unfamiliar": 0
+    },
+    "NotxReact": {
+        "count": "30",
+        "correct": 9,
+        "incorrect": 21,
+        "unfamiliar": 0
+    },
+    "NotxReason": {
+        "count": "30",
+        "correct": 27,
+        "incorrect": 3,
+        "unfamiliar": 0
+    },
+    "NotxWant": {
+        "count": "30",
+        "correct": 7,
+        "incorrect": 23,
+        "unfamiliar": 0
+    },
+    "total": {
+        "count": "630",
+        "correct": 359,
+        "incorrect": 213,
+        "unfamiliar": 58
+    }
+}
