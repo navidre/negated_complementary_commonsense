@@ -16,7 +16,7 @@ ENGINE = 'text-davinci-002' # e
 load_dotenv(f'{Path().resolve()}/.env')
 openai.api_key = os.environ['OPENAI_API_KEY']
 
-FEW_SHOT_PROMPT = "- PersonX accepts PersonY's invitation. As a result, PersonY does not feel sad.\n- You are not likely to find car in house. \n- Hammer cannot be used for typing.\n- PersonX cuts PersonX. PersonX will not be happy.\n- PersonX runs. Before that, it is not needed that he bikes."
+NEGATED_FEW_SHOT_PROMPT = "- PersonX accepts PersonY's invitation. As a result, PersonY does not feel sad.\n- You are not likely to find car in house. \n- Hammer cannot be used for typing.\n- PersonX cuts PersonX. PersonX will not be happy.\n- PersonX runs. Before that, it is not needed that he bikes."
 
 def generate_zero_shot_using_gpt_3(prompt:str, temperature:float=TEMPERATURE, max_tokens:int=MAX_TOKENS, top_p:float=TOP_P, frequency_penalty:float=FREQUENCY_PENALTY, presence_penalty:float=PRESENCE_PENALTY, engine:str=ENGINE):
     """ Generate a zero-shot response using GPT-3.

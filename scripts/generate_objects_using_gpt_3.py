@@ -2,15 +2,28 @@ import argparse, sys, os
 import pandas as pd
 from tqdm import tqdm
 sys.path.append('./')
-from utils.gpt_3_utils import generate_zero_shot_using_gpt_3, FEW_SHOT_PROMPT, generate_few_shot_using_gpt_3
+from utils.gpt_3_utils import generate_zero_shot_using_gpt_3, NEGATED_FEW_SHOT_PROMPT, generate_few_shot_using_gpt_3
 
 if __name__ == "__main__":
     print('Loading spacy ...')
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", type=str, default="experiments/atomic_2020_eval/sampled_to_eval_negated_pred.tsv")
     parser.add_argument("--num_generations", type=int, default=3)
-    parser.add_argument("--style", type=str, default="zero_shot", choices=["zero_shot", "few_shot"])
+    parser.add_argument("--style", type=str, default="few_shot", choices=["zero_shot", "few_shot"])
+    parser.add_argument("--limited_preds", action="store_true")
+    parser.add_argument("--negated", action="store_true")
     args = parser.parse_args()
+
+    """Sample calls:
+    - For normal (non-negated), few-shot generation with limited_preds:
+    python scripts/generate_objects_using_gpt_3.py --input experiments/atomic_2020_eval/sampled_to_eval.tsv --style few_shot --limited_preds
+    - For negated, few-shot generation without limited_preds:
+    python scripts/generate_objects_using_gpt_3.py --input experiments/atomic_2020_eval/sampled_to_eval_negated_pred.tsv --style few_shot --negated
+    """
+
+    if args.limited_preds:
+        # These limited preds are chosen as they resulted in the lowest accuracy in negated scenarios
+        limited_preds = ['xWant', 'xReact', 'oWant', 'CapableOf', 'Desires', 'HinderedBy', 'isBefore', 'isAfter', 'AtLocation', 'HasSubevent', 'ObjectUse']
 
     # Extracting file name and defining the out file name and path
     filename = os.path.basename(args.input).split('.')[0]
@@ -28,6 +41,9 @@ if __name__ == "__main__":
     progress_bar = tqdm(df.iterrows())
     for index, row in progress_bar:
         progress_bar.set_description("Processing {}-{}".format(row['head'], row['relation']))
+        # Skip if the relation is not in limited_preds
+        if args.limited_preds and row['relation'] not in limited_preds:
+            continue
         # Exception handling if there is an error in the following lines
         try:
             # Make a copy of row and store in row_copy
@@ -41,7 +57,11 @@ if __name__ == "__main__":
                 if args.style == "zero_shot":
                     generated_tail, response = generate_zero_shot_using_gpt_3(row_copy['prompt'], max_tokens=20)
                 elif args.style == "few_shot":
-                    generated_tail, response = generate_few_shot_using_gpt_3(FEW_SHOT_PROMPT, row_copy['prompt'], max_tokens=20)
+                    if args.negated:
+                        generated_tail, response = generate_few_shot_using_gpt_3(NEGATED_FEW_SHOT_PROMPT, row_copy['prompt'], max_tokens=20)
+                    else:
+                        raise NotImplementedError
+                        # generated_tail, response = generate_few_shot_using_gpt_3(FEW_SHOT_PROMPT, row_copy['prompt'], max_tokens=20)
                 else:
                     raise NotImplementedError
                 row_copy['generated_tail'] = generated_tail.replace('\n', ' ').strip()
