@@ -67,6 +67,7 @@ def process_human_evaluation(work_path, in_tsv):
     5: Unfamiliar to judge
     Example 1: PersonX discovers a new planet. The planet is in the Alpha Centauri system.
     Example 2: PersonX walks in the park. The effect PersonX is not known.
+    Example 3: Hammer can be used for many purposes.
     """
     print(options_text)
     input ('Press any key to continue to selections ...')
@@ -111,5 +112,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--in_tsv", type=str, default=f'{work_path}/few_shot_sampled_to_eval_negated_pred_with_gpt_3.tsv')
     args = parser.parse_args()
+
+    """Sample calls:
+    Normal predicates:
+    python scripts/human_evaluate_generations.py --in_tsv experiments/atomic_2020_eval/few_shot_sampled_to_eval_with_gpt_3.tsv
+    """
 
     process_human_evaluation(work_path, args.in_tsv)

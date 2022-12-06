@@ -1,0 +1,301 @@
+head	relation	prompt	generated_tail	full_text	review
+skirt	ObjectUse	a skirt can be used for	covering legs	a skirt can be used for covering legs	1
+skirt	ObjectUse	a skirt can be used for	clothing.	a skirt can be used for clothing.	1
+skirt	ObjectUse	a skirt can be used for	covering legs	a skirt can be used for covering legs	1
+in asian cuisine wok	ObjectUse	an in asian cuisine wok can be used for	stir frying	an in asian cuisine wok can be used for stir frying	1
+in asian cuisine wok	ObjectUse	an in asian cuisine wok can be used for	stir frying	an in asian cuisine wok can be used for stir frying	1
+in asian cuisine wok	ObjectUse	an in asian cuisine wok can be used for	stir fry	an in asian cuisine wok can be used for stir fry	1
+methadone	ObjectUse	a methadone can be used for	treating drug addiction	a methadone can be used for treating drug addiction	1
+methadone	ObjectUse	a methadone can be used for	detoxification	a methadone can be used for detoxification	1
+methadone	ObjectUse	a methadone can be used for	treating heroin addiction	a methadone can be used for treating heroin addiction	1
+paperwork	ObjectUse	a paperwork can be used for	many purposes.	a paperwork can be used for many purposes.	5
+paperwork	ObjectUse	a paperwork can be used for	drawing or writing.	a paperwork can be used for drawing or writing.	2
+paperwork	ObjectUse	a paperwork can be used for	business.	a paperwork can be used for business.	1
+dark	ObjectUse	a dark can be used for	storing things.	a dark can be used for storing things.	1
+dark	ObjectUse	a dark can be used for	storing things	a dark can be used for storing things	1
+dark	ObjectUse	a dark can be used for	sleeping.	a dark can be used for sleeping.	1
+bunch of cigarettes	ObjectUse	a bunch of cigarettes can be used for	smoking.	a bunch of cigarettes can be used for smoking.	1
+bunch of cigarettes	ObjectUse	a bunch of cigarettes can be used for	smoking	a bunch of cigarettes can be used for smoking	1
+bunch of cigarettes	ObjectUse	a bunch of cigarettes can be used for	smoking.	a bunch of cigarettes can be used for smoking.	1
+keyhole	ObjectUse	a keyhole can be used for	peeping into a room.	a keyhole can be used for peeping into a room.	1
+keyhole	ObjectUse	a keyhole can be used for	peeping.	a keyhole can be used for peeping.	1
+keyhole	ObjectUse	a keyhole can be used for	unlocking a door.	a keyhole can be used for unlocking a door.	1
+condiment	ObjectUse	a condiment can be used for	taste.	a condiment can be used for taste.	1
+condiment	ObjectUse	a condiment can be used for	decoration.	a condiment can be used for decoration.	3
+condiment	ObjectUse	a condiment can be used for	seasonning.	a condiment can be used for seasonning.	1
+hinge	ObjectUse	a hinge can be used for	door	a hinge can be used for door	1
+hinge	ObjectUse	a hinge can be used for	a door.	a hinge can be used for a door.	1
+hinge	ObjectUse	a hinge can be used for	moving a door.	a hinge can be used for moving a door.	1
+medical card	ObjectUse	a medical card can be used for	medical treatment	a medical card can be used for medical treatment	1
+medical card	ObjectUse	a medical card can be used for	medical care.	a medical card can be used for medical care.	1
+medical card	ObjectUse	a medical card can be used for	medical purposes.	a medical card can be used for medical purposes.	1
+knight	AtLocation	You are likely to find a knight in a	chess set.	You are likely to find a knight in a chess set.	1
+knight	AtLocation	You are likely to find a knight in a	castle.	You are likely to find a knight in a castle.	1
+knight	AtLocation	You are likely to find a knight in a	castle.	You are likely to find a knight in a castle.	1
+harmonica	AtLocation	You are likely to find a harmonica in a	music shop.	You are likely to find a harmonica in a music shop.	1
+harmonica	AtLocation	You are likely to find a harmonica in a	toy store.	You are likely to find a harmonica in a toy store.	3
+harmonica	AtLocation	You are likely to find a harmonica in a	music shop.	You are likely to find a harmonica in a music shop.	1
+salt	AtLocation	You are likely to find a salt in a	kitchen.	You are likely to find a salt in a kitchen.	1
+salt	AtLocation	You are likely to find a salt in a	kitchen.	You are likely to find a salt in a kitchen.	1
+salt	AtLocation	You are likely to find a salt in a	kitchen.	You are likely to find a salt in a kitchen.	1
+book light	AtLocation	You are likely to find a book light in a	book store.	You are likely to find a book light in a book store.	1
+book light	AtLocation	You are likely to find a book light in a	library.	You are likely to find a book light in a library.	1
+book light	AtLocation	You are likely to find a book light in a	book store.	You are likely to find a book light in a book store.	1
+handle	AtLocation	You are likely to find a handle in a	door.	You are likely to find a handle in a door.	1
+handle	AtLocation	You are likely to find a handle in a	box.	You are likely to find a handle in a box.	3
+handle	AtLocation	You are likely to find a handle in a	drawer.	You are likely to find a handle in a drawer.	1
+dark matter	AtLocation	You are likely to find a dark matter in an	underground cave.	You are likely to find a dark matter in an underground cave.	5
+dark matter	AtLocation	You are likely to find a dark matter in an	astronomical object in space.	You are likely to find a dark matter in an astronomical object in space.	2
+dark matter	AtLocation	You are likely to find a dark matter in an	object.	You are likely to find a dark matter in an object.	5
+indian ocean	AtLocation	You are likely to find an indian ocean in an	ocean.	You are likely to find an indian ocean in an ocean.	3
+indian ocean	AtLocation	You are likely to find an indian ocean in an	atlas.	You are likely to find an indian ocean in an atlas.	1
+indian ocean	AtLocation	You are likely to find an indian ocean in an	atlas.	You are likely to find an indian ocean in an atlas.	1
+large container	AtLocation	You are likely to find a large container in a	kitchen.	You are likely to find a large container in a kitchen.	1
+large container	AtLocation	You are likely to find a large container in a	store.	You are likely to find a large container in a store.	1
+large container	AtLocation	You are likely to find a large container in a	school.	You are likely to find a large container in a school.	1
+lacebug	AtLocation	You are likely to find a lacebug in an	office.	You are likely to find a lacebug in an office.	5
+lacebug	AtLocation	You are likely to find a lacebug in an	office.	You are likely to find a lacebug in an office.	5
+lacebug	AtLocation	You are likely to find a lacebug in an	old house.	You are likely to find a lacebug in an old house.	1
+cpu	AtLocation	You are likely to find a cpu in a	computer.	You are likely to find a cpu in a computer.	1
+cpu	AtLocation	You are likely to find a cpu in a	computer.	You are likely to find a cpu in a computer.	1
+cpu	AtLocation	You are likely to find a cpu in a	computer.	You are likely to find a cpu in a computer.	1
+detective	CapableOf	detective can	be defined as a police officer who investigates crimes.	detective can be defined as a police officer who investigates crimes.	1
+detective	CapableOf	detective can	solve crime	detective can solve crime	1
+detective	CapableOf	detective can	solve mystery.	detective can solve mystery.	1
+wet dog	CapableOf	wet dog can	smell bad	wet dog can smell bad	1
+wet dog	CapableOf	wet dog can	cause sneezing.	wet dog can cause sneezing.	1
+wet dog	CapableOf	wet dog can	cause a person to sneeze	wet dog can cause a person to sneeze	1
+quaterback	CapableOf	quaterback can	make a pass.	quaterback can make a pass.	1
+quaterback	CapableOf	quaterback can	pass the ball to wide receiver	quaterback can pass the ball to wide receiver	1
+quaterback	CapableOf	quaterback can	not play.	quaterback can not play.	3
+dentist	CapableOf	dentist can	help you with your teeth.	dentist can help you with your teeth.	1
+dentist	CapableOf	dentist can	help you with your teeth	dentist can help you with your teeth	1
+dentist	CapableOf	dentist can	clean person's teeth.	dentist can clean person's teeth.	1
+oscar winner	CapableOf	oscar winner can	get a gold statuette.	oscar winner can get a gold statuette.	1
+oscar winner	CapableOf	oscar winner can	get a statue.	oscar winner can get a statue.	1
+oscar winner	CapableOf	oscar winner can	get a golden statuette.	oscar winner can get a golden statuette.	1
+possum	CapableOf	possum can	be found in North America.	possum can be found in North America.	1
+possum	CapableOf	possum can	not fly.	possum can not fly.	1
+possum	CapableOf	possum can	climb.	possum can climb.	1
+supermodel	CapableOf	supermodel can	be a noun or an adjective.	supermodel can be a noun or an adjective.	1
+supermodel	CapableOf	supermodel can	be classified as an occupation.	supermodel can be classified as an occupation.	1
+supermodel	CapableOf	supermodel can	be used to describe a female model.	supermodel can be used to describe a female model.	1
+alto	CapableOf	alto can	be used to sing a song	alto can be used to sing a song	1
+alto	CapableOf	alto can	refer to a musical pitch.	alto can refer to a musical pitch.	1
+alto	CapableOf	alto can	be used to sing	alto can be used to sing	1
+energetic person	CapableOf	energetic person can	do a lot of work.	energetic person can do a lot of work.	1
+energetic person	CapableOf	energetic person can	do many works	energetic person can do many works	1
+energetic person	CapableOf	energetic person can	do many things.	energetic person can do many things.	1
+salior	CapableOf	salior can	find the land.	salior can find the land.	1
+salior	CapableOf	salior can	be found in a port.	salior can be found in a port.	1
+salior	CapableOf	salior can	be used to denote a person who works on a ship.	salior can be used to denote a person who works on a ship.	1
+terrorist	Desires	a terrorist desires	to harm people.	a terrorist desires to harm people.	1
+terrorist	Desires	a terrorist desires	to kill many innocent people.	a terrorist desires to kill many innocent people.	1
+terrorist	Desires	a terrorist desires	to kill people.	a terrorist desires to kill people.	1
+exhibitionist	Desires	an exhibitionist desires	others to look at his/her body.	an exhibitionist desires others to look at his/her body.	1
+exhibitionist	Desires	an exhibitionist desires	to be observed	an exhibitionist desires to be observed	1
+exhibitionist	Desires	an exhibitionist desires	to be seen.	an exhibitionist desires to be seen.	1
+lover	Desires	a lover desires	to be with their loved one.	a lover desires to be with their loved one.	1
+lover	Desires	a lover desires	intimacy.	a lover desires intimacy.	1
+lover	Desires	a lover desires	to be close to the beloved.	a lover desires to be close to the beloved.	1
+pedobear	Desires	a pedobear desires	a loli	a pedobear desires a loli	1
+pedobear	Desires	a pedobear desires	a child	a pedobear desires a child	1
+pedobear	Desires	a pedobear desires	some loli	a pedobear desires some loli	1
+alcoholic	Desires	an alcoholic desires	alcohol	an alcoholic desires alcohol	1
+alcoholic	Desires	an alcoholic desires	to drink alcohol	an alcoholic desires to drink alcohol	1
+alcoholic	Desires	an alcoholic desires	to drink alcohol	an alcoholic desires to drink alcohol	1
+gardener	Desires	a gardener desires	a green garden	a gardener desires a green garden	1
+gardener	Desires	a gardener desires	to have a small garden.	a gardener desires to have a small garden.	1
+gardener	Desires	a gardener desires	to have a big and beautiful garden	a gardener desires to have a big and beautiful garden	1
+teenager	Desires	a teenager desires	to be a singer.	a teenager desires to be a singer.	4
+teenager	Desires	a teenager desires	to have an iPhone	a teenager desires to have an iPhone	1
+teenager	Desires	a teenager desires	to own a car.	a teenager desires to own a car.	1
+hen	Desires	a hen desires	to lay eggs.	a hen desires to lay eggs.	1
+hen	Desires	a hen desires	to lay eggs.	a hen desires to lay eggs.	1
+hen	Desires	a hen desires	to hatch an egg.	a hen desires to hatch an egg.	1
+detective	Desires	a detective desires	to discover the truth about a crime.	a detective desires to discover the truth about a crime.	1
+detective	Desires	a detective desires	to be a better detective	a detective desires to be a better detective	1
+detective	Desires	a detective desires	to find a criminal	a detective desires to find a criminal	1
+aol	Desires	an aol desires	a Pearson.	an aol desires a Pearson.	5
+aol	Desires	an aol desires	to possess the apple.	an aol desires to possess the apple.	2
+aol	Desires	an aol desires	to win an olympic medal.	an aol desires to win an olympic medal.	5
+PersonX leaves for school	isAfter	PersonX leaves for school. Before that,	PersonX eats breakfast.	PersonX leaves for school. Before that, PersonX eats breakfast.	1
+PersonX leaves for school	isAfter	PersonX leaves for school. Before that,	PersonX has breakfast.	PersonX leaves for school. Before that, PersonX has breakfast.	1
+PersonX leaves for school	isAfter	PersonX leaves for school. Before that,	PersonX eats breakfast.	PersonX leaves for school. Before that, PersonX eats breakfast.	1
+PersonX visits the zoo	isAfter	PersonX visits the zoo. Before that,	PersonX buys a ticket.	PersonX visits the zoo. Before that, PersonX buys a ticket.	1
+PersonX visits the zoo	isAfter	PersonX visits the zoo. Before that,	PersonX buys-ticket.	PersonX visits the zoo. Before that, PersonX buys-ticket.	1
+PersonX visits the zoo	isAfter	PersonX visits the zoo. Before that,	PersonX buys a ticket.	PersonX visits the zoo. Before that, PersonX buys a ticket.	1
+PersonX holds onto nothing	isAfter	PersonX holds onto nothing. Before that,	PersonX falls to the ground.	PersonX holds onto nothing. Before that, PersonX falls to the ground.	2
+PersonX holds onto nothing	isAfter	PersonX holds onto nothing. Before that,	PersonX was holding a vase.	PersonX holds onto nothing. Before that, PersonX was holding a vase.	2
+PersonX holds onto nothing	isAfter	PersonX holds onto nothing. Before that,	PersonX falls.	PersonX holds onto nothing. Before that, PersonX falls.	2
+PersonX summons for jury duty	isAfter	PersonX summons for jury duty. Before that,	PersonX reads a pamphlet.	PersonX summons for jury duty. Before that, PersonX reads a pamphlet.	1
+PersonX summons for jury duty	isAfter	PersonX summons for jury duty. Before that,	PersonX was unaware of the consequences.	PersonX summons for jury duty. Before that, PersonX was unaware of the consequences.	4
+PersonX summons for jury duty	isAfter	PersonX summons for jury duty. Before that,	PersonX checks their schedule.	PersonX summons for jury duty. Before that, PersonX checks their schedule.	1
+PersonX pumps iron	isAfter	PersonX pumps iron. Before that,	PersonX drinks water.	PersonX pumps iron. Before that, PersonX drinks water.	1
+PersonX pumps iron	isAfter	PersonX pumps iron. Before that,	PersonX eats a banana.	PersonX pumps iron. Before that, PersonX eats a banana.	1
+PersonX pumps iron	isAfter	PersonX pumps iron. Before that,	PersonX goes to the gym.	PersonX pumps iron. Before that, PersonX goes to the gym.	1
+PersonX has tons of fun	isAfter	PersonX has tons of fun. Before that,	PersonX had a great time.	PersonX has tons of fun. Before that, PersonX had a great time.	2
+PersonX has tons of fun	isAfter	PersonX has tons of fun. Before that,	PersonX meets their friends.	PersonX has tons of fun. Before that, PersonX meets their friends.	1
+PersonX has tons of fun	isAfter	PersonX has tons of fun. Before that,	PersonX hangs out with friends.	PersonX has tons of fun. Before that, PersonX hangs out with friends.	1
+PersonX imitates PersonY's example	isAfter	PersonX imitates PersonY's example. Before that,	PersonX watches PersonY.	PersonX imitates PersonY's example. Before that, PersonX watches PersonY.	1
+PersonX imitates PersonY's example	isAfter	PersonX imitates PersonY's example. Before that,	PersonX sees PersonY doing the same.	PersonX imitates PersonY's example. Before that, PersonX sees PersonY doing the same.	1
+PersonX imitates PersonY's example	isAfter	PersonX imitates PersonY's example. Before that,	PersonX sees PersonY.	PersonX imitates PersonY's example. Before that, PersonX sees PersonY.	1
+PersonX invites all PersonX's friends over	isAfter	PersonX invites all PersonX's friends over. Before that,	PersonX cleans up the house.	PersonX invites all PersonX's friends over. Before that, PersonX cleans up the house.	1
+PersonX invites all PersonX's friends over	isAfter	PersonX invites all PersonX's friends over. Before that,	PersonX cleans the house.	PersonX invites all PersonX's friends over. Before that, PersonX cleans the house.	1
+PersonX invites all PersonX's friends over	isAfter	PersonX invites all PersonX's friends over. Before that,	PersonX cleans the house.	PersonX invites all PersonX's friends over. Before that, PersonX cleans the house.	1
+PersonX wears glasses	isAfter	PersonX wears glasses. Before that,	PersonX is near-sighted.	PersonX wears glasses. Before that, PersonX is near-sighted.	1
+PersonX wears glasses	isAfter	PersonX wears glasses. Before that,	PersonX has seen an eye doctor.	PersonX wears glasses. Before that, PersonX has seen an eye doctor.	1
+PersonX wears glasses	isAfter	PersonX wears glasses. Before that,	PersonX needs to clean their glasses.	PersonX wears glasses. Before that, PersonX needs to clean their glasses.	1
+PersonX sprays by a skunk	isAfter	PersonX sprays by a skunk. Before that,	PersonX smells bad.	PersonX sprays by a skunk. Before that, PersonX smells bad.	1
+PersonX sprays by a skunk	isAfter	PersonX sprays by a skunk. Before that,	PersonX smells bad.	PersonX sprays by a skunk. Before that, PersonX smells bad.	1
+PersonX sprays by a skunk	isAfter	PersonX sprays by a skunk. Before that,	PersonX smells a skunk.	PersonX sprays by a skunk. Before that, PersonX smells a skunk.	1
+PersonX eats it	isBefore	PersonX eats it. After that,	PersonX feels satisfied.	PersonX eats it. After that, PersonX feels satisfied.	1
+PersonX eats it	isBefore	PersonX eats it. After that,	PersonX feels full.	PersonX eats it. After that, PersonX feels full.	1
+PersonX eats it	isBefore	PersonX eats it. After that,	PersonX feels full.	PersonX eats it. After that, PersonX feels full.	1
+PersonX sends PersonY a gift	isBefore	PersonX sends PersonY a gift. After that,	PersonY is happy.	PersonX sends PersonY a gift. After that, PersonY is happy.	1
+PersonX sends PersonY a gift	isBefore	PersonX sends PersonY a gift. After that,	PersonY is happy.	PersonX sends PersonY a gift. After that, PersonY is happy.	1
+PersonX sends PersonY a gift	isBefore	PersonX sends PersonY a gift. After that,	PersonY says thank you.	PersonX sends PersonY a gift. After that, PersonY says thank you.	2
+PersonX finishes the book last night	isBefore	PersonX finishes the book last night. After that,	PersonX feels good.	PersonX finishes the book last night. After that, PersonX feels good.	1
+PersonX finishes the book last night	isBefore	PersonX finishes the book last night. After that,	PersonX returns the book to the library today.	PersonX finishes the book last night. After that, PersonX returns the book to the library today.	2
+PersonX finishes the book last night	isBefore	PersonX finishes the book last night. After that,	PersonX gives it to PersonY.	PersonX finishes the book last night. After that, PersonX gives it to PersonY.	2
+PersonX makes PersonY's arrangements	isBefore	PersonX makes PersonY's arrangements. After that,	PersonX sleeps.	PersonX makes PersonY's arrangements. After that, PersonX sleeps.	4
+PersonX makes PersonY's arrangements	isBefore	PersonX makes PersonY's arrangements. After that,	PersonY will be happy.	PersonX makes PersonY's arrangements. After that, PersonY will be happy.	2
+PersonX makes PersonY's arrangements	isBefore	PersonX makes PersonY's arrangements. After that,	PersonX is likely to sleep.	PersonX makes PersonY's arrangements. After that, PersonX is likely to sleep.	4
+PersonX has a better idea	isBefore	PersonX has a better idea. After that,	PersonX is likely to feel proud.	PersonX has a better idea. After that, PersonX is likely to feel proud.	1
+PersonX has a better idea	isBefore	PersonX has a better idea. After that,	PersonX shares with their friends.	PersonX has a better idea. After that, PersonX shares with their friends.	1
+PersonX has a better idea	isBefore	PersonX has a better idea. After that,	PersonX shares the idea with others.	PersonX has a better idea. After that, PersonX shares the idea with others.	1
+PersonX keeps PersonX's head down	isBefore	PersonX keeps PersonX's head down. After that,	PersonX is likely to find a coin.	PersonX keeps PersonX's head down. After that, PersonX is likely to find a coin.	2
+PersonX keeps PersonX's head down	isBefore	PersonX keeps PersonX's head down. After that,	PersonX cries.	PersonX keeps PersonX's head down. After that, PersonX cries.	2
+PersonX keeps PersonX's head down	isBefore	PersonX keeps PersonX's head down. After that,	PersonX may hit PersonX's head.	PersonX keeps PersonX's head down. After that, PersonX may hit PersonX's head.	2
+PersonX walks into PersonY's room	isBefore	PersonX walks into PersonY's room. After that,	PersonX finds a basket.	PersonX walks into PersonY's room. After that, PersonX finds a basket.	2
+PersonX walks into PersonY's room	isBefore	PersonX walks into PersonY's room. After that,	PersonX feels happy.	PersonX walks into PersonY's room. After that, PersonX feels happy.	2
+PersonX walks into PersonY's room	isBefore	PersonX walks into PersonY's room. After that,	PersonX sees a lot of books.	PersonX walks into PersonY's room. After that, PersonX sees a lot of books.	2
+PersonX makes decisions based	isBefore	PersonX makes decisions based. After that,	PersonX regrets.	PersonX makes decisions based. After that, PersonX regrets.	2
+PersonX makes decisions based	isBefore	PersonX makes decisions based. After that,	PersonX regrets the decisions.	PersonX makes decisions based. After that, PersonX regrets the decisions.	2
+PersonX makes decisions based	isBefore	PersonX makes decisions based. After that,	PersonX feels confident.	PersonX makes decisions based. After that, PersonX feels confident.	2
+PersonX has trouble staying awake	isBefore	PersonX has trouble staying awake. After that,	PersonX falls asleep.	PersonX has trouble staying awake. After that, PersonX falls asleep.	1
+PersonX has trouble staying awake	isBefore	PersonX has trouble staying awake. After that,	PersonX sleeps.	PersonX has trouble staying awake. After that, PersonX sleeps.	1
+PersonX has trouble staying awake	isBefore	PersonX has trouble staying awake. After that,	PersonX takes a nap.	PersonX has trouble staying awake. After that, PersonX takes a nap.	1
+PersonX rears PersonY's children	isBefore	PersonX rears PersonY's children. After that,	PersonX feels happy.	PersonX rears PersonY's children. After that, PersonX feels happy.	1
+PersonX rears PersonY's children	isBefore	PersonX rears PersonY's children. After that,	PersonX feels happy.	PersonX rears PersonY's children. After that, PersonX feels happy.	1
+PersonX rears PersonY's children	isBefore	PersonX rears PersonY's children. After that,	PersonX feels happy.	PersonX rears PersonY's children. After that, PersonX feels happy.	1
+PersonX enters an art contest	HinderedBy	PersonX enters an art contest. This would not happen if	they were not confident.	PersonX enters an art contest. This would not happen if they were not confident.	2
+PersonX enters an art contest	HinderedBy	PersonX enters an art contest. This would not happen if	PersonX was not confident.	PersonX enters an art contest. This would not happen if PersonX was not confident.	2
+PersonX enters an art contest	HinderedBy	PersonX enters an art contest. This would not happen if	PersonX did not work hard.	PersonX enters an art contest. This would not happen if PersonX did not work hard.	2
+PersonX spends time	HinderedBy	PersonX spends time. This would not happen if	PersonX was not in this place.	PersonX spends time. This would not happen if PersonX was not in this place.	4
+PersonX spends time	HinderedBy	PersonX spends time. This would not happen if	PersonX were doing some other activity.	PersonX spends time. This would not happen if PersonX were doing some other activity.	2
+PersonX spends time	HinderedBy	PersonX spends time. This would not happen if	PersonX was not happy.	PersonX spends time. This would not happen if PersonX was not happy.	4
+PersonX gives PersonY another	HinderedBy	PersonX gives PersonY another. This would not happen if	PersonY did not have anything.	PersonX gives PersonY another. This would not happen if PersonY did not have anything.	1
+PersonX gives PersonY another	HinderedBy	PersonX gives PersonY another. This would not happen if	PersonY is not happy.	PersonX gives PersonY another. This would not happen if PersonY is not happy.	4
+PersonX gives PersonY another	HinderedBy	PersonX gives PersonY another. This would not happen if	PersonX is not wealthy.	PersonX gives PersonY another. This would not happen if PersonX is not wealthy.	2
+PersonX sees PersonY night	HinderedBy	PersonX sees PersonY night. This would not happen if	it were not for PersonZ.	PersonX sees PersonY night. This would not happen if it were not for PersonZ.	4
+PersonX sees PersonY night	HinderedBy	PersonX sees PersonY night. This would not happen if	the moon was not there.	PersonX sees PersonY night. This would not happen if the moon was not there.	3
+PersonX sees PersonY night	HinderedBy	PersonX sees PersonY night. This would not happen if	PersonY was not wearing dark clothing.	PersonX sees PersonY night. This would not happen if PersonY was not wearing dark clothing.	3
+PersonX changes PersonY's diaper	HinderedBy	PersonX changes PersonY's diaper. This would not happen if	PersonX is not a parent.	PersonX changes PersonY's diaper. This would not happen if PersonX is not a parent.	2
+PersonX changes PersonY's diaper	HinderedBy	PersonX changes PersonY's diaper. This would not happen if	PersonY was not a baby.	PersonX changes PersonY's diaper. This would not happen if PersonY was not a baby.	2
+PersonX changes PersonY's diaper	HinderedBy	PersonX changes PersonY's diaper. This would not happen if	PersonY was older.	PersonX changes PersonY's diaper. This would not happen if PersonY was older.	3
+PersonX is having a party at PersonX's house	HinderedBy	PersonX is having a party at PersonX's house. This would not happen if	PersonX's friends did not help.	PersonX is having a party at PersonX's house. This would not happen if PersonX's friends did not help.	2
+PersonX is having a party at PersonX's house	HinderedBy	PersonX is having a party at PersonX's house. This would not happen if	PersonX's parents were home.	PersonX is having a party at PersonX's house. This would not happen if PersonX's parents were home.	2
+PersonX is having a party at PersonX's house	HinderedBy	PersonX is having a party at PersonX's house. This would not happen if	PersonX did not invite anyone.	PersonX is having a party at PersonX's house. This would not happen if PersonX did not invite anyone.	2
+PersonX pulls out all the stops	HinderedBy	PersonX pulls out all the stops. This would not happen if	PersonY wasn't there.	PersonX pulls out all the stops. This would not happen if PersonY wasn't there.	2
+PersonX pulls out all the stops	HinderedBy	PersonX pulls out all the stops. This would not happen if	PersonX did not have the right motivation.	PersonX pulls out all the stops. This would not happen if PersonX did not have the right motivation.	1
+PersonX pulls out all the stops	HinderedBy	PersonX pulls out all the stops. This would not happen if	PersonX did not try hard.	PersonX pulls out all the stops. This would not happen if PersonX did not try hard.	1
+PersonX looks in the pantry	HinderedBy	PersonX looks in the pantry. This would not happen if	they were not hungry.	PersonX looks in the pantry. This would not happen if they were not hungry.	2
+PersonX looks in the pantry	HinderedBy	PersonX looks in the pantry. This would not happen if	the pantry is not there.	PersonX looks in the pantry. This would not happen if the pantry is not there.	2
+PersonX looks in the pantry	HinderedBy	PersonX looks in the pantry. This would not happen if	there was no need for PersonX to look in the pantry.	PersonX looks in the pantry. This would not happen if there was no need for PersonX to look in the pantry.	2
+PersonX brushes PersonY's hair	HinderedBy	PersonX brushes PersonY's hair. This would not happen if	PersonX is not a barber.	PersonX brushes PersonY's hair. This would not happen if PersonX is not a barber.	2
+PersonX brushes PersonY's hair	HinderedBy	PersonX brushes PersonY's hair. This would not happen if	PersonX and PersonY didn't have a close relationship.	PersonX brushes PersonY's hair. This would not happen if PersonX and PersonY didn't have a close relationship.	3
+PersonX brushes PersonY's hair	HinderedBy	PersonX brushes PersonY's hair. This would not happen if	PersonX did not like PersonY.	PersonX brushes PersonY's hair. This would not happen if PersonX did not like PersonY.	3
+PersonX invites PersonY to play	HinderedBy	PersonX invites PersonY to play. This would not happen if	PersonX did not like PersonY.	PersonX invites PersonY to play. This would not happen if PersonX did not like PersonY.	1
+PersonX invites PersonY to play	HinderedBy	PersonX invites PersonY to play. This would not happen if	PersonX did not like PersonY.	PersonX invites PersonY to play. This would not happen if PersonX did not like PersonY.	1
+PersonX invites PersonY to play	HinderedBy	PersonX invites PersonY to play. This would not happen if	PersonX and PersonY were not friends.	PersonX invites PersonY to play. This would not happen if PersonX and PersonY were not friends.	1
+PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. PersonX will be	happy.	PersonX sees PersonY's crush. PersonX will be happy.	1
+PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. PersonX will be	jealous.	PersonX sees PersonY's crush. PersonX will be jealous.	1
+PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. PersonX will be	happy.	PersonX sees PersonY's crush. PersonX will be happy.	1
+PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. PersonX will be	able to see PersonX's teeth.	PersonX watches PersonX's mouth. PersonX will be able to see PersonX's teeth.	1
+PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. PersonX will be	hungry.	PersonX watches PersonX's mouth. PersonX will be hungry.	3
+PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. PersonX will be	nervous.	PersonX watches PersonX's mouth. PersonX will be nervous.	2
+PersonX moves past PersonY	xReact	PersonX moves past PersonY. PersonX will be	happy.	PersonX moves past PersonY. PersonX will be happy.	4
+PersonX moves past PersonY	xReact	PersonX moves past PersonY. PersonX will be	happy.	PersonX moves past PersonY. PersonX will be happy.	4
+PersonX moves past PersonY	xReact	PersonX moves past PersonY. PersonX will be	happy.	PersonX moves past PersonY. PersonX will be happy.	4
+PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. PersonX will be	lonely.	PersonX denies PersonY's existence. PersonX will be lonely.	2
+PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. PersonX will be	sad.	PersonX denies PersonY's existence. PersonX will be sad.	4
+PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. PersonX will be	alone.	PersonX denies PersonY's existence. PersonX will be alone.	2
+PersonX never been to one	xReact	PersonX never been to one. PersonX will be	excited.	PersonX never been to one. PersonX will be excited.	1
+PersonX never been to one	xReact	PersonX never been to one. PersonX will be	curious.	PersonX never been to one. PersonX will be curious.	1
+PersonX never been to one	xReact	PersonX never been to one. PersonX will be	curious about it.	PersonX never been to one. PersonX will be curious about it.	1
+PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. PersonX will be	scolded.	PersonX hits PersonY's friend. PersonX will be scolded.	1
+PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. PersonX will be	scolded by PersonY's friend.	PersonX hits PersonY's friend. PersonX will be scolded by PersonY's friend.	1
+PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. PersonX will be	in trouble.	PersonX hits PersonY's friend. PersonX will be in trouble.	1
+PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. PersonX will be	applauded.	PersonX sends PersonY to the showers. PersonX will be applauded.	4
+PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. PersonX will be	happy.	PersonX sends PersonY to the showers. PersonX will be happy.	2
+PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. PersonX will be	sweaty.	PersonX sends PersonY to the showers. PersonX will be sweaty.	3
+PersonX fudges the issue	xReact	PersonX fudges the issue. PersonX will be	embarrassed.	PersonX fudges the issue. PersonX will be embarrassed.	2
+PersonX fudges the issue	xReact	PersonX fudges the issue. PersonX will be	caught.	PersonX fudges the issue. PersonX will be caught.	2
+PersonX fudges the issue	xReact	PersonX fudges the issue. PersonX will be	caught.	PersonX fudges the issue. PersonX will be caught.	2
+PersonX contains PersonY number	xReact	PersonX contains PersonY number. PersonX will be	happy.	PersonX contains PersonY number. PersonX will be happy.	4
+PersonX contains PersonY number	xReact	PersonX contains PersonY number. PersonX will be	used to calculate.	PersonX contains PersonY number. PersonX will be used to calculate.	4
+PersonX contains PersonY number	xReact	PersonX contains PersonY number. PersonX will be	happy.	PersonX contains PersonY number. PersonX will be happy.	4
+PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. PersonX will be	in pain.	PersonX breaks PersonX's hip. PersonX will be in pain.	1
+PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. PersonX will be	in pain.	PersonX breaks PersonX's hip. PersonX will be in pain.	1
+PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. PersonX will be	in a lot of pain.	PersonX breaks PersonX's hip. PersonX will be in a lot of pain.	1
+PersonX gets a part time job	xWant	PersonX gets a part time job. After, PersonX will want to	sleep.	PersonX gets a part time job. After, PersonX will want to sleep.	2
+PersonX gets a part time job	xWant	PersonX gets a part time job. After, PersonX will want to	sleep more.	PersonX gets a part time job. After, PersonX will want to sleep more.	2
+PersonX gets a part time job	xWant	PersonX gets a part time job. After, PersonX will want to	sleep.	PersonX gets a part time job. After, PersonX will want to sleep.	2
+PersonX sees wood	xWant	PersonX sees wood. After, PersonX will want to	use the wood.	PersonX sees wood. After, PersonX will want to use the wood.	2
+PersonX sees wood	xWant	PersonX sees wood. After, PersonX will want to	carve it.	PersonX sees wood. After, PersonX will want to carve it.	2
+PersonX sees wood	xWant	PersonX sees wood. After, PersonX will want to	make a fire.	PersonX sees wood. After, PersonX will want to make a fire.	2
+PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. After, PersonX will want to	sleep.	PersonX turns PersonX's music down. After, PersonX will want to sleep.	2
+PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. After, PersonX will want to	listen to it.	PersonX turns PersonX's music down. After, PersonX will want to listen to it.	2
+PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. After, PersonX will want to	listen to music.	PersonX turns PersonX's music down. After, PersonX will want to listen to music.	2
+PersonX is coming to an end	xWant	PersonX is coming to an end. After, PersonX will want to	start over.	PersonX is coming to an end. After, PersonX will want to start over.	2
+PersonX is coming to an end	xWant	PersonX is coming to an end. After, PersonX will want to	start anew.	PersonX is coming to an end. After, PersonX will want to start anew.	2
+PersonX is coming to an end	xWant	PersonX is coming to an end. After, PersonX will want to	start over.	PersonX is coming to an end. After, PersonX will want to start over.	2
+PersonX touches PersonY's skin	xWant	PersonX touches PersonY's skin. After, PersonX will want to	touch again.	PersonX touches PersonY's skin. After, PersonX will want to touch again.	2
+PersonX touches PersonY's skin	xWant	PersonX touches PersonY's skin. After, PersonX will want to	wash their hands.	PersonX touches PersonY's skin. After, PersonX will want to wash their hands.	2
+PersonX touches PersonY's skin	xWant	PersonX touches PersonY's skin. After, PersonX will want to	touch more.	PersonX touches PersonY's skin. After, PersonX will want to touch more.	2
+PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. After, PersonX will want to	see PersonY.	PersonX is PersonY's mother. After, PersonX will want to see PersonY.	2
+PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. After, PersonX will want to	have a child.	PersonX is PersonY's mother. After, PersonX will want to have a child.	4
+PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. After, PersonX will want to	cook dinner.	PersonX is PersonY's mother. After, PersonX will want to cook dinner.	2
+PersonX can not believe PersonX's eyes	xWant	PersonX can not believe PersonX's eyes. After, PersonX will want to	touch the object to test whether it is real.	PersonX can not believe PersonX's eyes. After, PersonX will want to touch the object to test whether it is real.	1
+PersonX can not believe PersonX's eyes	xWant	PersonX can not believe PersonX's eyes. After, PersonX will want to	touch to check if it is real.	PersonX can not believe PersonX's eyes. After, PersonX will want to touch to check if it is real.	1
+PersonX can not believe PersonX's eyes	xWant	PersonX can not believe PersonX's eyes. After, PersonX will want to	see the doctor.	PersonX can not believe PersonX's eyes. After, PersonX will want to see the doctor.	3
+PersonX catches the bus to work	xWant	PersonX catches the bus to work. After, PersonX will want to	sleep.	PersonX catches the bus to work. After, PersonX will want to sleep.	3
+PersonX catches the bus to work	xWant	PersonX catches the bus to work. After, PersonX will want to	sleep.	PersonX catches the bus to work. After, PersonX will want to sleep.	3
+PersonX catches the bus to work	xWant	PersonX catches the bus to work. After, PersonX will want to	sleep.	PersonX catches the bus to work. After, PersonX will want to sleep.	3
+PersonX wears gloves	xWant	PersonX wears gloves. After, PersonX will want to	take off their gloves.	PersonX wears gloves. After, PersonX will want to take off their gloves.	1
+PersonX wears gloves	xWant	PersonX wears gloves. After, PersonX will want to	eat ice cream.	PersonX wears gloves. After, PersonX will want to eat ice cream.	4
+PersonX wears gloves	xWant	PersonX wears gloves. After, PersonX will want to	take the gloves off.	PersonX wears gloves. After, PersonX will want to take the gloves off.	2
+PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. After, PersonX will want to	take a rest.	PersonX operates in PersonY environment. After, PersonX will want to take a rest.	3
+PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. After, PersonX will want to	go home.	PersonX operates in PersonY environment. After, PersonX will want to go home.	2
+PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. After, PersonX will want to	go home.	PersonX operates in PersonY environment. After, PersonX will want to go home.	2
+PersonX loves riding PersonX's bike	oWant	PersonX loves riding PersonX's bike. After, others will want to	ride as well.	PersonX loves riding PersonX's bike. After, others will want to ride as well.	2
+PersonX loves riding PersonX's bike	oWant	PersonX loves riding PersonX's bike. After, others will want to	ride with PersonX.	PersonX loves riding PersonX's bike. After, others will want to ride with PersonX.	2
+PersonX loves riding PersonX's bike	oWant	PersonX loves riding PersonX's bike. After, others will want to	ride PersonX's bike.	PersonX loves riding PersonX's bike. After, others will want to ride PersonX's bike.	2
+PersonX is making a cake	oWant	PersonX is making a cake. After, others will want to	eat it.	PersonX is making a cake. After, others will want to eat it.	1
+PersonX is making a cake	oWant	PersonX is making a cake. After, others will want to	eat it.	PersonX is making a cake. After, others will want to eat it.	1
+PersonX is making a cake	oWant	PersonX is making a cake. After, others will want to	eat the cake.	PersonX is making a cake. After, others will want to eat the cake.	1
+PersonX wins money	oWant	PersonX wins money. After, others will want to	win money.	PersonX wins money. After, others will want to win money.	1
+PersonX wins money	oWant	PersonX wins money. After, others will want to	be friends with PersonX.	PersonX wins money. After, others will want to be friends with PersonX.	1
+PersonX wins money	oWant	PersonX wins money. After, others will want to	play with PersonX.	PersonX wins money. After, others will want to play with PersonX.	1
+PersonX escorts PersonY back	oWant	PersonX escorts PersonY back. After, others will want to	do the same.	PersonX escorts PersonY back. After, others will want to do the same.	2
+PersonX escorts PersonY back	oWant	PersonX escorts PersonY back. After, others will want to	take PersonY back home too.	PersonX escorts PersonY back. After, others will want to take PersonY back home too.	2
+PersonX escorts PersonY back	oWant	PersonX escorts PersonY back. After, others will want to	do the same.	PersonX escorts PersonY back. After, others will want to do the same.	2
+PersonX wraps PersonY's hand	oWant	PersonX wraps PersonY's hand. After, others will want to	shake their hand.	PersonX wraps PersonY's hand. After, others will want to shake their hand.	3
+PersonX wraps PersonY's hand	oWant	PersonX wraps PersonY's hand. After, others will want to	do the same.	PersonX wraps PersonY's hand. After, others will want to do the same.	2
+PersonX wraps PersonY's hand	oWant	PersonX wraps PersonY's hand. After, others will want to	shake PersonY's hand.	PersonX wraps PersonY's hand. After, others will want to shake PersonY's hand.	2
+PersonX falls on PersonY	oWant	PersonX falls on PersonY. After, others will want to	help.	PersonX falls on PersonY. After, others will want to help.	1
+PersonX falls on PersonY	oWant	PersonX falls on PersonY. After, others will want to	help.	PersonX falls on PersonY. After, others will want to help.	1
+PersonX falls on PersonY	oWant	PersonX falls on PersonY. After, others will want to	help PersonX.	PersonX falls on PersonY. After, others will want to help PersonX.	1
+PersonX throws some bread	oWant	PersonX throws some bread. After, others will want to	handle PersonX.	PersonX throws some bread. After, others will want to handle PersonX.	2
+PersonX throws some bread	oWant	PersonX throws some bread. After, others will want to	eat.	PersonX throws some bread. After, others will want to eat.	3
+PersonX throws some bread	oWant	PersonX throws some bread. After, others will want to	eat.	PersonX throws some bread. After, others will want to eat.	3
+PersonX stings by a jellyfish	oWant	PersonX stings by a jellyfish. After, others will want to	stay away from PersonX.	PersonX stings by a jellyfish. After, others will want to stay away from PersonX.	3
+PersonX stings by a jellyfish	oWant	PersonX stings by a jellyfish. After, others will want to	avoid having the same experience.	PersonX stings by a jellyfish. After, others will want to avoid having the same experience.	1
+PersonX stings by a jellyfish	oWant	PersonX stings by a jellyfish. After, others will want to	help.	PersonX stings by a jellyfish. After, others will want to help.	1
+PersonX develops cancer	oWant	PersonX develops cancer. After, others will want to	help.	PersonX develops cancer. After, others will want to help.	1
+PersonX develops cancer	oWant	PersonX develops cancer. After, others will want to	help.	PersonX develops cancer. After, others will want to help.	1
+PersonX develops cancer	oWant	PersonX develops cancer. After, others will want to	help.	PersonX develops cancer. After, others will want to help.	1
+PersonX tells PersonY a little	oWant	PersonX tells PersonY a little. After, others will want to	know what happened.	PersonX tells PersonY a little. After, others will want to know what happened.	1
+PersonX tells PersonY a little	oWant	PersonX tells PersonY a little. After, others will want to	know more.	PersonX tells PersonY a little. After, others will want to know more.	1
+PersonX tells PersonY a little	oWant	PersonX tells PersonY a little. After, others will want to	know more.	PersonX tells PersonY a little. After, others will want to know more.	1
