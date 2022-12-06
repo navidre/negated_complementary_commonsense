@@ -1,0 +1,68 @@
+{
+    "AtLocation": {
+        "count": "30",
+        "correct": 23,
+        "incorrect": 3,
+        "unfamiliar": 4
+    },
+    "CapableOf": {
+        "count": "30",
+        "correct": 29,
+        "incorrect": 1,
+        "unfamiliar": 0
+    },
+    "Desires": {
+        "count": "30",
+        "correct": 27,
+        "incorrect": 1,
+        "unfamiliar": 2
+    },
+    "HinderedBy": {
+        "count": "30",
+        "correct": 21,
+        "incorrect": 9,
+        "unfamiliar": 0
+    },
+    "ObjectUse": {
+        "count": "30",
+        "correct": 28,
+        "incorrect": 1,
+        "unfamiliar": 1
+    },
+    "isAfter": {
+        "count": "30",
+        "correct": 29,
+        "incorrect": 1,
+        "unfamiliar": 0
+    },
+    "isBefore": {
+        "count": "30",
+        "correct": 28,
+        "incorrect": 2,
+        "unfamiliar": 0
+    },
+    "oWant": {
+        "count": "30",
+        "correct": 26,
+        "incorrect": 4,
+        "unfamiliar": 0
+    },
+    "xReact": {
+        "count": "30",
+        "correct": 20,
+        "incorrect": 10,
+        "unfamiliar": 0
+    },
+    "xWant": {
+        "count": "30",
+        "correct": 23,
+        "incorrect": 7,
+        "unfamiliar": 0
+    },
+    "total": {
+        "count": "300",
+        "correct": 254,
+        "incorrect": 39,
+        "unfamiliar": 7
+    }
+}

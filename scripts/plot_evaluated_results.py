@@ -89,5 +89,11 @@ if __name__ == "__main__":
     parser.add_argument("--in_tsv", type=str, default=f'{work_path}/few_shot_sampled_to_eval_negated_pred_with_gpt_3_self_evaluated_adjusted.tsv')
     args = parser.parse_args()
 
+    """
+    Examples calls:
+    - Normal predicates:
+    python scripts/plot_evaluated_results.py --in_tsv experiments/atomic_2020_eval/few_shot_sampled_to_eval_with_gpt_3_self_evaluated.tsv
+    """
+
     results = count_annotations(work_path, args.in_tsv)
     plot_the_results(work_path, results, args.in_tsv)
