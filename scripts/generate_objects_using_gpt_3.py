@@ -2,7 +2,7 @@ import argparse, sys, os
 import pandas as pd
 from tqdm import tqdm
 sys.path.append('./')
-from utils.gpt_3_utils import generate_zero_shot_using_gpt_3, NEGATED_FEW_SHOT_PROMPT, generate_few_shot_using_gpt_3
+from utils.gpt_3_utils import generate_zero_shot_using_gpt_3, NEGATED_FEW_SHOT_PROMPT, generate_few_shot_using_gpt_3, FEW_SHOT_PROMPT
 
 if __name__ == "__main__":
     print('Loading spacy ...')
@@ -60,8 +60,7 @@ if __name__ == "__main__":
                     if args.negated:
                         generated_tail, response = generate_few_shot_using_gpt_3(NEGATED_FEW_SHOT_PROMPT, row_copy['prompt'], max_tokens=20)
                     else:
-                        raise NotImplementedError
-                        # generated_tail, response = generate_few_shot_using_gpt_3(FEW_SHOT_PROMPT, row_copy['prompt'], max_tokens=20)
+                        generated_tail, response = generate_few_shot_using_gpt_3(FEW_SHOT_PROMPT, row_copy['prompt'], max_tokens=20)
                 else:
                     raise NotImplementedError
                 row_copy['generated_tail'] = generated_tail.replace('\n', ' ').strip()
