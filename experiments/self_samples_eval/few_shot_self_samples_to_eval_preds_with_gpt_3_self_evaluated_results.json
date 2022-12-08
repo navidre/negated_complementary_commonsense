@@ -1,0 +1,26 @@
+{
+    "CanBe": {
+        "count": "30",
+        "correct": 25,
+        "incorrect": 5,
+        "unfamiliar": 0
+    },
+    "Is": {
+        "count": "30",
+        "correct": 29,
+        "incorrect": 1,
+        "unfamiliar": 0
+    },
+    "WaitingFor": {
+        "count": "30",
+        "correct": 30,
+        "incorrect": 0,
+        "unfamiliar": 0
+    },
+    "total": {
+        "count": "90",
+        "correct": 84,
+        "incorrect": 6,
+        "unfamiliar": 0
+    }
+}

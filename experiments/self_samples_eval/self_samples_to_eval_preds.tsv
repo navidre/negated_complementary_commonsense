@@ -1,0 +1,31 @@
+head	relation	tail	prompt
+PersonX wearing a mask and shouting in a bank	CanBe	-	A person wearing a mask and shouting in a bank can be
+PersonX leading a country and killing its own people	CanBe	-	A person leading a country and killing its own people can be 
+PersonX jumping out of a plane with a parachute	CanBe	-	A person jumping out of a plane with a parachute can be
+PersonX wearing red and white clothes and going down a stranger home’s chimney	CanBe	-	A person wearing red and white clothes and going down a stranger home’s chimney can be
+PersonX performing gastric bypass surgery in a hospital 	CanBe	-	A person performing gastric bypass surgery in a hospital can be
+PersonX shouting at soccer players besides the soccer field and telling them what to do	CanBe	-	A person shouting at soccer players besides the soccer field and telling them what to do can be
+"An animal with a distinctively massive body, large ears, and long trunks"	CanBe	-	"An animal with a distinctively massive body, large ears, and long trunks can be"
+PersonX studying hard in a reputable medical school and passing all the exams	CanBe	-	A person studying hard in a reputable medical school and passing all the exams can be
+A long yellow sweet fruit	CanBe	-	A long yellow sweet fruit can be
+PersonX in space-walking while wearing space suit	CanBe	-	A person space walking while wearing a space suit can be
+PersonX waiting in a medical office	WaitingFor	-	A Person in a medical office waiting room is waiting for
+PersonX with a broken leg bone in an emergency room	WaitingFor	-	A person with a broken leg bone in an emergency room is waiting for
+PersonX in a nail salon	WaitingFor	-	A person in a nail salon is waiting for
+PersonX in the sea and shouting help	WaitingFor	-	A person in the sea and shouting help is waiting for
+An animal hiding behind the bush and looking	WaitingFor	-	An animal hiding behind the bush and looking is waiting for
+PersonX running a code in an IDE	WaitingFor	-	A person running a code in an IDE is waiting for
+PersonX driving to work	WaitingFor	-	A person driving to work is waiting for
+PersonX in line of a fast food	WaitingFor	-	A person in line of a fast food is waiting for
+PersonX watching a happy-ending movie	WaitingFor	-	A person watching a happy-ending movie is waiting for
+PersonX sending an email	WaitingFor	-	A person sending an email is waiting for
+PersonX wearing a mask and shouting in a bank	Is	-	A person wearing a mask and shouting in a bank is
+PersonX leading a country and killing its own people	Is	-	A person leading a country and killing its own people is
+PersonX jumping out of a plane with a parachute	Is	-	A person jumping out of a plane with a parachute is
+PersonX wearing red and white clothes and going down a stranger home’s chimney	Is	-	A person wearing red and white clothes and going down a stranger home’s chimney is
+PersonX performing gastric bypass surgery in a hospital 	Is	-	A person performing gastric bypass surgery in a hospital is
+PersonX shouting at soccer players besides the soccer field and telling them what to do	Is	-	A person shouting at soccer players besides the soccer field and telling them what to do is
+"An animal with a distinctively massive body, large ears, and long trunks"	Is	-	"An animal with a distinctively massive body, large ears, and long trunks is"
+PersonX studying hard in a reputable medical school and passing all the exams	Is	-	A person studying hard in a reputable medical school and passing all the exams is
+A long yellow sweet fruit	Is	-	A long yellow sweet fruit is
+PersonX in space-walking while wearing space suit	Is	-	A person space walking while wearing a space suit is

@@ -26,8 +26,7 @@ if __name__ == "__main__":
 
     if args.limited_preds:
         # These limited preds are chosen as they resulted in the lowest accuracy in negated scenarios
-        # limited_preds = ['xWant', 'xReact', 'oWant', 'CapableOf', 'Desires', 'HinderedBy', 'isBefore', 'isAfter', 'AtLocation', 'HasSubevent', 'ObjectUse']
-        limited_preds = ['IsNot']
+        limited_preds = ['xWant', 'xReact', 'oWant', 'CapableOf', 'Desires', 'HinderedBy', 'isBefore', 'isAfter', 'AtLocation', 'HasSubevent', 'ObjectUse']
 
     # Extracting file name and defining the out file name and path
     filename = os.path.basename(args.input).split('.')[0]
