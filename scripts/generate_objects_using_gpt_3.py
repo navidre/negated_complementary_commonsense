@@ -14,6 +14,9 @@ if __name__ == "__main__":
     parser.add_argument("--negated", action="store_true")
     args = parser.parse_args()
 
+    #TODO: Make sure we do not overwrite the existing generations (if generated file exists) 
+    #TODO: and we do not re-do generation for the same prompt (if the prompt is already in the generated file)
+
     """Sample calls:
     - For normal (non-negated), few-shot generation with limited_preds:
     python scripts/generate_objects_using_gpt_3.py --input experiments/atomic_2020_eval/sampled_to_eval.tsv --style few_shot --limited_preds
@@ -23,7 +26,8 @@ if __name__ == "__main__":
 
     if args.limited_preds:
         # These limited preds are chosen as they resulted in the lowest accuracy in negated scenarios
-        limited_preds = ['xWant', 'xReact', 'oWant', 'CapableOf', 'Desires', 'HinderedBy', 'isBefore', 'isAfter', 'AtLocation', 'HasSubevent', 'ObjectUse']
+        # limited_preds = ['xWant', 'xReact', 'oWant', 'CapableOf', 'Desires', 'HinderedBy', 'isBefore', 'isAfter', 'AtLocation', 'HasSubevent', 'ObjectUse']
+        limited_preds = ['IsNot']
 
     # Extracting file name and defining the out file name and path
     filename = os.path.basename(args.input).split('.')[0]
