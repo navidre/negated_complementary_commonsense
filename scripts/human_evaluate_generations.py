@@ -39,10 +39,11 @@ def auto_evaluate_row(index, row):
     # All other cases    
     return False, 0
 
-def process_human_evaluation(work_path, in_tsv):
+def process_human_evaluation(in_tsv):
     # Extracting file name
     filename = os.path.basename(in_tsv).split('.')[0]
     out_filename = f'{filename}_self_evaluated'
+    work_path = os.path.dirname(args.input)
     out_tsv = os.path.join(work_path, f'{out_filename}.tsv')
     # read tsv file with columns head, relation, prompt, generated_tail, full_text
     # if out_tsv exists, read it
@@ -108,9 +109,8 @@ def process_human_evaluation(work_path, in_tsv):
 
 
 if __name__ == "__main__":
-    work_path = './experiments/atomic_2020_eval'
     parser = argparse.ArgumentParser()
-    parser.add_argument("--in_tsv", type=str, default=f'{work_path}/few_shot_sampled_to_eval_negated_pred_with_gpt_3.tsv')
+    parser.add_argument("--in_tsv", type=str, default=f'./experiments/atomic_2020_eval/few_shot_sampled_to_eval_negated_pred_with_gpt_3.tsv')
     args = parser.parse_args()
 
     """Sample calls:
@@ -118,4 +118,4 @@ if __name__ == "__main__":
     python scripts/human_evaluate_generations.py --in_tsv experiments/atomic_2020_eval/few_shot_sampled_to_eval_with_gpt_3.tsv
     """
 
-    process_human_evaluation(work_path, args.in_tsv)
+    process_human_evaluation(args.in_tsv)

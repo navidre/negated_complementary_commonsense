@@ -6,10 +6,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 
-def count_annotations(work_path, in_tsv):
+def count_annotations(in_tsv):
     # Extracting file name
     filename = os.path.basename(in_tsv).split('.')[0]
     out_filename = f'{filename}_results'
+    work_path = os.path.dirname(args.input)
     out_json = os.path.join(work_path, f'{out_filename}.json')
     # read tsv file with columns head, relation, prompt, generated_tail, full_text
     df = read_csv(in_tsv, sep='\t', header=0)
@@ -52,11 +53,12 @@ def count_annotations(work_path, in_tsv):
     # Return results
     return results
 
-def plot_the_results(work_path, results, in_tsv):
+def plot_the_results(results, in_tsv):
     print(f"Plotting results from {in_tsv}")
     # Extracting file name
     filename = os.path.basename(in_tsv).split('.')[0]
     out_filename = f'{filename}_results'
+    work_path = os.path.dirname(args.input)
     out_pdf = os.path.join(work_path, f'{out_filename}.pdf')
     # DataFrame from results dictionary
     df = pd.DataFrame.from_dict(results, orient='index')
@@ -84,9 +86,8 @@ def plot_the_results(work_path, results, in_tsv):
     plt.savefig(out_pdf, bbox_inches='tight')
 
 if __name__ == "__main__":
-    work_path = './experiments/atomic_2020_eval'
     parser = argparse.ArgumentParser()
-    parser.add_argument("--in_tsv", type=str, default=f'{work_path}/few_shot_sampled_to_eval_negated_pred_with_gpt_3_self_evaluated_adjusted.tsv')
+    parser.add_argument("--in_tsv", type=str, default=f'./experiments/atomic_2020_eval/few_shot_sampled_to_eval_negated_pred_with_gpt_3_self_evaluated_adjusted.tsv')
     args = parser.parse_args()
 
     """
@@ -95,5 +96,5 @@ if __name__ == "__main__":
     python scripts/plot_evaluated_results.py --in_tsv experiments/atomic_2020_eval/few_shot_sampled_to_eval_with_gpt_3_self_evaluated.tsv
     """
 
-    results = count_annotations(work_path, args.in_tsv)
-    plot_the_results(work_path, results, args.in_tsv)
+    results = count_annotations(args.in_tsv)
+    plot_the_results(results, args.in_tsv)
