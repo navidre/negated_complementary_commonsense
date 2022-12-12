@@ -18,7 +18,13 @@ def get_input(prompt, validator, on_validationerror):
         print(on_validationerror)
 
 def auto_evaluate_row(index, row):
-    """ Selection 3 (invalid) if the generated tail is empty or contains ___
+    """ Selection 4 (invalid) if the generated tail is empty or contains ___
+
+    1: Makes sense
+    2: Sometimes makes sense
+    3: Incorrect or does not make sense
+    4: First part and second part are not related! Or not enough information to judge.
+    5: Unfamiliar to judge
 
     Args:
         index (_type_): index of row
@@ -28,13 +34,13 @@ def auto_evaluate_row(index, row):
         auto_evaluated, selection: True if auto evaluated, False otherwise; The selection made
     """
     if type(row['generated_tail']) == float:
-        return True, 3
+        return True, 4
     
     if row['generated_tail'] == '':
-        return True, 3
+        return True, 4
 
     if '___' in row['generated_tail']:
-        return True, 3
+        return True, 4
 
     # All other cases    
     return False, 0

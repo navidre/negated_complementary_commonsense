@@ -1,0 +1,631 @@
+head	relation	prompt	generated_tail	full_text	review_1	review_2	review_3
+skirt	NotObjectUse	skirt cannot be used for	cooking.	skirt cannot be used for cooking.	0	0	0
+skirt	NotObjectUse	skirt cannot be used for	swimming.	skirt cannot be used for swimming.	0	0	0
+skirt	NotObjectUse	skirt cannot be used for	cooking.	skirt cannot be used for cooking.	0	0	0
+in asian cuisine wok	NotObjectUse	in asian cuisine wok cannot be used for	making pizza.	in asian cuisine wok cannot be used for making pizza.	0	0	0
+in asian cuisine wok	NotObjectUse	in asian cuisine wok cannot be used for	frying fish in it.	in asian cuisine wok cannot be used for frying fish in it.	0	0	0
+in asian cuisine wok	NotObjectUse	in asian cuisine wok cannot be used for	preparing fish soup.	in asian cuisine wok cannot be used for preparing fish soup.	0	0	0
+methadone	NotObjectUse	methadone cannot be used for	cancer.	methadone cannot be used for cancer.	0	0	0
+methadone	NotObjectUse	methadone cannot be used for	treatment of anxiety.	methadone cannot be used for treatment of anxiety.	0	0	0
+methadone	NotObjectUse	methadone cannot be used for	treating cancer.	methadone cannot be used for treating cancer.	0	0	0
+paperwork	NotObjectUse	paperwork cannot be used for	entertainment.	paperwork cannot be used for entertainment.	0	0	0
+paperwork	NotObjectUse	paperwork cannot be used for	doing homework.	paperwork cannot be used for doing homework.	0	0	0
+paperwork	NotObjectUse	paperwork cannot be used for	eating.	paperwork cannot be used for eating.	0	0	0
+dark	NotObjectUse	dark cannot be used for	light.	dark cannot be used for light.	0	0	0
+dark	NotObjectUse	dark cannot be used for	light.	dark cannot be used for light.	0	0	0
+dark	NotObjectUse	dark cannot be used for	black.	dark cannot be used for black.	0	0	0
+bunch of cigarettes	NotObjectUse	bunch of cigarettes cannot be used for	eating.	bunch of cigarettes cannot be used for eating.	0	0	0
+bunch of cigarettes	NotObjectUse	bunch of cigarettes cannot be used for	smoking.	bunch of cigarettes cannot be used for smoking.	0	0	0
+bunch of cigarettes	NotObjectUse	bunch of cigarettes cannot be used for	smoking.	bunch of cigarettes cannot be used for smoking.	0	0	0
+keyhole	NotObjectUse	keyhole cannot be used for	opening locks.	keyhole cannot be used for opening locks.	0	0	0
+keyhole	NotObjectUse	keyhole cannot be used for	eating.	keyhole cannot be used for eating.	0	0	0
+keyhole	NotObjectUse	keyhole cannot be used for	sleeping.	keyhole cannot be used for sleeping.	0	0	0
+condiment	NotObjectUse	condiment cannot be used for	sweet.	condiment cannot be used for sweet.	0	0	0
+condiment	NotObjectUse	condiment cannot be used for	driving.	condiment cannot be used for driving.	0	0	0
+condiment	NotObjectUse	condiment cannot be used for	decoration.	condiment cannot be used for decoration.	0	0	0
+hinge	NotObjectUse	hinge cannot be used for	cutting.	hinge cannot be used for cutting.	0	0	0
+hinge	NotObjectUse	hinge cannot be used for	flying.	hinge cannot be used for flying.	0	0	0
+hinge	NotObjectUse	hinge cannot be used for	cutting.	hinge cannot be used for cutting.	0	0	0
+medical card	NotObjectUse	medical card cannot be used for	identification.	medical card cannot be used for identification.	0	0	0
+medical card	NotObjectUse	medical card cannot be used for	shopping.	medical card cannot be used for shopping.	0	0	0
+medical card	NotObjectUse	medical card cannot be used for	shopping	medical card cannot be used for shopping	0	0	0
+knight	NotAtLocation	You are not likely to find  knight in	chess set.	You are not likely to find  knight in chess set.	0	0	0
+knight	NotAtLocation	You are not likely to find  knight in	shining armor in the 21st century.	You are not likely to find  knight in shining armor in the 21st century.	0	0	0
+knight	NotAtLocation	You are not likely to find  knight in	shining armor in a castle.	You are not likely to find  knight in shining armor in a castle.	0	0	0
+harmonica	NotAtLocation	You are not likely to find  harmonica in	a  toy store.	You are not likely to find  harmonica in a  toy store.	0	0	0
+harmonica	NotAtLocation	You are not likely to find  harmonica in	fridge.	You are not likely to find  harmonica in fridge.	0	0	0
+harmonica	NotAtLocation	You are not likely to find  harmonica in	bread.	You are not likely to find  harmonica in bread.	0	0	0
+salt	NotAtLocation	You are not likely to find  salt in	a cup.	You are not likely to find  salt in a cup.	0	0	0
+salt	NotAtLocation	You are not likely to find  salt in	house.	You are not likely to find  salt in house.	0	0	0
+salt	NotAtLocation	You are not likely to find  salt in	ice.	You are not likely to find  salt in ice.	0	0	0
+book light	NotAtLocation	You are not likely to find  book light in	a book.	You are not likely to find  book light in a book.	0	0	0
+book light	NotAtLocation	You are not likely to find  book light in	the book.	You are not likely to find  book light in the book.	0	0	0
+book light	NotAtLocation	You are not likely to find  book light in	the car.	You are not likely to find  book light in the car.	0	0	0
+handle	NotAtLocation	You are not likely to find  handle in	a cup.	You are not likely to find  handle in a cup.	0	0	0
+handle	NotAtLocation	You are not likely to find  handle in	the spoon.	You are not likely to find  handle in the spoon.	0	0	0
+handle	NotAtLocation	You are not likely to find  handle in	egg.	You are not likely to find  handle in egg.	0	0	0
+dark matter	NotAtLocation	You are not likely to find  dark matter in	universe.	You are not likely to find  dark matter in universe.	0	0	0
+dark matter	NotAtLocation	You are not likely to find  dark matter in	the universe.	You are not likely to find  dark matter in the universe.	0	0	0
+dark matter	NotAtLocation	You are not likely to find  dark matter in	our solar system.	You are not likely to find  dark matter in our solar system.	0	0	0
+indian ocean	NotAtLocation	You are not likely to find  indian ocean in	house	You are not likely to find  indian ocean in house	0	0	0
+indian ocean	NotAtLocation	You are not likely to find  indian ocean in	a glass.	You are not likely to find  indian ocean in a glass.	0	0	0
+indian ocean	NotAtLocation	You are not likely to find  indian ocean in	the sky.	You are not likely to find  indian ocean in the sky.	0	0	0
+large container	NotAtLocation	You are not likely to find  large container in	small container.	You are not likely to find  large container in small container.	0	0	0
+large container	NotAtLocation	You are not likely to find  large container in	small container.	You are not likely to find  large container in small container.	0	0	0
+large container	NotAtLocation	You are not likely to find  large container in	small container.	You are not likely to find  large container in small container.	0	0	0
+lacebug	NotAtLocation	You are not likely to find  lacebug in	clover	You are not likely to find  lacebug in clover	0	0	0
+lacebug	NotAtLocation	You are not likely to find  lacebug in	the ocean.	You are not likely to find  lacebug in the ocean.	0	0	0
+lacebug	NotAtLocation	You are not likely to find  lacebug in	blueberries	You are not likely to find  lacebug in blueberries	0	0	0
+cpu	NotAtLocation	You are not likely to find  cpu in	house.	You are not likely to find  cpu in house.	0	0	0
+cpu	NotAtLocation	You are not likely to find  cpu in	a television.	You are not likely to find  cpu in a television.	0	0	0
+cpu	NotAtLocation	You are not likely to find  cpu in	car	You are not likely to find  cpu in car	0	0	0
+balcony	NotMadeUpOf	balcony does not contain	hammer	balcony does not contain hammer	0	0	0
+balcony	NotMadeUpOf	balcony does not contain	a bed.	balcony does not contain a bed.	0	0	0
+balcony	NotMadeUpOf	balcony does not contain	flowers.	balcony does not contain flowers.	0	0	0
+kite	NotMadeUpOf	kite does not contain	airplane.	kite does not contain airplane.	0	0	0
+kite	NotMadeUpOf	kite does not contain	knife.	kite does not contain knife.	0	0	0
+kite	NotMadeUpOf	kite does not contain	kite.	kite does not contain kite.	0	0	0
+radar	NotMadeUpOf	radar does not contain	a particle.	radar does not contain a particle.	0	0	0
+radar	NotMadeUpOf	radar does not contain	any moving object.	radar does not contain any moving object.	0	0	0
+radar	NotMadeUpOf	radar does not contain	any bananas, so it cannot find them.	radar does not contain any bananas, so it cannot find them.	0	0	0
+punch bag	NotMadeUpOf	punch bag does not contain	milk.	punch bag does not contain milk.	0	0	0
+punch bag	NotMadeUpOf	punch bag does not contain	people.	punch bag does not contain people.	0	0	0
+punch bag	NotMadeUpOf	punch bag does not contain	money.	punch bag does not contain money.	0	0	0
+curtain	NotMadeUpOf	curtain does not contain	cat.	curtain does not contain cat.	0	0	0
+curtain	NotMadeUpOf	curtain does not contain	people.	curtain does not contain people.	0	0	0
+curtain	NotMadeUpOf	curtain does not contain	glass.	curtain does not contain glass.	0	0	0
+brace	NotMadeUpOf	brace does not contain	both '{' and '}'.	brace does not contain both '{' and '}'.	0	0	0
+brace	NotMadeUpOf	brace does not contain	semicolon.	brace does not contain semicolon.	0	0	0
+brace	NotMadeUpOf	brace does not contain	a word.	brace does not contain a word.	0	0	0
+bacon	NotMadeUpOf	bacon does not contain	egg.	bacon does not contain egg.	0	0	0
+bacon	NotMadeUpOf	bacon does not contain	nuts.	bacon does not contain nuts.	0	0	0
+bacon	NotMadeUpOf	bacon does not contain	cow.	bacon does not contain cow.	0	0	0
+crust	NotMadeUpOf	crust does not contain	nuts.	crust does not contain nuts.	0	0	0
+crust	NotMadeUpOf	crust does not contain	nuts.	crust does not contain nuts.	0	0	0
+crust	NotMadeUpOf	crust does not contain	eggs.	crust does not contain eggs.	0	0	0
+newspaper	NotMadeUpOf	newspaper does not contain	metal	newspaper does not contain metal	0	0	0
+newspaper	NotMadeUpOf	newspaper does not contain	news	newspaper does not contain news	0	0	0
+newspaper	NotMadeUpOf	newspaper does not contain	computer.	newspaper does not contain computer.	0	0	0
+planet pluto	NotMadeUpOf	planet pluto does not contain	liquid water.	planet pluto does not contain liquid water.	0	0	0
+planet pluto	NotMadeUpOf	planet pluto does not contain	oxygen.	planet pluto does not contain oxygen.	0	0	0
+planet pluto	NotMadeUpOf	planet pluto does not contain	intelligent life.	planet pluto does not contain intelligent life.	0	0	0
+baseball diamond	NotHasProperty	baseball diamond is not	a shape.	baseball diamond is not a shape.	0	0	0
+baseball diamond	NotHasProperty	baseball diamond is not	a square.	baseball diamond is not a square.	0	0	0
+baseball diamond	NotHasProperty	baseball diamond is not	likely to be found in swimming pool.	baseball diamond is not likely to be found in swimming pool.	0	0	0
+yolk	NotHasProperty	yolk is not	found in egg white.	yolk is not found in egg white.	0	0	0
+yolk	NotHasProperty	yolk is not	an egg.	yolk is not an egg.	0	0	0
+yolk	NotHasProperty	yolk is not	found in eggshell.	yolk is not found in eggshell.	0	0	0
+government office	NotHasProperty	government office is not	a place for fun.	government office is not a place for fun.	0	0	0
+government office	NotHasProperty	government office is not	usually open on Sunday.	government office is not usually open on Sunday.	0	0	0
+government office	NotHasProperty	government office is not	a place for eating.	government office is not a place for eating.	0	0	0
+sheet of paper	NotHasProperty	sheet of paper is not	likely to be found in river.	sheet of paper is not likely to be found in river.	0	0	0
+sheet of paper	NotHasProperty	sheet of paper is not	likely to be found in a cloud.	sheet of paper is not likely to be found in a cloud.	0	0	0
+sheet of paper	NotHasProperty	sheet of paper is not	the same as a ream of paper	sheet of paper is not the same as a ream of paper	0	0	0
+stop sign	NotHasProperty	stop sign is not	necessary for driving.	stop sign is not necessary for driving.	0	0	0
+stop sign	NotHasProperty	stop sign is not	a shape.	stop sign is not a shape.	0	0	0
+stop sign	NotHasProperty	stop sign is not	likely to be found in a forest	stop sign is not likely to be found in a forest	0	0	0
+doll	NotHasProperty	doll is not	an animal.	doll is not an animal.	0	0	0
+doll	NotHasProperty	doll is not	likely to be found in the sink.	doll is not likely to be found in the sink.	0	0	0
+doll	NotHasProperty	doll is not	a toy.	doll is not a toy.	0	0	0
+carrie	NotHasProperty	carrie is not	likely to find her way to class.	carrie is not likely to find her way to class.	0	0	0
+carrie	NotHasProperty	carrie is not	my mother.	carrie is not my mother.	0	0	0
+carrie	NotHasProperty	carrie is not	a person.	carrie is not a person.	0	0	0
+pottery	NotHasProperty	pottery is not	a liquid	pottery is not a liquid	0	0	0
+pottery	NotHasProperty	pottery is not	useful for cooking.	pottery is not useful for cooking.	0	0	0
+pottery	NotHasProperty	pottery is not	made of metal.	pottery is not made of metal.	0	0	0
+asymetry	NotHasProperty	asymetry is not	equal to asymmetry.	asymetry is not equal to asymmetry.	0	0	0
+asymetry	NotHasProperty	asymetry is not	required for chiral molecules.	asymetry is not required for chiral molecules.	0	0	0
+asymetry	NotHasProperty	asymetry is not	a word.	asymetry is not a word.	0	0	0
+cuba	NotHasProperty	cuba is not	a country	cuba is not a country	0	0	0
+cuba	NotHasProperty	cuba is not	part of russia	cuba is not part of russia	0	0	0
+cuba	NotHasProperty	cuba is not	a country	cuba is not a country	0	0	0
+detective	NotCapableOf	detective cannot	be murderer.	detective cannot be murderer.	0	0	0
+detective	NotCapableOf	detective cannot	investigate case.	detective cannot investigate case.	0	0	0
+detective	NotCapableOf	detective cannot	solve crime.	detective cannot solve crime.	0	0	0
+wet dog	NotCapableOf	wet dog cannot	fly	wet dog cannot fly	0	0	0
+wet dog	NotCapableOf	wet dog cannot	be found in dryer.	wet dog cannot be found in dryer.	0	0	0
+wet dog	NotCapableOf	wet dog cannot	be found in dry place.	wet dog cannot be found in dry place.	0	0	0
+quaterback	NotCapableOf	quaterback cannot	score touchdown.	quaterback cannot score touchdown.	0	0	0
+quaterback	NotCapableOf	quaterback cannot	throw touchdown toself.	quaterback cannot throw touchdown toself.	0	0	0
+quaterback	NotCapableOf	quaterback cannot	throw a touchdown to him/herself	quaterback cannot throw a touchdown to him/herself	0	0	0
+dentist	NotCapableOf	dentist cannot	be found in the park.	dentist cannot be found in the park.	0	0	0
+dentist	NotCapableOf	dentist cannot	be found in a restaurant.	dentist cannot be found in a restaurant.	0	0	0
+dentist	NotCapableOf	dentist cannot	be angry with his patient	dentist cannot be angry with his patient	0	0	0
+oscar winner	NotCapableOf	oscar winner cannot	be nominated.	oscar winner cannot be nominated.	0	0	0
+oscar winner	NotCapableOf	oscar winner cannot	be not oscar winner.	oscar winner cannot be not oscar winner.	0	0	0
+oscar winner	NotCapableOf	oscar winner cannot	be nominee.	oscar winner cannot be nominee.	0	0	0
+possum	NotCapableOf	possum cannot	fly	possum cannot fly	0	0	0
+possum	NotCapableOf	possum cannot	be eaten by cats.	possum cannot be eaten by cats.	0	0	0
+possum	NotCapableOf	possum cannot	eat celery.	possum cannot eat celery.	0	0	0
+supermodel	NotCapableOf	supermodel cannot	smile.	supermodel cannot smile.	0	0	0
+supermodel	NotCapableOf	supermodel cannot	be fat.	supermodel cannot be fat.	0	0	0
+supermodel	NotCapableOf	supermodel cannot	be fat.	supermodel cannot be fat.	0	0	0
+alto	NotCapableOf	alto cannot	sing.	alto cannot sing.	0	0	0
+alto	NotCapableOf	alto cannot	sing	alto cannot sing	0	0	0
+alto	NotCapableOf	alto cannot	sing.	alto cannot sing.	0	0	0
+energetic person	NotCapableOf	energetic person cannot	be lazy.	energetic person cannot be lazy.	0	0	0
+energetic person	NotCapableOf	energetic person cannot	feel lazy.	energetic person cannot feel lazy.	0	0	0
+energetic person	NotCapableOf	energetic person cannot	be sad.	energetic person cannot be sad.	0	0	0
+salior	NotCapableOf	salior cannot	be a soldier.	salior cannot be a soldier.	0	0	0
+salior	NotCapableOf	salior cannot	dance	salior cannot dance	0	0	0
+salior	NotCapableOf	salior cannot	be a doctor.	salior cannot be a doctor.	0	0	0
+terrorist	NotDesires	terrorist does not desire	for peace.	terrorist does not desire for peace.	0	0	0
+terrorist	NotDesires	terrorist does not desire	peace	terrorist does not desire peace	0	0	0
+terrorist	NotDesires	terrorist does not desire	peace.	terrorist does not desire peace.	0	0	0
+exhibitionist	NotDesires	exhibitionist does not desire	to be naked in public.	exhibitionist does not desire to be naked in public.	0	0	0
+exhibitionist	NotDesires	exhibitionist does not desire	to take clothes off in front of others	exhibitionist does not desire to take clothes off in front of others	0	0	0
+exhibitionist	NotDesires	exhibitionist does not desire	to be seen.	exhibitionist does not desire to be seen.	0	0	0
+lover	NotDesires	lover does not desire	to be desired	lover does not desire to be desired	0	0	0
+lover	NotDesires	lover does not desire	to be unfaithful to loved one.	lover does not desire to be unfaithful to loved one.	0	0	0
+lover	NotDesires	lover does not desire	to quarrel with his/her beloved.	lover does not desire to quarrel with his/her beloved.	0	0	0
+pedobear	NotDesires	pedobear does not desire	children.	pedobear does not desire children.	0	0	0
+pedobear	NotDesires	pedobear does not desire	children	pedobear does not desire children	0	0	0
+pedobear	NotDesires	pedobear does not desire	children.	pedobear does not desire children.	0	0	0
+alcoholic	NotDesires	alcoholic does not desire	for alcohol	alcoholic does not desire for alcohol	0	0	0
+alcoholic	NotDesires	alcoholic does not desire	non-alcoholic beverages.	alcoholic does not desire non-alcoholic beverages.	0	0	0
+alcoholic	NotDesires	alcoholic does not desire	to drink alcohol.	alcoholic does not desire to drink alcohol.	0	0	0
+gardener	NotDesires	gardener does not desire	to plant flowers.	gardener does not desire to plant flowers.	0	0	0
+gardener	NotDesires	gardener does not desire	to water the flowers.	gardener does not desire to water the flowers.	0	0	0
+gardener	NotDesires	gardener does not desire	to kill his plants.	gardener does not desire to kill his plants.	0	0	0
+teenager	NotDesires	teenager does not desire	to study	teenager does not desire to study	0	0	0
+teenager	NotDesires	teenager does not desire	to be a child.	teenager does not desire to be a child.	0	0	0
+teenager	NotDesires	teenager does not desire	alcohol.	teenager does not desire alcohol.	0	0	0
+hen	NotDesires	hen does not desire	to lay egg.	hen does not desire to lay egg.	0	0	0
+hen	NotDesires	hen does not desire	to lay eggs.	hen does not desire to lay eggs.	0	0	0
+hen	NotDesires	hen does not desire	to lay eggs.	hen does not desire to lay eggs.	0	0	0
+detective	NotDesires	detective does not desire	that the criminal escapes.	detective does not desire that the criminal escapes.	0	0	0
+detective	NotDesires	detective does not desire	an outcome at which the murderer gets away with the murder.	detective does not desire an outcome at which the murderer gets away with the murder.	0	0	0
+detective	NotDesires	detective does not desire	victim.	detective does not desire victim.	0	0	0
+aol	NotDesires	aol does not desire	to have verizon as a friend.	aol does not desire to have verizon as a friend.	0	0	0
+aol	NotDesires	aol does not desire	brazil.	aol does not desire brazil.	0	0	0
+aol	NotDesires	aol does not desire	that you break the law	aol does not desire that you break the law	0	0	0
+PersonX leaves for school	NotisAfter	PersonX leaves for school. Before that, it is not needed that	he eats breakfast.	PersonX leaves for school. Before that, it is not needed that he eats breakfast.	0	0	0
+PersonX leaves for school	NotisAfter	PersonX leaves for school. Before that, it is not needed that	he eats breakfast.	PersonX leaves for school. Before that, it is not needed that he eats breakfast.	0	0	0
+PersonX leaves for school	NotisAfter	PersonX leaves for school. Before that, it is not needed that	he eats.	PersonX leaves for school. Before that, it is not needed that he eats.	0	0	0
+PersonX visits the zoo	NotisAfter	PersonX visits the zoo. Before that, it is not needed that	he buys a ticket.	PersonX visits the zoo. Before that, it is not needed that he buys a ticket.	0	0	0
+PersonX visits the zoo	NotisAfter	PersonX visits the zoo. Before that, it is not needed that	he buys a ticket.	PersonX visits the zoo. Before that, it is not needed that he buys a ticket.	0	0	0
+PersonX visits the zoo	NotisAfter	PersonX visits the zoo. Before that, it is not needed that	he eats.	PersonX visits the zoo. Before that, it is not needed that he eats.	0	0	0
+PersonX holds onto nothing	NotisAfter	PersonX holds onto nothing. Before that, it is not needed that	he holds onto something.	PersonX holds onto nothing. Before that, it is not needed that he holds onto something.	0	0	0
+PersonX holds onto nothing	NotisAfter	PersonX holds onto nothing. Before that, it is not needed that	he holds onto something.	PersonX holds onto nothing. Before that, it is not needed that he holds onto something.	0	0	0
+PersonX holds onto nothing	NotisAfter	PersonX holds onto nothing. Before that, it is not needed that	he has something.	PersonX holds onto nothing. Before that, it is not needed that he has something.	0	0	0
+PersonX summons for jury duty	NotisAfter	PersonX summons for jury duty. Before that, it is not needed that	he pays his taxes.	PersonX summons for jury duty. Before that, it is not needed that he pays his taxes.	0	0	0
+PersonX summons for jury duty	NotisAfter	PersonX summons for jury duty. Before that, it is not needed that	he be a citizen.	PersonX summons for jury duty. Before that, it is not needed that he be a citizen.	0	0	0
+PersonX summons for jury duty	NotisAfter	PersonX summons for jury duty. Before that, it is not needed that	he gets out of bed.	PersonX summons for jury duty. Before that, it is not needed that he gets out of bed.	0	0	0
+PersonX pumps iron	NotisAfter	PersonX pumps iron. Before that, it is not needed that	he drinks water.	PersonX pumps iron. Before that, it is not needed that he drinks water.	0	0	0
+PersonX pumps iron	NotisAfter	PersonX pumps iron. Before that, it is not needed that	he runs.	PersonX pumps iron. Before that, it is not needed that he runs.	0	0	0
+PersonX pumps iron	NotisAfter	PersonX pumps iron. Before that, it is not needed that	he drinks protein shake.	PersonX pumps iron. Before that, it is not needed that he drinks protein shake.	0	0	0
+PersonX has tons of fun	NotisAfter	PersonX has tons of fun. Before that, it is not needed that	he eats.	PersonX has tons of fun. Before that, it is not needed that he eats.	0	0	0
+PersonX has tons of fun	NotisAfter	PersonX has tons of fun. Before that, it is not needed that	he eats.	PersonX has tons of fun. Before that, it is not needed that he eats.	0	0	0
+PersonX has tons of fun	NotisAfter	PersonX has tons of fun. Before that, it is not needed that	he goes to the party.	PersonX has tons of fun. Before that, it is not needed that he goes to the party.	0	0	0
+PersonX imitates PersonY's example	NotisAfter	PersonX imitates PersonY's example. Before that, it is not needed that	he is smart.	PersonX imitates PersonY's example. Before that, it is not needed that he is smart.	0	0	0
+PersonX imitates PersonY's example	NotisAfter	PersonX imitates PersonY's example. Before that, it is not needed that	he hates PersonY.	PersonX imitates PersonY's example. Before that, it is not needed that he hates PersonY.	0	0	0
+PersonX imitates PersonY's example	NotisAfter	PersonX imitates PersonY's example. Before that, it is not needed that	PersonX sees PersonY.	PersonX imitates PersonY's example. Before that, it is not needed that PersonX sees PersonY.	0	0	0
+PersonX invites all PersonX's friends over	NotisAfter	PersonX invites all PersonX's friends over. Before that, it is not needed that	he cleans his house.	PersonX invites all PersonX's friends over. Before that, it is not needed that he cleans his house.	0	0	0
+PersonX invites all PersonX's friends over	NotisAfter	PersonX invites all PersonX's friends over. Before that, it is not needed that	he cleans the house.	PersonX invites all PersonX's friends over. Before that, it is not needed that he cleans the house.	0	0	0
+PersonX invites all PersonX's friends over	NotisAfter	PersonX invites all PersonX's friends over. Before that, it is not needed that	PersonX do the laundry.	PersonX invites all PersonX's friends over. Before that, it is not needed that PersonX do the laundry.	0	0	0
+PersonX wears glasses	NotisAfter	PersonX wears glasses. Before that, it is not needed that	he bakes.	PersonX wears glasses. Before that, it is not needed that he bakes.	0	0	0
+PersonX wears glasses	NotisAfter	PersonX wears glasses. Before that, it is not needed that	he buys glasses.	PersonX wears glasses. Before that, it is not needed that he buys glasses.	0	0	0
+PersonX wears glasses	NotisAfter	PersonX wears glasses. Before that, it is not needed that	he puts them on.	PersonX wears glasses. Before that, it is not needed that he puts them on.	0	0	0
+PersonX sprays by a skunk	NotisAfter	PersonX sprays by a skunk. Before that, it is not needed that	he walks.	PersonX sprays by a skunk. Before that, it is not needed that he walks.	0	0	0
+PersonX sprays by a skunk	NotisAfter	PersonX sprays by a skunk. Before that, it is not needed that	he is happy.	PersonX sprays by a skunk. Before that, it is not needed that he is happy.	0	0	0
+PersonX sprays by a skunk	NotisAfter	PersonX sprays by a skunk. Before that, it is not needed that	he sprays the skunk.	PersonX sprays by a skunk. Before that, it is not needed that he sprays the skunk.	0	0	0
+get old	NotHasSubEvent	While getting old, you would not	be younger.	While getting old, you would not be younger.	0	0	0
+get old	NotHasSubEvent	While getting old, you would not	have as many friends as you have right now.	While getting old, you would not have as many friends as you have right now.	0	0	0
+get old	NotHasSubEvent	While getting old, you would not	expect your skin to get dry	While getting old, you would not expect your skin to get dry	0	0	0
+get in line	NotHasSubEvent	While getting in line, you would not	be likely to see a cat.	While getting in line, you would not be likely to see a cat.	0	0	0
+get in line	NotHasSubEvent	While getting in line, you would not	want to be the last without fail	While getting in line, you would not want to be the last without fail	0	0	0
+get in line	NotHasSubEvent	While getting in line, you would not	want to be the first one in the line.	While getting in line, you would not want to be the first one in the line.	0	0	0
+comfort	NotHasSubEvent	While comfort, you would not	want to be in a dark place.	While comfort, you would not want to be in a dark place.	0	0	0
+comfort	NotHasSubEvent	While comfort, you would not	like to be in traffic.	While comfort, you would not like to be in traffic.	0	0	0
+comfort	NotHasSubEvent	While comfort, you would not	feel sad.	While comfort, you would not feel sad.	0	0	0
+gargle	NotHasSubEvent	While gargle, you would not	be able to speak.	While gargle, you would not be able to speak.	0	0	0
+gargle	NotHasSubEvent	While gargle, you would not	sing.	While gargle, you would not sing.	0	0	0
+gargle	NotHasSubEvent	While gargle, you would not	be able to speak.	While gargle, you would not be able to speak.	0	0	0
+drink	NotHasSubEvent	While drinking, you would not	feel thirsty.	While drinking, you would not feel thirsty.	0	0	0
+drink	NotHasSubEvent	While drinking, you would not	be able to drive.	While drinking, you would not be able to drive.	0	0	0
+drink	NotHasSubEvent	While drinking, you would not	be able to drive.	While drinking, you would not be able to drive.	0	0	0
+love another	NotHasSubEvent	While loving another, you would not	want to hurt another.	While loving another, you would not want to hurt another.	0	0	0
+love another	NotHasSubEvent	While loving another, you would not	despise him or her.	While loving another, you would not despise him or her.	0	0	0
+love another	NotHasSubEvent	While loving another, you would not	be happy if he/she does not love you.	While loving another, you would not be happy if he/she does not love you.	0	0	0
+give assistance	NotHasSubEvent	While giving assistance, you would not	like to be assisted by others.	While giving assistance, you would not like to be assisted by others.	0	0	0
+give assistance	NotHasSubEvent	While giving assistance, you would not	want to be rude.	While giving assistance, you would not want to be rude.	0	0	0
+give assistance	NotHasSubEvent	While giving assistance, you would not	find it helpful to be rude	While giving assistance, you would not find it helpful to be rude	0	0	0
+stay in bed	NotHasSubEvent	While staying in bed, you would not	be able to type	While staying in bed, you would not be able to type	0	0	0
+stay in bed	NotHasSubEvent	While staying in bed, you would not	feel like you are falling.	While staying in bed, you would not feel like you are falling.	0	0	0
+stay in bed	NotHasSubEvent	While staying in bed, you would not	be able to teach.	While staying in bed, you would not be able to teach.	0	0	0
+interfere	NotHasSubEvent	While interfering, you would not	be able to sleep.	While interfering, you would not be able to sleep.	0	0	0
+interfere	NotHasSubEvent	While interfering, you would not	like to be ignored.	While interfering, you would not like to be ignored.	0	0	0
+interfere	NotHasSubEvent	While interfering, you would not	want to be rude.	While interfering, you would not want to be rude.	0	0	0
+play chess	NotHasSubEvent	While playing chess, you would not	use a bat.	While playing chess, you would not use a bat.	0	0	0
+play chess	NotHasSubEvent	While playing chess, you would not	like to drink soda.	While playing chess, you would not like to drink soda.	0	0	0
+play chess	NotHasSubEvent	While playing chess, you would not	be able to jump.	While playing chess, you would not be able to jump.	0	0	0
+PersonX eats it	NotisBefore	PersonX eats it. After that, does not usually	feel hungry.	PersonX eats it. After that, does not usually feel hungry.	0	0	0
+PersonX eats it	NotisBefore	PersonX eats it. After that, does not usually	feel hungry.	PersonX eats it. After that, does not usually feel hungry.	0	0	0
+PersonX eats it	NotisBefore	PersonX eats it. After that, does not usually	eat.	PersonX eats it. After that, does not usually eat.	0	0	0
+PersonX sends PersonY a gift	NotisBefore	PersonX sends PersonY a gift. After that, does not usually	happen that PersonY is sad.	PersonX sends PersonY a gift. After that, does not usually happen that PersonY is sad.	0	0	0
+PersonX sends PersonY a gift	NotisBefore	PersonX sends PersonY a gift. After that, does not usually	feel happy.	PersonX sends PersonY a gift. After that, does not usually feel happy.	0	0	0
+PersonX sends PersonY a gift	NotisBefore	PersonX sends PersonY a gift. After that, does not usually	PersonX feel happy.	PersonX sends PersonY a gift. After that, does not usually PersonX feel happy.	0	0	0
+PersonX finishes the book last night	NotisBefore	PersonX finishes the book last night. After that, does not usually	read the book.	PersonX finishes the book last night. After that, does not usually read the book.	0	0	0
+PersonX finishes the book last night	NotisBefore	PersonX finishes the book last night. After that, does not usually	read it again.	PersonX finishes the book last night. After that, does not usually read it again.	0	0	0
+PersonX finishes the book last night	NotisBefore	PersonX finishes the book last night. After that, does not usually	read the book.	PersonX finishes the book last night. After that, does not usually read the book.	0	0	0
+PersonX makes PersonY's arrangements	NotisBefore	PersonX makes PersonY's arrangements. After that, does not usually	feel happy.	PersonX makes PersonY's arrangements. After that, does not usually feel happy.	0	0	0
+PersonX makes PersonY's arrangements	NotisBefore	PersonX makes PersonY's arrangements. After that, does not usually	happen that PersonY makes PersonX's arrangements.	PersonX makes PersonY's arrangements. After that, does not usually happen that PersonY makes PersonX's arrangements.	0	0	0
+PersonX makes PersonY's arrangements	NotisBefore	PersonX makes PersonY's arrangements. After that, does not usually	feel sad.	PersonX makes PersonY's arrangements. After that, does not usually feel sad.	0	0	0
+PersonX has a better idea	NotisBefore	PersonX has a better idea. After that, does not usually	happen that PersonX rejects it.	PersonX has a better idea. After that, does not usually happen that PersonX rejects it.	0	0	0
+PersonX has a better idea	NotisBefore	PersonX has a better idea. After that, does not usually	happen that he has no idea.	PersonX has a better idea. After that, does not usually happen that he has no idea.	0	0	0
+PersonX has a better idea	NotisBefore	PersonX has a better idea. After that, does not usually	forget his old ideas.	PersonX has a better idea. After that, does not usually forget his old ideas.	0	0	0
+PersonX keeps PersonX's head down	NotisBefore	PersonX keeps PersonX's head down. After that, does not usually	look up.	PersonX keeps PersonX's head down. After that, does not usually look up.	0	0	0
+PersonX keeps PersonX's head down	NotisBefore	PersonX keeps PersonX's head down. After that, does not usually	look around.	PersonX keeps PersonX's head down. After that, does not usually look around.	0	0	0
+PersonX keeps PersonX's head down	NotisBefore	PersonX keeps PersonX's head down. After that, does not usually	look up.	PersonX keeps PersonX's head down. After that, does not usually look up.	0	0	0
+PersonX walks into PersonY's room	NotisBefore	PersonX walks into PersonY's room. After that, does not usually	PersonX close the door.	PersonX walks into PersonY's room. After that, does not usually PersonX close the door.	0	0	0
+PersonX walks into PersonY's room	NotisBefore	PersonX walks into PersonY's room. After that, does not usually	expect to find PersonY standing there	PersonX walks into PersonY's room. After that, does not usually expect to find PersonY standing there	0	0	0
+PersonX walks into PersonY's room	NotisBefore	PersonX walks into PersonY's room. After that, does not usually	PersonX close the door.	PersonX walks into PersonY's room. After that, does not usually PersonX close the door.	0	0	0
+PersonX makes decisions based	NotisBefore	PersonX makes decisions based. After that, does not usually	regret.	PersonX makes decisions based. After that, does not usually regret.	0	0	0
+PersonX makes decisions based	NotisBefore	PersonX makes decisions based. After that, does not usually	need to think.	PersonX makes decisions based. After that, does not usually need to think.	0	0	0
+PersonX makes decisions based	NotisBefore	PersonX makes decisions based. After that, does not usually	regret.	PersonX makes decisions based. After that, does not usually regret.	0	0	0
+PersonX has trouble staying awake	NotisBefore	PersonX has trouble staying awake. After that, does not usually	need coffee.	PersonX has trouble staying awake. After that, does not usually need coffee.	0	0	0
+PersonX has trouble staying awake	NotisBefore	PersonX has trouble staying awake. After that, does not usually	feel happy.	PersonX has trouble staying awake. After that, does not usually feel happy.	0	0	0
+PersonX has trouble staying awake	NotisBefore	PersonX has trouble staying awake. After that, does not usually	sleep well.	PersonX has trouble staying awake. After that, does not usually sleep well.	0	0	0
+PersonX rears PersonY's children	NotisBefore	PersonX rears PersonY's children. After that, does not usually	have to take care of his own children.	PersonX rears PersonY's children. After that, does not usually have to take care of his own children.	0	0	0
+PersonX rears PersonY's children	NotisBefore	PersonX rears PersonY's children. After that, does not usually	PersonY will get angry.	PersonX rears PersonY's children. After that, does not usually PersonY will get angry.	0	0	0
+PersonX rears PersonY's children	NotisBefore	PersonX rears PersonY's children. After that, does not usually	take care of his own children.	PersonX rears PersonY's children. After that, does not usually take care of his own children.	0	0	0
+PersonX enters an art contest	NotHinderedBy	PersonX enters an art contest. This happens even if	PersonX does not win the contest.	PersonX enters an art contest. This happens even if PersonX does not win the contest.	0	0	0
+PersonX enters an art contest	NotHinderedBy	PersonX enters an art contest. This happens even if	PersonX does not paint.	PersonX enters an art contest. This happens even if PersonX does not paint.	0	0	0
+PersonX enters an art contest	NotHinderedBy	PersonX enters an art contest. This happens even if	PersonX is not an artist	PersonX enters an art contest. This happens even if PersonX is not an artist	0	0	0
+PersonX spends time	NotHinderedBy	PersonX spends time. This happens even if	PersonX is not happy.	PersonX spends time. This happens even if PersonX is not happy.	0	0	0
+PersonX spends time	NotHinderedBy	PersonX spends time. This happens even if	PersonX doesn't have time.	PersonX spends time. This happens even if PersonX doesn't have time.	0	0	0
+PersonX spends time	NotHinderedBy	PersonX spends time. This happens even if	PersonX has another activity.	PersonX spends time. This happens even if PersonX has another activity.	0	0	0
+PersonX gives PersonY another	NotHinderedBy	PersonX gives PersonY another. This happens even if	PersonX does not own PersonY.	PersonX gives PersonY another. This happens even if PersonX does not own PersonY.	0	0	0
+PersonX gives PersonY another	NotHinderedBy	PersonX gives PersonY another. This happens even if	PersonX doesn't have it.	PersonX gives PersonY another. This happens even if PersonX doesn't have it.	0	0	0
+PersonX gives PersonY another	NotHinderedBy	PersonX gives PersonY another. This happens even if	PersonX never had one.	PersonX gives PersonY another. This happens even if PersonX never had one.	0	0	0
+PersonX sees PersonY night	NotHinderedBy	PersonX sees PersonY night. This happens even if	it is not dark.	PersonX sees PersonY night. This happens even if it is not dark.	0	0	0
+PersonX sees PersonY night	NotHinderedBy	PersonX sees PersonY night. This happens even if	PersonX is at work.	PersonX sees PersonY night. This happens even if PersonX is at work.	0	0	0
+PersonX sees PersonY night	NotHinderedBy	PersonX sees PersonY night. This happens even if	PersonY is in the dark.	PersonX sees PersonY night. This happens even if PersonY is in the dark.	0	0	0
+PersonX changes PersonY's diaper	NotHinderedBy	PersonX changes PersonY's diaper. This happens even if	PersonY is not a baby.	PersonX changes PersonY's diaper. This happens even if PersonY is not a baby.	0	0	0
+PersonX changes PersonY's diaper	NotHinderedBy	PersonX changes PersonY's diaper. This happens even if	PersonX is not happy.	PersonX changes PersonY's diaper. This happens even if PersonX is not happy.	0	0	0
+PersonX changes PersonY's diaper	NotHinderedBy	PersonX changes PersonY's diaper. This happens even if	PersonX is not happy.	PersonX changes PersonY's diaper. This happens even if PersonX is not happy.	0	0	0
+PersonX is having a party at PersonX's house	NotHinderedBy	PersonX is having a party at PersonX's house. This happens even if	there is no cake.	PersonX is having a party at PersonX's house. This happens even if there is no cake.	0	0	0
+PersonX is having a party at PersonX's house	NotHinderedBy	PersonX is having a party at PersonX's house. This happens even if	no one shows up.	PersonX is having a party at PersonX's house. This happens even if no one shows up.	0	0	0
+PersonX is having a party at PersonX's house	NotHinderedBy	PersonX is having a party at PersonX's house. This happens even if	PersonX is not there.	PersonX is having a party at PersonX's house. This happens even if PersonX is not there.	0	0	0
+PersonX pulls out all the stops	NotHinderedBy	PersonX pulls out all the stops. This happens even if	there are no stops.	PersonX pulls out all the stops. This happens even if there are no stops.	0	0	0
+PersonX pulls out all the stops	NotHinderedBy	PersonX pulls out all the stops. This happens even if	PersonX is not happy.	PersonX pulls out all the stops. This happens even if PersonX is not happy.	0	0	0
+PersonX pulls out all the stops	NotHinderedBy	PersonX pulls out all the stops. This happens even if	PersonX does not want to do so.	PersonX pulls out all the stops. This happens even if PersonX does not want to do so.	0	0	0
+PersonX looks in the pantry	NotHinderedBy	PersonX looks in the pantry. This happens even if	there is no one in the pantry.	PersonX looks in the pantry. This happens even if there is no one in the pantry.	0	0	0
+PersonX looks in the pantry	NotHinderedBy	PersonX looks in the pantry. This happens even if	PersonX does not know what is in the pantry.	PersonX looks in the pantry. This happens even if PersonX does not know what is in the pantry.	0	0	0
+PersonX looks in the pantry	NotHinderedBy	PersonX looks in the pantry. This happens even if	there isn’t a pantry.	PersonX looks in the pantry. This happens even if there isn’t a pantry.	0	0	0
+PersonX brushes PersonY's hair	NotHinderedBy	PersonX brushes PersonY's hair. This happens even if	PersonY is bald.	PersonX brushes PersonY's hair. This happens even if PersonY is bald.	0	0	0
+PersonX brushes PersonY's hair	NotHinderedBy	PersonX brushes PersonY's hair. This happens even if	PersonY is a man.	PersonX brushes PersonY's hair. This happens even if PersonY is a man.	0	0	0
+PersonX brushes PersonY's hair	NotHinderedBy	PersonX brushes PersonY's hair. This happens even if	PersonY doesn't want it.	PersonX brushes PersonY's hair. This happens even if PersonY doesn't want it.	0	0	0
+PersonX invites PersonY to play	NotHinderedBy	PersonX invites PersonY to play. This happens even if	personX is not happy.	PersonX invites PersonY to play. This happens even if personX is not happy.	0	0	0
+PersonX invites PersonY to play	NotHinderedBy	PersonX invites PersonY to play. This happens even if	PersonY is not happy.	PersonX invites PersonY to play. This happens even if PersonY is not happy.	0	0	0
+PersonX invites PersonY to play	NotHinderedBy	PersonX invites PersonY to play. This happens even if	PersonY does not want to play.	PersonX invites PersonY to play. This happens even if PersonY does not want to play.	0	0	0
+sickness	NotCauses	sickness does not cause	death	sickness does not cause death	0	0	0
+sickness	NotCauses	sickness does not cause	death.	sickness does not cause death.	0	0	0
+sickness	NotCauses	sickness does not cause	death	sickness does not cause death	0	0	0
+alcoholism	NotCauses	alcoholism does not cause	cancer	alcoholism does not cause cancer	0	0	0
+alcoholism	NotCauses	alcoholism does not cause	cancer.	alcoholism does not cause cancer.	0	0	0
+alcoholism	NotCauses	alcoholism does not cause	cancer.	alcoholism does not cause cancer.	0	0	0
+rudeness	NotCauses	rudeness does not cause	happiness.	rudeness does not cause happiness.	0	0	0
+rudeness	NotCauses	rudeness does not cause	happiness	rudeness does not cause happiness	0	0	0
+rudeness	NotCauses	rudeness does not cause	people to be angry; rudeness causes people to be rude.	rudeness does not cause people to be angry; rudeness causes people to be rude.	0	0	0
+argument	NotCauses	argument does not cause	violence, unless it is very heated.	argument does not cause violence, unless it is very heated.	0	0	0
+argument	NotCauses	argument does not cause	conflict.	argument does not cause conflict.	0	0	0
+argument	NotCauses	argument does not cause	effect.	argument does not cause effect.	0	0	0
+bacteria	NotCauses	bacteria does not cause	cancer	bacteria does not cause cancer	0	0	0
+bacteria	NotCauses	bacteria does not cause	cancer.	bacteria does not cause cancer.	0	0	0
+bacteria	NotCauses	bacteria does not cause	cancer.	bacteria does not cause cancer.	0	0	0
+hot weather	NotCauses	hot weather does not cause	cold.	hot weather does not cause cold.	0	0	0
+hot weather	NotCauses	hot weather does not cause	cold	hot weather does not cause cold	0	0	0
+hot weather	NotCauses	hot weather does not cause	cold.	hot weather does not cause cold.	0	0	0
+project	NotCauses	project does not cause	cancer.	project does not cause cancer.	0	0	0
+project	NotCauses	project does not cause	pollution	project does not cause pollution	0	0	0
+project	NotCauses	project does not cause	any harm to the environment	project does not cause any harm to the environment	0	0	0
+avalanche	NotCauses	avalanche does not cause	any damage.	avalanche does not cause any damage.	0	0	0
+avalanche	NotCauses	avalanche does not cause	people to be buried.	avalanche does not cause people to be buried.	0	0	0
+avalanche	NotCauses	avalanche does not cause	people to become hot.	avalanche does not cause people to become hot.	0	0	0
+fear	NotCauses	fear does not cause	death.	fear does not cause death.	0	0	0
+fear	NotCauses	fear does not cause	anger.	fear does not cause anger.	0	0	0
+fear	NotCauses	fear does not cause	happiness	fear does not cause happiness	0	0	0
+viral infection	NotCauses	viral infection does not cause	death.	viral infection does not cause death.	0	0	0
+viral infection	NotCauses	viral infection does not cause	cancer	viral infection does not cause cancer	0	0	0
+viral infection	NotCauses	viral infection does not cause	death	viral infection does not cause death	0	0	0
+get exercise	NotxReason	get exercise. PersonX did this not because	he was ordered to.	get exercise. PersonX did this not because he was ordered to.	0	0	0
+get exercise	NotxReason	get exercise. PersonX did this not because	he was bored.	get exercise. PersonX did this not because he was bored.	0	0	0
+get exercise	NotxReason	get exercise. PersonX did this not because	personY recommended it.	get exercise. PersonX did this not because personY recommended it.	0	0	0
+commit suicide	NotxReason	commit suicide. PersonX did this not because	he is sad.	commit suicide. PersonX did this not because he is sad.	0	0	0
+commit suicide	NotxReason	commit suicide. PersonX did this not because	he was happy.	commit suicide. PersonX did this not because he was happy.	0	0	0
+commit suicide	NotxReason	commit suicide. PersonX did this not because	he was happy, but because he was not.	commit suicide. PersonX did this not because he was happy, but because he was not.	0	0	0
+stay in bed	NotxReason	stay in bed. PersonX did this not because	he was sick.	stay in bed. PersonX did this not because he was sick.	0	0	0
+stay in bed	NotxReason	stay in bed. PersonX did this not because	he was lazy but because he was sick.	stay in bed. PersonX did this not because he was lazy but because he was sick.	0	0	0
+stay in bed	NotxReason	stay in bed. PersonX did this not because	he was sick but because he was lazy.	stay in bed. PersonX did this not because he was sick but because he was lazy.	0	0	0
+take cough medicine	NotxReason	take cough medicine. PersonX did this not because	he is sick.	take cough medicine. PersonX did this not because he is sick.	0	0	0
+take cough medicine	NotxReason	take cough medicine. PersonX did this not because	of his cold.	take cough medicine. PersonX did this not because of his cold.	0	0	0
+take cough medicine	NotxReason	take cough medicine. PersonX did this not because	he wanted to, but because he had to.	take cough medicine. PersonX did this not because he wanted to, but because he had to.	0	0	0
+get up early	NotxReason	get up early. PersonX did this not because	he wanted to.	get up early. PersonX did this not because he wanted to.	0	0	0
+get up early	NotxReason	get up early. PersonX did this not because	he wanted to.	get up early. PersonX did this not because he wanted to.	0	0	0
+get up early	NotxReason	get up early. PersonX did this not because	he wanted to, but because he had to.	get up early. PersonX did this not because he wanted to, but because he had to.	0	0	0
+call in sick	NotxReason	call in sick. PersonX did this not because	he was ill, but because he wanted to stay home and watch the game.	call in sick. PersonX did this not because he was ill, but because he wanted to stay home and watch the game.	0	0	0
+call in sick	NotxReason	call in sick. PersonX did this not because	he is sick, but because he wants to rest.	call in sick. PersonX did this not because he is sick, but because he wants to rest.	0	0	0
+call in sick	NotxReason	call in sick. PersonX did this not because	he was sick.	call in sick. PersonX did this not because he was sick.	0	0	0
+go on vacation	NotxReason	go on vacation. PersonX did this not because	he was bored.	go on vacation. PersonX did this not because he was bored.	0	0	0
+go on vacation	NotxReason	go on vacation. PersonX did this not because	he wanted.	go on vacation. PersonX did this not because he wanted.	0	0	0
+go on vacation	NotxReason	go on vacation. PersonX did this not because	PersonY wanted to.	go on vacation. PersonX did this not because PersonY wanted to.	0	0	0
+complain	NotxReason	complain. PersonX did this not because	he wanted to, but because he had to.	complain. PersonX did this not because he wanted to, but because he had to.	0	0	0
+complain	NotxReason	complain. PersonX did this not because	PersonZ did something.	complain. PersonX did this not because PersonZ did something.	0	0	0
+complain	NotxReason	complain. PersonX did this not because	he was happy, but because he was sad.	complain. PersonX did this not because he was happy, but because he was sad.	0	0	0
+steal	NotxReason	steal. PersonX did this not because	he wanted to.	steal. PersonX did this not because he wanted to.	0	0	0
+steal	NotxReason	steal. PersonX did this not because	he is a bad person.	steal. PersonX did this not because he is a bad person.	0	0	0
+steal	NotxReason	steal. PersonX did this not because	of the bike, but because of the money.	steal. PersonX did this not because of the bike, but because of the money.	0	0	0
+eat	NotxReason	eat. PersonX did this not because	PersonY recommended it.	eat. PersonX did this not because PersonY recommended it.	0	0	0
+eat	NotxReason	eat. PersonX did this not because	he was hungry.	eat. PersonX did this not because he was hungry.	0	0	0
+eat	NotxReason	eat. PersonX did this not because	he was hungry.	eat. PersonX did this not because he was hungry.	0	0	0
+PersonX gets it for PersonY	NotxNeed	PersonX gets it for PersonY. Before, PersonX does not needs to	have it.	PersonX gets it for PersonY. Before, PersonX does not needs to have it.	0	0	0
+PersonX gets it for PersonY	NotxNeed	PersonX gets it for PersonY. Before, PersonX does not needs to	go get it.	PersonX gets it for PersonY. Before, PersonX does not needs to go get it.	0	0	0
+PersonX gets it for PersonY	NotxNeed	PersonX gets it for PersonY. Before, PersonX does not needs to	have it.	PersonX gets it for PersonY. Before, PersonX does not needs to have it.	0	0	0
+PersonX feels unhappy	NotxNeed	PersonX feels unhappy. Before, PersonX does not needs to	feel happy.	PersonX feels unhappy. Before, PersonX does not needs to feel happy.	0	0	0
+PersonX feels unhappy	NotxNeed	PersonX feels unhappy. Before, PersonX does not needs to	feel happy.	PersonX feels unhappy. Before, PersonX does not needs to feel happy.	0	0	0
+PersonX feels unhappy	NotxNeed	PersonX feels unhappy. Before, PersonX does not needs to	feel happy.	PersonX feels unhappy. Before, PersonX does not needs to feel happy.	0	0	0
+PersonX gets something to eat	NotxNeed	PersonX gets something to eat. Before, PersonX does not needs to	be hungry.	PersonX gets something to eat. Before, PersonX does not needs to be hungry.	0	0	0
+PersonX gets something to eat	NotxNeed	PersonX gets something to eat. Before, PersonX does not needs to	fasting.	PersonX gets something to eat. Before, PersonX does not needs to fasting.	0	0	0
+PersonX gets something to eat	NotxNeed	PersonX gets something to eat. Before, PersonX does not needs to	be hungry.	PersonX gets something to eat. Before, PersonX does not needs to be hungry.	0	0	0
+PersonX eats a hamburger	NotxNeed	PersonX eats a hamburger. Before, PersonX does not needs to	starve.	PersonX eats a hamburger. Before, PersonX does not needs to starve.	0	0	0
+PersonX eats a hamburger	NotxNeed	PersonX eats a hamburger. Before, PersonX does not needs to	feel hungry.	PersonX eats a hamburger. Before, PersonX does not needs to feel hungry.	0	0	0
+PersonX eats a hamburger	NotxNeed	PersonX eats a hamburger. Before, PersonX does not needs to	be hungry.	PersonX eats a hamburger. Before, PersonX does not needs to be hungry.	0	0	0
+PersonX tricks or treat	NotxNeed	PersonX tricks or treat. Before, PersonX does not needs to	wear a costume.	PersonX tricks or treat. Before, PersonX does not needs to wear a costume.	0	0	0
+PersonX tricks or treat	NotxNeed	PersonX tricks or treat. Before, PersonX does not needs to	be sugar high.	PersonX tricks or treat. Before, PersonX does not needs to be sugar high.	0	0	0
+PersonX tricks or treat	NotxNeed	PersonX tricks or treat. Before, PersonX does not needs to	knock.	PersonX tricks or treat. Before, PersonX does not needs to knock.	0	0	0
+PersonX forms a band	NotxNeed	PersonX forms a band. Before, PersonX does not needs to	be a member of a band.	PersonX forms a band. Before, PersonX does not needs to be a member of a band.	0	0	0
+PersonX forms a band	NotxNeed	PersonX forms a band. Before, PersonX does not needs to	be a musician.	PersonX forms a band. Before, PersonX does not needs to be a musician.	0	0	0
+PersonX forms a band	NotxNeed	PersonX forms a band. Before, PersonX does not needs to	sing.	PersonX forms a band. Before, PersonX does not needs to sing.	0	0	0
+PersonX meets PersonX's standards	NotxNeed	PersonX meets PersonX's standards. Before, PersonX does not needs to	lower his standards.	PersonX meets PersonX's standards. Before, PersonX does not needs to lower his standards.	0	0	0
+PersonX meets PersonX's standards	NotxNeed	PersonX meets PersonX's standards. Before, PersonX does not needs to	know PersonX.	PersonX meets PersonX's standards. Before, PersonX does not needs to know PersonX.	0	0	0
+PersonX meets PersonX's standards	NotxNeed	PersonX meets PersonX's standards. Before, PersonX does not needs to	meet anyone's standards.	PersonX meets PersonX's standards. Before, PersonX does not needs to meet anyone's standards.	0	0	0
+PersonX likes cheese	NotxNeed	PersonX likes cheese. Before, PersonX does not needs to	dislike cheese.	PersonX likes cheese. Before, PersonX does not needs to dislike cheese.	0	0	0
+PersonX likes cheese	NotxNeed	PersonX likes cheese. Before, PersonX does not needs to	hate cheese.	PersonX likes cheese. Before, PersonX does not needs to hate cheese.	0	0	0
+PersonX likes cheese	NotxNeed	PersonX likes cheese. Before, PersonX does not needs to	hate cheese.	PersonX likes cheese. Before, PersonX does not needs to hate cheese.	0	0	0
+PersonX watches the kids	NotxNeed	PersonX watches the kids. Before, PersonX does not needs to	be awake.	PersonX watches the kids. Before, PersonX does not needs to be awake.	0	0	0
+PersonX watches the kids	NotxNeed	PersonX watches the kids. Before, PersonX does not needs to	read books.	PersonX watches the kids. Before, PersonX does not needs to read books.	0	0	0
+PersonX watches the kids	NotxNeed	PersonX watches the kids. Before, PersonX does not needs to	pay attention to the kids.	PersonX watches the kids. Before, PersonX does not needs to pay attention to the kids.	0	0	0
+PersonX slams dunk	NotxNeed	PersonX slams dunk. Before, PersonX does not needs to	jump.	PersonX slams dunk. Before, PersonX does not needs to jump.	0	0	0
+PersonX slams dunk	NotxNeed	PersonX slams dunk. Before, PersonX does not needs to	jump.	PersonX slams dunk. Before, PersonX does not needs to jump.	0	0	0
+PersonX slams dunk	NotxNeed	PersonX slams dunk. Before, PersonX does not needs to	play.	PersonX slams dunk. Before, PersonX does not needs to play.	0	0	0
+PersonX gets a part time job	NotxAttr	PersonX gets a part time job. PersonX is not	likely to be unemployed.	PersonX gets a part time job. PersonX is not likely to be unemployed.	0	0	0
+PersonX gets a part time job	NotxAttr	PersonX gets a part time job. PersonX is not	likely to be happy.	PersonX gets a part time job. PersonX is not likely to be happy.	0	0	0
+PersonX gets a part time job	NotxAttr	PersonX gets a part time job. PersonX is not	likely to be unemployed after that.	PersonX gets a part time job. PersonX is not likely to be unemployed after that.	0	0	0
+PersonX walks to the car	NotxAttr	PersonX walks to the car. PersonX is not	likely to be in the car.	PersonX walks to the car. PersonX is not likely to be in the car.	0	0	0
+PersonX walks to the car	NotxAttr	PersonX walks to the car. PersonX is not	in the car.	PersonX walks to the car. PersonX is not in the car.	0	0	0
+PersonX walks to the car	NotxAttr	PersonX walks to the car. PersonX is not	in the car.	PersonX walks to the car. PersonX is not in the car.	0	0	0
+PersonX thinks of a solution	NotxAttr	PersonX thinks of a solution. PersonX is not	likely to be happy.	PersonX thinks of a solution. PersonX is not likely to be happy.	0	0	0
+PersonX thinks of a solution	NotxAttr	PersonX thinks of a solution. PersonX is not	likely to succeed.	PersonX thinks of a solution. PersonX is not likely to succeed.	0	0	0
+PersonX thinks of a solution	NotxAttr	PersonX thinks of a solution. PersonX is not	sad.	PersonX thinks of a solution. PersonX is not sad.	0	0	0
+PersonX goes to the doctor for a checkup	NotxAttr	PersonX goes to the doctor for a checkup. PersonX is not	likely to be sick.	PersonX goes to the doctor for a checkup. PersonX is not likely to be sick.	0	0	0
+PersonX goes to the doctor for a checkup	NotxAttr	PersonX goes to the doctor for a checkup. PersonX is not	worried.	PersonX goes to the doctor for a checkup. PersonX is not worried.	0	0	0
+PersonX goes to the doctor for a checkup	NotxAttr	PersonX goes to the doctor for a checkup. PersonX is not	likely to be happy.	PersonX goes to the doctor for a checkup. PersonX is not likely to be happy.	0	0	0
+PersonX feels nervous	NotxAttr	PersonX feels nervous. PersonX is not	likely to feel calm	PersonX feels nervous. PersonX is not likely to feel calm	0	0	0
+PersonX feels nervous	NotxAttr	PersonX feels nervous. PersonX is not	likely to feel happy.	PersonX feels nervous. PersonX is not likely to feel happy.	0	0	0
+PersonX feels nervous	NotxAttr	PersonX feels nervous. PersonX is not	likely to feel happy.	PersonX feels nervous. PersonX is not likely to feel happy.	0	0	0
+PersonX is PersonY's mother	NotxAttr	PersonX is PersonY's mother. PersonX is not	PersonY's father.	PersonX is PersonY's mother. PersonX is not PersonY's father.	0	0	0
+PersonX is PersonY's mother	NotxAttr	PersonX is PersonY's mother. PersonX is not	likely to be PersonY's grandfather.	PersonX is PersonY's mother. PersonX is not likely to be PersonY's grandfather.	0	0	0
+PersonX is PersonY's mother	NotxAttr	PersonX is PersonY's mother. PersonX is not	PersonY's grandmother.	PersonX is PersonY's mother. PersonX is not PersonY's grandmother.	0	0	0
+PersonX can not believe PersonX's eyes	NotxAttr	PersonX can not believe PersonX's eyes. PersonX is not	likely to be happy.	PersonX can not believe PersonX's eyes. PersonX is not likely to be happy.	0	0	0
+PersonX can not believe PersonX's eyes	NotxAttr	PersonX can not believe PersonX's eyes. PersonX is not	likely to be happy.	PersonX can not believe PersonX's eyes. PersonX is not likely to be happy.	0	0	0
+PersonX can not believe PersonX's eyes	NotxAttr	PersonX can not believe PersonX's eyes. PersonX is not	likely to be happy.	PersonX can not believe PersonX's eyes. PersonX is not likely to be happy.	0	0	0
+PersonX catches the bus to work	NotxAttr	PersonX catches the bus to work. PersonX is not	happy if PersonX misses the bus.	PersonX catches the bus to work. PersonX is not happy if PersonX misses the bus.	0	0	0
+PersonX catches the bus to work	NotxAttr	PersonX catches the bus to work. PersonX is not	late for work.	PersonX catches the bus to work. PersonX is not late for work.	0	0	0
+PersonX catches the bus to work	NotxAttr	PersonX catches the bus to work. PersonX is not	likely to be late.	PersonX catches the bus to work. PersonX is not likely to be late.	0	0	0
+PersonX hurts like hell	NotxAttr	PersonX hurts like hell. PersonX is not	likely to feel happy.	PersonX hurts like hell. PersonX is not likely to feel happy.	0	0	0
+PersonX hurts like hell	NotxAttr	PersonX hurts like hell. PersonX is not	likely to be happy.	PersonX hurts like hell. PersonX is not likely to be happy.	0	0	0
+PersonX hurts like hell	NotxAttr	PersonX hurts like hell. PersonX is not	happy.	PersonX hurts like hell. PersonX is not happy.	0	0	0
+PersonX is running down the street	NotxAttr	PersonX is running down the street. PersonX is not	doing any other activities.	PersonX is running down the street. PersonX is not doing any other activities.	0	0	0
+PersonX is running down the street	NotxAttr	PersonX is running down the street. PersonX is not	likely to be reading a book.	PersonX is running down the street. PersonX is not likely to be reading a book.	0	0	0
+PersonX is running down the street	NotxAttr	PersonX is running down the street. PersonX is not	going to be happy.	PersonX is running down the street. PersonX is not going to be happy.	0	0	0
+PersonX gets a part time job	NotxEffect	PersonX gets a part time job. The effect on PersonX will not be	known until later.	PersonX gets a part time job. The effect on PersonX will not be known until later.	0	0	0
+PersonX gets a part time job	NotxEffect	PersonX gets a part time job. The effect on PersonX will not be	negative.	PersonX gets a part time job. The effect on PersonX will not be negative.	0	0	0
+PersonX gets a part time job	NotxEffect	PersonX gets a part time job. The effect on PersonX will not be	negative.	PersonX gets a part time job. The effect on PersonX will not be negative.	0	0	0
+PersonX walks to the car	NotxEffect	PersonX walks to the car. The effect on PersonX will not be	significant.	PersonX walks to the car. The effect on PersonX will not be significant.	0	0	0
+PersonX walks to the car	NotxEffect	PersonX walks to the car. The effect on PersonX will not be	known, unless he arrives to the car.	PersonX walks to the car. The effect on PersonX will not be known, unless he arrives to the car.	0	0	0
+PersonX walks to the car	NotxEffect	PersonX walks to the car. The effect on PersonX will not be	negative.	PersonX walks to the car. The effect on PersonX will not be negative.	0	0	0
+PersonX thinks of a solution	NotxEffect	PersonX thinks of a solution. The effect on PersonX will not be	known.	PersonX thinks of a solution. The effect on PersonX will not be known.	0	0	0
+PersonX thinks of a solution	NotxEffect	PersonX thinks of a solution. The effect on PersonX will not be	known until it is known what the problem is.	PersonX thinks of a solution. The effect on PersonX will not be known until it is known what the problem is.	0	0	0
+PersonX thinks of a solution	NotxEffect	PersonX thinks of a solution. The effect on PersonX will not be	known until he tries it.	PersonX thinks of a solution. The effect on PersonX will not be known until he tries it.	0	0	0
+PersonX goes to the doctor for a checkup	NotxEffect	PersonX goes to the doctor for a checkup. The effect on PersonX will not be	known until after the checkup.	PersonX goes to the doctor for a checkup. The effect on PersonX will not be known until after the checkup.	0	0	0
+PersonX goes to the doctor for a checkup	NotxEffect	PersonX goes to the doctor for a checkup. The effect on PersonX will not be	known until the doctor has seen him.	PersonX goes to the doctor for a checkup. The effect on PersonX will not be known until the doctor has seen him.	0	0	0
+PersonX goes to the doctor for a checkup	NotxEffect	PersonX goes to the doctor for a checkup. The effect on PersonX will not be	known until after the checkup.	PersonX goes to the doctor for a checkup. The effect on PersonX will not be known until after the checkup.	0	0	0
+PersonX feels nervous	NotxEffect	PersonX feels nervous. The effect on PersonX will not be	positive.	PersonX feels nervous. The effect on PersonX will not be positive.	0	0	0
+PersonX feels nervous	NotxEffect	PersonX feels nervous. The effect on PersonX will not be	positive.	PersonX feels nervous. The effect on PersonX will not be positive.	0	0	0
+PersonX feels nervous	NotxEffect	PersonX feels nervous. The effect on PersonX will not be	good.	PersonX feels nervous. The effect on PersonX will not be good.	0	0	0
+PersonX is PersonY's mother	NotxEffect	PersonX is PersonY's mother. The effect on PersonX will not be	happy.	PersonX is PersonY's mother. The effect on PersonX will not be happy.	0	0	0
+PersonX is PersonY's mother	NotxEffect	PersonX is PersonY's mother. The effect on PersonX will not be	positive.	PersonX is PersonY's mother. The effect on PersonX will not be positive.	0	0	0
+PersonX is PersonY's mother	NotxEffect	PersonX is PersonY's mother. The effect on PersonX will not be	the same as on PersonY.	PersonX is PersonY's mother. The effect on PersonX will not be the same as on PersonY.	0	0	0
+PersonX can not believe PersonX's eyes	NotxEffect	PersonX can not believe PersonX's eyes. The effect on PersonX will not be	known.	PersonX can not believe PersonX's eyes. The effect on PersonX will not be known.	0	0	0
+PersonX can not believe PersonX's eyes	NotxEffect	PersonX can not believe PersonX's eyes. The effect on PersonX will not be	known.	PersonX can not believe PersonX's eyes. The effect on PersonX will not be known.	0	0	0
+PersonX can not believe PersonX's eyes	NotxEffect	PersonX can not believe PersonX's eyes. The effect on PersonX will not be	too much.	PersonX can not believe PersonX's eyes. The effect on PersonX will not be too much.	0	0	0
+PersonX catches the bus to work	NotxEffect	PersonX catches the bus to work. The effect on PersonX will not be	known until he arrives at work.	PersonX catches the bus to work. The effect on PersonX will not be known until he arrives at work.	0	0	0
+PersonX catches the bus to work	NotxEffect	PersonX catches the bus to work. The effect on PersonX will not be	known until PersonX arrives at work	PersonX catches the bus to work. The effect on PersonX will not be known until PersonX arrives at work	0	0	0
+PersonX catches the bus to work	NotxEffect	PersonX catches the bus to work. The effect on PersonX will not be	known until he arrives at his destination.	PersonX catches the bus to work. The effect on PersonX will not be known until he arrives at his destination.	0	0	0
+PersonX hurts like hell	NotxEffect	PersonX hurts like hell. The effect on PersonX will not be	positive.	PersonX hurts like hell. The effect on PersonX will not be positive.	0	0	0
+PersonX hurts like hell	NotxEffect	PersonX hurts like hell. The effect on PersonX will not be	positive.	PersonX hurts like hell. The effect on PersonX will not be positive.	0	0	0
+PersonX hurts like hell	NotxEffect	PersonX hurts like hell. The effect on PersonX will not be	pleasant.	PersonX hurts like hell. The effect on PersonX will not be pleasant.	0	0	0
+PersonX is running down the street	NotxEffect	PersonX is running down the street. The effect on PersonX will not be	positive.	PersonX is running down the street. The effect on PersonX will not be positive.	0	0	0
+PersonX is running down the street	NotxEffect	PersonX is running down the street. The effect on PersonX will not be	immediate.	PersonX is running down the street. The effect on PersonX will not be immediate.	0	0	0
+PersonX is running down the street	NotxEffect	PersonX is running down the street. The effect on PersonX will not be	known until he reaches his destination.	PersonX is running down the street. The effect on PersonX will not be known until he reaches his destination.	0	0	0
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. PersonX will not be	happy.	PersonX sees PersonY's crush. PersonX will not be happy.	0	0	0
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. PersonX will not be	happy.	PersonX sees PersonY's crush. PersonX will not be happy.	0	0	0
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. PersonX will not be	happy.	PersonX sees PersonY's crush. PersonX will not be happy.	0	0	0
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. PersonX will not be	able to see his own tongue.	PersonX watches PersonX's mouth. PersonX will not be able to see his own tongue.	0	0	0
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. PersonX will not be	happy.	PersonX watches PersonX's mouth. PersonX will not be happy.	0	0	0
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. PersonX will not be	sad.	PersonX watches PersonX's mouth. PersonX will not be sad.	0	0	0
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. PersonX will not be	happy.	PersonX moves past PersonY. PersonX will not be happy.	0	0	0
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. PersonX will not be	sad.	PersonX moves past PersonY. PersonX will not be sad.	0	0	0
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. PersonX will not be	happy.	PersonX moves past PersonY. PersonX will not be happy.	0	0	0
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. PersonX will not be	happy.	PersonX denies PersonY's existence. PersonX will not be happy.	0	0	0
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. PersonX will not be	happy.	PersonX denies PersonY's existence. PersonX will not be happy.	0	0	0
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. PersonX will not be	happy.	PersonX denies PersonY's existence. PersonX will not be happy.	0	0	0
+PersonX never been to one	NotxReact	PersonX never been to one. PersonX will not be	able to go to one.	PersonX never been to one. PersonX will not be able to go to one.	0	0	0
+PersonX never been to one	NotxReact	PersonX never been to one. PersonX will not be	able to go to there.	PersonX never been to one. PersonX will not be able to go to there.	0	0	0
+PersonX never been to one	NotxReact	PersonX never been to one. PersonX will not be	able to speak about it.	PersonX never been to one. PersonX will not be able to speak about it.	0	0	0
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. PersonX will not be	happy.	PersonX hits PersonY's friend. PersonX will not be happy.	0	0	0
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. PersonX will not be	happy.	PersonX hits PersonY's friend. PersonX will not be happy.	0	0	0
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. PersonX will not be	happy.	PersonX hits PersonY's friend. PersonX will not be happy.	0	0	0
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. PersonX will not be	happy because there is no one to take a shower.	PersonX sends PersonY to the showers. PersonX will not be happy because there is no one to take a shower.	0	0	0
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. PersonX will not be	happy.	PersonX sends PersonY to the showers. PersonX will not be happy.	0	0	0
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. PersonX will not be	happy.	PersonX sends PersonY to the showers. PersonX will not be happy.	0	0	0
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. PersonX will not be	happy.	PersonX fudges the issue. PersonX will not be happy.	0	0	0
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. PersonX will not be	happy.	PersonX fudges the issue. PersonX will not be happy.	0	0	0
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. PersonX will not be	happy.	PersonX fudges the issue. PersonX will not be happy.	0	0	0
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. PersonX will not be	happy.	PersonX contains PersonY number. PersonX will not be happy.	0	0	0
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. PersonX will not be	happy.	PersonX contains PersonY number. PersonX will not be happy.	0	0	0
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. PersonX will not be	happy.	PersonX contains PersonY number. PersonX will not be happy.	0	0	0
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. PersonX will not be	happy.	PersonX breaks PersonX's hip. PersonX will not be happy.	0	0	0
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. PersonX will not be	happy.	PersonX breaks PersonX's hip. PersonX will not be happy.	0	0	0
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. PersonX will not be	happy.	PersonX breaks PersonX's hip. PersonX will not be happy.	0	0	0
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. After, PersonX will not want to	sleep.	PersonX gets a part time job. After, PersonX will not want to sleep.	0	0	0
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. After, PersonX will not want to	work.	PersonX gets a part time job. After, PersonX will not want to work.	0	0	0
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. After, PersonX will not want to	go back to school.	PersonX gets a part time job. After, PersonX will not want to go back to school.	0	0	0
+PersonX sees wood	NotxWant	PersonX sees wood. After, PersonX will not want to	be blind.	PersonX sees wood. After, PersonX will not want to be blind.	0	0	0
+PersonX sees wood	NotxWant	PersonX sees wood. After, PersonX will not want to	leave.	PersonX sees wood. After, PersonX will not want to leave.	0	0	0
+PersonX sees wood	NotxWant	PersonX sees wood. After, PersonX will not want to	see a saw.	PersonX sees wood. After, PersonX will not want to see a saw.	0	0	0
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. After, PersonX will not want to	listen to music.	PersonX turns PersonX's music down. After, PersonX will not want to listen to music.	0	0	0
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. After, PersonX will not want to	listen to it.	PersonX turns PersonX's music down. After, PersonX will not want to listen to it.	0	0	0
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. After, PersonX will not want to	listen to music as loudly.	PersonX turns PersonX's music down. After, PersonX will not want to listen to music as loudly.	0	0	0
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. After, PersonX will not want to	do anything else.	PersonX is coming to an end. After, PersonX will not want to do anything else.	0	0	0
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. After, PersonX will not want to	have a lot of money.	PersonX is coming to an end. After, PersonX will not want to have a lot of money.	0	0	0
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. After, PersonX will not want to	eat more.	PersonX is coming to an end. After, PersonX will not want to eat more.	0	0	0
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. After, PersonX will not want to	touch PersonY's skin.	PersonX touches PersonY's skin. After, PersonX will not want to touch PersonY's skin.	0	0	0
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. After, PersonX will not want to	touch PersonY's skin.	PersonX touches PersonY's skin. After, PersonX will not want to touch PersonY's skin.	0	0	0
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. After, PersonX will not want to	touch anything else.	PersonX touches PersonY's skin. After, PersonX will not want to touch anything else.	0	0	0
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. After, PersonX will not want to	eat a lot of cookies.	PersonX is PersonY's mother. After, PersonX will not want to eat a lot of cookies.	0	0	0
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. After, PersonX will not want to	have an affair with PersonY.	PersonX is PersonY's mother. After, PersonX will not want to have an affair with PersonY.	0	0	0
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. After, PersonX will not want to	marry PersonY.	PersonX is PersonY's mother. After, PersonX will not want to marry PersonY.	0	0	0
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. After, PersonX will not want to	sleep.	PersonX can not believe PersonX's eyes. After, PersonX will not want to sleep.	0	0	0
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. After, PersonX will not want to	go to sleep.	PersonX can not believe PersonX's eyes. After, PersonX will not want to go to sleep.	0	0	0
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. After, PersonX will not want to	sleep.	PersonX can not believe PersonX's eyes. After, PersonX will not want to sleep.	0	0	0
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. After, PersonX will not want to	walk.	PersonX catches the bus to work. After, PersonX will not want to walk.	0	0	0
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. After, PersonX will not want to	drive.	PersonX catches the bus to work. After, PersonX will not want to drive.	0	0	0
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. After, PersonX will not want to	walk to work.	PersonX catches the bus to work. After, PersonX will not want to walk to work.	0	0	0
+PersonX wears gloves	NotxWant	PersonX wears gloves. After, PersonX will not want to	touch anything.	PersonX wears gloves. After, PersonX will not want to touch anything.	0	0	0
+PersonX wears gloves	NotxWant	PersonX wears gloves. After, PersonX will not want to	touch anything.	PersonX wears gloves. After, PersonX will not want to touch anything.	0	0	0
+PersonX wears gloves	NotxWant	PersonX wears gloves. After, PersonX will not want to	wear gloves.	PersonX wears gloves. After, PersonX will not want to wear gloves.	0	0	0
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. After, PersonX will not want to	operate in PersonY environment	PersonX operates in PersonY environment. After, PersonX will not want to operate in PersonY environment	0	0	0
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. After, PersonX will not want to	leave.	PersonX operates in PersonY environment. After, PersonX will not want to leave.	0	0	0
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. After, PersonX will not want to	leave.	PersonX operates in PersonY environment. After, PersonX will not want to leave.	0	0	0
+PersonX leaves PersonY time	NotxIntent	PersonX leaves PersonY time. PersonX did this not to	make PersonY feel sad.	PersonX leaves PersonY time. PersonX did this not to make PersonY feel sad.	0	0	0
+PersonX leaves PersonY time	NotxIntent	PersonX leaves PersonY time. PersonX did this not to	make PersonY feel sad.	PersonX leaves PersonY time. PersonX did this not to make PersonY feel sad.	0	0	0
+PersonX leaves PersonY time	NotxIntent	PersonX leaves PersonY time. PersonX did this not to	make PersonY happy.	PersonX leaves PersonY time. PersonX did this not to make PersonY happy.	0	0	0
+PersonX huddles together	NotxIntent	PersonX huddles together. PersonX did this not to	feel cold.	PersonX huddles together. PersonX did this not to feel cold.	0	0	0
+PersonX huddles together	NotxIntent	PersonX huddles together. PersonX did this not to	be sad.	PersonX huddles together. PersonX did this not to be sad.	0	0	0
+PersonX huddles together	NotxIntent	PersonX huddles together. PersonX did this not to	be happy.	PersonX huddles together. PersonX did this not to be happy.	0	0	0
+PersonX passes the exam	NotxIntent	PersonX passes the exam. PersonX did this not to	fail.	PersonX passes the exam. PersonX did this not to fail.	0	0	0
+PersonX passes the exam	NotxIntent	PersonX passes the exam. PersonX did this not to	fail.	PersonX passes the exam. PersonX did this not to fail.	0	0	0
+PersonX passes the exam	NotxIntent	PersonX passes the exam. PersonX did this not to	fail.	PersonX passes the exam. PersonX did this not to fail.	0	0	0
+PersonX is running down the street	NotxIntent	PersonX is running down the street. PersonX did this not to	bike.	PersonX is running down the street. PersonX did this not to bike.	0	0	0
+PersonX is running down the street	NotxIntent	PersonX is running down the street. PersonX did this not to	kill time.	PersonX is running down the street. PersonX did this not to kill time.	0	0	0
+PersonX is running down the street	NotxIntent	PersonX is running down the street. PersonX did this not to	walk.	PersonX is running down the street. PersonX did this not to walk.	0	0	0
+PersonX gives PersonY what-for	NotxIntent	PersonX gives PersonY what-for. PersonX did this not to	make PersonY sad.	PersonX gives PersonY what-for. PersonX did this not to make PersonY sad.	0	0	0
+PersonX gives PersonY what-for	NotxIntent	PersonX gives PersonY what-for. PersonX did this not to	hurt PersonY, but to make them feel better.	PersonX gives PersonY what-for. PersonX did this not to hurt PersonY, but to make them feel better.	0	0	0
+PersonX gives PersonY what-for	NotxIntent	PersonX gives PersonY what-for. PersonX did this not to	make PersonY feel bad.	PersonX gives PersonY what-for. PersonX did this not to make PersonY feel bad.	0	0	0
+PersonX feels better	NotxIntent	PersonX feels better. PersonX did this not to	feel sad.	PersonX feels better. PersonX did this not to feel sad.	0	0	0
+PersonX feels better	NotxIntent	PersonX feels better. PersonX did this not to	feel sad.	PersonX feels better. PersonX did this not to feel sad.	0	0	0
+PersonX feels better	NotxIntent	PersonX feels better. PersonX did this not to	feel sad.	PersonX feels better. PersonX did this not to feel sad.	0	0	0
+PersonX makes PersonY alliance	NotxIntent	PersonX makes PersonY alliance. PersonX did this not to	make PersonY happy.	PersonX makes PersonY alliance. PersonX did this not to make PersonY happy.	0	0	0
+PersonX makes PersonY alliance	NotxIntent	PersonX makes PersonY alliance. PersonX did this not to	become inimical with PersonY.	PersonX makes PersonY alliance. PersonX did this not to become inimical with PersonY.	0	0	0
+PersonX makes PersonY alliance	NotxIntent	PersonX makes PersonY alliance. PersonX did this not to	make PersonY sad.	PersonX makes PersonY alliance. PersonX did this not to make PersonY sad.	0	0	0
+PersonX tells PersonY's friend	NotxIntent	PersonX tells PersonY's friend. PersonX did this not to	make PersonY angry.	PersonX tells PersonY's friend. PersonX did this not to make PersonY angry.	0	0	0
+PersonX tells PersonY's friend	NotxIntent	PersonX tells PersonY's friend. PersonX did this not to	talk to PersonY.	PersonX tells PersonY's friend. PersonX did this not to talk to PersonY.	0	0	0
+PersonX tells PersonY's friend	NotxIntent	PersonX tells PersonY's friend. PersonX did this not to	PersonY.	PersonX tells PersonY's friend. PersonX did this not to PersonY.	0	0	0
+PersonX camps with PersonY's family	NotxIntent	PersonX camps with PersonY's family. PersonX did this not to	make PersonY happy.	PersonX camps with PersonY's family. PersonX did this not to make PersonY happy.	0	0	0
+PersonX camps with PersonY's family	NotxIntent	PersonX camps with PersonY's family. PersonX did this not to	offend PersonY.	PersonX camps with PersonY's family. PersonX did this not to offend PersonY.	0	0	0
+PersonX camps with PersonY's family	NotxIntent	PersonX camps with PersonY's family. PersonX did this not to	make PersonY feel sad.	PersonX camps with PersonY's family. PersonX did this not to make PersonY feel sad.	0	0	0
+PersonX is a little girl	NotxIntent	PersonX is a little girl. PersonX did this not to	be happy.	PersonX is a little girl. PersonX did this not to be happy.	0	0	0
+PersonX is a little girl	NotxIntent	PersonX is a little girl. PersonX did this not to	play.	PersonX is a little girl. PersonX did this not to play.	0	0	0
+PersonX is a little girl	NotxIntent	PersonX is a little girl. PersonX did this not to	grow up.	PersonX is a little girl. PersonX did this not to grow up.	0	0	0
+PersonX gets a part time job	NotoEffect	PersonX gets a part time job. The effect on others will not be	known.	PersonX gets a part time job. The effect on others will not be known.	0	0	0
+PersonX gets a part time job	NotoEffect	PersonX gets a part time job. The effect on others will not be	significant.	PersonX gets a part time job. The effect on others will not be significant.	0	0	0
+PersonX gets a part time job	NotoEffect	PersonX gets a part time job. The effect on others will not be	known.	PersonX gets a part time job. The effect on others will not be known.	0	0	0
+PersonX walks to the car	NotoEffect	PersonX walks to the car. The effect on others will not be	significant.	PersonX walks to the car. The effect on others will not be significant.	0	0	0
+PersonX walks to the car	NotoEffect	PersonX walks to the car. The effect on others will not be	negative.	PersonX walks to the car. The effect on others will not be negative.	0	0	0
+PersonX walks to the car	NotoEffect	PersonX walks to the car. The effect on others will not be	known.	PersonX walks to the car. The effect on others will not be known.	0	0	0
+PersonX thinks of a solution	NotoEffect	PersonX thinks of a solution. The effect on others will not be	known.	PersonX thinks of a solution. The effect on others will not be known.	0	0	0
+PersonX thinks of a solution	NotoEffect	PersonX thinks of a solution. The effect on others will not be	known until PersonX has thought it through.	PersonX thinks of a solution. The effect on others will not be known until PersonX has thought it through.	0	0	0
+PersonX thinks of a solution	NotoEffect	PersonX thinks of a solution. The effect on others will not be	known.	PersonX thinks of a solution. The effect on others will not be known.	0	0	0
+PersonX goes to the doctor for a checkup	NotoEffect	PersonX goes to the doctor for a checkup. The effect on others will not be	known.	PersonX goes to the doctor for a checkup. The effect on others will not be known.	0	0	0
+PersonX goes to the doctor for a checkup	NotoEffect	PersonX goes to the doctor for a checkup. The effect on others will not be	significant.	PersonX goes to the doctor for a checkup. The effect on others will not be significant.	0	0	0
+PersonX goes to the doctor for a checkup	NotoEffect	PersonX goes to the doctor for a checkup. The effect on others will not be	significant.	PersonX goes to the doctor for a checkup. The effect on others will not be significant.	0	0	0
+PersonX feels nervous	NotoEffect	PersonX feels nervous. The effect on others will not be	known.	PersonX feels nervous. The effect on others will not be known.	0	0	0
+PersonX feels nervous	NotoEffect	PersonX feels nervous. The effect on others will not be	known.	PersonX feels nervous. The effect on others will not be known.	0	0	0
+PersonX feels nervous	NotoEffect	PersonX feels nervous. The effect on others will not be	known.	PersonX feels nervous. The effect on others will not be known.	0	0	0
+PersonX is PersonY's mother	NotoEffect	PersonX is PersonY's mother. The effect on others will not be	significant.	PersonX is PersonY's mother. The effect on others will not be significant.	0	0	0
+PersonX is PersonY's mother	NotoEffect	PersonX is PersonY's mother. The effect on others will not be	known.	PersonX is PersonY's mother. The effect on others will not be known.	0	0	0
+PersonX is PersonY's mother	NotoEffect	PersonX is PersonY's mother. The effect on others will not be	known.	PersonX is PersonY's mother. The effect on others will not be known.	0	0	0
+PersonX can not believe PersonX's eyes	NotoEffect	PersonX can not believe PersonX's eyes. The effect on others will not be	known.	PersonX can not believe PersonX's eyes. The effect on others will not be known.	0	0	0
+PersonX can not believe PersonX's eyes	NotoEffect	PersonX can not believe PersonX's eyes. The effect on others will not be	severe.	PersonX can not believe PersonX's eyes. The effect on others will not be severe.	0	0	0
+PersonX can not believe PersonX's eyes	NotoEffect	PersonX can not believe PersonX's eyes. The effect on others will not be	known.	PersonX can not believe PersonX's eyes. The effect on others will not be known.	0	0	0
+PersonX catches the bus to work	NotoEffect	PersonX catches the bus to work. The effect on others will not be	extreme.	PersonX catches the bus to work. The effect on others will not be extreme.	0	0	0
+PersonX catches the bus to work	NotoEffect	PersonX catches the bus to work. The effect on others will not be	known.	PersonX catches the bus to work. The effect on others will not be known.	0	0	0
+PersonX catches the bus to work	NotoEffect	PersonX catches the bus to work. The effect on others will not be	negative.	PersonX catches the bus to work. The effect on others will not be negative.	0	0	0
+PersonX hurts like hell	NotoEffect	PersonX hurts like hell. The effect on others will not be	good.	PersonX hurts like hell. The effect on others will not be good.	0	0	0
+PersonX hurts like hell	NotoEffect	PersonX hurts like hell. The effect on others will not be	known.	PersonX hurts like hell. The effect on others will not be known.	0	0	0
+PersonX hurts like hell	NotoEffect	PersonX hurts like hell. The effect on others will not be	determined.	PersonX hurts like hell. The effect on others will not be determined.	0	0	0
+PersonX is running down the street	NotoEffect	PersonX is running down the street. The effect on others will not be	known until more information is provided.	PersonX is running down the street. The effect on others will not be known until more information is provided.	0	0	0
+PersonX is running down the street	NotoEffect	PersonX is running down the street. The effect on others will not be	pleasant.	PersonX is running down the street. The effect on others will not be pleasant.	0	0	0
+PersonX is running down the street	NotoEffect	PersonX is running down the street. The effect on others will not be	known until he is caught.	PersonX is running down the street. The effect on others will not be known until he is caught.	0	0	0
+PersonX sees PersonY's crush	NotoReact	PersonX sees PersonY's crush. As a result, others do not feel	sad.	PersonX sees PersonY's crush. As a result, others do not feel sad.	0	0	0
+PersonX sees PersonY's crush	NotoReact	PersonX sees PersonY's crush. As a result, others do not feel	sad.	PersonX sees PersonY's crush. As a result, others do not feel sad.	0	0	0
+PersonX sees PersonY's crush	NotoReact	PersonX sees PersonY's crush. As a result, others do not feel	sad.	PersonX sees PersonY's crush. As a result, others do not feel sad.	0	0	0
+PersonX watches PersonX's mouth	NotoReact	PersonX watches PersonX's mouth. As a result, others do not feel	happy.	PersonX watches PersonX's mouth. As a result, others do not feel happy.	0	0	0
+PersonX watches PersonX's mouth	NotoReact	PersonX watches PersonX's mouth. As a result, others do not feel	bored.	PersonX watches PersonX's mouth. As a result, others do not feel bored.	0	0	0
+PersonX watches PersonX's mouth	NotoReact	PersonX watches PersonX's mouth. As a result, others do not feel	happy.	PersonX watches PersonX's mouth. As a result, others do not feel happy.	0	0	0
+PersonX moves past PersonY	NotoReact	PersonX moves past PersonY. As a result, others do not feel	sad.	PersonX moves past PersonY. As a result, others do not feel sad.	0	0	0
+PersonX moves past PersonY	NotoReact	PersonX moves past PersonY. As a result, others do not feel	happy.	PersonX moves past PersonY. As a result, others do not feel happy.	0	0	0
+PersonX moves past PersonY	NotoReact	PersonX moves past PersonY. As a result, others do not feel	scared	PersonX moves past PersonY. As a result, others do not feel scared	0	0	0
+PersonX denies PersonY's existence	NotoReact	PersonX denies PersonY's existence. As a result, others do not feel	like talking to PersonX.	PersonX denies PersonY's existence. As a result, others do not feel like talking to PersonX.	0	0	0
+PersonX denies PersonY's existence	NotoReact	PersonX denies PersonY's existence. As a result, others do not feel	happy.	PersonX denies PersonY's existence. As a result, others do not feel happy.	0	0	0
+PersonX denies PersonY's existence	NotoReact	PersonX denies PersonY's existence. As a result, others do not feel	happy.	PersonX denies PersonY's existence. As a result, others do not feel happy.	0	0	0
+PersonX never been to one	NotoReact	PersonX never been to one. As a result, others do not feel	happy.	PersonX never been to one. As a result, others do not feel happy.	0	0	0
+PersonX never been to one	NotoReact	PersonX never been to one. As a result, others do not feel	angry.	PersonX never been to one. As a result, others do not feel angry.	0	0	0
+PersonX never been to one	NotoReact	PersonX never been to one. As a result, others do not feel	happy.	PersonX never been to one. As a result, others do not feel happy.	0	0	0
+PersonX hits PersonY's friend	NotoReact	PersonX hits PersonY's friend. As a result, others do not feel	happy.	PersonX hits PersonY's friend. As a result, others do not feel happy.	0	0	0
+PersonX hits PersonY's friend	NotoReact	PersonX hits PersonY's friend. As a result, others do not feel	sad.	PersonX hits PersonY's friend. As a result, others do not feel sad.	0	0	0
+PersonX hits PersonY's friend	NotoReact	PersonX hits PersonY's friend. As a result, others do not feel	happy.	PersonX hits PersonY's friend. As a result, others do not feel happy.	0	0	0
+PersonX sends PersonY to the showers	NotoReact	PersonX sends PersonY to the showers. As a result, others do not feel	comfortable.	PersonX sends PersonY to the showers. As a result, others do not feel comfortable.	0	0	0
+PersonX sends PersonY to the showers	NotoReact	PersonX sends PersonY to the showers. As a result, others do not feel	sad.	PersonX sends PersonY to the showers. As a result, others do not feel sad.	0	0	0
+PersonX sends PersonY to the showers	NotoReact	PersonX sends PersonY to the showers. As a result, others do not feel	happy.	PersonX sends PersonY to the showers. As a result, others do not feel happy.	0	0	0
+PersonX fudges the issue	NotoReact	PersonX fudges the issue. As a result, others do not feel	happy.	PersonX fudges the issue. As a result, others do not feel happy.	0	0	0
+PersonX fudges the issue	NotoReact	PersonX fudges the issue. As a result, others do not feel	good.	PersonX fudges the issue. As a result, others do not feel good.	0	0	0
+PersonX fudges the issue	NotoReact	PersonX fudges the issue. As a result, others do not feel	happy.	PersonX fudges the issue. As a result, others do not feel happy.	0	0	0
+PersonX contains PersonY number	NotoReact	PersonX contains PersonY number. As a result, others do not feel	sad.	PersonX contains PersonY number. As a result, others do not feel sad.	0	0	0
+PersonX contains PersonY number	NotoReact	PersonX contains PersonY number. As a result, others do not feel	sad.	PersonX contains PersonY number. As a result, others do not feel sad.	0	0	0
+PersonX contains PersonY number	NotoReact	PersonX contains PersonY number. As a result, others do not feel	sad.	PersonX contains PersonY number. As a result, others do not feel sad.	0	0	0
+PersonX breaks PersonX's hip	NotoReact	PersonX breaks PersonX's hip. As a result, others do not feel	happy.	PersonX breaks PersonX's hip. As a result, others do not feel happy.	0	0	0
+PersonX breaks PersonX's hip	NotoReact	PersonX breaks PersonX's hip. As a result, others do not feel	happy.	PersonX breaks PersonX's hip. As a result, others do not feel happy.	0	0	0
+PersonX breaks PersonX's hip	NotoReact	PersonX breaks PersonX's hip. As a result, others do not feel	happy.	PersonX breaks PersonX's hip. As a result, others do not feel happy.	0	0	0
+PersonX loves riding PersonX's bike	NotoWant	PersonX loves riding PersonX's bike. After, others will not want to	ride bikes.	PersonX loves riding PersonX's bike. After, others will not want to ride bikes.	0	0	0
+PersonX loves riding PersonX's bike	NotoWant	PersonX loves riding PersonX's bike. After, others will not want to	ride bike.	PersonX loves riding PersonX's bike. After, others will not want to ride bike.	0	0	0
+PersonX loves riding PersonX's bike	NotoWant	PersonX loves riding PersonX's bike. After, others will not want to	ride it.	PersonX loves riding PersonX's bike. After, others will not want to ride it.	0	0	0
+PersonX is making a cake	NotoWant	PersonX is making a cake. After, others will not want to	eat it.	PersonX is making a cake. After, others will not want to eat it.	0	0	0
+PersonX is making a cake	NotoWant	PersonX is making a cake. After, others will not want to	eat it.	PersonX is making a cake. After, others will not want to eat it.	0	0	0
+PersonX is making a cake	NotoWant	PersonX is making a cake. After, others will not want to	share it.	PersonX is making a cake. After, others will not want to share it.	0	0	0
+PersonX wins money	NotoWant	PersonX wins money. After, others will not want to	be with him because he is too cocky.	PersonX wins money. After, others will not want to be with him because he is too cocky.	0	0	0
+PersonX wins money	NotoWant	PersonX wins money. After, others will not want to	play with him.	PersonX wins money. After, others will not want to play with him.	0	0	0
+PersonX wins money	NotoWant	PersonX wins money. After, others will not want to	be his friends.	PersonX wins money. After, others will not want to be his friends.	0	0	0
+PersonX escorts PersonY back	NotoWant	PersonX escorts PersonY back. After, others will not want to	hurt PersonY.	PersonX escorts PersonY back. After, others will not want to hurt PersonY.	0	0	0
+PersonX escorts PersonY back	NotoWant	PersonX escorts PersonY back. After, others will not want to	be with PersonX.	PersonX escorts PersonY back. After, others will not want to be with PersonX.	0	0	0
+PersonX escorts PersonY back	NotoWant	PersonX escorts PersonY back. After, others will not want to	be with PersonY.	PersonX escorts PersonY back. After, others will not want to be with PersonY.	0	0	0
+PersonX wraps PersonY's hand	NotoWant	PersonX wraps PersonY's hand. After, others will not want to	touch PersonY's hand.	PersonX wraps PersonY's hand. After, others will not want to touch PersonY's hand.	0	0	0
+PersonX wraps PersonY's hand	NotoWant	PersonX wraps PersonY's hand. After, others will not want to	wrap it.	PersonX wraps PersonY's hand. After, others will not want to wrap it.	0	0	0
+PersonX wraps PersonY's hand	NotoWant	PersonX wraps PersonY's hand. After, others will not want to	shake PersonY's hand.	PersonX wraps PersonY's hand. After, others will not want to shake PersonY's hand.	0	0	0
+PersonX falls on PersonY	NotoWant	PersonX falls on PersonY. After, others will not want to	talk to PersonX.	PersonX falls on PersonY. After, others will not want to talk to PersonX.	0	0	0
+PersonX falls on PersonY	NotoWant	PersonX falls on PersonY. After, others will not want to	fall on PersonY.	PersonX falls on PersonY. After, others will not want to fall on PersonY.	0	0	0
+PersonX falls on PersonY	NotoWant	PersonX falls on PersonY. After, others will not want to	be around PersonX.	PersonX falls on PersonY. After, others will not want to be around PersonX.	0	0	0
+PersonX throws some bread	NotoWant	PersonX throws some bread. After, others will not want to	be with him.	PersonX throws some bread. After, others will not want to be with him.	0	0	0
+PersonX throws some bread	NotoWant	PersonX throws some bread. After, others will not want to	go near him.	PersonX throws some bread. After, others will not want to go near him.	0	0	0
+PersonX throws some bread	NotoWant	PersonX throws some bread. After, others will not want to	eat it.	PersonX throws some bread. After, others will not want to eat it.	0	0	0
+PersonX stings by a jellyfish	NotoWant	PersonX stings by a jellyfish. After, others will not want to	sting by a jellyfish.	PersonX stings by a jellyfish. After, others will not want to sting by a jellyfish.	0	0	0
+PersonX stings by a jellyfish	NotoWant	PersonX stings by a jellyfish. After, others will not want to	touch PersonX.	PersonX stings by a jellyfish. After, others will not want to touch PersonX.	0	0	0
+PersonX stings by a jellyfish	NotoWant	PersonX stings by a jellyfish. After, others will not want to	sting him.	PersonX stings by a jellyfish. After, others will not want to sting him.	0	0	0
+PersonX develops cancer	NotoWant	PersonX develops cancer. After, others will not want to	talk to PersonX.	PersonX develops cancer. After, others will not want to talk to PersonX.	0	0	0
+PersonX develops cancer	NotoWant	PersonX develops cancer. After, others will not want to	spend as much time with him.	PersonX develops cancer. After, others will not want to spend as much time with him.	0	0	0
+PersonX develops cancer	NotoWant	PersonX develops cancer. After, others will not want to	be around PersonX.	PersonX develops cancer. After, others will not want to be around PersonX.	0	0	0
+PersonX tells PersonY a little	NotoWant	PersonX tells PersonY a little. After, others will not want to	hear PersonY.	PersonX tells PersonY a little. After, others will not want to hear PersonY.	0	0	0
+PersonX tells PersonY a little	NotoWant	PersonX tells PersonY a little. After, others will not want to	talk to PersonY.	PersonX tells PersonY a little. After, others will not want to talk to PersonY.	0	0	0
+PersonX tells PersonY a little	NotoWant	PersonX tells PersonY a little. After, others will not want to	talk to PersonX.	PersonX tells PersonY a little. After, others will not want to talk to PersonX.	0	0	0
