@@ -17,7 +17,9 @@ We have an option here. Either do self-evaluation or use AWS mTurk for evaluatio
     
     1) [AWS mTurk Input File Preparation Script](prepare_generations_for_mturk_evaluation.py)
         - Input: TSV file with generations from the previous step.
-        - Output: JSONL file for mTurk evaluation.
+        - Outputs: 
+            1. Auto-evaluation first and generating evaluation file: [Example](experiments/self_samples_eval/few_shot_self_samples_to_eval_negated_preds_with_gpt_3_evaluated.tsv).
+            2. JSONL file for mTurk evaluation: [Example](experiments/self_samples_eval/few_shot_self_samples_to_eval_negated_preds_with_gpt_3_mturk.jsonl).
     2) Evaluation on AWS mTurk.
         - Input: JSONL file from the last step.
         - Output: Manifest file from AWS mTurk.
