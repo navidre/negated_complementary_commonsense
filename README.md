@@ -20,7 +20,7 @@ We have an option here. Either do self-evaluation or use AWS mTurk for evaluatio
         - Outputs: 
             1. Auto-evaluation first and generating evaluation file: [Example](experiments/self_samples_eval/few_shot_self_samples_to_eval_negated_preds_with_gpt_3_evaluated.tsv).
             2. JSONL file for mTurk evaluation: [Example](experiments/self_samples_eval/few_shot_self_samples_to_eval_negated_preds_with_gpt_3_mturk.jsonl).
-    2) Evaluation on AWS mTurk.
+    2) Evaluation on AWS mTurk. Further explained in [this section]().
         - Input: JSONL file from the last step.
         - Output: Manifest file from AWS mTurk.
     3) [Script to post-process the evaluation files]()
@@ -30,3 +30,51 @@ We have an option here. Either do self-evaluation or use AWS mTurk for evaluatio
 4. [Plotting](/scripts/plot_evaluated_results.py)
         - Input: The evaluations from the previous step.
         - Output: PDF file of plot ([sample](experiments/atomic_2020_eval/few_shot_sampled_to_eval_negated_pred_with_gpt_3_self_evaluated_adjusted_results.pdf)) and the JSON file of aggregations for plotting ([sample](experiments/atomic_2020_eval/few_shot_sampled_to_eval_negated_pred_with_gpt_3_self_evaluated_adjusted_results.json))
+
+## AWS mTurk Evaluation
+
+For evaluation, we used Amazon mTurk through the [AWS SageMaker's Ground Truth module](https://aws.amazon.com/sagemaker/data-labeling/). We created a labeling job with the following specifications and procedures: 
+
+1) Created a specific bucket under S3 and a specific folder underneath for each experiment. Placed the JSONL file under this folder. An empty subdirectory created for the evaluation results as well.
+
+2) Starting a new labeling job with the following specifications:
+        
+        - Manual data setup
+        - "Input dataset location" pointing to the JSONL file and "Output dataset location" to the results subfolder, both from the last step.
+        - Task: Text Classification (Single Label)
+        - Worker types: Amazon Mechanical Turk
+        - Appropriate timeout and task expiration time
+        - Uncheck automated data labeling
+        - Under additional configuration, select 3 workers.
+        - Brief description:
+            Based on your own commonsense, choose one of the five options. Examples are provided in the description.
+
+            - Only for negated cases: 
+
+            IMPORTANT: Please note the CANNOT, DO Not, and other negated cases.
+
+        - Instructions:
+
+            Unfamiliar to me to judge 
+
+            - Example: PersonX discovers a new planet. The planet is in the Alpha Centauri system.
+
+            First part and second part are not related! Or not enough information to judge.
+            
+            Example: PersonX rides a bike. Elephants are not birds.
+            (Although second part is correct, it is not related to the first part)
+
+            Makes sense:
+
+            Example: It is NOT likely to see elephant on table.
+
+            Does not make sense:
+
+            Example: It is likely to see elephant on table.
+
+        - Options:
+            - Makes sense
+            - Sometimes makes sense
+            - Does not make sense or Incorrect
+            - First part and second part are not related! Or not enough information to judge
+            - Unfamiliar to me to judge

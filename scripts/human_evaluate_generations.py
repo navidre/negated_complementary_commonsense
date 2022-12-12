@@ -71,7 +71,7 @@ def process_human_evaluation(in_tsv):
     4: First part and second part are not related! Or not enough information to judge.
     PersonX rides a bike. Elephants are not birds.
     Although the first and second parts are related, the second part is not a valid tail, as the head and tail are not related.
-    5: Unfamiliar to judge
+    5: Unfamiliar to me to judge
     Example 1: PersonX discovers a new planet. The planet is in the Alpha Centauri system.
     Example 2: PersonX walks in the park. The effect PersonX is not known.
     Example 3: Hammer can be used for many purposes.
