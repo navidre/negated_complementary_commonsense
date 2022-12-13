@@ -10,7 +10,7 @@ def count_annotations(in_tsv):
     # Extracting file name
     filename = os.path.basename(in_tsv).split('.')[0]
     out_filename = f'{filename}_results'
-    work_path = os.path.dirname(args.input)
+    work_path = os.path.dirname(args.in_tsv)
     out_json = os.path.join(work_path, f'{out_filename}.json')
     # read tsv file with columns head, relation, prompt, generated_tail, full_text
     df = read_csv(in_tsv, sep='\t', header=0)
@@ -58,7 +58,7 @@ def plot_the_results(results, in_tsv):
     # Extracting file name
     filename = os.path.basename(in_tsv).split('.')[0]
     out_filename = f'{filename}_results'
-    work_path = os.path.dirname(args.input)
+    work_path = os.path.dirname(args.in_tsv)
     out_pdf = os.path.join(work_path, f'{out_filename}.pdf')
     # DataFrame from results dictionary
     df = pd.DataFrame.from_dict(results, orient='index')

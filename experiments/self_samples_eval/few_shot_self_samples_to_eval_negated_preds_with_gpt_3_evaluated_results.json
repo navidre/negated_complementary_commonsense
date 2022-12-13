@@ -1,0 +1,26 @@
+{
+    "CannotBe": {
+        "count": "30",
+        "correct": 20,
+        "incorrect": 10,
+        "unfamiliar": 0
+    },
+    "IsNot": {
+        "count": "30",
+        "correct": 14,
+        "incorrect": 16,
+        "unfamiliar": 0
+    },
+    "NotWaitingFor": {
+        "count": "30",
+        "correct": 16,
+        "incorrect": 13,
+        "unfamiliar": 1
+    },
+    "total": {
+        "count": "90",
+        "correct": 50,
+        "incorrect": 39,
+        "unfamiliar": 1
+    }
+}
