@@ -1,0 +1,30 @@
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<crowd-form>
+  <crowd-classifier
+    name="crowd-classifier"
+    categories="{{ task.input.labels | to_json | escape }}"
+    header="Using your own commonsense, decide if a sentence is correct or incorrect. Assume sentences with visual context, e.g. in the case of “It is likely to see cloud behind cow.”, imagine that you are in a field and you see cows. Then it makes sense to see clouds behind cows. Please ignore grammatical errors. Grammatical errors do not make a sentence incorrect.
+"
+  >
+    <classification-target style="white-space: pre-wrap">
+      {{ task.input.taskObject }}
+    </classification-target>
+    <full-instructions header="Classifier instructions">
+      <ol><li><strong>Read</strong> the text carefully.</li><li><strong>Read</strong> the examples to understand more about the options.</li><li><strong>Choose</strong> the appropriate labels that best suit the text.</li></ol>
+    </full-instructions>
+    <short-instructions>
+      <pre class="ql-syntax" spellcheck="false">Using your own commonsense, decide if a sentence is correct or incorrect. 
+
+     Assume sentences with visual context, e.g. in the case of “It is likely to see cloud behind cow.”, imagine that you are in a field and you see cows. Then it makes sense to see clouds behind cows.
+
+     Please ignore grammatical errors. Grammatical errors do not make a sentence incorrect.
+
+     More examples:
+
+     It is NOT likely to see elephant on table. —&gt; Correct
+
+     It is likely to see food in plate. —&gt; Correct
+</pre><p><br></p>
+    </short-instructions>
+  </crowd-classifier>
+  </crowd-form>

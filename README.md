@@ -20,12 +20,12 @@ We have an option here. Either do self-evaluation or use AWS mTurk for evaluatio
         - Outputs: 
             1. Auto-evaluation first and generating evaluation file: [Example](experiments/self_samples_eval/few_shot_self_samples_to_eval_negated_preds_with_gpt_3_evaluated.tsv).
             2. JSONL file for mTurk evaluation: [Example](experiments/self_samples_eval/few_shot_self_samples_to_eval_negated_preds_with_gpt_3_mturk.jsonl).
-    2) Evaluation on AWS mTurk. Further explained in [this section]().
-        - Input: JSONL file from the last step.
+    2) Evaluation on AWS mTurk. Further explained in the following AWS mTurk Evaluation section.
+        - Input: JSONL file from the last step alongside evaluation instructions.
         - Output: Manifest file from AWS mTurk.
     3) [Script to post-process the evaluation files]()
         - Input: Manifest file from AWS mTurk.
-        - Output: TSV files with decisions and alpha score to be fed to the plotting script.
+        - Output: TSV files with decisions and alpha score to be fed to the plotting script. Using the out_tsv from step 1.
 
 4. [Plotting](/scripts/plot_evaluated_results.py)
         - Input: The evaluations from the previous step.

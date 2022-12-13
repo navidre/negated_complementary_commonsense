@@ -1,0 +1,20 @@
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<crowd-form>
+  <crowd-classifier
+    name="crowd-classifier"
+    categories="{{ task.input.labels | to_json | escape }}"
+    header="Based on your own commonsense, choose one of the five options. Examples are provided in the description.
+
+IMPORTANT: Please note the CANNOT, DO Not, and other negated cases."
+  >
+    <classification-target style="white-space: pre-wrap">
+      {{ task.input.taskObject }}
+    </classification-target>
+    <full-instructions header="Classifier instructions">
+      <ol><li><strong>Read</strong> the text carefully.</li><li><strong>Read</strong> the examples to understand more about the options.</li><li><strong>Choose</strong> the appropriate labels that best suit the text.</li></ol>
+    </full-instructions>
+    <short-instructions>
+      <p><strong>Unfamiliar to me to judge </strong></p><p><br></p><p><strong>Example:</strong> PersonX discovers a new planet. The planet is in the Alpha Centauri system. </p><p><br></p><p><strong>First part and second part are not related! Or not enough information to judge.</strong></p><p><br></p><p>Example: PersonX rides a bike. Elephants are not birds. (Although second part is correct, it is not related to the first part)</p><p><br></p><p><strong>Makes sense:</strong></p><p><br></p><p><strong>Example:</strong> It is NOT likely to see elephant on table.</p><p><br></p><p><strong>Does not make sense:</strong></p><p><br></p><p><strong>Example:</strong> It is likely to see elephant on table.</p>
+    </short-instructions>
+  </crowd-classifier>
+  </crowd-form>

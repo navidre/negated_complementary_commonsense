@@ -23,7 +23,7 @@ def generate_jsonl_for_mturk(in_file_path, out_jsonl_path):
 def auto_evaluate_generations(in_tsv, out_tsv):
     df = pd.read_csv(in_tsv, sep='\t', header=0)
     # Placeholder for review columns (three annotators)
-    df['review_1'], df['review_2'], df['review_3'] = 0, 0, 0
+    df['review_1'], df['review_2'], df['review_3'], df['review'] = 0, 0, 0, 0
     # Iterate over rows and auto-evaluate
     for index, row in df.iterrows():
         auto_evaluated, selection = auto_evaluate_row(index, row)
@@ -31,6 +31,7 @@ def auto_evaluate_generations(in_tsv, out_tsv):
             df.at[index, 'review_1'] = selection
             df.at[index, 'review_2'] = selection
             df.at[index, 'review_3'] = selection
+            df.at[index, 'review'] = selection
     # Saving the dataframe
     df.to_csv(out_tsv, sep='\t', index=False)
 
