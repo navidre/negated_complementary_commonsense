@@ -43,6 +43,9 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
         out_tsv_df.at[index, 'review'] = review
         # Remove the evaluation from the dict
         evaluations[source].pop(0)
+        # TODO: Add individual reviews
+    # TODO: Sanity check and assert that all evaluations are used
+    # TODO: Calculate alpha score (agreement between reviewers) and store in a sepapte txt file
     # Save the updated output TSV file
     out_tsv_df.to_csv(out_tsv_path, sep='\t', index=False)
 
