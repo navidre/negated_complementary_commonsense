@@ -44,8 +44,14 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
         # Remove the evaluation from the dict
         evaluations[source].pop(0)
         # TODO: Add individual reviews
-    # TODO: Sanity check and assert that all evaluations are used
+        # # Load the individual reviews
+        # worker_responses = evaluations[source][0][metadata_key]['worker-responses']
+
+    # Sanity check and assert that all evaluations are used
+    for k, v in evaluations.items():
+        assert len(v) == 0, f'Not all evaluations are used; Index: {k}'
     # TODO: Calculate alpha score (agreement between reviewers) and store in a sepapte txt file
+    import IPython; IPython. embed(); exit(1)
     # Save the updated output TSV file
     out_tsv_df.to_csv(out_tsv_path, sep='\t', index=False)
 
