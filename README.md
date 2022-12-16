@@ -23,8 +23,12 @@ We have an option here. Either do self-evaluation or use AWS mTurk for evaluatio
     2) Evaluation on AWS mTurk. Further explained in the following AWS mTurk Evaluation section.
         - Input: JSONL file from the last step alongside evaluation instructions.
         - Output: Manifest file from AWS mTurk.
-    3) [Script to post-process the evaluation files]()
-        - Input: Manifest file from AWS mTurk.
+    3) [Script to post-process the evaluation files](scripts/post_process_mturk_evaluations.py)
+        - Input: Manifest file from AWS mTurk. To download the files, you can use this command:
+        ```
+        aws s3 cp --recursive s3://[S3 Bucket]/[FOLDER]/ ./experiments/self_samples_eval/mturk_results
+        ```
+        (Folders can be changed based on the experiments.)
         - Output: TSV files with decisions and alpha score to be fed to the plotting script. Using the out_tsv from step 1.
 
 4. [Plotting](/scripts/plot_evaluated_results.py)
