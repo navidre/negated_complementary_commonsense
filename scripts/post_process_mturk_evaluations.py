@@ -1,6 +1,9 @@
 import argparse, os, sys, json
 import pandas as pd
 from tqdm import tqdm
+import numpy as np
+import krippendorff
+from statsmodels.stats import inter_rater as irr
 
 CLASS_TO_INDEX = {
     'Makes sense': 1,
@@ -10,12 +13,103 @@ CLASS_TO_INDEX = {
     'Unfamiliar to me to judge': 5
 }
 
+import numpy as np
+
+def calculate_fleiss_kappa(annotations):
+    # Calculate the number of raters (columns in the annotations matrix)
+    n_raters = annotations.shape[1]
+
+    # Calculate the number of items (rows in the annotations matrix)
+    n_items = annotations.shape[0]
+
+    # Calculate the observed proportion of agreement for each item
+    observed_proportion_agreement = np.sum(annotations == annotations[:,0][:,None], axis=1) / n_raters
+
+    # Calculate the expected proportion of agreement
+    expected_proportion_agreement = np.sum(annotations, axis=0) / (n_items * n_raters)
+
+    # Calculate Fleiss' kappa
+    kappa = (np.sum(observed_proportion_agreement) - np.sum(expected_proportion_agreement)) / (n_items - np.sum(expected_proportion_agreement))
+
+    return kappa
+
+def checkInput(rate, n):
+    """ 
+    Check correctness of the input matrix
+    @param rate - ratings matrix
+    @return n - number of raters
+    @throws AssertionError 
+    """
+    N = len(rate)
+    k = len(rate[0])
+    assert all(len(rate[i]) == k for i in range(k)), "Row length != #categories)"
+    # assert all(isinstance(rate[i][j], int) for i in range(N) for j in range(k)), "Element not integer" 
+    assert all(sum(row) == n for row in rate), "Sum of ratings != #raters)"
+
+def fleissKappa(rate,n):
+    """ 
+    Computes the Kappa value
+    @param rate - ratings matrix containing number of ratings for each subject per category 
+    [size - N X k where N = #subjects and k = #categories]
+    @param n - number of raters   
+    @return fleiss' kappa
+    """
+
+    N = len(rate)
+    k = len(rate[0])
+    print("#raters = ", n, ", #subjects = ", N, ", #categories = ", k)
+    checkInput(rate, n)
+
+    #mean of the extent to which raters agree for the ith subject 
+    PA = sum([(sum([i**2 for i in row])- n) / (n * (n - 1)) for row in rate])/N
+    print("PA = ", PA)
+    
+    # mean of squares of proportion of all assignments which were to jth category
+    PE = sum([j**2 for j in [sum([rows[i] for rows in rate])/(N*n) for i in range(k)]])
+    print("PE =", PE)
+    
+    kappa = -float("inf")
+    try:
+        kappa = (PA - PE) / (1 - PE)
+        kappa = float("{:.3f}".format(kappa))
+    except ZeroDivisionError:
+        print("Expected agreement = 1")
+
+    print("Fleiss' Kappa =", kappa)
+    
+    return kappa
+
+def calculate_alpha_and_kappa_scores(annotations_df):
+    """ Calculate alpha score (agreement between reviewers)
+    """
+    ratings = np.zeros((len(annotations_df), 3))
+    for i, row in annotations_df.iterrows():
+        for j in range(1, 4):
+            # Correct, Incorrect, Unfamiliar
+            review = int(float(row[f'review_{j}']))
+            if review == 1 or review == 2:
+                ratings[i, 0] += 1
+            elif review == 3 or review == 4:
+                ratings[i, 1] += 1
+            else:
+                ratings[i, 2] += 1
+            # Five categories
+            # ratings[i, int(float(row[f'review_{j}']))-1] += 1
+    alpha = krippendorff.alpha(ratings)
+    kappa = calculate_fleiss_kappa(ratings)
+    irr_kappa = irr.fleiss_kappa(ratings, method='fleiss')
+    import IPython; IPython. embed(); exit(1)
+    return alpha, kappa
+
 def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     """ Update the out_tsv file from prepare_generations_for_mturk_evaluation.py with the results from the manifest file
     """
     # Extracting folder name
     folder_name = [ch for ch in mturk_path.split('/') if ch != ''][-1]
     metadata_key = f'{folder_name}-metadata'
+    # Get file name of out_tsv_path without extension
+    out_filename = os.path.basename(out_tsv_path).split('.')[0]
+    out_folder = os.path.dirname(out_tsv_path)
     # Loading output manifest as an array
     evaluations_list = []
     with open(f'{mturk_path}/manifests/output/output.manifest') as f:
@@ -62,9 +156,19 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
         # Update the manifest index (note that auto-evaluated rows are skipped in the output TSV file only)
         manifest_index += 1
 
-    # TODO: Calculate alpha score (agreement between reviewers) and store in a sepapte txt file
+    # Calculate alpha and kappa scores (agreement between reviewers) and store in a sepapte txt file
+    alpha, kappa = calculate_alpha_and_kappa_scores(out_tsv_df)
+
     # Save the updated output TSV file
     out_tsv_df.to_csv(out_tsv_path, sep='\t', index=False)
+    print(f'Updated {out_tsv_path} with the results from {mturk_path}.')
+
+    # Save the information, including the alpha score, in a separate txt file
+    out_filename_txt = f'{out_filename}.txt'
+    with open(f'{out_folder}/{out_filename_txt}', 'w') as f:
+        f.write(f'Krippendorf Alpha score: {alpha}\n')
+        f.write(f'Fleiss Kappa score: {kappa}')
+        print(f'Wrote the alpha and kappa scores to {out_folder}/{out_filename_txt}.')
 
 if __name__ == "__main__":
 
