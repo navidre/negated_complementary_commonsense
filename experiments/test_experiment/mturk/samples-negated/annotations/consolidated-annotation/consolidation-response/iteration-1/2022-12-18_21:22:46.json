@@ -1,0 +1,1 @@
+[{"datasetObjectId":"3","consolidatedAnnotation":{"content":{"samples-negated":2,"samples-negated-metadata":{"class-name":"Does not make sense or Incorrect","job-name":"labeling-job/samples-negated","confidence":0.84,"type":"groundtruth/text-classification","human-annotated":"yes","creation-date":"2022-12-18T21:22:46.335615"}}}}]

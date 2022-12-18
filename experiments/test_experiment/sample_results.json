@@ -1,0 +1,20 @@
+{
+    "CannotBe": {
+        "count": "6",
+        "correct": 1,
+        "incorrect": 5,
+        "unfamiliar": 0
+    },
+    "IsNot": {
+        "count": "9",
+        "correct": 5,
+        "incorrect": 4,
+        "unfamiliar": 0
+    },
+    "total": {
+        "count": "15",
+        "correct": 6,
+        "incorrect": 9,
+        "unfamiliar": 0
+    }
+}

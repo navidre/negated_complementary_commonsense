@@ -9,75 +9,11 @@ CLASS_TO_INDEX = {
     'Makes sense': 1,
     'Sometimes makes sense': 2,
     'Does not make sense or Incorrect': 3,
-    'First part and second part are not related! Or not enough information to judge.': 4,
+    'First part and second part are not related! Or not enough information to judge': 4,
     'Unfamiliar to me to judge': 5
 }
 
 import numpy as np
-
-def calculate_fleiss_kappa(annotations):
-    # Calculate the number of raters (columns in the annotations matrix)
-    n_raters = annotations.shape[1]
-
-    # Calculate the number of items (rows in the annotations matrix)
-    n_items = annotations.shape[0]
-
-    # Calculate the observed proportion of agreement for each item
-    observed_proportion_agreement = np.sum(annotations == annotations[:,0][:,None], axis=1) / n_raters
-
-    # Calculate the expected proportion of agreement
-    expected_proportion_agreement = np.sum(annotations, axis=0) / (n_items * n_raters)
-
-    # Calculate Fleiss' kappa
-    kappa = (np.sum(observed_proportion_agreement) - np.sum(expected_proportion_agreement)) / (n_items - np.sum(expected_proportion_agreement))
-
-    return kappa
-
-def checkInput(rate, n):
-    """ 
-    Check correctness of the input matrix
-    @param rate - ratings matrix
-    @return n - number of raters
-    @throws AssertionError 
-    """
-    N = len(rate)
-    k = len(rate[0])
-    assert all(len(rate[i]) == k for i in range(k)), "Row length != #categories)"
-    # assert all(isinstance(rate[i][j], int) for i in range(N) for j in range(k)), "Element not integer" 
-    assert all(sum(row) == n for row in rate), "Sum of ratings != #raters)"
-
-def fleissKappa(rate,n):
-    """ 
-    Computes the Kappa value
-    @param rate - ratings matrix containing number of ratings for each subject per category 
-    [size - N X k where N = #subjects and k = #categories]
-    @param n - number of raters   
-    @return fleiss' kappa
-    """
-
-    N = len(rate)
-    k = len(rate[0])
-    print("#raters = ", n, ", #subjects = ", N, ", #categories = ", k)
-    checkInput(rate, n)
-
-    #mean of the extent to which raters agree for the ith subject 
-    PA = sum([(sum([i**2 for i in row])- n) / (n * (n - 1)) for row in rate])/N
-    print("PA = ", PA)
-    
-    # mean of squares of proportion of all assignments which were to jth category
-    PE = sum([j**2 for j in [sum([rows[i] for rows in rate])/(N*n) for i in range(k)]])
-    print("PE =", PE)
-    
-    kappa = -float("inf")
-    try:
-        kappa = (PA - PE) / (1 - PE)
-        kappa = float("{:.3f}".format(kappa))
-    except ZeroDivisionError:
-        print("Expected agreement = 1")
-
-    print("Fleiss' Kappa =", kappa)
-    
-    return kappa
 
 def calculate_alpha_and_kappa_scores(annotations_df):
     """ Calculate alpha score (agreement between reviewers)
@@ -96,9 +32,7 @@ def calculate_alpha_and_kappa_scores(annotations_df):
             # Five categories
             # ratings[i, int(float(row[f'review_{j}']))-1] += 1
     alpha = krippendorff.alpha(ratings)
-    kappa = calculate_fleiss_kappa(ratings)
-    irr_kappa = irr.fleiss_kappa(ratings, method='fleiss')
-    import IPython; IPython. embed(); exit(1)
+    kappa = irr.fleiss_kappa(ratings, method='fleiss')
     return alpha, kappa
 
 def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
@@ -172,8 +106,9 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
 
 if __name__ == "__main__":
 
-    """ Sample AWS CLI command to download the results:
+    """ Sample AWS CLI command to download the results. We need to go to mturk results folder and run this command:
     aws s3 cp --recursive s3://negated-predicates/self_samples/ ./
+    aws s3 cp --recursive s3://[folder-path-to-results] ./
     """
 
     """ Correspoding paths and output files:

@@ -35,6 +35,13 @@ We have an option here. Either do self-evaluation or use AWS mTurk for evaluatio
         - Input: The evaluations from the previous step.
         - Output: PDF file of plot ([sample](experiments/atomic_2020_eval/few_shot_sampled_to_eval_negated_pred_with_gpt_3_self_evaluated_adjusted_results.pdf)) and the JSON file of aggregations for plotting ([sample](experiments/atomic_2020_eval/few_shot_sampled_to_eval_negated_pred_with_gpt_3_self_evaluated_adjusted_results.json))
 
+## Run pipeline
+The following scripts make the multiple steps in the previous section easier. The overall process is preparation/generation, human-evaluation, and lastly post-processing/plotting.
+
+1. Preparation/Generation: [TODO]
+2. Human Evaluation: Using AWS SageMaker.
+3. Post-Processing/Plotting: 
+
 ## AWS mTurk Evaluation
 
 For evaluation, we used Amazon mTurk through the [AWS SageMaker's Ground Truth module](https://aws.amazon.com/sagemaker/data-labeling/). We created a labeling job with the following specifications and procedures: 
