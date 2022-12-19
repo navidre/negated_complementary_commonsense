@@ -7,23 +7,23 @@ from statsmodels.stats import inter_rater as irr
 import numpy as np
 from statistics import mode, StatisticsError
 
-# Old class to index mapping
-# CLASS_TO_INDEX = {
-#     'Makes sense': 1,
-#     'Sometimes makes sense': 2,
-#     'Does not make sense or Incorrect': 3,
-#     'First part and second part are not related! Or not enough information to judge': 4,
-#     'Unfamiliar to me to judge': 5
-# }
-
-# New class to index mapping
+# Class class to index mapping
 CLASS_TO_INDEX = {
-    'Correct': 1,
-    'Sometimes correct': 2,
-    'Incorrect': 3,
-    'Not enough information to judge': 4,
+    'Makes sense': 1,
+    'Sometimes makes sense': 2,
+    'Does not make sense or Incorrect': 3,
+    'First part and second part are not related! Or not enough information to judge': 4,
     'Unfamiliar to me to judge': 5
 }
+
+# Experimental class to index mapping
+# CLASS_TO_INDEX = {
+#     'Correct': 1,
+#     'Sometimes correct': 2,
+#     'Incorrect': 3,
+#     'Not enough information to judge': 4,
+#     'Unfamiliar to me to judge': 5
+# }
 
 def calculate_alpha_and_kappa_scores(annotations_df):
     """ Calculate alpha score (agreement between reviewers)
