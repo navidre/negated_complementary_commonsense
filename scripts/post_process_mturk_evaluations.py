@@ -4,7 +4,19 @@ from tqdm import tqdm
 import numpy as np
 import krippendorff
 from statsmodels.stats import inter_rater as irr
+import numpy as np
+from statistics import mode, StatisticsError
 
+# Old class to index mapping
+# CLASS_TO_INDEX = {
+#     'Makes sense': 1,
+#     'Sometimes makes sense': 2,
+#     'Does not make sense or Incorrect': 3,
+#     'First part and second part are not related! Or not enough information to judge': 4,
+#     'Unfamiliar to me to judge': 5
+# }
+
+# New class to index mapping
 CLASS_TO_INDEX = {
     'Correct': 1,
     'Sometimes correct': 2,
@@ -12,8 +24,6 @@ CLASS_TO_INDEX = {
     'Not enough information to judge': 4,
     'Unfamiliar to me to judge': 5
 }
-
-import numpy as np
 
 def calculate_alpha_and_kappa_scores(annotations_df):
     """ Calculate alpha score (agreement between reviewers)
@@ -34,6 +44,12 @@ def calculate_alpha_and_kappa_scores(annotations_df):
     alpha = krippendorff.alpha(ratings)
     kappa = irr.fleiss_kappa(ratings, method='fleiss')
     return alpha, kappa
+
+def majority(votes):
+    try:
+        return mode(votes)
+    except StatisticsError:
+        return 0
 
 def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     """ Update the out_tsv file from prepare_generations_for_mturk_evaluation.py with the results from the manifest file
@@ -89,6 +105,14 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
                 i += 1
         # Update the manifest index (note that auto-evaluated rows are skipped in the output TSV file only)
         manifest_index += 1
+    
+    # Calculating majority vote
+    # Add empty columns for majority vote
+    out_tsv_df['majority_vote'] = 0
+    for index, row in out_tsv_df.iterrows():
+        votes = [int(row['review_1']), int(row['review_2']), int(row['review_3'])]
+        majority_vote = majority(votes)
+        out_tsv_df.at[index, 'majority_vote'] = majority_vote
 
     # Calculate alpha and kappa scores (agreement between reviewers) and store in a sepapte txt file
     alpha, kappa = calculate_alpha_and_kappa_scores(out_tsv_df)
