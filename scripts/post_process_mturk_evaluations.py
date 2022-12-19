@@ -6,10 +6,10 @@ import krippendorff
 from statsmodels.stats import inter_rater as irr
 
 CLASS_TO_INDEX = {
-    'Makes sense': 1,
-    'Sometimes makes sense': 2,
-    'Does not make sense or Incorrect': 3,
-    'First part and second part are not related! Or not enough information to judge': 4,
+    'Correct': 1,
+    'Sometimes correct': 2,
+    'Incorrect': 3,
+    'Not enough information to judge': 4,
     'Unfamiliar to me to judge': 5
 }
 

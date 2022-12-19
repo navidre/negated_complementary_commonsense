@@ -40,7 +40,7 @@ The following scripts make the multiple steps in the previous section easier. Th
 
 1. Preparation/Generation: [TODO]
 2. Human Evaluation: Using AWS SageMaker.
-3. Post-Processing/Plotting: 
+3. Post-Processing/Plotting: [Simple Post Process](scripts/simple_post_process.py)
 
 ## AWS mTurk Evaluation
 
