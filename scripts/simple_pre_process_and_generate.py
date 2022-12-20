@@ -67,3 +67,5 @@ if __name__ == "__main__":
     assert os.path.exists(f'{experiment_path}/sampled_negated_preds_generated_{args.method}_evaluated.tsv'), f'File {experiment_path}/mturk/sampled_negated_preds_generated_{args.method}_evaluated.tsv does not exist. File template for evaluations is not generated.'
 
     # Upload the JSONL files to the S3 bucket in an appropriate folder
+    os.system(f'aws s3 cp {experiment_path}/mturk/sampled_normal_preds_generated_few_shot_mturk.jsonl s3://{S3_BUCKET}/{experiment_name}/')
+    os.system(f'aws s3 cp {experiment_path}/mturk/sampled_negated_preds_generated_few_shot_mturk.jsonl s3://{S3_BUCKET}/{experiment_name}/')
