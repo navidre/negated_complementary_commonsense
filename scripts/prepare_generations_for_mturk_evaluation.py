@@ -44,7 +44,10 @@ if __name__ == "__main__":
     # Extracting file name
     filename = os.path.basename(args.in_tsv).split('.')[0]
     work_path = os.path.dirname(args.in_tsv)
-    out_jsonl_path = os.path.join(work_path, f'{filename}_mturk.jsonl')
+    mturk_parent_path = f'{work_path}/mturk'
+    if not os.path.exists(mturk_parent_path):
+        os.makedirs(mturk_parent_path)
+    out_jsonl_path = os.path.join(mturk_parent_path, f'{filename}_mturk.jsonl')
     out_tsv = os.path.join(work_path, f'{filename}_evaluated.tsv')
 
     # Auto-evaluating the generations with clear issues

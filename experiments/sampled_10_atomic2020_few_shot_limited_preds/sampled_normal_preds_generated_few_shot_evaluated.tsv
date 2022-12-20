@@ -1,0 +1,61 @@
+head	relation	prompt	generated_tail	full_text	review_1	review_2	review_3	review
+PersonX gets a part time job	xWant	PersonX gets a part time job. After, PersonX will want to	sleep.	PersonX gets a part time job. After, PersonX will want to sleep.	0	0	0	0
+PersonX gets a part time job	xWant	PersonX gets a part time job. After, PersonX will want to	have some money.	PersonX gets a part time job. After, PersonX will want to have some money.	0	0	0	0
+PersonX gets a part time job	xWant	PersonX gets a part time job. After, PersonX will want to	earn more money.	PersonX gets a part time job. After, PersonX will want to earn more money.	0	0	0	0
+PersonX sees wood	xWant	PersonX sees wood. After, PersonX will want to	make a fire.	PersonX sees wood. After, PersonX will want to make a fire.	0	0	0	0
+PersonX sees wood	xWant	PersonX sees wood. After, PersonX will want to	cut the wood.	PersonX sees wood. After, PersonX will want to cut the wood.	0	0	0	0
+PersonX sees wood	xWant	PersonX sees wood. After, PersonX will want to	carve it.	PersonX sees wood. After, PersonX will want to carve it.	0	0	0	0
+PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. After, PersonX will want to	sleep.	PersonX turns PersonX's music down. After, PersonX will want to sleep.	0	0	0	0
+PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. After, PersonX will want to	concentrate.	PersonX turns PersonX's music down. After, PersonX will want to concentrate.	0	0	0	0
+PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. After, PersonX will want to	sleep.	PersonX turns PersonX's music down. After, PersonX will want to sleep.	0	0	0	0
+PersonX is coming to an end	xWant	PersonX is coming to an end. After, PersonX will want to	start anew.	PersonX is coming to an end. After, PersonX will want to start anew.	0	0	0	0
+PersonX is coming to an end	xWant	PersonX is coming to an end. After, PersonX will want to	continue.	PersonX is coming to an end. After, PersonX will want to continue.	0	0	0	0
+PersonX is coming to an end	xWant	PersonX is coming to an end. After, PersonX will want to	leave.	PersonX is coming to an end. After, PersonX will want to leave.	0	0	0	0
+PersonX touches PersonY's skin	xWant	PersonX touches PersonY's skin. After, PersonX will want to	touch PersonY again.	PersonX touches PersonY's skin. After, PersonX will want to touch PersonY again.	0	0	0	0
+PersonX touches PersonY's skin	xWant	PersonX touches PersonY's skin. After, PersonX will want to	touch again.	PersonX touches PersonY's skin. After, PersonX will want to touch again.	0	0	0	0
+PersonX touches PersonY's skin	xWant	PersonX touches PersonY's skin. After, PersonX will want to	wash their hands.	PersonX touches PersonY's skin. After, PersonX will want to wash their hands.	0	0	0	0
+PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. After, PersonX will want to	see her daughter.	PersonX is PersonY's mother. After, PersonX will want to see her daughter.	0	0	0	0
+PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. After, PersonX will want to	have a baby.	PersonX is PersonY's mother. After, PersonX will want to have a baby.	0	0	0	0
+PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. After, PersonX will want to	see PersonY.	PersonX is PersonY's mother. After, PersonX will want to see PersonY.	0	0	0	0
+PersonX can not believe PersonX's eyes	xWant	PersonX can not believe PersonX's eyes. After, PersonX will want to	tell others.	PersonX can not believe PersonX's eyes. After, PersonX will want to tell others.	0	0	0	0
+PersonX can not believe PersonX's eyes	xWant	PersonX can not believe PersonX's eyes. After, PersonX will want to	go back to their hometown.	PersonX can not believe PersonX's eyes. After, PersonX will want to go back to their hometown.	0	0	0	0
+PersonX can not believe PersonX's eyes	xWant	PersonX can not believe PersonX's eyes. After, PersonX will want to	tell others.	PersonX can not believe PersonX's eyes. After, PersonX will want to tell others.	0	0	0	0
+PersonX catches the bus to work	xWant	PersonX catches the bus to work. After, PersonX will want to	sleep.	PersonX catches the bus to work. After, PersonX will want to sleep.	0	0	0	0
+PersonX catches the bus to work	xWant	PersonX catches the bus to work. After, PersonX will want to	get off the bus.	PersonX catches the bus to work. After, PersonX will want to get off the bus.	0	0	0	0
+PersonX catches the bus to work	xWant	PersonX catches the bus to work. After, PersonX will want to	take a nap.	PersonX catches the bus to work. After, PersonX will want to take a nap.	0	0	0	0
+PersonX wears gloves	xWant	PersonX wears gloves. After, PersonX will want to	take them off.	PersonX wears gloves. After, PersonX will want to take them off.	0	0	0	0
+PersonX wears gloves	xWant	PersonX wears gloves. After, PersonX will want to	take a bath.	PersonX wears gloves. After, PersonX will want to take a bath.	0	0	0	0
+PersonX wears gloves	xWant	PersonX wears gloves. After, PersonX will want to	take them off.	PersonX wears gloves. After, PersonX will want to take them off.	0	0	0	0
+PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. After, PersonX will want to	go home.	PersonX operates in PersonY environment. After, PersonX will want to go home.	0	0	0	0
+PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. After, PersonX will want to	go home.	PersonX operates in PersonY environment. After, PersonX will want to go home.	0	0	0	0
+PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. After, PersonX will want to	go back to PersonX environment.	PersonX operates in PersonY environment. After, PersonX will want to go back to PersonX environment.	0	0	0	0
+PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. PersonX will be	happy.	PersonX sees PersonY's crush. PersonX will be happy.	0	0	0	0
+PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. PersonX will be	jealous.	PersonX sees PersonY's crush. PersonX will be jealous.	0	0	0	0
+PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. PersonX will be	happy.	PersonX sees PersonY's crush. PersonX will be happy.	0	0	0	0
+PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. PersonX will be	able to know when PersonX is hungry.	PersonX watches PersonX's mouth. PersonX will be able to know when PersonX is hungry.	0	0	0	0
+PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. PersonX will be	able to see what PersonX is saying.	PersonX watches PersonX's mouth. PersonX will be able to see what PersonX is saying.	0	0	0	0
+PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. PersonX will be	hungry.	PersonX watches PersonX's mouth. PersonX will be hungry.	0	0	0	0
+PersonX moves past PersonY	xReact	PersonX moves past PersonY. PersonX will be	tired.	PersonX moves past PersonY. PersonX will be tired.	0	0	0	0
+PersonX moves past PersonY	xReact	PersonX moves past PersonY. PersonX will be	happy.	PersonX moves past PersonY. PersonX will be happy.	0	0	0	0
+PersonX moves past PersonY	xReact	PersonX moves past PersonY. PersonX will be	tired.	PersonX moves past PersonY. PersonX will be tired.	0	0	0	0
+PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. PersonX will be	lonely.	PersonX denies PersonY's existence. PersonX will be lonely.	0	0	0	0
+PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. PersonX will be	alone.	PersonX denies PersonY's existence. PersonX will be alone.	0	0	0	0
+PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. PersonX will be	alone.	PersonX denies PersonY's existence. PersonX will be alone.	0	0	0	0
+PersonX never been to one	xReact	PersonX never been to one. PersonX will be	curious.	PersonX never been to one. PersonX will be curious.	0	0	0	0
+PersonX never been to one	xReact	PersonX never been to one. PersonX will be	curious about it.	PersonX never been to one. PersonX will be curious about it.	0	0	0	0
+PersonX never been to one	xReact	PersonX never been to one. PersonX will be	curious about it.	PersonX never been to one. PersonX will be curious about it.	0	0	0	0
+PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. PersonX will be	scolded by PersonY.	PersonX hits PersonY's friend. PersonX will be scolded by PersonY.	0	0	0	0
+PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. PersonX will be	in trouble.	PersonX hits PersonY's friend. PersonX will be in trouble.	0	0	0	0
+PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. PersonX will be	scolded by PersonY.	PersonX hits PersonY's friend. PersonX will be scolded by PersonY.	0	0	0	0
+PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. PersonX will be	tired.	PersonX sends PersonY to the showers. PersonX will be tired.	0	0	0	0
+PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. PersonX will be	wet.	PersonX sends PersonY to the showers. PersonX will be wet.	0	0	0	0
+PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. PersonX will be	sweaty.	PersonX sends PersonY to the showers. PersonX will be sweaty.	0	0	0	0
+PersonX fudges the issue	xReact	PersonX fudges the issue. PersonX will be	caught.	PersonX fudges the issue. PersonX will be caught.	0	0	0	0
+PersonX fudges the issue	xReact	PersonX fudges the issue. PersonX will be	caught.	PersonX fudges the issue. PersonX will be caught.	0	0	0	0
+PersonX fudges the issue	xReact	PersonX fudges the issue. PersonX will be	embarrassed.	PersonX fudges the issue. PersonX will be embarrassed.	0	0	0	0
+PersonX contains PersonY number	xReact	PersonX contains PersonY number. PersonX will be	great.	PersonX contains PersonY number. PersonX will be great.	0	0	0	0
+PersonX contains PersonY number	xReact	PersonX contains PersonY number. PersonX will be	happy.	PersonX contains PersonY number. PersonX will be happy.	0	0	0	0
+PersonX contains PersonY number	xReact	PersonX contains PersonY number. PersonX will be	more than PersonY.	PersonX contains PersonY number. PersonX will be more than PersonY.	0	0	0	0
+PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. PersonX will be	in pain.	PersonX breaks PersonX's hip. PersonX will be in pain.	0	0	0	0
+PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. PersonX will be	in pain.	PersonX breaks PersonX's hip. PersonX will be in pain.	0	0	0	0
+PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. PersonX will be	in pain.	PersonX breaks PersonX's hip. PersonX will be in pain.	0	0	0	0
