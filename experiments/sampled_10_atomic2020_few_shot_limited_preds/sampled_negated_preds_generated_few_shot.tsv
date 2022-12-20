@@ -1,0 +1,61 @@
+head	relation	prompt	generated_tail	full_text
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. After, PersonX will not want to	quit his job.	PersonX gets a part time job. After, PersonX will not want to quit his job.
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. After, PersonX will not want to	be unemployed.	PersonX gets a part time job. After, PersonX will not want to be unemployed.
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. After, PersonX will not want to	sleep all day.	PersonX gets a part time job. After, PersonX will not want to sleep all day.
+PersonX sees wood	NotxWant	PersonX sees wood. After, PersonX will not want to	see water.	PersonX sees wood. After, PersonX will not want to see water.
+PersonX sees wood	NotxWant	PersonX sees wood. After, PersonX will not want to	go to bed.	PersonX sees wood. After, PersonX will not want to go to bed.
+PersonX sees wood	NotxWant	PersonX sees wood. After, PersonX will not want to	saw wood.	PersonX sees wood. After, PersonX will not want to saw wood.
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. After, PersonX will not want to	listen to music.	PersonX turns PersonX's music down. After, PersonX will not want to listen to music.
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. After, PersonX will not want to	turn it up.	PersonX turns PersonX's music down. After, PersonX will not want to turn it up.
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. After, PersonX will not want to	listen to music.	PersonX turns PersonX's music down. After, PersonX will not want to listen to music.
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. After, PersonX will not want to	stay.	PersonX is coming to an end. After, PersonX will not want to stay.
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. After, PersonX will not want to	party.	PersonX is coming to an end. After, PersonX will not want to party.
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. After, PersonX will not want to	do anything.	PersonX is coming to an end. After, PersonX will not want to do anything.
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. After, PersonX will not want to	touch his own skin.	PersonX touches PersonY's skin. After, PersonX will not want to touch his own skin.
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. After, PersonX will not want to	touch PersonY's skin.	PersonX touches PersonY's skin. After, PersonX will not want to touch PersonY's skin.
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. After, PersonX will not want to	wash his hand.	PersonX touches PersonY's skin. After, PersonX will not want to wash his hand.
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. After, PersonX will not want to	buy a present for PersonY.	PersonX is PersonY's mother. After, PersonX will not want to buy a present for PersonY.
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. After, PersonX will not want to	leave PersonY.	PersonX is PersonY's mother. After, PersonX will not want to leave PersonY.
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. After, PersonX will not want to	be PersonY's father.	PersonX is PersonY's mother. After, PersonX will not want to be PersonY's father.
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. After, PersonX will not want to	doubt anything.	PersonX can not believe PersonX's eyes. After, PersonX will not want to doubt anything.
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. After, PersonX will not want to	believe his eyes.	PersonX can not believe PersonX's eyes. After, PersonX will not want to believe his eyes.
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. After, PersonX will not want to	blink.	PersonX can not believe PersonX's eyes. After, PersonX will not want to blink.
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. After, PersonX will not want to	drive.	PersonX catches the bus to work. After, PersonX will not want to drive.
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. After, PersonX will not want to	bike.	PersonX catches the bus to work. After, PersonX will not want to bike.
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. After, PersonX will not want to	walk to work.	PersonX catches the bus to work. After, PersonX will not want to walk to work.
+PersonX wears gloves	NotxWant	PersonX wears gloves. After, PersonX will not want to	wear the gloves.	PersonX wears gloves. After, PersonX will not want to wear the gloves.
+PersonX wears gloves	NotxWant	PersonX wears gloves. After, PersonX will not want to	wear gloves.	PersonX wears gloves. After, PersonX will not want to wear gloves.
+PersonX wears gloves	NotxWant	PersonX wears gloves. After, PersonX will not want to	wash his hands.	PersonX wears gloves. After, PersonX will not want to wash his hands.
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. After, PersonX will not want to	leave.	PersonX operates in PersonY environment. After, PersonX will not want to leave.
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. After, PersonX will not want to	leave.	PersonX operates in PersonY environment. After, PersonX will not want to leave.
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. After, PersonX will not want to	leave PersonY.	PersonX operates in PersonY environment. After, PersonX will not want to leave PersonY.
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. PersonX will not be	happy.	PersonX sees PersonY's crush. PersonX will not be happy.
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. PersonX will not be	happy.	PersonX sees PersonY's crush. PersonX will not be happy.
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. PersonX will not be	happy.	PersonX sees PersonY's crush. PersonX will not be happy.
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. PersonX will not be	able to see PersonX's mouth.	PersonX watches PersonX's mouth. PersonX will not be able to see PersonX's mouth.
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. PersonX will not be	happy.	PersonX watches PersonX's mouth. PersonX will not be happy.
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. PersonX will not be	happy.	PersonX watches PersonX's mouth. PersonX will not be happy.
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. PersonX will not be	happy.	PersonX moves past PersonY. PersonX will not be happy.
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. PersonX will not be	long.	PersonX moves past PersonY. PersonX will not be long.
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. PersonX will not be	happy.	PersonX moves past PersonY. PersonX will not be happy.
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. PersonX will not be	happy.	PersonX denies PersonY's existence. PersonX will not be happy.
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. PersonX will not be	happy.	PersonX denies PersonY's existence. PersonX will not be happy.
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. PersonX will not be	happy.	PersonX denies PersonY's existence. PersonX will not be happy.
+PersonX never been to one	NotxReact	PersonX never been to one. PersonX will not be	able to speak about one.	PersonX never been to one. PersonX will not be able to speak about one.
+PersonX never been to one	NotxReact	PersonX never been to one. PersonX will not be	able to speak.	PersonX never been to one. PersonX will not be able to speak.
+PersonX never been to one	NotxReact	PersonX never been to one. PersonX will not be	happy.	PersonX never been to one. PersonX will not be happy.
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. PersonX will not be	happy.	PersonX hits PersonY's friend. PersonX will not be happy.
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. PersonX will not be	happy.	PersonX hits PersonY's friend. PersonX will not be happy.
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. PersonX will not be	happy.	PersonX hits PersonY's friend. PersonX will not be happy.
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. PersonX will not be	happy.	PersonX sends PersonY to the showers. PersonX will not be happy.
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. PersonX will not be	happy.	PersonX sends PersonY to the showers. PersonX will not be happy.
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. PersonX will not be	happy.	PersonX sends PersonY to the showers. PersonX will not be happy.
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. PersonX will not be	happy.	PersonX fudges the issue. PersonX will not be happy.
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. PersonX will not be	happy.	PersonX fudges the issue. PersonX will not be happy.
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. PersonX will not be	happy.	PersonX fudges the issue. PersonX will not be happy.
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. PersonX will not be	happy.	PersonX contains PersonY number. PersonX will not be happy.
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. PersonX will not be	happy.	PersonX contains PersonY number. PersonX will not be happy.
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. PersonX will not be	happy.	PersonX contains PersonY number. PersonX will not be happy.
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. PersonX will not be	happy.	PersonX breaks PersonX's hip. PersonX will not be happy.
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. PersonX will not be	happy.	PersonX breaks PersonX's hip. PersonX will not be happy.
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. PersonX will not be	happy.	PersonX breaks PersonX's hip. PersonX will not be happy.
