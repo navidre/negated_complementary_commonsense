@@ -16,12 +16,52 @@ ENGINE = 'text-davinci-002' # e
 load_dotenv(f'{Path().resolve()}/.env')
 openai.api_key = os.environ['OPENAI_API_KEY']
 
-NEGATED_FEW_SHOT_PROMPT = "- PersonX accepts PersonY's invitation. As a result, PersonY does not feel sad.\n- You are not likely to find car in house. \n- Hammer cannot be used for typing.\n- PersonX cuts PersonX. PersonX will not be happy.\n- PersonX runs. Before that, it is not needed that he bikes."
+# Few shot prompt
 FEW_SHOT_PROMPT = "- PersonX accepts PersonX's diploma. As a result, others feel proud.\n- You are likely to find a basket in office.\n- Nose can be used to sense odors.\n- PersonX does PersonY's work. PersonX will be tired.\n- PersonX moves away. Before that, PersonX says goodbye to their friends."
+NEGATED_FEW_SHOT_PROMPT = "- PersonX accepts PersonY's invitation. As a result, PersonY does not feel sad.\n- You are not likely to find car in house. \n- Hammer cannot be used for typing.\n- PersonX cuts PersonX. PersonX will not be happy.\n- PersonX runs. Before that, it is not needed that he bikes."
+
+# Few shot prompts Q/A style
+FEW_SHOT_QA_PROMPT = "Q: PersonX accepts PersonX's diploma. As a result, what others feel? Name three.\nA: proud; jealous; joyful.\n\nQ: Where can you find a basket? Name three.\nA: an office; laundry room; closet.\n\nQ: What nose can be used for?\nA: sense odors; inhaling; exhaling.\n\nQ: PersonX does PersonY's work. What will be the effect on PersonX?\nA: tired; busy; overwhelmed.\n\nQ: PersonX moves away. What is done before that?\nA: PersonX says goodbye to their friends; Person X boxes belongings; PersonX researches the new place."
+NEGATED_FEW_SHOT_QA_PROMPT = "Q: PersonX accepts PersonY's invitation. As a result, what PersonY does not feel?\nA: sad; alone; rejected.\n\nQ: Where you cannot find a car?\nA: a living room; a nail salon; a bedroom.\n\nQ: What hammer cannot be used for?\nA: typing; toilet plunging; screwing a bolt.\n\nQ: PersonX cuts PersonX. What will PersonX not feel?\nA: happy; satisfied; relaxed.\n\nQ: PersonX runs. Before that, what is not needed?\nA: to bike; to jump; to eat."
 
 PROMPTS = {
     'few_shot': {'normal': FEW_SHOT_PROMPT, 'negated': NEGATED_FEW_SHOT_PROMPT},
+    'few_shot_qa': {'normal': FEW_SHOT_QA_PROMPT, 'negated': NEGATED_FEW_SHOT_QA_PROMPT}
 }
+
+# Predicate is key.
+# n is the number of items that we are looking for.
+# pred: (find_subj, find_obj)
+QUESTION_TEMPLATES = {'AtLocation': {'normal': 'Where is the {subj} located? Name {n}.', 'negated': 'Where is the {subj} not located? Name {n}.'},
+                      'CapableOf': {'normal': 'What is {subj} capable of? Name {n}.', 'negated': 'What is {subj} not capable of? Name {n}.'},
+                      'Causes': {'normal': 'What {subj} can cause? Name {n}.', 'negated': 'What {subj} cannot cause? Name {n}.'},
+                      'CausesDesire': {'normal': 'What {subj} causes desire in? Name {n}', 'negated': 'What {subj} does not cause desire in? Name {n}.'},
+                      'CreatedBy': {'normal': 'What is created by {subj}? Name {n}.', 'negated': 'What is not created by {subj}? Name {n}.'},
+                      'DefinedAs': {'normal': 'What is the definition of {subj}? Name {n}.', 'negated': 'What is not the definition of {subj}? Name {n}.'},
+                      'Desires': {'normal': 'What does {subj} desire to do? Name {n}.', 'negated': 'What does {subj} not desire to do? Name {n}.'},
+                      'HasA': {'normal': 'What does {subj} have? Name {n}.', 'negated': 'What does {subj} not have? Name {n}.'},
+                      'HasFirstSubevent': {'normal': 'What happens when you {subj}? Name {n}.', 'negated': 'What does not happen when you {subj}? Name {n}.'},
+                      'HasPrerequisite': {'normal': 'What does {subj} have as a prerequisite? Name {n}.', 'negated': 'What does {subj} not have as a prerequisite? Name {n}.'},
+                      'HasProperty': '',
+                      'HasSubevent': '',
+                      'IsA': '',
+                      'MadeOf': '',
+                      'MotivatedByGoal': '',
+                      'NotCapableOf': '',
+                      'NotHasProperty': '',
+                      'NotIsA': '',
+                      'PartOf': '',
+                      'ReceivesAction': '',
+                      'RelatedTo': '',
+                      'UsedFor': '',
+                      # ATOMIC-2020
+                      'xWant': {'normal': '{subj}. What does PersonX want to do? Name {n}.', 'negated': '{subj}. What does PersonX not want to do? Name {n}.'},
+                      'xReact': {'normal': '{subj}. What does PersonX feel about it? Name {n}.', 'negated': '{subj}. What does PersonX not feel about it? Name {n}.'}, 
+                      'oWant': {'normal': '{subj}. What does PersonY want to do? Name {n}.', 'negated': '{subj}. What does PersonY not want to do? Name {n}.'},
+                      'HinderedBy': {'normal': '{subj}. What can hinder/obstruct it? Name {n}.', 'negated': '{subj}. What cannot hinder/obstruct it? Name {n}.'},
+                      }
+
+NUMBER_TO_TEXT = {1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine', 10: 'ten'}
 
 def generate_zero_shot_using_gpt_3(prompt:str, temperature:float=TEMPERATURE, max_tokens:int=MAX_TOKENS, top_p:float=TOP_P, frequency_penalty:float=FREQUENCY_PENALTY, presence_penalty:float=PRESENCE_PENALTY, engine:str=ENGINE):
     """ Generate a zero-shot response using GPT-3.
@@ -71,6 +111,39 @@ def generate_few_shot_using_gpt_3(few_shot_prompt:str, premise:str, temperature:
     """
     start_sequence = "- "
     prompt_as_input = f"{few_shot_prompt}\n{start_sequence}{premise}"
+    response = openai.Completion.create(
+                model=engine,
+                prompt=prompt_as_input,
+                temperature=temperature,
+                max_tokens=max_tokens,
+                top_p=top_p,
+                frequency_penalty=presence_penalty,
+                presence_penalty=frequency_penalty,
+                logprobs=20,
+                stop=[". ", "\n"]
+                )
+    text_answer = response['choices'][0]['text']
+    return text_answer, response
+
+def generate_few_shot_qa(few_shot_prompt:str, question:str, temperature:float=TEMPERATURE, max_tokens:int=MAX_TOKENS, top_p:float=TOP_P, frequency_penalty:float=FREQUENCY_PENALTY, presence_penalty:float=PRESENCE_PENALTY, engine:str=ENGINE):
+    """ Generate a few-shot Q/A-based response using GPT-3.
+
+    Args:
+        prompt (str): The few-shot example prompt to use with the model.
+        question (str): The question to ask.
+        temperature (float, optional): Temperature. Defaults to TEMPERATURE.
+        max_tokens (int, optional): Number of max tokens generated in the output. Defaults to MAX_TOKENS.
+        top_p (float, optional): Nucleus sampling. Top possible tokens with cumulative probability of at least top_p. Defaults to TOP_P.
+        frequency_penalty (float, optional): frequency_penalty. Defaults to FREQUENCY_PENALTY.
+        presence_penalty (float, optional): presence_penalty. Defaults to PRESENCE_PENALTY.
+        engine (str, optional): Name of the GPT-3 engine to use. Defaults to ENGINE.
+
+    Returns:
+        (str, str): The generated text answer and the overall response.
+    """
+    start_sequence = "\nA:"
+    restart_sequence = "\n\nQ: "
+    prompt_as_input = f"{few_shot_prompt}{restart_sequence}{question}{start_sequence}"
     response = openai.Completion.create(
                 model=engine,
                 prompt=prompt_as_input,

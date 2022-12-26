@@ -38,7 +38,7 @@ We have an option here. Either do self-evaluation or use AWS mTurk for evaluatio
 ## Run pipeline
 The following scripts make the multiple steps in the previous section easier. The overall process is preparation/generation, human-evaluation, and lastly post-processing/plotting.
 
-1. Preparation/Generation: [TODO]
+1. Preparation/Generation/Upload-to-S3: [Simple Pre-Process and Generation](scripts/simple_pre_process_and_generate.py)
 2. Human Evaluation: Using AWS SageMaker.
 3. Post-Processing/Plotting: [Simple Post Process](scripts/simple_post_process.py)
 

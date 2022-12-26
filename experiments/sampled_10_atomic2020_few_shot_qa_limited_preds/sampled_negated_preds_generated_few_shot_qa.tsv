@@ -1,0 +1,181 @@
+head	relation	prompt	generated_tail	full_text	flagged_answer
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to be a cashier	PersonX gets a part time job. After, PersonX will not want to to be a cashier	False
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to be a mover	PersonX gets a part time job. After, PersonX will not want to to be a mover	False
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to be a construction worker	PersonX gets a part time job. After, PersonX will not want to to be a construction worker	False
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to burn it	PersonX sees wood. After, PersonX will not want to to burn it	False
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to carve it	PersonX sees wood. After, PersonX will not want to to carve it	False
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to throw it away.	PersonX sees wood. After, PersonX will not want to to throw it away.	False
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. What does PersonX not want to do? Name three.	relax	PersonX turns PersonX's music down. After, PersonX will not want to relax	False
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. What does PersonX not want to do? Name three.	hear the music	PersonX turns PersonX's music down. After, PersonX will not want to hear the music	False
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. What does PersonX not want to do? Name three.	be disturbed by the music.	PersonX turns PersonX's music down. After, PersonX will not want to be disturbed by the music.	False
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. What does PersonX not want to do? Name three.	to be forgotten	PersonX is coming to an end. After, PersonX will not want to to be forgotten	False
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. What does PersonX not want to do? Name three.	to be ignored	PersonX is coming to an end. After, PersonX will not want to to be ignored	False
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. What does PersonX not want to do? Name three.	to be alone.	PersonX is coming to an end. After, PersonX will not want to to be alone.	False
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. What does PersonX not want to do? Name three.	to feel pain	PersonX touches PersonY's skin. After, PersonX will not want to to feel pain	False
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. What does PersonX not want to do? Name three.	to feel uncomfortable	PersonX touches PersonY's skin. After, PersonX will not want to to feel uncomfortable	False
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. What does PersonX not want to do? Name three.	to feel itchy.	PersonX touches PersonY's skin. After, PersonX will not want to to feel itchy.	False
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. What does PersonX not want to do? Name three.	to be PersonY's father	PersonX is PersonY's mother. After, PersonX will not want to to be PersonY's father	False
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. What does PersonX not want to do? Name three.	to be PersonY's brother	PersonX is PersonY's mother. After, PersonX will not want to to be PersonY's brother	False
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. What does PersonX not want to do? Name three.	to be PersonY's sister.	PersonX is PersonY's mother. After, PersonX will not want to to be PersonY's sister.	False
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. What does PersonX not want to do? Name three.	to blink	PersonX can not believe PersonX's eyes. After, PersonX will not want to to blink	False
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. What does PersonX not want to do? Name three.	to turn away	PersonX can not believe PersonX's eyes. After, PersonX will not want to to turn away	False
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. What does PersonX not want to do? Name three.	to keep looking	PersonX can not believe PersonX's eyes. After, PersonX will not want to to keep looking	False
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. What does PersonX not want to do? Name three.	drive	PersonX catches the bus to work. After, PersonX will not want to drive	False
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. What does PersonX not want to do? Name three.	walk	PersonX catches the bus to work. After, PersonX will not want to walk	False
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. What does PersonX not want to do? Name three.	take the train	PersonX catches the bus to work. After, PersonX will not want to take the train	False
+PersonX wears gloves	NotxWant	PersonX wears gloves. What does PersonX not want to do? Name three.	to touch something dirty	PersonX wears gloves. After, PersonX will not want to to touch something dirty	False
+PersonX wears gloves	NotxWant	PersonX wears gloves. What does PersonX not want to do? Name three.	to touch something hot	PersonX wears gloves. After, PersonX will not want to to touch something hot	False
+PersonX wears gloves	NotxWant	PersonX wears gloves. What does PersonX not want to do? Name three.	to touch something cold.	PersonX wears gloves. After, PersonX will not want to to touch something cold.	False
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. What does PersonX not want to do? Name three.	to be PersonY	PersonX operates in PersonY environment. After, PersonX will not want to to be PersonY	False
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. What does PersonX not want to do? Name three.	to be like PersonY	PersonX operates in PersonY environment. After, PersonX will not want to to be like PersonY	False
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. What does PersonX not want to do? Name three.	to have the same things as PersonY.	PersonX operates in PersonY environment. After, PersonX will not want to to have the same things as PersonY.	False
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. What does PersonX not feel about it? Name three.	happy	PersonX sees PersonY's crush. PersonX will not be happy	False
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. What does PersonX not feel about it? Name three.	jealous	PersonX sees PersonY's crush. PersonX will not be jealous	False
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. What does PersonX not feel about it? Name three.	excited.	PersonX sees PersonY's crush. PersonX will not be excited.	False
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. What does PersonX not feel about it? Name three.	disgusted	PersonX watches PersonX's mouth. PersonX will not be disgusted	False
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. What does PersonX not feel about it? Name three.	scared	PersonX watches PersonX's mouth. PersonX will not be scared	False
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. What does PersonX not feel about it? Name three.	sad.	PersonX watches PersonX's mouth. PersonX will not be sad.	False
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. What does PersonX not feel about it? Name three.	slow	PersonX moves past PersonY. PersonX will not be slow	False
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. What does PersonX not feel about it? Name three.	fast	PersonX moves past PersonY. PersonX will not be fast	False
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. What does PersonX not feel about it? Name three.	weak.	PersonX moves past PersonY. PersonX will not be weak.	False
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. What does PersonX not feel about it? Name three.	happy	PersonX denies PersonY's existence. PersonX will not be happy	False
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. What does PersonX not feel about it? Name three.	content	PersonX denies PersonY's existence. PersonX will not be content	False
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. What does PersonX not feel about it? Name three.	peaceful.	PersonX denies PersonY's existence. PersonX will not be peaceful.	False
+PersonX never been to one	NotxReact	PersonX never been to one. What does PersonX not feel about it? Name three.	curious	PersonX never been to one. PersonX will not be curious	False
+PersonX never been to one	NotxReact	PersonX never been to one. What does PersonX not feel about it? Name three.	intrigued	PersonX never been to one. PersonX will not be intrigued	False
+PersonX never been to one	NotxReact	PersonX never been to one. What does PersonX not feel about it? Name three.	excited.	PersonX never been to one. PersonX will not be excited.	False
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. What does PersonX not feel about it? Name three.	remorse	PersonX hits PersonY's friend. PersonX will not be remorse	False
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. What does PersonX not feel about it? Name three.	sadness	PersonX hits PersonY's friend. PersonX will not be sadness	False
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. What does PersonX not feel about it? Name three.	anger.	PersonX hits PersonY's friend. PersonX will not be anger.	False
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. What does PersonX not feel about it? Name three.			True
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. What does PersonX not feel about it? Name three.			True
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. What does PersonX not feel about it? Name three.			True
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. What does PersonX not feel about it? Name three.	proud	PersonX fudges the issue. PersonX will not be proud	False
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. What does PersonX not feel about it? Name three.	happy	PersonX fudges the issue. PersonX will not be happy	False
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. What does PersonX not feel about it? Name three.	confident.	PersonX fudges the issue. PersonX will not be confident.	False
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. What does PersonX not feel about it? Name three.	angry	PersonX contains PersonY number. PersonX will not be angry	False
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. What does PersonX not feel about it? Name three.	frustrated	PersonX contains PersonY number. PersonX will not be frustrated	False
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. What does PersonX not feel about it? Name three.	disappointed.	PersonX contains PersonY number. PersonX will not be disappointed.	False
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. What does PersonX not feel about it? Name three.			True
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. What does PersonX not feel about it? Name three.			True
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. What does PersonX not feel about it? Name three.			True
+PersonX loves riding PersonX's bike	NotoWant	PersonX loves riding PersonX's bike. What does PersonY not want to do? Name three.	to ride PersonX's bike	PersonX loves riding PersonX's bike. After, others will not want to to ride PersonX's bike	False
+PersonX loves riding PersonX's bike	NotoWant	PersonX loves riding PersonX's bike. What does PersonY not want to do? Name three.	to ride a bike	PersonX loves riding PersonX's bike. After, others will not want to to ride a bike	False
+PersonX loves riding PersonX's bike	NotoWant	PersonX loves riding PersonX's bike. What does PersonY not want to do? Name three.	to love riding a bike.	PersonX loves riding PersonX's bike. After, others will not want to to love riding a bike.	False
+PersonX is making a cake	NotoWant	PersonX is making a cake. What does PersonY not want to do? Name three.	to help	PersonX is making a cake. After, others will not want to to help	False
+PersonX is making a cake	NotoWant	PersonX is making a cake. What does PersonY not want to do? Name three.	to eat	PersonX is making a cake. After, others will not want to to eat	False
+PersonX is making a cake	NotoWant	PersonX is making a cake. What does PersonY not want to do? Name three.	to watch.	PersonX is making a cake. After, others will not want to to watch.	False
+PersonX wins money	NotoWant	PersonX wins money. What does PersonY not want to do? Name three.	to continue playing	PersonX wins money. After, others will not want to to continue playing	False
+PersonX wins money	NotoWant	PersonX wins money. What does PersonY not want to do? Name three.	to go home	PersonX wins money. After, others will not want to to go home	False
+PersonX wins money	NotoWant	PersonX wins money. What does PersonY not want to do? Name three.	to give the money to PersonX.	PersonX wins money. After, others will not want to to give the money to PersonX.	False
+PersonX escorts PersonY back	NotoWant	PersonX escorts PersonY back. What does PersonY not want to do? Name three.	to be alone	PersonX escorts PersonY back. After, others will not want to to be alone	False
+PersonX escorts PersonY back	NotoWant	PersonX escorts PersonY back. What does PersonY not want to do? Name three.	to be in the dark	PersonX escorts PersonY back. After, others will not want to to be in the dark	False
+PersonX escorts PersonY back	NotoWant	PersonX escorts PersonY back. What does PersonY not want to do? Name three.	to be in a dangerous place.	PersonX escorts PersonY back. After, others will not want to to be in a dangerous place.	False
+PersonX wraps PersonY's hand	NotoWant	PersonX wraps PersonY's hand. What does PersonY not want to do? Name three.	move the hand	PersonX wraps PersonY's hand. After, others will not want to move the hand	False
+PersonX wraps PersonY's hand	NotoWant	PersonX wraps PersonY's hand. What does PersonY not want to do? Name three.	use the hand	PersonX wraps PersonY's hand. After, others will not want to use the hand	False
+PersonX wraps PersonY's hand	NotoWant	PersonX wraps PersonY's hand. What does PersonY not want to do? Name three.	touch the hand.	PersonX wraps PersonY's hand. After, others will not want to touch the hand.	False
+PersonX falls on PersonY	NotoWant	PersonX falls on PersonY. What does PersonY not want to do? Name three.	scream	PersonX falls on PersonY. After, others will not want to scream	False
+PersonX falls on PersonY	NotoWant	PersonX falls on PersonY. What does PersonY not want to do? Name three.	hit PersonX	PersonX falls on PersonY. After, others will not want to hit PersonX	False
+PersonX falls on PersonY	NotoWant	PersonX falls on PersonY. What does PersonY not want to do? Name three.	laugh.	PersonX falls on PersonY. After, others will not want to laugh.	False
+PersonX throws some bread	NotoWant	PersonX throws some bread. What does PersonY not want to do? Name three.	to eat the bread	PersonX throws some bread. After, others will not want to to eat the bread	False
+PersonX throws some bread	NotoWant	PersonX throws some bread. What does PersonY not want to do? Name three.	to catch the bread	PersonX throws some bread. After, others will not want to to catch the bread	False
+PersonX throws some bread	NotoWant	PersonX throws some bread. What does PersonY not want to do? Name three.	to throw the bread back.	PersonX throws some bread. After, others will not want to to throw the bread back.	False
+PersonX stings by a jellyfish	NotoWant	PersonX stings by a jellyfish. What does PersonY not want to do? Name three.	to put ice on it	PersonX stings by a jellyfish. After, others will not want to to put ice on it	False
+PersonX stings by a jellyfish	NotoWant	PersonX stings by a jellyfish. What does PersonY not want to do? Name three.	to pee on it	PersonX stings by a jellyfish. After, others will not want to to pee on it	False
+PersonX stings by a jellyfish	NotoWant	PersonX stings by a jellyfish. What does PersonY not want to do? Name three.	to touch it.	PersonX stings by a jellyfish. After, others will not want to to touch it.	False
+PersonX develops cancer	NotoWant	PersonX develops cancer. What does PersonY not want to do? Name three.	watch PersonX suffer	PersonX develops cancer. After, others will not want to watch PersonX suffer	False
+PersonX develops cancer	NotoWant	PersonX develops cancer. What does PersonY not want to do? Name three.	see PersonX in pain	PersonX develops cancer. After, others will not want to see PersonX in pain	False
+PersonX develops cancer	NotoWant	PersonX develops cancer. What does PersonY not want to do? Name three.	feel helpless.	PersonX develops cancer. After, others will not want to feel helpless.	False
+PersonX tells PersonY a little	NotoWant	PersonX tells PersonY a little. What does PersonY not want to do? Name three.	to hear more	PersonX tells PersonY a little. After, others will not want to to hear more	False
+PersonX tells PersonY a little	NotoWant	PersonX tells PersonY a little. What does PersonY not want to do? Name three.	to be interested	PersonX tells PersonY a little. After, others will not want to to be interested	False
+PersonX tells PersonY a little	NotoWant	PersonX tells PersonY a little. What does PersonY not want to do? Name three.	to know PersonX better.	PersonX tells PersonY a little. After, others will not want to to know PersonX better.	False
+detective	NotCapableOf	What is detective not capable of? Name three.	to feel	detective cannot to feel	False
+detective	NotCapableOf	What is detective not capable of? Name three.	to love	detective cannot to love	False
+detective	NotCapableOf	What is detective not capable of? Name three.	to be happy.	detective cannot to be happy.	False
+wet dog	NotCapableOf	What is wet dog not capable of? Name three.	flying	wet dog cannot flying	False
+wet dog	NotCapableOf	What is wet dog not capable of? Name three.	swimming	wet dog cannot swimming	False
+wet dog	NotCapableOf	What is wet dog not capable of? Name three.	going to the moon.	wet dog cannot going to the moon.	False
+quaterback	NotCapableOf	What is quaterback not capable of? Name three.	playing tennis	quaterback cannot playing tennis	False
+quaterback	NotCapableOf	What is quaterback not capable of? Name three.	swimming	quaterback cannot swimming	False
+quaterback	NotCapableOf	What is quaterback not capable of? Name three.	running a marathon.	quaterback cannot running a marathon.	False
+dentist	NotCapableOf	What is dentist not capable of? Name three.	making a car	dentist cannot making a car	False
+dentist	NotCapableOf	What is dentist not capable of? Name three.	fixing a computer	dentist cannot fixing a computer	False
+dentist	NotCapableOf	What is dentist not capable of? Name three.	flying a plane.	dentist cannot flying a plane.	False
+oscar winner	NotCapableOf	What is oscar winner not capable of? Name three.	to be a musician	oscar winner cannot to be a musician	False
+oscar winner	NotCapableOf	What is oscar winner not capable of? Name three.	to be a comedian	oscar winner cannot to be a comedian	False
+oscar winner	NotCapableOf	What is oscar winner not capable of? Name three.	to be an actor.	oscar winner cannot to be an actor.	False
+possum	NotCapableOf	What is possum not capable of? Name three.	flying	possum cannot flying	False
+possum	NotCapableOf	What is possum not capable of? Name three.	swimming	possum cannot swimming	False
+possum	NotCapableOf	What is possum not capable of? Name three.	running	possum cannot running	False
+supermodel	NotCapableOf	What is supermodel not capable of? Name three.	flying	supermodel cannot flying	False
+supermodel	NotCapableOf	What is supermodel not capable of? Name three.	swimming	supermodel cannot swimming	False
+supermodel	NotCapableOf	What is supermodel not capable of? Name three.	cooking.	supermodel cannot cooking.	False
+alto	NotCapableOf	What is alto not capable of? Name three.	producing low notes	alto cannot producing low notes	False
+alto	NotCapableOf	What is alto not capable of? Name three.	playing the violin	alto cannot playing the violin	False
+alto	NotCapableOf	What is alto not capable of? Name three.	being a color.	alto cannot being a color.	False
+energetic person	NotCapableOf	What is energetic person not capable of? Name three.	sitting still	energetic person cannot sitting still	False
+energetic person	NotCapableOf	What is energetic person not capable of? Name three.	watching television	energetic person cannot watching television	False
+energetic person	NotCapableOf	What is energetic person not capable of? Name three.	reading a book.	energetic person cannot reading a book.	False
+salior	NotCapableOf	What is salior not capable of? Name three.			True
+salior	NotCapableOf	What is salior not capable of? Name three.			True
+salior	NotCapableOf	What is salior not capable of? Name three.			True
+terrorist	NotDesires	What does terrorist not desire to do? Name three.	to kill	terrorist does not desire to kill	False
+terrorist	NotDesires	What does terrorist not desire to do? Name three.	to destroy	terrorist does not desire to destroy	False
+terrorist	NotDesires	What does terrorist not desire to do? Name three.	to harm.	terrorist does not desire to harm.	False
+exhibitionist	NotDesires	What does exhibitionist not desire to do? Name three.	to be seen	exhibitionist does not desire to be seen	False
+exhibitionist	NotDesires	What does exhibitionist not desire to do? Name three.	to be recognized	exhibitionist does not desire to be recognized	False
+exhibitionist	NotDesires	What does exhibitionist not desire to do? Name three.	to be applauded.	exhibitionist does not desire to be applauded.	False
+lover	NotDesires	What does lover not desire to do? Name three.	to fight	lover does not desire to fight	False
+lover	NotDesires	What does lover not desire to do? Name three.	to argue	lover does not desire to argue	False
+lover	NotDesires	What does lover not desire to do? Name three.	to be ignored.	lover does not desire to be ignored.	False
+pedobear	NotDesires	What does pedobear not desire to do? Name three.	to be popular	pedobear does not desire to be popular	False
+pedobear	NotDesires	What does pedobear not desire to do? Name three.	to be loved	pedobear does not desire to be loved	False
+pedobear	NotDesires	What does pedobear not desire to do? Name three.	to be happy.	pedobear does not desire to be happy.	False
+alcoholic	NotDesires	What does alcoholic not desire to do? Name three.	To drink	alcoholic does not desire To drink	False
+alcoholic	NotDesires	What does alcoholic not desire to do? Name three.	to be around alcohol	alcoholic does not desire to be around alcohol	False
+alcoholic	NotDesires	What does alcoholic not desire to do? Name three.	to be around people who are drinking.	alcoholic does not desire to be around people who are drinking.	False
+gardener	NotDesires	What does gardener not desire to do? Name three.	to water the plants	gardener does not desire to water the plants	False
+gardener	NotDesires	What does gardener not desire to do? Name three.	to weed the garden	gardener does not desire to weed the garden	False
+gardener	NotDesires	What does gardener not desire to do? Name three.	to fertilize the soil.	gardener does not desire to fertilize the soil.	False
+teenager	NotDesires	What does teenager not desire to do? Name three.	to wake up early	teenager does not desire to wake up early	False
+teenager	NotDesires	What does teenager not desire to do? Name three.	to study	teenager does not desire to study	False
+teenager	NotDesires	What does teenager not desire to do? Name three.	to eat healthy food.	teenager does not desire to eat healthy food.	False
+hen	NotDesires	What does hen not desire to do? Name three.	roost	hen does not desire roost	False
+hen	NotDesires	What does hen not desire to do? Name three.	crow	hen does not desire crow	False
+hen	NotDesires	What does hen not desire to do? Name three.	mate	hen does not desire mate	False
+detective	NotDesires	What does detective not desire to do? Name three.	To work	detective does not desire To work	False
+detective	NotDesires	What does detective not desire to do? Name three.	to be in danger	detective does not desire to be in danger	False
+detective	NotDesires	What does detective not desire to do? Name three.	to be bored.	detective does not desire to be bored.	False
+aol	NotDesires	What does aol not desire to do? Name three.	to be bought by Google	aol does not desire to be bought by Google	False
+aol	NotDesires	What does aol not desire to do? Name three.	to increase its user base	aol does not desire to increase its user base	False
+aol	NotDesires	What does aol not desire to do? Name three.	to be a social networking site.	aol does not desire to be a social networking site.	False
+PersonX enters an art contest	NotHinderedBy	PersonX enters an art contest. What cannot hinder/obstruct it? Name three.	the person's skill	PersonX enters an art contest. This happens even if the person's skill	False
+PersonX enters an art contest	NotHinderedBy	PersonX enters an art contest. What cannot hinder/obstruct it? Name three.	the person's lack of knowledge	PersonX enters an art contest. This happens even if the person's lack of knowledge	False
+PersonX enters an art contest	NotHinderedBy	PersonX enters an art contest. What cannot hinder/obstruct it? Name three.	the person's fear.	PersonX enters an art contest. This happens even if the person's fear.	False
+PersonX spends time	NotHinderedBy	PersonX spends time. What cannot hinder/obstruct it? Name three.	an alarm clock	PersonX spends time. This happens even if an alarm clock	False
+PersonX spends time	NotHinderedBy	PersonX spends time. What cannot hinder/obstruct it? Name three.	a hungry stomach	PersonX spends time. This happens even if a hungry stomach	False
+PersonX spends time	NotHinderedBy	PersonX spends time. What cannot hinder/obstruct it? Name three.	a movie.	PersonX spends time. This happens even if a movie.	False
+PersonX gives PersonY another	NotHinderedBy	PersonX gives PersonY another. What cannot hinder/obstruct it? Name three.	a car	PersonX gives PersonY another. This happens even if a car	False
+PersonX gives PersonY another	NotHinderedBy	PersonX gives PersonY another. What cannot hinder/obstruct it? Name three.	a bus	PersonX gives PersonY another. This happens even if a bus	False
+PersonX gives PersonY another	NotHinderedBy	PersonX gives PersonY another. What cannot hinder/obstruct it? Name three.	a train	PersonX gives PersonY another. This happens even if a train	False
+PersonX sees PersonY night	NotHinderedBy	PersonX sees PersonY night. What cannot hinder/obstruct it? Name three.	the sun	PersonX sees PersonY night. This happens even if the sun	False
+PersonX sees PersonY night	NotHinderedBy	PersonX sees PersonY night. What cannot hinder/obstruct it? Name three.	a lack of darkness	PersonX sees PersonY night. This happens even if a lack of darkness	False
+PersonX sees PersonY night	NotHinderedBy	PersonX sees PersonY night. What cannot hinder/obstruct it? Name three.	an early bedtime.	PersonX sees PersonY night. This happens even if an early bedtime.	False
+PersonX changes PersonY's diaper	NotHinderedBy	PersonX changes PersonY's diaper. What cannot hinder/obstruct it? Name three.	a full diaper	PersonX changes PersonY's diaper. This happens even if a full diaper	False
+PersonX changes PersonY's diaper	NotHinderedBy	PersonX changes PersonY's diaper. What cannot hinder/obstruct it? Name three.	a soiled diaper	PersonX changes PersonY's diaper. This happens even if a soiled diaper	False
+PersonX changes PersonY's diaper	NotHinderedBy	PersonX changes PersonY's diaper. What cannot hinder/obstruct it? Name three.	a wet diaper.	PersonX changes PersonY's diaper. This happens even if a wet diaper.	False
+PersonX is having a party at PersonX's house	NotHinderedBy	PersonX is having a party at PersonX's house. What cannot hinder/obstruct it? Name three.	the weather	PersonX is having a party at PersonX's house. This happens even if the weather	False
+PersonX is having a party at PersonX's house	NotHinderedBy	PersonX is having a party at PersonX's house. What cannot hinder/obstruct it? Name three.	the police	PersonX is having a party at PersonX's house. This happens even if the police	False
+PersonX is having a party at PersonX's house	NotHinderedBy	PersonX is having a party at PersonX's house. What cannot hinder/obstruct it? Name three.	a fire.	PersonX is having a party at PersonX's house. This happens even if a fire.	False
+PersonX pulls out all the stops	NotHinderedBy	PersonX pulls out all the stops. What cannot hinder/obstruct it? Name three.	a car	PersonX pulls out all the stops. This happens even if a car	False
+PersonX pulls out all the stops	NotHinderedBy	PersonX pulls out all the stops. What cannot hinder/obstruct it? Name three.	a stop sign	PersonX pulls out all the stops. This happens even if a stop sign	False
+PersonX pulls out all the stops	NotHinderedBy	PersonX pulls out all the stops. What cannot hinder/obstruct it? Name three.	a person	PersonX pulls out all the stops. This happens even if a person	False
+PersonX looks in the pantry	NotHinderedBy	PersonX looks in the pantry. What cannot hinder/obstruct it? Name three.	a sink	PersonX looks in the pantry. This happens even if a sink	False
+PersonX looks in the pantry	NotHinderedBy	PersonX looks in the pantry. What cannot hinder/obstruct it? Name three.	a cat	PersonX looks in the pantry. This happens even if a cat	False
+PersonX looks in the pantry	NotHinderedBy	PersonX looks in the pantry. What cannot hinder/obstruct it? Name three.	a plant.	PersonX looks in the pantry. This happens even if a plant.	False
+PersonX brushes PersonY's hair	NotHinderedBy	PersonX brushes PersonY's hair. What cannot hinder/obstruct it? Name three.	wind	PersonX brushes PersonY's hair. This happens even if wind	False
+PersonX brushes PersonY's hair	NotHinderedBy	PersonX brushes PersonY's hair. What cannot hinder/obstruct it? Name three.	a wall	PersonX brushes PersonY's hair. This happens even if a wall	False
+PersonX brushes PersonY's hair	NotHinderedBy	PersonX brushes PersonY's hair. What cannot hinder/obstruct it? Name three.	a ceiling.	PersonX brushes PersonY's hair. This happens even if a ceiling.	False
+PersonX invites PersonY to play	NotHinderedBy	PersonX invites PersonY to play. What cannot hinder/obstruct it? Name three.	work	PersonX invites PersonY to play. This happens even if work	False
+PersonX invites PersonY to play	NotHinderedBy	PersonX invites PersonY to play. What cannot hinder/obstruct it? Name three.	school	PersonX invites PersonY to play. This happens even if school	False
+PersonX invites PersonY to play	NotHinderedBy	PersonX invites PersonY to play. What cannot hinder/obstruct it? Name three.	family obligations.	PersonX invites PersonY to play. This happens even if family obligations.	False

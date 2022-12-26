@@ -1,15 +1,44 @@
-import argparse, sys, os
+import argparse, sys, os, traceback
 import pandas as pd
 from tqdm import tqdm
 sys.path.append('./')
-from utils.gpt_3_utils import generate_zero_shot_using_gpt_3, generate_few_shot_using_gpt_3, PROMPTS
+from utils.gpt_3_utils import generate_zero_shot_using_gpt_3, generate_few_shot_using_gpt_3, PROMPTS, generate_few_shot_qa, QUESTION_TEMPLATES, NUMBER_TO_TEXT
+
+def extract_answers(text_answer, style, num_generations):
+    """Extracts the answers from the text_answer
+
+    Args:
+        text_answer (str): The text_answer from the GPT-3 API
+        style (str): The style of generation
+        num_generations (int): The number of generations
+
+    Returns:
+        answers (list): The list of answers
+    """
+    # Checking obvious cases
+    if text_answer is None:
+        return None
+    if text_answer == "":
+        return None
+
+    # Extracting answers based on the style
+    answers = []
+    if style == "few_shot_qa":
+        answers = text_answer.split(';')
+    else:
+        raise NotImplementedError
+    
+    if len(answers) != num_generations:
+        return None
+    else:
+        return answers
 
 if __name__ == "__main__":
     print('Loading spacy ...')
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", type=str, default="experiments/atomic_2020_eval/sampled_to_eval_negated_pred.tsv")
     parser.add_argument("--num_generations", type=int, default=3)
-    parser.add_argument("--style", type=str, default="few_shot", choices=["zero_shot", "few_shot"])
+    parser.add_argument("--style", type=str, default="few_shot", choices=["few_shot", "cot_qa", "few_shot_qa"])
     parser.add_argument("--negated", action="store_true")
     args = parser.parse_args()
 
@@ -32,8 +61,12 @@ if __name__ == "__main__":
     df = pd.read_csv(args.input, sep="\t", header=0)
     # Remove 'tail' column
     df = df.drop(columns=['tail'])
+    # Add column 'flagged_answer' to df with value 'False'
+    df['flagged_answer'] = False
     # Placeholder dataframe to store generated rows, which has args.num_generations rows for each row in df
-    generated_df = pd.DataFrame(columns=['head', 'relation', 'prompt', 'generated_tail', 'full_text'])
+    generated_df = pd.DataFrame(columns=['head', 'relation', 'prompt', 'generated_tail', 'full_text', 'flagged_answer'])
+    # Negation string
+    negation_str = 'negated' if args.negated else 'normal'
 
     # Iterate over all rows in df
     progress_bar = tqdm(df.iterrows())
@@ -47,23 +80,53 @@ if __name__ == "__main__":
             row_copy['generated_tail'] = ''
             row_copy['full_text'] = ''
             # Generate args.num_generations rows for each row in df
-            for i in range(args.num_generations):
-                # Generate zero shot using GPT-3
-                if args.style == "zero_shot":
-                    generated_tail, response = generate_zero_shot_using_gpt_3(row_copy['prompt'], max_tokens=20)
-                elif args.style == "few_shot":
-                    if args.negated:
-                        generated_tail, response = generate_few_shot_using_gpt_3(PROMPTS[args.style]['negated'], row_copy['prompt'], max_tokens=20)
-                    else:
-                        generated_tail, response = generate_few_shot_using_gpt_3(PROMPTS[args.style]['normal'], row_copy['prompt'], max_tokens=20)
+
+            # Classify the process into one generation per run or multiple generations per run
+            if args.style == "zero_shot" or args.style == "few_shot":
+                # Styles with one row generation each time
+                for i in range(args.num_generations):
+                    if args.style == "zero_shot":
+                        generated_tail, response = generate_zero_shot_using_gpt_3(row_copy['prompt'], max_tokens=20)
+                    elif args.style == "few_shot":
+                        generated_tail, response = generate_few_shot_using_gpt_3(PROMPTS[args.style][negation_str], row_copy['prompt'], max_tokens=20)
+                    # Assigning generations to row_copy
+                    row_copy['generated_tail'] = generated_tail.replace('\n', ' ').strip()
+                    row_copy['full_text'] = f"{row_copy['prompt']} {row_copy['generated_tail']}".strip()
+                    # Append the row_copy to generated_df
+                    generated_df = generated_df.append(row_copy, ignore_index=True)
+            else:
+                # Styles with multiple rows generation each time
+                if args.style == "few_shot_qa":
+                    # Either should be out of loop or should not generate the next times and only first time!
+                    normal_relation = row_copy['relation'] if args.negated is False else row_copy['relation'][3:]
+                    question = QUESTION_TEMPLATES[normal_relation][negation_str]
+                    subj, n = row_copy['head'], NUMBER_TO_TEXT[args.num_generations]
+                    question_str = eval('f' + repr(question))
+                    old_prompt, row_copy['prompt'] = row_copy['prompt'], question_str
+                    text_answer, response = generate_few_shot_qa(PROMPTS[args.style][negation_str], question_str, max_tokens=100)
+                    # Extracting the answers from the text_answer
+                    answers = extract_answers(text_answer, args.style, args.num_generations)
+                    if answers is None:
+                        row_copy['flagged_answer'] = True
+                    # Adding answers to the generated_df
+                    for i in range(args.num_generations):
+                        if answers is not None:
+                            answer = answers[i]
+                            generated_tail = answer.replace('\n', ' ').strip()
+                            full_text = f"{old_prompt} {generated_tail}".strip()
+                        else:
+                            generated_tail, full_text = text_answer, ''
+                        # Assigning generations to row_copy
+                        row_copy['generated_tail'] = generated_tail
+                        row_copy['full_text'] = full_text
+                        # Append the row_copy to generated_df
+                        generated_df = generated_df.append(row_copy, ignore_index=True)
                 else:
                     raise NotImplementedError
-                row_copy['generated_tail'] = generated_tail.replace('\n', ' ').strip()
-                row_copy['full_text'] = f"{row_copy['prompt']} {row_copy['generated_tail']}".strip()
-                # Append the row to generated_df
-                generated_df = generated_df.append(row_copy, ignore_index=True)
         except:
+            # Print the line that caused the exception
             print('\nError in {}'.format(row['head']))
+            traceback.print_exc()
             import IPython; IPython. embed(); exit(1)
 
         # Save generated_df as a tsv file in every step
