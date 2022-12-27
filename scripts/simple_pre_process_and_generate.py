@@ -88,9 +88,15 @@ if __name__ == "__main__":
         os.system(f'python scripts/prepare_generations_for_mturk_evaluation.py --in_tsv {experiment_path}/sampled_negated_preds_generated_{args.method}.tsv --action generate_jsonl')
     assert os.path.exists(f'{experiment_path}/mturk/sampled_negated_preds_generated_{args.method}_mturk.jsonl'), f'File {experiment_path}/mturk/sampled_negated_preds_generated_{args.method}_mturk.jsonl does not exist. JSONL file is not generated.'
     #endregion
-    
+
     #region Upload the JSONL files to the S3 bucket in an appropriate folder
     print(f'*** Uploading the JSONL files to the S3 bucket in a folder named {experiment_name} under {S3_BUCKET} bucket ***')
+    
+    if os.path.getsize(f'{experiment_path}/mturk/sampled_normal_preds_generated_{args.method}_mturk.jsonl') == 0:
+        raise Exception(f'File {experiment_path}/mturk/sampled_normal_preds_generated_{args.method}_mturk.jsonl is empty. Skipping upload.')
+    if os.path.getsize(f'{experiment_path}/mturk/sampled_negated_preds_generated_{args.method}_mturk.jsonl') == 0:
+        raise Exception(f'File {experiment_path}/mturk/sampled_negated_preds_generated_{args.method}_mturk.jsonl is empty. Skipping upload.')
+    
     os.system(f'aws s3 cp {experiment_path}/mturk/sampled_normal_preds_generated_{args.method}_mturk.jsonl s3://{S3_BUCKET}/{experiment_name}/')
     os.system(f'aws s3 cp {experiment_path}/mturk/sampled_negated_preds_generated_{args.method}_mturk.jsonl s3://{S3_BUCKET}/{experiment_name}/')
     #endregion
