@@ -1,181 +1,61 @@
 head	relation	prompt	generated_tail	full_text	flagged_answer	review_1	review_2	review_3	review
 PersonX gets a part time job	xWant	PersonX gets a part time job. What does PersonX want to do? Name three.	PersonX wants to save money	PersonX gets a part time job. After, PersonX will want to PersonX wants to save money	False	0	0	0	0
-PersonX gets a part time job	xWant	PersonX gets a part time job. What does PersonX want to do? Name three.	PersonX wants to learn new skills	PersonX gets a part time job. After, PersonX will want to PersonX wants to learn new skills	False	0	0	0	0
-PersonX gets a part time job	xWant	PersonX gets a part time job. What does PersonX want to do? Name three.	PersonX wants to meet new people.	PersonX gets a part time job. After, PersonX will want to PersonX wants to meet new people.	False	0	0	0	0
-PersonX sees wood	xWant	PersonX sees wood. What does PersonX want to do? Name three.	carve	PersonX sees wood. After, PersonX will want to carve	False	0	0	0	0
-PersonX sees wood	xWant	PersonX sees wood. What does PersonX want to do? Name three.	saw	PersonX sees wood. After, PersonX will want to saw	False	0	0	0	0
-PersonX sees wood	xWant	PersonX sees wood. What does PersonX want to do? Name three.	build.	PersonX sees wood. After, PersonX will want to build.	False	0	0	0	0
-PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. What does PersonX want to do? Name three.	concentrate	PersonX turns PersonX's music down. After, PersonX will want to concentrate	False	0	0	0	0
-PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. What does PersonX want to do? Name three.	focus	PersonX turns PersonX's music down. After, PersonX will want to focus	False	0	0	0	0
-PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. What does PersonX want to do? Name three.	think.	PersonX turns PersonX's music down. After, PersonX will want to think.	False	0	0	0	0
-PersonX is coming to an end	xWant	PersonX is coming to an end. What does PersonX want to do? Name three.	spend time with loved ones	PersonX is coming to an end. After, PersonX will want to spend time with loved ones	False	0	0	0	0
-PersonX is coming to an end	xWant	PersonX is coming to an end. What does PersonX want to do? Name three.	travel	PersonX is coming to an end. After, PersonX will want to travel	False	0	0	0	0
-PersonX is coming to an end	xWant	PersonX is coming to an end. What does PersonX want to do? Name three.	accomplish a goal.	PersonX is coming to an end. After, PersonX will want to accomplish a goal.	False	0	0	0	0
+PersonX gets a part time job	xWant	PersonX gets a part time job. What does PersonX want to do? Name three.	PersonX wants to buy things	PersonX gets a part time job. After, PersonX will want to PersonX wants to buy things	False	0	0	0	0
+PersonX gets a part time job	xWant	PersonX gets a part time job. What does PersonX want to do? Name three.	PersonX wants to help out.	PersonX gets a part time job. After, PersonX will want to PersonX wants to help out.	False	0	0	0	0
+PersonX sees wood	xWant	PersonX sees wood. What does PersonX want to do? Name three.	create a structure	PersonX sees wood. After, PersonX will want to create a structure	False	0	0	0	0
+PersonX sees wood	xWant	PersonX sees wood. What does PersonX want to do? Name three.	build a fire	PersonX sees wood. After, PersonX will want to build a fire	False	0	0	0	0
+PersonX sees wood	xWant	PersonX sees wood. What does PersonX want to do? Name three.	carve a sculpture.	PersonX sees wood. After, PersonX will want to carve a sculpture.	False	0	0	0	0
+PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. What does PersonX want to do? Name three.	PersonX wants to focus on something else	PersonX turns PersonX's music down. After, PersonX will want to PersonX wants to focus on something else	False	0	0	0	0
+PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. What does PersonX want to do? Name three.	PersonX wants to listen to something else	PersonX turns PersonX's music down. After, PersonX will want to PersonX wants to listen to something else	False	0	0	0	0
+PersonX turns PersonX's music down	xWant	PersonX turns PersonX's music down. What does PersonX want to do? Name three.	PersonX wants to sleep.	PersonX turns PersonX's music down. After, PersonX will want to PersonX wants to sleep.	False	0	0	0	0
+PersonX is coming to an end	xWant	PersonX is coming to an end. What does PersonX want to do? Name three.	PersonX wants to make peace with enemies	PersonX is coming to an end. After, PersonX will want to PersonX wants to make peace with enemies	False	0	0	0	0
+PersonX is coming to an end	xWant	PersonX is coming to an end. What does PersonX want to do? Name three.	PersonX wants to apologize to people they have hurt	PersonX is coming to an end. After, PersonX will want to PersonX wants to apologize to people they have hurt	False	0	0	0	0
+PersonX is coming to an end	xWant	PersonX is coming to an end. What does PersonX want to do? Name three.	PersonX wants to make amends.	PersonX is coming to an end. After, PersonX will want to PersonX wants to make amends.	False	0	0	0	0
 PersonX touches PersonY's skin	xWant	PersonX touches PersonY's skin. What does PersonX want to do? Name three.	feel the texture	PersonX touches PersonY's skin. After, PersonX will want to feel the texture	False	0	0	0	0
 PersonX touches PersonY's skin	xWant	PersonX touches PersonY's skin. What does PersonX want to do? Name three.	gauge the temperature	PersonX touches PersonY's skin. After, PersonX will want to gauge the temperature	False	0	0	0	0
-PersonX touches PersonY's skin	xWant	PersonX touches PersonY's skin. What does PersonX want to do? Name three.	determine if there are any blemishes.	PersonX touches PersonY's skin. After, PersonX will want to determine if there are any blemishes.	False	0	0	0	0
-PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. What does PersonX want to do? Name three.	PersonX wants to be close to PersonY	PersonX is PersonY's mother. After, PersonX will want to PersonX wants to be close to PersonY	False	0	0	0	0
-PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. What does PersonX want to do? Name three.	PersonX wants to protect PersonY	PersonX is PersonY's mother. After, PersonX will want to PersonX wants to protect PersonY	False	0	0	0	0
-PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. What does PersonX want to do? Name three.	PersonX wants to provide for PersonY.	PersonX is PersonY's mother. After, PersonX will want to PersonX wants to provide for PersonY.	False	0	0	0	0
+PersonX touches PersonY's skin	xWant	PersonX touches PersonY's skin. What does PersonX want to do? Name three.	cause a reaction.	PersonX touches PersonY's skin. After, PersonX will want to cause a reaction.	False	0	0	0	0
+PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. What does PersonX want to do? Name three.	take care of PersonY	PersonX is PersonY's mother. After, PersonX will want to take care of PersonY	False	0	0	0	0
+PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. What does PersonX want to do? Name three.	be there for PersonY	PersonX is PersonY's mother. After, PersonX will want to be there for PersonY	False	0	0	0	0
+PersonX is PersonY's mother	xWant	PersonX is PersonY's mother. What does PersonX want to do? Name three.	love PersonY.	PersonX is PersonY's mother. After, PersonX will want to love PersonY.	False	0	0	0	0
 PersonX can not believe PersonX's eyes	xWant	PersonX can not believe PersonX's eyes. What does PersonX want to do? Name three.	PersonX wants to pinch themselves	PersonX can not believe PersonX's eyes. After, PersonX will want to PersonX wants to pinch themselves	False	0	0	0	0
 PersonX can not believe PersonX's eyes	xWant	PersonX can not believe PersonX's eyes. What does PersonX want to do? Name three.	PersonX wants to blink	PersonX can not believe PersonX's eyes. After, PersonX will want to PersonX wants to blink	False	0	0	0	0
-PersonX can not believe PersonX's eyes	xWant	PersonX can not believe PersonX's eyes. What does PersonX want to do? Name three.	PersonX wants to look away.	PersonX can not believe PersonX's eyes. After, PersonX will want to PersonX wants to look away.	False	0	0	0	0
-PersonX catches the bus to work	xWant	PersonX catches the bus to work. What does PersonX want to do? Name three.	arrive on time	PersonX catches the bus to work. After, PersonX will want to arrive on time	False	0	0	0	0
-PersonX catches the bus to work	xWant	PersonX catches the bus to work. What does PersonX want to do? Name three.	not miss the bus	PersonX catches the bus to work. After, PersonX will want to not miss the bus	False	0	0	0	0
-PersonX catches the bus to work	xWant	PersonX catches the bus to work. What does PersonX want to do? Name three.	not be late.	PersonX catches the bus to work. After, PersonX will want to not be late.	False	0	0	0	0
-PersonX wears gloves	xWant	PersonX wears gloves. What does PersonX want to do? Name three.	keep hands warm	PersonX wears gloves. After, PersonX will want to keep hands warm	False	0	0	0	0
-PersonX wears gloves	xWant	PersonX wears gloves. What does PersonX want to do? Name three.	avoid getting dirty	PersonX wears gloves. After, PersonX will want to avoid getting dirty	False	0	0	0	0
-PersonX wears gloves	xWant	PersonX wears gloves. What does PersonX want to do? Name three.	avoid getting cuts.	PersonX wears gloves. After, PersonX will want to avoid getting cuts.	False	0	0	0	0
-PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. What does PersonX want to do? Name three.	to be accepted	PersonX operates in PersonY environment. After, PersonX will want to to be accepted	False	0	0	0	0
-PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. What does PersonX want to do? Name three.	to be liked	PersonX operates in PersonY environment. After, PersonX will want to to be liked	False	0	0	0	0
-PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. What does PersonX want to do? Name three.	to be respected.	PersonX operates in PersonY environment. After, PersonX will want to to be respected.	False	0	0	0	0
+PersonX can not believe PersonX's eyes	xWant	PersonX can not believe PersonX's eyes. What does PersonX want to do? Name three.	PersonX wants to rub their eyes.	PersonX can not believe PersonX's eyes. After, PersonX will want to PersonX wants to rub their eyes.	False	0	0	0	0
+PersonX catches the bus to work	xWant	PersonX catches the bus to work. What does PersonX want to do? Name three.	PersonX wants to arrive to work on time	PersonX catches the bus to work. After, PersonX will want to PersonX wants to arrive to work on time	False	0	0	0	0
+PersonX catches the bus to work	xWant	PersonX catches the bus to work. What does PersonX want to do? Name three.	PersonX wants to avoid traffic	PersonX catches the bus to work. After, PersonX will want to PersonX wants to avoid traffic	False	0	0	0	0
+PersonX catches the bus to work	xWant	PersonX catches the bus to work. What does PersonX want to do? Name three.	PersonX wants to relax on the bus.	PersonX catches the bus to work. After, PersonX will want to PersonX wants to relax on the bus.	False	0	0	0	0
+PersonX wears gloves	xWant	PersonX wears gloves. What does PersonX want to do? Name three.	PersonX wants to keep their hands warm	PersonX wears gloves. After, PersonX will want to PersonX wants to keep their hands warm	False	0	0	0	0
+PersonX wears gloves	xWant	PersonX wears gloves. What does PersonX want to do? Name three.	PersonX wants to keep their hands clean	PersonX wears gloves. After, PersonX will want to PersonX wants to keep their hands clean	False	0	0	0	0
+PersonX wears gloves	xWant	PersonX wears gloves. What does PersonX want to do? Name three.	PersonX does not want to touch something.	PersonX wears gloves. After, PersonX will want to PersonX does not want to touch something.	False	0	0	0	0
+PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. What does PersonX want to do? Name three.	get to know PersonY	PersonX operates in PersonY environment. After, PersonX will want to get to know PersonY	False	0	0	0	0
+PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. What does PersonX want to do? Name three.	learn about PersonY	PersonX operates in PersonY environment. After, PersonX will want to learn about PersonY	False	0	0	0	0
+PersonX operates in PersonY environment	xWant	PersonX operates in PersonY environment. What does PersonX want to do? Name three.	make friends with PersonY.	PersonX operates in PersonY environment. After, PersonX will want to make friends with PersonY.	False	0	0	0	0
 PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. What does PersonX feel about it? Name three.	curious	PersonX sees PersonY's crush. PersonX will be curious	False	0	0	0	0
 PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. What does PersonX feel about it? Name three.	excited	PersonX sees PersonY's crush. PersonX will be excited	False	0	0	0	0
-PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. What does PersonX feel about it? Name three.	jealous.	PersonX sees PersonY's crush. PersonX will be jealous.	False	0	0	0	0
+PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. What does PersonX feel about it? Name three.	nervous.	PersonX sees PersonY's crush. PersonX will be nervous.	False	0	0	0	0
 PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. What does PersonX feel about it? Name three.	curious	PersonX watches PersonX's mouth. PersonX will be curious	False	0	0	0	0
-PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. What does PersonX feel about it? Name three.	confused	PersonX watches PersonX's mouth. PersonX will be confused	False	0	0	0	0
-PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. What does PersonX feel about it? Name three.	uncomfortable.	PersonX watches PersonX's mouth. PersonX will be uncomfortable.	False	0	0	0	0
-PersonX moves past PersonY	xReact	PersonX moves past PersonY. What does PersonX feel about it? Name three.	PersonX may feel happy	PersonX moves past PersonY. PersonX will be PersonX may feel happy	False	0	0	0	0
-PersonX moves past PersonY	xReact	PersonX moves past PersonY. What does PersonX feel about it? Name three.	relieved	PersonX moves past PersonY. PersonX will be relieved	False	0	0	0	0
-PersonX moves past PersonY	xReact	PersonX moves past PersonY. What does PersonX feel about it? Name three.	or satisfied.	PersonX moves past PersonY. PersonX will be or satisfied.	False	0	0	0	0
-PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. What does PersonX feel about it? Name three.	PersonX feels secure	PersonX denies PersonY's existence. PersonX will be PersonX feels secure	False	0	0	0	0
-PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. What does PersonX feel about it? Name three.	PersonX feels happy	PersonX denies PersonY's existence. PersonX will be PersonX feels happy	False	0	0	0	0
-PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. What does PersonX feel about it? Name three.	PersonX feels content.	PersonX denies PersonY's existence. PersonX will be PersonX feels content.	False	0	0	0	0
-PersonX never been to one	xReact	PersonX never been to one. What does PersonX feel about it? Name three.	scared	PersonX never been to one. PersonX will be scared	False	0	0	0	0
+PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. What does PersonX feel about it? Name three.	hungry	PersonX watches PersonX's mouth. PersonX will be hungry	False	0	0	0	0
+PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. What does PersonX feel about it? Name three.	thirsty.	PersonX watches PersonX's mouth. PersonX will be thirsty.	False	0	0	0	0
+PersonX moves past PersonY	xReact	PersonX moves past PersonY. What does PersonX feel about it? Name three.	excited	PersonX moves past PersonY. PersonX will be excited	False	0	0	0	0
+PersonX moves past PersonY	xReact	PersonX moves past PersonY. What does PersonX feel about it? Name three.	curious	PersonX moves past PersonY. PersonX will be curious	False	0	0	0	0
+PersonX moves past PersonY	xReact	PersonX moves past PersonY. What does PersonX feel about it? Name three.	nervous.	PersonX moves past PersonY. PersonX will be nervous.	False	0	0	0	0
+PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. What does PersonX feel about it? Name three.	PersonX feels anger towards PersonY	PersonX denies PersonY's existence. PersonX will be PersonX feels anger towards PersonY	False	0	0	0	0
+PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. What does PersonX feel about it? Name three.	PersonX feels superior to PersonY	PersonX denies PersonY's existence. PersonX will be PersonX feels superior to PersonY	False	0	0	0	0
+PersonX denies PersonY's existence	xReact	PersonX denies PersonY's existence. What does PersonX feel about it? Name three.	PersonX feels like they are better than PersonY.	PersonX denies PersonY's existence. PersonX will be PersonX feels like they are better than PersonY.	False	0	0	0	0
 PersonX never been to one	xReact	PersonX never been to one. What does PersonX feel about it? Name three.	curious	PersonX never been to one. PersonX will be curious	False	0	0	0	0
+PersonX never been to one	xReact	PersonX never been to one. What does PersonX feel about it? Name three.	excited	PersonX never been to one. PersonX will be excited	False	0	0	0	0
 PersonX never been to one	xReact	PersonX never been to one. What does PersonX feel about it? Name three.	nervous.	PersonX never been to one. PersonX will be nervous.	False	0	0	0	0
-PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. What does PersonX feel about it? Name three.	embarrassed	PersonX hits PersonY's friend. PersonX will be embarrassed	False	0	0	0	0
-PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. What does PersonX feel about it? Name three.	ashamed	PersonX hits PersonY's friend. PersonX will be ashamed	False	0	0	0	0
-PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. What does PersonX feel about it? Name three.	guilty.	PersonX hits PersonY's friend. PersonX will be guilty.	False	0	0	0	0
-PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. What does PersonX feel about it? Name three.	triumph	PersonX sends PersonY to the showers. PersonX will be triumph	False	0	0	0	0
-PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. What does PersonX feel about it? Name three.	amusement	PersonX sends PersonY to the showers. PersonX will be amusement	False	0	0	0	0
-PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. What does PersonX feel about it? Name three.	relief.	PersonX sends PersonY to the showers. PersonX will be relief.	False	0	0	0	0
-PersonX fudges the issue	xReact	PersonX fudges the issue. What does PersonX feel about it? Name three.	guilty	PersonX fudges the issue. PersonX will be guilty	False	0	0	0	0
-PersonX fudges the issue	xReact	PersonX fudges the issue. What does PersonX feel about it? Name three.	ashamed	PersonX fudges the issue. PersonX will be ashamed	False	0	0	0	0
-PersonX fudges the issue	xReact	PersonX fudges the issue. What does PersonX feel about it? Name three.	embarrassed.	PersonX fudges the issue. PersonX will be embarrassed.	False	0	0	0	0
-PersonX contains PersonY number	xReact	PersonX contains PersonY number. What does PersonX feel about it? Name three.	happy	PersonX contains PersonY number. PersonX will be happy	False	0	0	0	0
-PersonX contains PersonY number	xReact	PersonX contains PersonY number. What does PersonX feel about it? Name three.	relieved	PersonX contains PersonY number. PersonX will be relieved	False	0	0	0	0
-PersonX contains PersonY number	xReact	PersonX contains PersonY number. What does PersonX feel about it? Name three.	content.	PersonX contains PersonY number. PersonX will be content.	False	0	0	0	0
-PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. What does PersonX feel about it? Name three.	PersonX is in pain	PersonX breaks PersonX's hip. PersonX will be PersonX is in pain	False	0	0	0	0
-PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. What does PersonX feel about it? Name three.	PersonX is frustrated	PersonX breaks PersonX's hip. PersonX will be PersonX is frustrated	False	0	0	0	0
-PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. What does PersonX feel about it? Name three.	PersonX is worried.	PersonX breaks PersonX's hip. PersonX will be PersonX is worried.	False	0	0	0	0
-PersonX loves riding PersonX's bike	oWant	PersonX loves riding PersonX's bike. What does PersonY want to do? Name three.	join in	PersonX loves riding PersonX's bike. After, others will want to join in	False	0	0	0	0
-PersonX loves riding PersonX's bike	oWant	PersonX loves riding PersonX's bike. What does PersonY want to do? Name three.	watch	PersonX loves riding PersonX's bike. After, others will want to watch	False	0	0	0	0
-PersonX loves riding PersonX's bike	oWant	PersonX loves riding PersonX's bike. What does PersonY want to do? Name three.	take a picture.	PersonX loves riding PersonX's bike. After, others will want to take a picture.	False	0	0	0	0
-PersonX is making a cake	oWant	PersonX is making a cake. What does PersonY want to do? Name three.	help	PersonX is making a cake. After, others will want to help	False	0	0	0	0
-PersonX is making a cake	oWant	PersonX is making a cake. What does PersonY want to do? Name three.	eat the cake	PersonX is making a cake. After, others will want to eat the cake	False	0	0	0	0
-PersonX is making a cake	oWant	PersonX is making a cake. What does PersonY want to do? Name three.	watch.	PersonX is making a cake. After, others will want to watch.	False	0	0	0	0
-PersonX wins money	oWant	PersonX wins money. What does PersonY want to do? Name three.	spend it	PersonX wins money. After, others will want to spend it	False	0	0	0	0
-PersonX wins money	oWant	PersonX wins money. What does PersonY want to do? Name three.	save it	PersonX wins money. After, others will want to save it	False	0	0	0	0
-PersonX wins money	oWant	PersonX wins money. What does PersonY want to do? Name three.	donate it.	PersonX wins money. After, others will want to donate it.	False	0	0	0	0
-PersonX escorts PersonY back	oWant	PersonX escorts PersonY back. What does PersonY want to do? Name three.	PersonY wants to talk to PersonX	PersonX escorts PersonY back. After, others will want to PersonY wants to talk to PersonX	False	0	0	0	0
-PersonX escorts PersonY back	oWant	PersonX escorts PersonY back. What does PersonY want to do? Name three.	PersonY wants to be left alone	PersonX escorts PersonY back. After, others will want to PersonY wants to be left alone	False	0	0	0	0
-PersonX escorts PersonY back	oWant	PersonX escorts PersonY back. What does PersonY want to do? Name three.	PersonY wants to go home.	PersonX escorts PersonY back. After, others will want to PersonY wants to go home.	False	0	0	0	0
-PersonX wraps PersonY's hand	oWant	PersonX wraps PersonY's hand. What does PersonY want to do? Name three.	play sports	PersonX wraps PersonY's hand. After, others will want to play sports	False	0	0	0	0
-PersonX wraps PersonY's hand	oWant	PersonX wraps PersonY's hand. What does PersonY want to do? Name three.	use the computer	PersonX wraps PersonY's hand. After, others will want to use the computer	False	0	0	0	0
-PersonX wraps PersonY's hand	oWant	PersonX wraps PersonY's hand. What does PersonY want to do? Name three.	type.	PersonX wraps PersonY's hand. After, others will want to type.	False	0	0	0	0
-PersonX falls on PersonY	oWant	PersonX falls on PersonY. What does PersonY want to do? Name three.	PersonY wants to help PersonX up	PersonX falls on PersonY. After, others will want to PersonY wants to help PersonX up	False	0	0	0	0
-PersonX falls on PersonY	oWant	PersonX falls on PersonY. What does PersonY want to do? Name three.	PersonY wants to make sure PersonX is okay	PersonX falls on PersonY. After, others will want to PersonY wants to make sure PersonX is okay	False	0	0	0	0
-PersonX falls on PersonY	oWant	PersonX falls on PersonY. What does PersonY want to do? Name three.	PersonY wants to know if PersonX is hurt.	PersonX falls on PersonY. After, others will want to PersonY wants to know if PersonX is hurt.	False	0	0	0	0
-PersonX throws some bread	oWant	PersonX throws some bread. What does PersonY want to do? Name three.	PersonY wants to catch the bread	PersonX throws some bread. After, others will want to PersonY wants to catch the bread	False	0	0	0	0
-PersonX throws some bread	oWant	PersonX throws some bread. What does PersonY want to do? Name three.	PersonY wants to eat the bread	PersonX throws some bread. After, others will want to PersonY wants to eat the bread	False	0	0	0	0
-PersonX throws some bread	oWant	PersonX throws some bread. What does PersonY want to do? Name three.	PersonY wants to throw the bread back.	PersonX throws some bread. After, others will want to PersonY wants to throw the bread back.	False	0	0	0	0
-PersonX stings by a jellyfish	oWant	PersonX stings by a jellyfish. What does PersonY want to do? Name three.	PersonY wants to help PersonX	PersonX stings by a jellyfish. After, others will want to PersonY wants to help PersonX	False	0	0	0	0
-PersonX stings by a jellyfish	oWant	PersonX stings by a jellyfish. What does PersonY want to do? Name three.	PersonY wants to find a remedy	PersonX stings by a jellyfish. After, others will want to PersonY wants to find a remedy	False	0	0	0	0
-PersonX stings by a jellyfish	oWant	PersonX stings by a jellyfish. What does PersonY want to do? Name three.	PersonY wants to call for help.	PersonX stings by a jellyfish. After, others will want to PersonY wants to call for help.	False	0	0	0	0
-PersonX develops cancer	oWant	PersonX develops cancer. What does PersonY want to do? Name three.	raise awareness	PersonX develops cancer. After, others will want to raise awareness	False	0	0	0	0
-PersonX develops cancer	oWant	PersonX develops cancer. What does PersonY want to do? Name three.	fundraise	PersonX develops cancer. After, others will want to fundraise	False	0	0	0	0
-PersonX develops cancer	oWant	PersonX develops cancer. What does PersonY want to do? Name three.	support PersonX.	PersonX develops cancer. After, others will want to support PersonX.	False	0	0	0	0
-PersonX tells PersonY a little	oWant	PersonX tells PersonY a little. What does PersonY want to do? Name three.	PersonY wants to know more	PersonX tells PersonY a little. After, others will want to PersonY wants to know more	False	0	0	0	0
-PersonX tells PersonY a little	oWant	PersonX tells PersonY a little. What does PersonY want to do? Name three.	PersonY is curious about the details	PersonX tells PersonY a little. After, others will want to PersonY is curious about the details	False	0	0	0	0
-PersonX tells PersonY a little	oWant	PersonX tells PersonY a little. What does PersonY want to do? Name three.	PersonY feels left out.	PersonX tells PersonY a little. After, others will want to PersonY feels left out.	False	0	0	0	0
-detective	CapableOf	What is detective capable of? Name three.	finding clues	detective can finding clues	False	0	0	0	0
-detective	CapableOf	What is detective capable of? Name three.	investigating	detective can investigating	False	0	0	0	0
-detective	CapableOf	What is detective capable of? Name three.	questioning people.	detective can questioning people.	False	0	0	0	0
-wet dog	CapableOf	What is wet dog capable of? Name three.	make you sneeze	wet dog can make you sneeze	False	0	0	0	0
-wet dog	CapableOf	What is wet dog capable of? Name three.	track mud into the house	wet dog can track mud into the house	False	0	0	0	0
-wet dog	CapableOf	What is wet dog capable of? Name three.	make you laugh.	wet dog can make you laugh.	False	0	0	0	0
-quaterback	CapableOf	What is quaterback capable of? Name three.	throwing a ball	quaterback can throwing a ball	False	0	0	0	0
-quaterback	CapableOf	What is quaterback capable of? Name three.	running with the ball	quaterback can running with the ball	False	0	0	0	0
-quaterback	CapableOf	What is quaterback capable of? Name three.	tackling.	quaterback can tackling.	False	0	0	0	0
-dentist	CapableOf	What is dentist capable of? Name three.	cleaning teeth	dentist can cleaning teeth	False	0	0	0	0
-dentist	CapableOf	What is dentist capable of? Name three.	identifying dental problems	dentist can identifying dental problems	False	0	0	0	0
-dentist	CapableOf	What is dentist capable of? Name three.	providing dental treatments.	dentist can providing dental treatments.	False	0	0	0	0
-oscar winner	CapableOf	What is oscar winner capable of? Name three.	acting	oscar winner can acting	False	0	0	0	0
-oscar winner	CapableOf	What is oscar winner capable of? Name three.	directing	oscar winner can directing	False	0	0	0	0
-oscar winner	CapableOf	What is oscar winner capable of? Name three.	producing.	oscar winner can producing.	False	0	0	0	0
-possum	CapableOf	What is possum capable of? Name three.	playing dead	possum can playing dead	False	0	0	0	0
-possum	CapableOf	What is possum capable of? Name three.	being nocturnal	possum can being nocturnal	False	0	0	0	0
-possum	CapableOf	What is possum capable of? Name three.	being omnivorous.	possum can being omnivorous.	False	0	0	0	0
-supermodel	CapableOf	What is supermodel capable of? Name three.	looking beautiful	supermodel can looking beautiful	False	0	0	0	0
-supermodel	CapableOf	What is supermodel capable of? Name three.	being tall	supermodel can being tall	False	0	0	0	0
-supermodel	CapableOf	What is supermodel capable of? Name three.	being thin.	supermodel can being thin.	False	0	0	0	0
-alto	CapableOf	What is alto capable of? Name three.	high notes	alto can high notes	False	0	0	0	0
-alto	CapableOf	What is alto capable of? Name three.	low notes	alto can low notes	False	0	0	0	0
-alto	CapableOf	What is alto capable of? Name three.	harmonizing.	alto can harmonizing.	False	0	0	0	0
-energetic person	CapableOf	What is energetic person capable of? Name three.	running long distances	energetic person can running long distances	False	0	0	0	0
-energetic person	CapableOf	What is energetic person capable of? Name three.	working for long hours	energetic person can working for long hours	False	0	0	0	0
-energetic person	CapableOf	What is energetic person capable of? Name three.	high level of concentration.	energetic person can high level of concentration.	False	0	0	0	0
-salior	CapableOf	What is salior capable of? Name three.			True	4	4	4	4
-salior	CapableOf	What is salior capable of? Name three.			True	4	4	4	4
-salior	CapableOf	What is salior capable of? Name three.			True	4	4	4	4
-terrorist	Desires	What does terrorist desire to do? Name three.	create fear	terrorist desires create fear	False	0	0	0	0
-terrorist	Desires	What does terrorist desire to do? Name three.	injure people	terrorist desires injure people	False	0	0	0	0
-terrorist	Desires	What does terrorist desire to do? Name three.	kill people.	terrorist desires kill people.	False	0	0	0	0
-exhibitionist	Desires	What does exhibitionist desire to do? Name three.	be seen	exhibitionist desires be seen	False	0	0	0	0
-exhibitionist	Desires	What does exhibitionist desire to do? Name three.	be naked	exhibitionist desires be naked	False	0	0	0	0
-exhibitionist	Desires	What does exhibitionist desire to do? Name three.	be watched.	exhibitionist desires be watched.	False	0	0	0	0
-lover	Desires	What does lover desire to do? Name three.	meet	lover desires meet	False	0	0	0	0
-lover	Desires	What does lover desire to do? Name three.	stay with	lover desires stay with	False	0	0	0	0
-lover	Desires	What does lover desire to do? Name three.	marry.	lover desires marry.	False	0	0	0	0
-pedobear	Desires	What does pedobear desire to do? Name three.	have sex with children	pedobear desires have sex with children	False	0	0	0	0
-pedobear	Desires	What does pedobear desire to do? Name three.	be around children	pedobear desires be around children	False	0	0	0	0
-pedobear	Desires	What does pedobear desire to do? Name three.	be left alone.	pedobear desires be left alone.	False	0	0	0	0
-alcoholic	Desires	What does alcoholic desire to do? Name three.	drink alcohol	alcoholic desires drink alcohol	False	0	0	0	0
-alcoholic	Desires	What does alcoholic desire to do? Name three.	get drunk	alcoholic desires get drunk	False	0	0	0	0
-alcoholic	Desires	What does alcoholic desire to do? Name three.	be around others who are drinking alcohol.	alcoholic desires be around others who are drinking alcohol.	False	0	0	0	0
-gardener	Desires	What does gardener desire to do? Name three.	have a green thumb	gardener desires have a green thumb	False	0	0	0	0
-gardener	Desires	What does gardener desire to do? Name three.	make the garden grow	gardener desires make the garden grow	False	0	0	0	0
-gardener	Desires	What does gardener desire to do? Name three.	have a beautiful garden.	gardener desires have a beautiful garden.	False	0	0	0	0
-teenager	Desires	What does teenager desire to do? Name three.	get driver's license	teenager desires get driver's license	False	0	0	0	0
-teenager	Desires	What does teenager desire to do? Name three.	be respected	teenager desires be respected	False	0	0	0	0
-teenager	Desires	What does teenager desire to do? Name three.	be popular.	teenager desires be popular.	False	0	0	0	0
-hen	Desires	What does hen desire to do? Name three.	sit on eggs	hen desires sit on eggs	False	0	0	0	0
-hen	Desires	What does hen desire to do? Name three.	scratch in dirt	hen desires scratch in dirt	False	0	0	0	0
-hen	Desires	What does hen desire to do? Name three.	eat.	hen desires eat.	False	0	0	0	0
-detective	Desires	What does detective desire to do? Name three.	find clues	detective desires find clues	False	0	0	0	0
-detective	Desires	What does detective desire to do? Name three.	solve cases	detective desires solve cases	False	0	0	0	0
-detective	Desires	What does detective desire to do? Name three.	arrest criminals.	detective desires arrest criminals.	False	0	0	0	0
-aol	Desires	What does aol desire to do? Name three.	to be the first in line	aol desires to be the first in line	False	0	0	0	0
-aol	Desires	What does aol desire to do? Name three.	to be the best	aol desires to be the best	False	0	0	0	0
-aol	Desires	What does aol desire to do? Name three.	to be perfect.	aol desires to be perfect.	False	0	0	0	0
-PersonX enters an art contest	HinderedBy	PersonX enters an art contest. What can hinder/obstruct it? Name three.	not being able to draw	PersonX enters an art contest. This would not happen if not being able to draw	False	0	0	0	0
-PersonX enters an art contest	HinderedBy	PersonX enters an art contest. What can hinder/obstruct it? Name three.	not having enough time	PersonX enters an art contest. This would not happen if not having enough time	False	0	0	0	0
-PersonX enters an art contest	HinderedBy	PersonX enters an art contest. What can hinder/obstruct it? Name three.	not being able to think of anything.	PersonX enters an art contest. This would not happen if not being able to think of anything.	False	0	0	0	0
-PersonX spends time	HinderedBy	PersonX spends time. What can hinder/obstruct it? Name three.	work	PersonX spends time. This would not happen if work	False	0	0	0	0
-PersonX spends time	HinderedBy	PersonX spends time. What can hinder/obstruct it? Name three.	school	PersonX spends time. This would not happen if school	False	0	0	0	0
-PersonX spends time	HinderedBy	PersonX spends time. What can hinder/obstruct it? Name three.	family obligations.	PersonX spends time. This would not happen if family obligations.	False	0	0	0	0
-PersonX gives PersonY another	HinderedBy	PersonX gives PersonY another. What can hinder/obstruct it? Name three.	shy	PersonX gives PersonY another. This would not happen if shy	False	0	0	0	0
-PersonX gives PersonY another	HinderedBy	PersonX gives PersonY another. What can hinder/obstruct it? Name three.	fear	PersonX gives PersonY another. This would not happen if fear	False	0	0	0	0
-PersonX gives PersonY another	HinderedBy	PersonX gives PersonY another. What can hinder/obstruct it? Name three.	low self-esteem.	PersonX gives PersonY another. This would not happen if low self-esteem.	False	0	0	0	0
-PersonX sees PersonY night	HinderedBy	PersonX sees PersonY night. What can hinder/obstruct it? Name three.	work	PersonX sees PersonY night. This would not happen if work	False	0	0	0	0
-PersonX sees PersonY night	HinderedBy	PersonX sees PersonY night. What can hinder/obstruct it? Name three.	school	PersonX sees PersonY night. This would not happen if school	False	0	0	0	0
-PersonX sees PersonY night	HinderedBy	PersonX sees PersonY night. What can hinder/obstruct it? Name three.	family obligations.	PersonX sees PersonY night. This would not happen if family obligations.	False	0	0	0	0
-PersonX changes PersonY's diaper	HinderedBy	PersonX changes PersonY's diaper. What can hinder/obstruct it? Name three.	a dirty diaper	PersonX changes PersonY's diaper. This would not happen if a dirty diaper	False	0	0	0	0
-PersonX changes PersonY's diaper	HinderedBy	PersonX changes PersonY's diaper. What can hinder/obstruct it? Name three.	a full diaper	PersonX changes PersonY's diaper. This would not happen if a full diaper	False	0	0	0	0
-PersonX changes PersonY's diaper	HinderedBy	PersonX changes PersonY's diaper. What can hinder/obstruct it? Name three.	no wipes.	PersonX changes PersonY's diaper. This would not happen if no wipes.	False	0	0	0	0
-PersonX is having a party at PersonX's house	HinderedBy	PersonX is having a party at PersonX's house. What can hinder/obstruct it? Name three.	bad weather	PersonX is having a party at PersonX's house. This would not happen if bad weather	False	0	0	0	0
-PersonX is having a party at PersonX's house	HinderedBy	PersonX is having a party at PersonX's house. What can hinder/obstruct it? Name three.	no food	PersonX is having a party at PersonX's house. This would not happen if no food	False	0	0	0	0
-PersonX is having a party at PersonX's house	HinderedBy	PersonX is having a party at PersonX's house. What can hinder/obstruct it? Name three.	no drinks.	PersonX is having a party at PersonX's house. This would not happen if no drinks.	False	0	0	0	0
-PersonX pulls out all the stops	HinderedBy	PersonX pulls out all the stops. What can hinder/obstruct it? Name three.	not enough money	PersonX pulls out all the stops. This would not happen if not enough money	False	0	0	0	0
-PersonX pulls out all the stops	HinderedBy	PersonX pulls out all the stops. What can hinder/obstruct it? Name three.	time	PersonX pulls out all the stops. This would not happen if time	False	0	0	0	0
-PersonX pulls out all the stops	HinderedBy	PersonX pulls out all the stops. What can hinder/obstruct it? Name three.	energy.	PersonX pulls out all the stops. This would not happen if energy.	False	0	0	0	0
-PersonX looks in the pantry	HinderedBy	PersonX looks in the pantry. What can hinder/obstruct it? Name three.	cluttered	PersonX looks in the pantry. This would not happen if cluttered	False	0	0	0	0
-PersonX looks in the pantry	HinderedBy	PersonX looks in the pantry. What can hinder/obstruct it? Name three.	dark	PersonX looks in the pantry. This would not happen if dark	False	0	0	0	0
-PersonX looks in the pantry	HinderedBy	PersonX looks in the pantry. What can hinder/obstruct it? Name three.	small.	PersonX looks in the pantry. This would not happen if small.	False	0	0	0	0
-PersonX brushes PersonY's hair	HinderedBy	PersonX brushes PersonY's hair. What can hinder/obstruct it? Name three.	PersonX's arms getting tired	PersonX brushes PersonY's hair. This would not happen if PersonX's arms getting tired	False	0	0	0	0
-PersonX brushes PersonY's hair	HinderedBy	PersonX brushes PersonY's hair. What can hinder/obstruct it? Name three.	the brush getting stuck in PersonY's hair	PersonX brushes PersonY's hair. This would not happen if the brush getting stuck in PersonY's hair	False	0	0	0	0
-PersonX brushes PersonY's hair	HinderedBy	PersonX brushes PersonY's hair. What can hinder/obstruct it? Name three.	PersonY moving their head.	PersonX brushes PersonY's hair. This would not happen if PersonY moving their head.	False	0	0	0	0
-PersonX invites PersonY to play	HinderedBy	PersonX invites PersonY to play. What can hinder/obstruct it? Name three.	if PersonY is busy	PersonX invites PersonY to play. This would not happen if if PersonY is busy	False	0	0	0	0
-PersonX invites PersonY to play	HinderedBy	PersonX invites PersonY to play. What can hinder/obstruct it? Name three.	if PersonY is tired	PersonX invites PersonY to play. This would not happen if if PersonY is tired	False	0	0	0	0
-PersonX invites PersonY to play	HinderedBy	PersonX invites PersonY to play. What can hinder/obstruct it? Name three.	if PersonY does not like PersonX.	PersonX invites PersonY to play. This would not happen if if PersonY does not like PersonX.	False	0	0	0	0
+PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. What does PersonX feel about it? Name three.	guilty	PersonX hits PersonY's friend. PersonX will be guilty	False	0	0	0	0
+PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. What does PersonX feel about it? Name three.	scared	PersonX hits PersonY's friend. PersonX will be scared	False	0	0	0	0
+PersonX hits PersonY's friend	xReact	PersonX hits PersonY's friend. What does PersonX feel about it? Name three.	ashamed.	PersonX hits PersonY's friend. PersonX will be ashamed.	False	0	0	0	0
+PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. What does PersonX feel about it? Name three.	anger	PersonX sends PersonY to the showers. PersonX will be anger	False	0	0	0	0
+PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. What does PersonX feel about it? Name three.	frustration	PersonX sends PersonY to the showers. PersonX will be frustration	False	0	0	0	0
+PersonX sends PersonY to the showers	xReact	PersonX sends PersonY to the showers. What does PersonX feel about it? Name three.	disappointment.	PersonX sends PersonY to the showers. PersonX will be disappointment.	False	0	0	0	0
+PersonX fudges the issue	xReact	PersonX fudges the issue. What does PersonX feel about it? Name three.	relief	PersonX fudges the issue. PersonX will be relief	False	0	0	0	0
+PersonX fudges the issue	xReact	PersonX fudges the issue. What does PersonX feel about it? Name three.	happiness	PersonX fudges the issue. PersonX will be happiness	False	0	0	0	0
+PersonX fudges the issue	xReact	PersonX fudges the issue. What does PersonX feel about it? Name three.	satisfaction.	PersonX fudges the issue. PersonX will be satisfaction.	False	0	0	0	0
+PersonX contains PersonY number	xReact	PersonX contains PersonY number. What does PersonX feel about it? Name three.	comfortable	PersonX contains PersonY number. PersonX will be comfortable	False	0	0	0	0
+PersonX contains PersonY number	xReact	PersonX contains PersonY number. What does PersonX feel about it? Name three.	safe	PersonX contains PersonY number. PersonX will be safe	False	0	0	0	0
+PersonX contains PersonY number	xReact	PersonX contains PersonY number. What does PersonX feel about it? Name three.	secure.	PersonX contains PersonY number. PersonX will be secure.	False	0	0	0	0
+PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. What does PersonX feel about it? Name three.	scared	PersonX breaks PersonX's hip. PersonX will be scared	False	0	0	0	0
+PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. What does PersonX feel about it? Name three.	disappointed	PersonX breaks PersonX's hip. PersonX will be disappointed	False	0	0	0	0
+PersonX breaks PersonX's hip	xReact	PersonX breaks PersonX's hip. What does PersonX feel about it? Name three.	in pain.	PersonX breaks PersonX's hip. PersonX will be in pain.	False	0	0	0	0

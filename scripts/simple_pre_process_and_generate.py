@@ -76,6 +76,6 @@ if __name__ == "__main__":
 
     #region Upload the JSONL files to the S3 bucket in an appropriate folder
     print(f'*** Uploading the JSONL files to the S3 bucket in a folder named {experiment_name} under {S3_BUCKET} bucket ***')
-    os.system(f'aws s3 cp {experiment_path}/mturk/sampled_normal_preds_generated_few_shot_mturk.jsonl s3://{S3_BUCKET}/{experiment_name}/')
-    os.system(f'aws s3 cp {experiment_path}/mturk/sampled_negated_preds_generated_few_shot_mturk.jsonl s3://{S3_BUCKET}/{experiment_name}/')
+    os.system(f'aws s3 cp {experiment_path}/mturk/sampled_normal_preds_generated_{args.method}_mturk.jsonl s3://{S3_BUCKET}/{experiment_name}/')
+    os.system(f'aws s3 cp {experiment_path}/mturk/sampled_negated_preds_generated_{args.method}_mturk.jsonl s3://{S3_BUCKET}/{experiment_name}/')
     #endregion
