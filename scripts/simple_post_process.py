@@ -1,12 +1,19 @@
 import argparse, os
 
 if __name__ == "__main__":
+
+    """Usage example:
+    python scripts/simple_post_process.py --s3_path s3://negated-predicates/sampled_10_atomic2020_cot_qa_limited_preds/negated/ --experiment_folder ./experiments/sampled_10_atomic2020_cot_qa_limited_preds --out_tsv experiments/sampled_10_atomic2020_cot_qa_limited_preds/sampled_negated_preds_generated_cot_qa_evaluated.tsv
+    """
+
     parser = argparse.ArgumentParser()
     # S3 path to the results. Can be copied from the Labeling job's console, under "Output dataset location".
     parser.add_argument("--s3_path", type=str, default=f's3://negated-predicates/self_samples/sample-negated/results/samples-negated/')
     # experiment_folder is the experiment folder, including the TSV generation file, which was converted to JSONL and uploaded to S3 for mTurk evaluation.
     parser.add_argument("--experiment_folder", type=str, default=f'./experiments/test_experiment')
     # The TSV generation file, which was converted to JSONL and uploaded to S3 for mTurk evaluation.
+    # The name can be see under Labeling job's console, under "Input dataset location".
+    # Use the relative local path.
     parser.add_argument("--out_tsv", type=str, default=f'./experiments/test_experiment/sample.tsv')
     args = parser.parse_args()
 

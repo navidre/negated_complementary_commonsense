@@ -29,12 +29,19 @@ def extract_answers(text_answer, style, num_generations):
         start_phrase = 'The answers are: '
         if start_phrase in text_answer:
             answers = text_answer.split(start_phrase)[-1].split(';')
+            answers[-1] = answers[-1].replace('.', '')
+        else:
+            # Another try to extract answers
+            answers = text_answer.split(';')
+            answers[0] = answers[0].split(':')[1] if ':' in answers[0] else answers[0]
+            answers[-1] = answers[-1].replace('.', '')
     else:
         raise NotImplementedError
     
     if len(answers) != num_generations:
         return None
     else:
+        answers = [answer.strip() for answer in answers]
         return answers
 
 if __name__ == "__main__":
