@@ -25,6 +25,10 @@ def extract_answers(text_answer, style, num_generations):
     answers = []
     if style == "few_shot_qa":
         answers = text_answer.split(';')
+    elif style == "cot_qa":
+        start_phrase = 'The answers are: '
+        if start_phrase in text_answer:
+            answers = text_answer.split(start_phrase)[-1].split(';')
     else:
         raise NotImplementedError
     
@@ -63,8 +67,10 @@ if __name__ == "__main__":
     df = df.drop(columns=['tail'])
     # Add column 'flagged_answer' to df with value 'False'
     df['flagged_answer'] = False
+    # Add column 'raw_answer' to df with value ''
+    df['raw_answer'] = ''
     # Placeholder dataframe to store generated rows, which has args.num_generations rows for each row in df
-    generated_df = pd.DataFrame(columns=['head', 'relation', 'prompt', 'generated_tail', 'full_text', 'flagged_answer'])
+    generated_df = pd.DataFrame(columns=['head', 'relation', 'prompt', 'generated_tail', 'full_text', 'flagged_answer', 'raw_answer'])
     # Negation string
     negation_str = 'negated' if args.negated else 'normal'
 
@@ -96,7 +102,7 @@ if __name__ == "__main__":
                     generated_df = generated_df.append(row_copy, ignore_index=True)
             else:
                 # Styles with multiple rows generation each time
-                if args.style == "few_shot_qa":
+                if args.style == "few_shot_qa" or args.style == "cot_qa":
                     # Either should be out of loop or should not generate the next times and only first time!
                     normal_relation = row_copy['relation'] if args.negated is False else row_copy['relation'][3:]
                     question = QUESTION_TEMPLATES[normal_relation][negation_str]
@@ -110,6 +116,7 @@ if __name__ == "__main__":
                         row_copy['flagged_answer'] = True
                     # Adding answers to the generated_df
                     for i in range(args.num_generations):
+                        row_copy['raw_answer'] = text_answer
                         if answers is not None:
                             answer = answers[i]
                             generated_tail = answer.replace('\n', ' ').strip()

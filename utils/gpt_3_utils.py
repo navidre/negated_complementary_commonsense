@@ -26,11 +26,12 @@ NEGATED_FEW_SHOT_QA_PROMPT = "Q: PersonX accepts PersonY's invitation. As a resu
 
 # Few shot prompts Q/A style with chain-of-thought
 FEW_SHOT_COT_QA_PROMPT = "Q: PersonX accepts PersonX's diploma. As a result, what others feel? Name three.\nA: Gaining a diploma means that a person has put a lot of effort in a program an has now successfully finished it. The answers are: proud; jealous; joyful.\n\nQ: Where can you find a basket? Name three.\nA: A basket is usually used to hold things in and can be found where there things to hold. The answers are: an office; laundry room; closet.\n\nQ: What nose can be used for?\nA: Nose is an organ of the body, which is usually is for breathing and sensing odors. The answers are: sense odors; inhaling; exhaling.\n\nQ: PersonX does PersonY's work. What will be the effect on PersonX?\nA: A work is usually an energy-consuming task and anyone who does it has to spend time and energy. The answers are: tired; busy; overwhelmed.\n\nQ: PersonX moves away. What is done before that?\nA: Moving away means going from a primamry place of living to another distant location, usually permanently. The answers are: PersonX says goodbye to their friends; Person X boxes belongings; PersonX researches the new place."
-NEGATED_FEW_SHOT_COT_QA_PROMPT = "Q: PersonX accepts PersonY's invitation. As a result, what PersonY does not feel? Name three.\nA: By Accepting PersonX's invitation, PersonY intends to attend PersonX's event. The answers are: sad; alone; rejected.\n\nQ: Where you cannot find a car? Name three.\nA: Car is a transportation tool and usually driven in roads and sometimes off-road, depending on the vehicle. The answers are: a living room; a nail salon; a bedroom.\n\nQ: What hammer cannot be used for? Name three.\nA: Hammer is a tool to hit things hard with, such as nails. The answers are: typing; toilet plunging; screwing a bolt.\n\nQ: PersonX cuts PersonX. What will PersonX not feel? Name three.\nA: Cutting one's hand usually results in pain, bleeding, and sometimes infection. The answers are: happy; satisfied; relaxed.\n\nQ: PersonX runs. Before that, what is not needed? Name three.\nA: To run, PersonX needs some running attire and shoes. PersonX also needs a vast place to run in. The answes are: to bike; to jump; to eat;"
+NEGATED_FEW_SHOT_COT_QA_PROMPT = "Q: PersonX accepts PersonY's invitation. As a result, what PersonY does not feel? Name three.\nA: By Accepting PersonX's invitation, PersonY intends to attend PersonX's event. The answers are: sad; alone; rejected.\n\nQ: Where you cannot find a car? Name three.\nA: Car is a transportation tool and usually driven in roads and sometimes off-road, depending on the vehicle. The answers are: a living room; a nail salon; a bedroom.\n\nQ: What hammer cannot be used for? Name three.\nA: Hammer is a tool to hit things hard with, such as nails. The answers are: typing; toilet plunging; screwing a bolt.\n\nQ: PersonX cuts PersonX. What will PersonX not feel? Name three.\nA: Cutting one's hand usually results in pain, bleeding, and sometimes infection. The answers are: happy; satisfied; relaxed.\n\nQ: PersonX runs. Before that, what is not needed? Name three.\nA: To run, PersonX needs some running attire and shoes. PersonX also needs a vast place to run in. The answers are: to bike; to jump; to eat."
 
 PROMPTS = {
     'few_shot': {'normal': FEW_SHOT_PROMPT, 'negated': NEGATED_FEW_SHOT_PROMPT},
-    'few_shot_qa': {'normal': FEW_SHOT_QA_PROMPT, 'negated': NEGATED_FEW_SHOT_QA_PROMPT}
+    'few_shot_qa': {'normal': FEW_SHOT_QA_PROMPT, 'negated': NEGATED_FEW_SHOT_QA_PROMPT},
+    'cot_qa': {'normal': FEW_SHOT_COT_QA_PROMPT, 'negated': NEGATED_FEW_SHOT_COT_QA_PROMPT}
 }
 
 # Predicate is key.
@@ -157,7 +158,7 @@ def generate_few_shot_qa(few_shot_prompt:str, question:str, temperature:float=TE
                 frequency_penalty=presence_penalty,
                 presence_penalty=frequency_penalty,
                 logprobs=20,
-                stop=[". ", "\n"]
+                stop=["\n"]
                 )
     text_answer = response['choices'][0]['text']
     return text_answer, response
