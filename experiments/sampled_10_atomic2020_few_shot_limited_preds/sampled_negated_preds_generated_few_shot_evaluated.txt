@@ -1,0 +1,2 @@
+Krippendorf Alpha score: 0.747456057752668
+Fleiss Kappa score: -0.333497962711446
