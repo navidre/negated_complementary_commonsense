@@ -1,0 +1,4 @@
+method	normal_accuracy	negated_accuracy
+few_shot	90.0	51.666666666666664
+few_shot_qa	83.33333333333333	66.66666666666667
+cot_qa	75.0	65.0
