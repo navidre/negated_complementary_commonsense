@@ -1,0 +1,20 @@
+{
+    "NotxReact": {
+        "count": "30",
+        "correct": 16,
+        "incorrect": 13,
+        "unfamiliar": 1
+    },
+    "NotxWant": {
+        "count": "30",
+        "correct": 24,
+        "incorrect": 6,
+        "unfamiliar": 0
+    },
+    "total": {
+        "count": "60",
+        "correct": 40,
+        "incorrect": 19,
+        "unfamiliar": 1
+    }
+}
