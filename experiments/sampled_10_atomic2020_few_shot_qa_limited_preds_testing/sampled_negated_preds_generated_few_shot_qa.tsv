@@ -1,0 +1,61 @@
+head	relation	prompt	generated_tail	full_text	flagged_answer
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to work hard	PersonX gets a part time job. After, PersonX will not want to to work hard	False
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to be paid well	PersonX gets a part time job. After, PersonX will not want to to be paid well	False
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to have benefits.	PersonX gets a part time job. After, PersonX will not want to to have benefits.	False
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to kick it	PersonX sees wood. After, PersonX will not want to to kick it	False
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to touch it	PersonX sees wood. After, PersonX will not want to to touch it	False
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to smell it.	PersonX sees wood. After, PersonX will not want to to smell it.	False
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. What does PersonX not want to do? Name three.	hear the music	PersonX turns PersonX's music down. After, PersonX will not want to hear the music	False
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. What does PersonX not want to do? Name three.	listen to the music	PersonX turns PersonX's music down. After, PersonX will not want to listen to the music	False
+PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. What does PersonX not want to do? Name three.	be bothered by the music.	PersonX turns PersonX's music down. After, PersonX will not want to be bothered by the music.	False
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. What does PersonX not want to do? Name three.	leave	PersonX is coming to an end. After, PersonX will not want to leave	False
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. What does PersonX not want to do? Name three.	die	PersonX is coming to an end. After, PersonX will not want to die	False
+PersonX is coming to an end	NotxWant	PersonX is coming to an end. What does PersonX not want to do? Name three.	stay.	PersonX is coming to an end. After, PersonX will not want to stay.	False
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. What does PersonX not want to do? Name three.	to feel pain	PersonX touches PersonY's skin. After, PersonX will not want to to feel pain	False
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. What does PersonX not want to do? Name three.	to feel nothing	PersonX touches PersonY's skin. After, PersonX will not want to to feel nothing	False
+PersonX touches PersonY's skin	NotxWant	PersonX touches PersonY's skin. What does PersonX not want to do? Name three.	to feel uncomfortable.	PersonX touches PersonY's skin. After, PersonX will not want to to feel uncomfortable.	False
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. What does PersonX not want to do? Name three.	to see PersonY hurt	PersonX is PersonY's mother. After, PersonX will not want to to see PersonY hurt	False
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. What does PersonX not want to do? Name three.	to see PersonY in danger	PersonX is PersonY's mother. After, PersonX will not want to to see PersonY in danger	False
+PersonX is PersonY's mother	NotxWant	PersonX is PersonY's mother. What does PersonX not want to do? Name three.	to see PersonY fail.	PersonX is PersonY's mother. After, PersonX will not want to to see PersonY fail.	False
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. What does PersonX not want to do? Name three.	to blink	PersonX can not believe PersonX's eyes. After, PersonX will not want to to blink	False
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. What does PersonX not want to do? Name three.	to look away	PersonX can not believe PersonX's eyes. After, PersonX will not want to to look away	False
+PersonX can not believe PersonX's eyes	NotxWant	PersonX can not believe PersonX's eyes. What does PersonX not want to do? Name three.	to close them.	PersonX can not believe PersonX's eyes. After, PersonX will not want to to close them.	False
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. What does PersonX not want to do? Name three.	to be late	PersonX catches the bus to work. After, PersonX will not want to to be late	False
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. What does PersonX not want to do? Name three.	to miss the bus	PersonX catches the bus to work. After, PersonX will not want to to miss the bus	False
+PersonX catches the bus to work	NotxWant	PersonX catches the bus to work. What does PersonX not want to do? Name three.	to be fired.	PersonX catches the bus to work. After, PersonX will not want to to be fired.	False
+PersonX wears gloves	NotxWant	PersonX wears gloves. What does PersonX not want to do? Name three.	to shake hands	PersonX wears gloves. After, PersonX will not want to to shake hands	False
+PersonX wears gloves	NotxWant	PersonX wears gloves. What does PersonX not want to do? Name three.	to touch someone	PersonX wears gloves. After, PersonX will not want to to touch someone	False
+PersonX wears gloves	NotxWant	PersonX wears gloves. What does PersonX not want to do? Name three.	to pick something up.	PersonX wears gloves. After, PersonX will not want to to pick something up.	False
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. What does PersonX not want to do? Name three.	to be noisy	PersonX operates in PersonY environment. After, PersonX will not want to to be noisy	False
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. What does PersonX not want to do? Name three.	to be messy	PersonX operates in PersonY environment. After, PersonX will not want to to be messy	False
+PersonX operates in PersonY environment	NotxWant	PersonX operates in PersonY environment. What does PersonX not want to do? Name three.	to be disruptive.	PersonX operates in PersonY environment. After, PersonX will not want to to be disruptive.	False
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. What does PersonX not feel about it? Name three.	happy	PersonX sees PersonY's crush. PersonX will not be happy	False
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. What does PersonX not feel about it? Name three.	excited	PersonX sees PersonY's crush. PersonX will not be excited	False
+PersonX sees PersonY's crush	NotxReact	PersonX sees PersonY's crush. What does PersonX not feel about it? Name three.	content.	PersonX sees PersonY's crush. PersonX will not be content.	False
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. What does PersonX not feel about it? Name three.	intrigued	PersonX watches PersonX's mouth. PersonX will not be intrigued	False
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. What does PersonX not feel about it? Name three.	bored	PersonX watches PersonX's mouth. PersonX will not be bored	False
+PersonX watches PersonX's mouth	NotxReact	PersonX watches PersonX's mouth. What does PersonX not feel about it? Name three.	hungry.	PersonX watches PersonX's mouth. PersonX will not be hungry.	False
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. What does PersonX not feel about it? Name three.	slow	PersonX moves past PersonY. PersonX will not be slow	False
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. What does PersonX not feel about it? Name three.	fast	PersonX moves past PersonY. PersonX will not be fast	False
+PersonX moves past PersonY	NotxReact	PersonX moves past PersonY. What does PersonX not feel about it? Name three.	nervous.	PersonX moves past PersonY. PersonX will not be nervous.	False
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. What does PersonX not feel about it? Name three.	sad	PersonX denies PersonY's existence. PersonX will not be sad	False
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. What does PersonX not feel about it? Name three.	angry	PersonX denies PersonY's existence. PersonX will not be angry	False
+PersonX denies PersonY's existence	NotxReact	PersonX denies PersonY's existence. What does PersonX not feel about it? Name three.	upset.	PersonX denies PersonY's existence. PersonX will not be upset.	False
+PersonX never been to one	NotxReact	PersonX never been to one. What does PersonX not feel about it? Name three.	the beach	PersonX never been to one. PersonX will not be the beach	False
+PersonX never been to one	NotxReact	PersonX never been to one. What does PersonX not feel about it? Name three.	the moon	PersonX never been to one. PersonX will not be the moon	False
+PersonX never been to one	NotxReact	PersonX never been to one. What does PersonX not feel about it? Name three.	Las Vegas.	PersonX never been to one. PersonX will not be Las Vegas.	False
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. What does PersonX not feel about it? Name three.	happy	PersonX hits PersonY's friend. PersonX will not be happy	False
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. What does PersonX not feel about it? Name three.	proud	PersonX hits PersonY's friend. PersonX will not be proud	False
+PersonX hits PersonY's friend	NotxReact	PersonX hits PersonY's friend. What does PersonX not feel about it? Name three.	victorious.	PersonX hits PersonY's friend. PersonX will not be victorious.	False
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. What does PersonX not feel about it? Name three.	happy	PersonX sends PersonY to the showers. PersonX will not be happy	False
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. What does PersonX not feel about it? Name three.	excited	PersonX sends PersonY to the showers. PersonX will not be excited	False
+PersonX sends PersonY to the showers	NotxReact	PersonX sends PersonY to the showers. What does PersonX not feel about it? Name three.	content.	PersonX sends PersonY to the showers. PersonX will not be content.	False
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. What does PersonX not feel about it? Name three.	honesty	PersonX fudges the issue. PersonX will not be honesty	False
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. What does PersonX not feel about it? Name three.	integrity	PersonX fudges the issue. PersonX will not be integrity	False
+PersonX fudges the issue	NotxReact	PersonX fudges the issue. What does PersonX not feel about it? Name three.	trustworthiness.	PersonX fudges the issue. PersonX will not be trustworthiness.	False
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. What does PersonX not feel about it? Name three.	happy	PersonX contains PersonY number. PersonX will not be happy	False
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. What does PersonX not feel about it? Name three.	content	PersonX contains PersonY number. PersonX will not be content	False
+PersonX contains PersonY number	NotxReact	PersonX contains PersonY number. What does PersonX not feel about it? Name three.	excited.	PersonX contains PersonY number. PersonX will not be excited.	False
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. What does PersonX not feel about it? Name three.			True
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. What does PersonX not feel about it? Name three.			True
+PersonX breaks PersonX's hip	NotxReact	PersonX breaks PersonX's hip. What does PersonX not feel about it? Name three.			True

@@ -1,0 +1,1 @@
+[{"datasetObjectId":"37","dataObject":{"content":"PersonX denies PersonY\u0027s existence. PersonX will be anger"},"annotations":[{"workerId":"private.us-east-1.c28c07bfa0547cc0","annotationData":{"content":"{\"crowd-classifier\":{\"label\":\"Does not make sense or Incorrect\"}}"}}]}]
