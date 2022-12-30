@@ -39,8 +39,11 @@ We have an option here. Either do self-evaluation or use AWS mTurk for evaluatio
 The following scripts make the multiple steps in the previous section easier. The overall process is preparation/generation, human-evaluation, and lastly post-processing/plotting.
 
 1. Preparation/Generation/Upload-to-S3: [Simple Pre-Process and Generation](scripts/simple_pre_process_and_generate.py)
-2. Human Evaluation: Using AWS SageMaker.
+2. Human Evaluation. Here are the options:
+    1. Using AWS SageMaker.
+    2. Self-evaluation using the [Human-Evaluation Script](scripts/human_evaluate_generations.py).
 3. Post-Processing/Plotting: [Simple Post Process](scripts/simple_post_process.py)
+    NOTE: Please look at instructions to mention if downloading results from S3 or feeding locally evaluated file.
 
 ## AWS mTurk Evaluation
 

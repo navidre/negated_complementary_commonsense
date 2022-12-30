@@ -45,11 +45,11 @@ def auto_evaluate_row(index, row):
     # All other cases    
     return False, 0
 
-def process_human_evaluation(in_tsv):
+def process_human_evaluation(in_tsv, overwrite):
     # Extracting file name
     filename = os.path.basename(in_tsv).split('.')[0]
-    out_filename = f'{filename}_self_evaluated'
-    work_path = os.path.dirname(args.input)
+    out_filename = f'{filename}_self_evaluated' if not overwrite else filename
+    work_path = os.path.dirname(in_tsv)
     out_tsv = os.path.join(work_path, f'{out_filename}.tsv')
     # read tsv file with columns head, relation, prompt, generated_tail, full_text
     # if out_tsv exists, read it
@@ -101,7 +101,8 @@ def process_human_evaluation(in_tsv):
             selection = get_input(f'Does this statement make sense? ', input_validator, 'Need to be an integer between 1 and 4!')
             if int(selection) <= 2:
                 correct_values += 1
-        # Adding the selection to the dataframe, either manually or automatically   
+        # Adding the selection to the dataframe, either manually or automatically
+        df.loc[index, 'review_1'] = int(selection)   
         df.loc[index, 'review'] = int(selection)
         # Saving every step to not lose the data
         df.to_csv(out_tsv, sep='\t', index=False)
@@ -117,11 +118,12 @@ def process_human_evaluation(in_tsv):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--in_tsv", type=str, default=f'./experiments/atomic_2020_eval/few_shot_sampled_to_eval_negated_pred_with_gpt_3.tsv')
+    parser.add_argument("--overwrite", action='store_true')
     args = parser.parse_args()
 
     """Sample calls:
     Normal predicates:
-    python scripts/human_evaluate_generations.py --in_tsv experiments/atomic_2020_eval/few_shot_sampled_to_eval_with_gpt_3.tsv
+    python scripts/human_evaluate_generations.py --overwrite --in_tsv experiments/sampled_10_atomic2020_few_shot_qa_limited_preds_testing/sampled_negated_preds_generated_few_shot_qa_evaluated.tsv
     """
 
-    process_human_evaluation(args.in_tsv)
+    process_human_evaluation(args.in_tsv, args.overwrite)

@@ -1,10 +1,10 @@
 head	relation	prompt	generated_tail	full_text	flagged_answer	review_1	review_2	review_3	review
-PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to work hard	PersonX gets a part time job. After, PersonX will not want to to work hard	False	0	0	0	0
-PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to be paid well	PersonX gets a part time job. After, PersonX will not want to to be paid well	False	0	0	0	0
-PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to have benefits.	PersonX gets a part time job. After, PersonX will not want to to have benefits.	False	0	0	0	0
-PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to kick it	PersonX sees wood. After, PersonX will not want to to kick it	False	0	0	0	0
-PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to touch it	PersonX sees wood. After, PersonX will not want to to touch it	False	0	0	0	0
-PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to smell it.	PersonX sees wood. After, PersonX will not want to to smell it.	False	0	0	0	0
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to work hard	PersonX gets a part time job. After, PersonX will not want to to work hard	False	3	0	0	3
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to be paid well	PersonX gets a part time job. After, PersonX will not want to to be paid well	False	3	0	0	3
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	to have benefits.	PersonX gets a part time job. After, PersonX will not want to to have benefits.	False	3	0	0	3
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to kick it	PersonX sees wood. After, PersonX will not want to to kick it	False	1	0	0	1
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to touch it	PersonX sees wood. After, PersonX will not want to to touch it	False	2	0	0	2
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	to smell it.	PersonX sees wood. After, PersonX will not want to to smell it.	False	2	0	0	2
 PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. What does PersonX not want to do? Name three.	hear the music	PersonX turns PersonX's music down. After, PersonX will not want to hear the music	False	0	0	0	0
 PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. What does PersonX not want to do? Name three.	listen to the music	PersonX turns PersonX's music down. After, PersonX will not want to listen to the music	False	0	0	0	0
 PersonX turns PersonX's music down	NotxWant	PersonX turns PersonX's music down. What does PersonX not want to do? Name three.	be bothered by the music.	PersonX turns PersonX's music down. After, PersonX will not want to be bothered by the music.	False	0	0	0	0
