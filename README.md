@@ -45,6 +45,8 @@ The following scripts make the multiple steps in the previous section easier. Th
 3. Post-Processing/Plotting: [Simple Post Process](scripts/simple_post_process.py)
     NOTE: Please look at instructions to mention if downloading results from S3 or feeding locally evaluated file.
 
+After doing all experiments, we can use [the comparison script](scripts/compare_methods.py) to compare all the methods in one table.
+
 ## AWS mTurk Evaluation
 
 For evaluation, we used Amazon mTurk through the [AWS SageMaker's Ground Truth module](https://aws.amazon.com/sagemaker/data-labeling/). We created a labeling job with the following specifications and procedures: 
