@@ -210,3 +210,4 @@ Backup of *.doc*
 # Large files
 data/data_and_models_2.1/**
 data/symbolic_knowledge_distillation/**
+data/visualcomet/**

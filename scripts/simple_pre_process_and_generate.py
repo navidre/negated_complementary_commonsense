@@ -2,7 +2,9 @@ import argparse, sys, os
 
 # Some constants
 S3_BUCKET = 'negated-predicates'
-DATASET_FILE = {'atomic2020': 'data/atomic2020/test.tsv'}
+DATASET_FILE = {'atomic2020': 'data/atomic2020/test.tsv',
+                'visualcomet': 'data/visualcomet/test_annots.json'
+}
 
 if __name__ == "__main__":
     """Sample command runs
@@ -17,7 +19,7 @@ if __name__ == "__main__":
     # Generation method
     parser.add_argument("--method", type=str, default="few_shot", choices=["few_shot", "cot_qa", "few_shot_qa"])
     # Knowledge graph to use
-    parser.add_argument("--kg", type=str, default="atomic2020", choices=["conceptnet", "transomcs", "atomic", "atomic2020", "wpkg", "wpkg_expanded"])
+    parser.add_argument("--kg", type=str, default="atomic2020", choices=["conceptnet", "transomcs", "atomic", "atomic2020", "wpkg", "wpkg_expanded", "visualcomet"])
     # Number of subject-object pairs to sample per predicate
     parser.add_argument("--size_per_predicate", type=int, default=10)
     # Selectively choosing limited predicates, especially the worse ones to test
@@ -28,8 +30,8 @@ if __name__ == "__main__":
     #endregion
 
     #region Checking if the methods or args are supported
-    if args.kg != "atomic2020":
-        raise NotImplementedError("Only atomic2020 is supported for now")
+    if args.kg not in ["atomic2020", "visualcomet"]:
+        raise NotImplementedError("The KG is not supported.")
     #endregion
 
     #region Creating experiments folder
