@@ -25,7 +25,7 @@ def extract_answers(text_answer, style, num_generations):
     answers = []
     if style == "few_shot_qa":
         answers = text_answer.split(';')
-    elif style == "cot_qa":
+    elif style == "cot_qa" or style == "updated_cot_qa":
         start_phrase = 'The answers are: '
         if start_phrase in text_answer:
             answers = text_answer.split(start_phrase)[-1].split(';')
@@ -49,7 +49,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", type=str, default="experiments/atomic_2020_eval/sampled_to_eval_negated_pred.tsv")
     parser.add_argument("--num_generations", type=int, default=3)
-    parser.add_argument("--style", type=str, default="few_shot", choices=["few_shot", "cot_qa", "few_shot_qa"])
+    parser.add_argument("--style", type=str, default="few_shot", choices=["few_shot", "cot_qa", "few_shot_qa", "updated_cot_qa"])
     parser.add_argument("--negated", action="store_true")
     args = parser.parse_args()
 
@@ -109,7 +109,7 @@ if __name__ == "__main__":
                     generated_df = generated_df.append(row_copy, ignore_index=True)
             else:
                 # Styles with multiple rows generation each time
-                if args.style == "few_shot_qa" or args.style == "cot_qa":
+                if args.style == "few_shot_qa" or args.style == "cot_qa" or args.style == "updated_cot_qa":
                     # Either should be out of loop or should not generate the next times and only first time!
                     normal_relation = row_copy['relation'] if args.negated is False else row_copy['relation'][3:]
                     question = QUESTION_TEMPLATES[normal_relation][negation_str]
