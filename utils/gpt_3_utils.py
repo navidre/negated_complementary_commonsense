@@ -65,7 +65,7 @@ QUESTION_TEMPLATES = {'AtLocation': {'normal': 'Where is the {subj} located? Nam
                       'oWant': {'normal': '{subj}. What does PersonY want to do? Name {n}.', 'negated': '{subj}. What does PersonY not want to do? Name {n}.'},
                       'HinderedBy': {'normal': '{subj}. What can hinder/obstruct it? Name {n}.', 'negated': '{subj}. What cannot hinder/obstruct it? Name {n}.'},
                       # Negated-CS
-                      'Is': {'normal': 'What is X? Name {n}.', 'negated': 'What X is not? Name {n}.'},
+                      'Is': {'normal': 'What is the concept (denoted by X) described here? Name {n}.', 'negated': 'What is not the concept (denoted by X) described here? Name {n}.'},
                       }
 
 NUMBER_TO_TEXT = {1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine', 10: 'ten'}
