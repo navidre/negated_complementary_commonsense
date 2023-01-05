@@ -3,13 +3,16 @@ import argparse, sys, os
 # Some constants
 S3_BUCKET = 'negated-predicates'
 DATASET_FILE = {'atomic2020': 'data/atomic2020/test.tsv',
-                'visualcomet': 'data/visualcomet/test_annots.json'
+                'visualcomet': 'data/visualcomet/test_annots.json',
+                'negated_cs': 'data/negated_cs/data.tsv'
 }
 
 if __name__ == "__main__":
     """Sample command runs
     - Limited predicates:
     python scripts/simple_pre_process_and_generate.py --method few_shot --kg atomic2020 --size_per_predicate 10 --limited_preds
+    - No size limit per predicate:
+    python scripts/simple_pre_process_and_generate.py --method few_shot --kg negated_cs --size_per_predicate -1
     - All predicates:
     python scripts/simple_pre_process_and_generate.py --method few_shot --kg atomic2020 --size_per_predicate 10
     """
@@ -19,10 +22,12 @@ if __name__ == "__main__":
     # Generation method
     parser.add_argument("--method", type=str, default="few_shot", choices=["few_shot", "cot_qa", "few_shot_qa"])
     # Knowledge graph to use
-    parser.add_argument("--kg", type=str, default="atomic2020", choices=["conceptnet", "transomcs", "atomic", "atomic2020", "wpkg", "wpkg_expanded", "visualcomet"])
+    parser.add_argument("--kg", type=str, default="atomic2020", choices=["conceptnet", "transomcs", "atomic", "atomic2020", "wpkg", "wpkg_expanded", "visualcomet", "negated_cs"])
     # Number of subject-object pairs to sample per predicate
+    # If all, use -1
     parser.add_argument("--size_per_predicate", type=int, default=10)
     # Selectively choosing limited predicates, especially the worse ones to test
+    # Limited preds is only supported for atomic2020 at the moment
     parser.add_argument("--limited_preds", action="store_true")
     # Number of generations to make for each subject-predicate pair
     parser.add_argument("--num_generations", type=int, default=3)
@@ -30,8 +35,10 @@ if __name__ == "__main__":
     #endregion
 
     #region Checking if the methods or args are supported
-    if args.kg not in ["atomic2020", "visualcomet"]:
+    if args.kg not in ["atomic2020", "visualcomet", "negated_cs"]:
         raise NotImplementedError("The KG is not supported.")
+    if args.kg != "atomic2020" and args.limited_preds:
+        raise NotImplementedError("Limited predicates are only supported for atomic2020.")
     #endregion
 
     #region Creating experiments folder
@@ -45,7 +52,7 @@ if __name__ == "__main__":
     
     #region Sampling normal and negated predicates
     print('*** Sampling normal and negated predicates ***')
-    if not os.path.exists(f'{experiment_path}/sampled_normal_preds.tsv'):
+    if not os.path.exists(f'{experiment_path}/sampled_normal_preds.tsv') or not os.path.exists(f'{experiment_path}/sampled_negated_preds.tsv'):
         limited_preds_arg_str = '--limited_preds' if args.limited_preds else ''
         input_file_path = DATASET_FILE[args.kg]
         os.system(f'python scripts/prepare_subjects_preds_for_generation.py --kg {args.kg} --size_per_predicate {args.size_per_predicate} --input {input_file_path} --experiment_path {experiment_path} {limited_preds_arg_str}')

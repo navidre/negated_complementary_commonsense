@@ -211,6 +211,13 @@ def verbalize_subject_predicate(kg, triple):
             prompt = "{}. After, PersonX will want to".format(head)
         elif relation == "NotxWant":
             prompt = "{}. After, PersonX will not want to".format(head)
+    
+    elif kg == "negated_cs":
+        if relation == "Is":
+            prompt = "{} X is".format(head)
+        elif relation == "NotIs":
+            prompt = "{} X is not ".format(head)
+    
     else:
         raise Exception("Invalid KG")
 

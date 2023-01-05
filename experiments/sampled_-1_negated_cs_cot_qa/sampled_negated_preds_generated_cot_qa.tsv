@@ -1,0 +1,184 @@
+head	relation	prompt	generated_tail	full_text	flagged_answer	raw_answer
+Xs are a type of fruit that grow on trees. They are often red, green, or yellow, and they have a sweet taste.	NotIs	What X is not? Name three.	a number	Xs are a type of fruit that grow on trees. They are often red, green, or yellow, and they have a sweet taste. X is not a number	False	 X is a letter in the alphabet. The answers are: a number; a word; a sentence.
+Xs are a type of fruit that grow on trees. They are often red, green, or yellow, and they have a sweet taste.	NotIs	What X is not? Name three.	a word	Xs are a type of fruit that grow on trees. They are often red, green, or yellow, and they have a sweet taste. X is not a word	False	 X is a letter in the alphabet. The answers are: a number; a word; a sentence.
+Xs are a type of fruit that grow on trees. They are often red, green, or yellow, and they have a sweet taste.	NotIs	What X is not? Name three.	a sentence	Xs are a type of fruit that grow on trees. They are often red, green, or yellow, and they have a sweet taste. X is not a sentence	False	 X is a letter in the alphabet. The answers are: a number; a word; a sentence.
+A X is a long, curved fruit that is yellow when ripe. It is sweet and has a thick skin.	NotIs	What X is not? Name three.			True	
+A X is a long, curved fruit that is yellow when ripe. It is sweet and has a thick skin.	NotIs	What X is not? Name three.			True	
+A X is a long, curved fruit that is yellow when ripe. It is sweet and has a thick skin.	NotIs	What X is not? Name three.			True	
+X is a helping or supportive action. It can be used as a verb, meaning to help, or as a noun, meaning help or support.	NotIs	What X is not? Name three.			True	
+X is a helping or supportive action. It can be used as a verb, meaning to help, or as a noun, meaning help or support.	NotIs	What X is not? Name three.			True	
+X is a helping or supportive action. It can be used as a verb, meaning to help, or as a noun, meaning help or support.	NotIs	What X is not? Name three.			True	
+X is a condition where the skin turns red due to inflammation or other factors.	NotIs	What X is not? Name three.			True	
+X is a condition where the skin turns red due to inflammation or other factors.	NotIs	What X is not? Name three.			True	
+X is a condition where the skin turns red due to inflammation or other factors.	NotIs	What X is not? Name three.			True	
+X is a type of computer made by Apple.	NotIs	What X is not? Name three.			True	
+X is a type of computer made by Apple.	NotIs	What X is not? Name three.			True	
+X is a type of computer made by Apple.	NotIs	What X is not? Name three.			True	
+A: An apple is a fruit that is round, and is usually sweet and can be in different colors of red, green, and yellow.	NotIs	What X is not? Name three.			True	
+A: An apple is a fruit that is round, and is usually sweet and can be in different colors of red, green, and yellow.	NotIs	What X is not? Name three.			True	
+A: An apple is a fruit that is round, and is usually sweet and can be in different colors of red, green, and yellow.	NotIs	What X is not? Name three.			True	
+A worm is a small, thin, segmented creature that lives in the soil.	NotIs	What X is not? Name three.			True	
+A worm is a small, thin, segmented creature that lives in the soil.	NotIs	What X is not? Name three.			True	
+A worm is a small, thin, segmented creature that lives in the soil.	NotIs	What X is not? Name three.			True	
+Pears are a fruit that is shaped more like a teardrop and is usually yellow, green, or brown in color. They are also sweet in taste.	NotIs	What X is not? Name three.			True	
+Pears are a fruit that is shaped more like a teardrop and is usually yellow, green, or brown in color. They are also sweet in taste.	NotIs	What X is not? Name three.			True	
+Pears are a fruit that is shaped more like a teardrop and is usually yellow, green, or brown in color. They are also sweet in taste.	NotIs	What X is not? Name three.			True	
+Apple is a multinational corporation that designs, manufactures, and sells consumer electronics, computer software, and online services.	NotIs	What X is not? Name three.	 X can be anything, so this question is impossible to answer.		True	 X can be anything, so this question is impossible to answer.
+Apple is a multinational corporation that designs, manufactures, and sells consumer electronics, computer software, and online services.	NotIs	What X is not? Name three.	 X can be anything, so this question is impossible to answer.		True	 X can be anything, so this question is impossible to answer.
+Apple is a multinational corporation that designs, manufactures, and sells consumer electronics, computer software, and online services.	NotIs	What X is not? Name three.	 X can be anything, so this question is impossible to answer.		True	 X can be anything, so this question is impossible to answer.
+A X is a plant or part of a plant that is eaten as food, such as a carrot, bean, or broccoli.	NotIs	What X is not? Name three.	 X could be anything, so this question is impossible to answer.		True	 X could be anything, so this question is impossible to answer.
+A X is a plant or part of a plant that is eaten as food, such as a carrot, bean, or broccoli.	NotIs	What X is not? Name three.	 X could be anything, so this question is impossible to answer.		True	 X could be anything, so this question is impossible to answer.
+A X is a plant or part of a plant that is eaten as food, such as a carrot, bean, or broccoli.	NotIs	What X is not? Name three.	 X could be anything, so this question is impossible to answer.		True	 X could be anything, so this question is impossible to answer.
+A X is someone who is a medical professional who diagnose and treat patients for various medical conditions.	NotIs	What X is not? Name three.			True	
+A X is someone who is a medical professional who diagnose and treat patients for various medical conditions.	NotIs	What X is not? Name three.			True	
+A X is someone who is a medical professional who diagnose and treat patients for various medical conditions.	NotIs	What X is not? Name three.			True	
+X is a type of fruit that is used to make cider, a alcoholic beverage.	NotIs	What X is not? Name three.			True	
+X is a type of fruit that is used to make cider, a alcoholic beverage.	NotIs	What X is not? Name three.			True	
+X is a type of fruit that is used to make cider, a alcoholic beverage.	NotIs	What X is not? Name three.			True	
+X is the name of the first man in the Bible. He was created by God and was the first person to live on Earth.	NotIs	What X is not? Name three.			True	
+X is the name of the first man in the Bible. He was created by God and was the first person to live on Earth.	NotIs	What X is not? Name three.			True	
+X is the name of the first man in the Bible. He was created by God and was the first person to live on Earth.	NotIs	What X is not? Name three.			True	
+"X is the past tense of the verb ""to eat."""	NotIs	What X is not? Name three.			True	
+"X is the past tense of the verb ""to eat."""	NotIs	What X is not? Name three.			True	
+"X is the past tense of the verb ""to eat."""	NotIs	What X is not? Name three.			True	
+A tree is a tall plant with a trunk, branches, and leaves.	NotIs	What X is not? Name three.			True	
+A tree is a tall plant with a trunk, branches, and leaves.	NotIs	What X is not? Name three.			True	
+A tree is a tall plant with a trunk, branches, and leaves.	NotIs	What X is not? Name three.			True	
+A X apple is a type of apple that is deep red in color and has a sweet taste.	NotIs	What X is not? Name three.	 This question is too vague to answer.		True	 This question is too vague to answer.
+A X apple is a type of apple that is deep red in color and has a sweet taste.	NotIs	What X is not? Name three.	 This question is too vague to answer.		True	 This question is too vague to answer.
+A X apple is a type of apple that is deep red in color and has a sweet taste.	NotIs	What X is not? Name three.	 This question is too vague to answer.		True	 This question is too vague to answer.
+X is the most populous city in the United States. It is located in the southeastern United States.	NotIs	What X is not? Name three.			True	
+X is the most populous city in the United States. It is located in the southeastern United States.	NotIs	What X is not? Name three.			True	
+X is the most populous city in the United States. It is located in the southeastern United States.	NotIs	What X is not? Name three.			True	
+A X is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an act passed by a legislature or parliament). Most jurisdictions now allow the creation of new Xs through registration.	NotIs	What X is not? Name three.			True	
+A X is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an act passed by a legislature or parliament). Most jurisdictions now allow the creation of new Xs through registration.	NotIs	What X is not? Name three.			True	
+A X is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an act passed by a legislature or parliament). Most jurisdictions now allow the creation of new Xs through registration.	NotIs	What X is not? Name three.			True	
+X are the reproductive units of flowering plants. They are enclosed in a seed coat, and contain a embryo, which will grow into a new plant.	NotIs	What X is not? Name three.			True	
+X are the reproductive units of flowering plants. They are enclosed in a seed coat, and contain a embryo, which will grow into a new plant.	NotIs	What X is not? Name three.			True	
+X are the reproductive units of flowering plants. They are enclosed in a seed coat, and contain a embryo, which will grow into a new plant.	NotIs	What X is not? Name three.			True	
+The X of an apple is the hard, white, inner part of the fruit that contains the seeds.	NotIs	What X is not? Name three.			True	
+The X of an apple is the hard, white, inner part of the fruit that contains the seeds.	NotIs	What X is not? Name three.			True	
+The X of an apple is the hard, white, inner part of the fruit that contains the seeds.	NotIs	What X is not? Name three.			True	
+X is a colorblindness. It is the inability to see certain colors, or to see colors differently than other people.	NotIs	What X is not? Name three.	 X can be anything, so this question is impossible to answer.		True	 X can be anything, so this question is impossible to answer.
+X is a colorblindness. It is the inability to see certain colors, or to see colors differently than other people.	NotIs	What X is not? Name three.	 X can be anything, so this question is impossible to answer.		True	 X can be anything, so this question is impossible to answer.
+X is a colorblindness. It is the inability to see certain colors, or to see colors differently than other people.	NotIs	What X is not? Name three.	 X can be anything, so this question is impossible to answer.		True	 X can be anything, so this question is impossible to answer.
+A X is a piece of data or information that is stored in a database.	NotIs	What X is not? Name three.	 This question is too vague to answer.		True	 This question is too vague to answer.
+A X is a piece of data or information that is stored in a database.	NotIs	What X is not? Name three.	 This question is too vague to answer.		True	 This question is too vague to answer.
+A X is a piece of data or information that is stored in a database.	NotIs	What X is not? Name three.	 This question is too vague to answer.		True	 This question is too vague to answer.
+X is a small, round fruit with a smooth, hard skin. It is dark red, and has a sour taste.	NotIs	What X is not? Name three.			True	
+X is a small, round fruit with a smooth, hard skin. It is dark red, and has a sour taste.	NotIs	What X is not? Name three.			True	
+X is a small, round fruit with a smooth, hard skin. It is dark red, and has a sour taste.	NotIs	What X is not? Name three.			True	
+X is a computer operating system created by Apple.	NotIs	What X is not? Name three.			True	
+X is a computer operating system created by Apple.	NotIs	What X is not? Name three.			True	
+X is a computer operating system created by Apple.	NotIs	What X is not? Name three.			True	
+A X is a fruit that grows on a tree. The most common Xs are apples, oranges, lemons, and limes.	NotIs	What X is not? Name three.			True	
+A X is a fruit that grows on a tree. The most common Xs are apples, oranges, lemons, and limes.	NotIs	What X is not? Name three.			True	
+A X is a fruit that grows on a tree. The most common Xs are apples, oranges, lemons, and limes.	NotIs	What X is not? Name three.			True	
+X is anything that can be eaten by an organism to provide nutrition.	NotIs	What X is not? Name three.	 X could be anything, so this question is impossible to answer.		True	 X could be anything, so this question is impossible to answer.
+X is anything that can be eaten by an organism to provide nutrition.	NotIs	What X is not? Name three.	 X could be anything, so this question is impossible to answer.		True	 X could be anything, so this question is impossible to answer.
+X is anything that can be eaten by an organism to provide nutrition.	NotIs	What X is not? Name three.	 X could be anything, so this question is impossible to answer.		True	 X could be anything, so this question is impossible to answer.
+A X is an electronic device that accepts input from a user, processes that input according to predefined rules, and produces output as a result.	NotIs	What X is not? Name three.			True	
+A X is an electronic device that accepts input from a user, processes that input according to predefined rules, and produces output as a result.	NotIs	What X is not? Name three.			True	
+A X is an electronic device that accepts input from a user, processes that input according to predefined rules, and produces output as a result.	NotIs	What X is not? Name three.			True	
+A X is a round object that is used in various games. It is usually made of leather or rubber and is inflated with air.	NotIs	What X is not? Name three.			True	
+A X is a round object that is used in various games. It is usually made of leather or rubber and is inflated with air.	NotIs	What X is not? Name three.			True	
+A X is a round object that is used in various games. It is usually made of leather or rubber and is inflated with air.	NotIs	What X is not? Name three.			True	
+Apple is a multinational corporation that designs, manufactures, and markets consumer electronics, computer software, and online services.	NotIs	What X is not? Name three.			True	
+Apple is a multinational corporation that designs, manufactures, and markets consumer electronics, computer software, and online services.	NotIs	What X is not? Name three.			True	
+Apple is a multinational corporation that designs, manufactures, and markets consumer electronics, computer software, and online services.	NotIs	What X is not? Name three.			True	
+X is a common last name in the United States.	NotIs	What X is not? Name three.			True	
+X is a common last name in the United States.	NotIs	What X is not? Name three.			True	
+X is a common last name in the United States.	NotIs	What X is not? Name three.			True	
+"A X is a fruit that grows on a tropical tree. It is also called a ""jambu"" or ""water apple."" The fruit is round and has a thin, red skin. The flesh is white or pink and has a sweet, slightly acidic flavor."	NotIs	What X is not? Name three.			True	
+"A X is a fruit that grows on a tropical tree. It is also called a ""jambu"" or ""water apple."" The fruit is round and has a thin, red skin. The flesh is white or pink and has a sweet, slightly acidic flavor."	NotIs	What X is not? Name three.			True	
+"A X is a fruit that grows on a tropical tree. It is also called a ""jambu"" or ""water apple."" The fruit is round and has a thin, red skin. The flesh is white or pink and has a sweet, slightly acidic flavor."	NotIs	What X is not? Name three.			True	
+A X is a fruit that is shaped like a tear and is usually green, yellow, or brown.	NotIs	What X is not? Name three.			True	
+A X is a fruit that is shaped like a tear and is usually green, yellow, or brown.	NotIs	What X is not? Name three.			True	
+A X is a fruit that is shaped like a tear and is usually green, yellow, or brown.	NotIs	What X is not? Name three.			True	
+An orange is a citrus fruit, which is typically orange in color. It is acidic and tangy in taste, and is a good source of Vitamin C.	NotIs	What X is not? Name three.	a number	An orange is a citrus fruit, which is typically orange in color. It is acidic and tangy in taste, and is a good source of Vitamin C. X is not a number	False	 X is a variable that can stand for anything. The answers are: a number; a letter; a word.
+An orange is a citrus fruit, which is typically orange in color. It is acidic and tangy in taste, and is a good source of Vitamin C.	NotIs	What X is not? Name three.	a letter	An orange is a citrus fruit, which is typically orange in color. It is acidic and tangy in taste, and is a good source of Vitamin C. X is not a letter	False	 X is a variable that can stand for anything. The answers are: a number; a letter; a word.
+An orange is a citrus fruit, which is typically orange in color. It is acidic and tangy in taste, and is a good source of Vitamin C.	NotIs	What X is not? Name three.	a word	An orange is a citrus fruit, which is typically orange in color. It is acidic and tangy in taste, and is a good source of Vitamin C. X is not a word	False	 X is a variable that can stand for anything. The answers are: a number; a letter; a word.
+X is a genus of about 30–35 species of small deciduous trees or shrubs in the family Rosaceae, including the domesticated orchard apple – X pumila.	NotIs	What X is not? Name three.			True	
+X is a genus of about 30–35 species of small deciduous trees or shrubs in the family Rosaceae, including the domesticated orchard apple – X pumila.	NotIs	What X is not? Name three.			True	
+X is a genus of about 30–35 species of small deciduous trees or shrubs in the family Rosaceae, including the domesticated orchard apple – X pumila.	NotIs	What X is not? Name three.			True	
+A pip is a small, hard seed found in fruits.	NotIs	What X is not? Name three.	 		True	 
+A pip is a small, hard seed found in fruits.	NotIs	What X is not? Name three.	 		True	 
+A pip is a small, hard seed found in fruits.	NotIs	What X is not? Name three.	 		True	 
+A X apple is a type of apple that is green in color.	NotIs	What X is not? Name three.			True	
+A X apple is a type of apple that is green in color.	NotIs	What X is not? Name three.			True	
+A X apple is a type of apple that is green in color.	NotIs	What X is not? Name three.			True	
+X is a herbaceous plant with large, green leaves that grow in a rosette pattern. The leaves are used in cooking, and the X has a long, thick stem.	NotIs	What X is not? Name three.			True	
+X is a herbaceous plant with large, green leaves that grow in a rosette pattern. The leaves are used in cooking, and the X has a long, thick stem.	NotIs	What X is not? Name three.			True	
+X is a herbaceous plant with large, green leaves that grow in a rosette pattern. The leaves are used in cooking, and the X has a long, thick stem.	NotIs	What X is not? Name three.			True	
+X is a set of principles that guide government decision-making. It includes goals, values, and strategies that an organization or individual uses to shape X.	NotIs	What X is not? Name three.			True	
+X is a set of principles that guide government decision-making. It includes goals, values, and strategies that an organization or individual uses to shape X.	NotIs	What X is not? Name three.			True	
+X is a set of principles that guide government decision-making. It includes goals, values, and strategies that an organization or individual uses to shape X.	NotIs	What X is not? Name three.			True	
+A X is a plant that has been created or selected through cultivation.	NotIs	What X is not? Name three.			True	
+A X is a plant that has been created or selected through cultivation.	NotIs	What X is not? Name three.			True	
+A X is a plant that has been created or selected through cultivation.	NotIs	What X is not? Name three.			True	
+"X is the process of reducing a data structure to a ""single value"" by applying a function to each element in the structure."	NotIs	What X is not? Name three.	 X can be anything, so this question is unanswerable.		True	 X can be anything, so this question is unanswerable.
+"X is the process of reducing a data structure to a ""single value"" by applying a function to each element in the structure."	NotIs	What X is not? Name three.	 X can be anything, so this question is unanswerable.		True	 X can be anything, so this question is unanswerable.
+"X is the process of reducing a data structure to a ""single value"" by applying a function to each element in the structure."	NotIs	What X is not? Name three.	 X can be anything, so this question is unanswerable.		True	 X can be anything, so this question is unanswerable.
+X is a traditional Ugandan dish made from green bananas. The bananas are boiled and then mashed, and usually served with a peanut sauce.	NotIs	What X is not? Name three.	 X can be anything, so this question is unanswerable.		True	 X can be anything, so this question is unanswerable.
+X is a traditional Ugandan dish made from green bananas. The bananas are boiled and then mashed, and usually served with a peanut sauce.	NotIs	What X is not? Name three.	 X can be anything, so this question is unanswerable.		True	 X can be anything, so this question is unanswerable.
+X is a traditional Ugandan dish made from green bananas. The bananas are boiled and then mashed, and usually served with a peanut sauce.	NotIs	What X is not? Name three.	 X can be anything, so this question is unanswerable.		True	 X can be anything, so this question is unanswerable.
+X is a website where people can self-publish and sell books, eBooks, and other printed materials.	NotIs	What X is not? Name three.			True	
+X is a website where people can self-publish and sell books, eBooks, and other printed materials.	NotIs	What X is not? Name three.			True	
+X is a website where people can self-publish and sell books, eBooks, and other printed materials.	NotIs	What X is not? Name three.			True	
+X is a distilled alcoholic drink made from the root of the plant Millettia Laurentii. It is popular in Uganda, where it is often mixed with fruit juices.	NotIs	What X is not? Name three.			True	
+X is a distilled alcoholic drink made from the root of the plant Millettia Laurentii. It is popular in Uganda, where it is often mixed with fruit juices.	NotIs	What X is not? Name three.			True	
+X is a distilled alcoholic drink made from the root of the plant Millettia Laurentii. It is popular in Uganda, where it is often mixed with fruit juices.	NotIs	What X is not? Name three.			True	
+A X is a type of punctuation mark, which is used to enclose a set of characters or words.	NotIs	What X is not? Name three.			True	
+A X is a type of punctuation mark, which is used to enclose a set of characters or words.	NotIs	What X is not? Name three.			True	
+A X is a type of punctuation mark, which is used to enclose a set of characters or words.	NotIs	What X is not? Name three.			True	
+X is a type of fabric made from the fibers of the abaca plant. It is often used in millinery and hatmaking.	NotIs	What X is not? Name three.			True	
+X is a type of fabric made from the fibers of the abaca plant. It is often used in millinery and hatmaking.	NotIs	What X is not? Name three.			True	
+X is a type of fabric made from the fibers of the abaca plant. It is often used in millinery and hatmaking.	NotIs	What X is not? Name three.			True	
+The X is the principle that states that it is better to have a smaller, more manageable problem that you can solve, rather than a larger problem that you can only partially solve. This principle is often used in business, when deciding whether to take on a new project or not.	NotIs	What X is not? Name three.			True	
+The X is the principle that states that it is better to have a smaller, more manageable problem that you can solve, rather than a larger problem that you can only partially solve. This principle is often used in business, when deciding whether to take on a new project or not.	NotIs	What X is not? Name three.			True	
+The X is the principle that states that it is better to have a smaller, more manageable problem that you can solve, rather than a larger problem that you can only partially solve. This principle is often used in business, when deciding whether to take on a new project or not.	NotIs	What X is not? Name three.			True	
+A banana is a long, curved fruit that is yellow when ripe. It has a thick skin and a soft, sweet flesh.	NotIs	What X is not? Name three.			True	
+A banana is a long, curved fruit that is yellow when ripe. It has a thick skin and a soft, sweet flesh.	NotIs	What X is not? Name three.			True	
+A banana is a long, curved fruit that is yellow when ripe. It has a thick skin and a soft, sweet flesh.	NotIs	What X is not? Name three.			True	
+X is a yellow fruit that is often eaten as a snack. It is long and thin, and has a soft, sweet flesh.	NotIs	What X is not? Name three.			True	
+X is a yellow fruit that is often eaten as a snack. It is long and thin, and has a soft, sweet flesh.	NotIs	What X is not? Name three.			True	
+X is a yellow fruit that is often eaten as a snack. It is long and thin, and has a soft, sweet flesh.	NotIs	What X is not? Name three.			True	
+A X is a fruit that is not in its natural shape. It can be bent, squished, or have an odd shape.	NotIs	What X is not? Name three.			True	
+A X is a fruit that is not in its natural shape. It can be bent, squished, or have an odd shape.	NotIs	What X is not? Name three.			True	
+A X is a fruit that is not in its natural shape. It can be bent, squished, or have an odd shape.	NotIs	What X is not? Name three.			True	
+An apple is a fruit that is Xen as a food.	NotIs	What X is not? Name three.			True	
+An apple is a fruit that is Xen as a food.	NotIs	What X is not? Name three.			True	
+An apple is a fruit that is Xen as a food.	NotIs	What X is not? Name three.			True	
+A X is a species of banana. It is native to southeastern Asia, specifically India and Malaysia. The plant is tall and has large leaves. The fruit is long and thin, and can be either yellow or green when ripe.	NotIs	What X is not? Name three.			True	
+A X is a species of banana. It is native to southeastern Asia, specifically India and Malaysia. The plant is tall and has large leaves. The fruit is long and thin, and can be either yellow or green when ripe.	NotIs	What X is not? Name three.			True	
+A X is a species of banana. It is native to southeastern Asia, specifically India and Malaysia. The plant is tall and has large leaves. The fruit is long and thin, and can be either yellow or green when ripe.	NotIs	What X is not? Name three.			True	
+X is a type of plant that is used to make rope and other materials.	NotIs	What X is not? Name three.	a number	X is a type of plant that is used to make rope and other materials. X is not a number	False	 X is a letter in the alphabet. The answers are: a number; a symbol; a word.
+X is a type of plant that is used to make rope and other materials.	NotIs	What X is not? Name three.	a symbol	X is a type of plant that is used to make rope and other materials. X is not a symbol	False	 X is a letter in the alphabet. The answers are: a number; a symbol; a word.
+X is a type of plant that is used to make rope and other materials.	NotIs	What X is not? Name three.	a word	X is a type of plant that is used to make rope and other materials. X is not a word	False	 X is a letter in the alphabet. The answers are: a number; a symbol; a word.
+A monkey is a mammal of the primate family. there are about 260 known living species of monkey.Monkeys are intelligent and can use simple tools.they are social animals and live in troops. some species of monkey live in trees, others live on the ground	NotIs	What X is not? Name three.			True	
+A monkey is a mammal of the primate family. there are about 260 known living species of monkey.Monkeys are intelligent and can use simple tools.they are social animals and live in troops. some species of monkey live in trees, others live on the ground	NotIs	What X is not? Name three.			True	
+A monkey is a mammal of the primate family. there are about 260 known living species of monkey.Monkeys are intelligent and can use simple tools.they are social animals and live in troops. some species of monkey live in trees, others live on the ground	NotIs	What X is not? Name three.			True	
+A X is a large drupe with a hard, fibrous shell that encases a white, fleshy edible interior.	NotIs	What X is not? Name three.			True	
+A X is a large drupe with a hard, fibrous shell that encases a white, fleshy edible interior.	NotIs	What X is not? Name three.			True	
+A X is a large drupe with a hard, fibrous shell that encases a white, fleshy edible interior.	NotIs	What X is not? Name three.			True	
+A monkey is a mammal with long arms and legs, a tail, and usually fur. They are found in tropical areas of Asia, Africa, and Central and South America.	NotIs	What X is not? Name three.			True	
+A monkey is a mammal with long arms and legs, a tail, and usually fur. They are found in tropical areas of Asia, Africa, and Central and South America.	NotIs	What X is not? Name three.			True	
+A monkey is a mammal with long arms and legs, a tail, and usually fur. They are found in tropical areas of Asia, Africa, and Central and South America.	NotIs	What X is not? Name three.			True	
+X is the color of light with a wavelength between 570 and 590 nanometers. It is seen between green and orange on the visible spectrum.	NotIs	What X is not? Name three.			True	
+X is the color of light with a wavelength between 570 and 590 nanometers. It is seen between green and orange on the visible spectrum.	NotIs	What X is not? Name three.			True	
+X is the color of light with a wavelength between 570 and 590 nanometers. It is seen between green and orange on the visible spectrum.	NotIs	What X is not? Name three.			True	
+X is a genus of flowering plants in the family Xceae. They are native to tropical Africa, and are the source of bananas and plantains.	NotIs	What X is not? Name three.			True	
+X is a genus of flowering plants in the family Xceae. They are native to tropical Africa, and are the source of bananas and plantains.	NotIs	What X is not? Name three.			True	
+X is a genus of flowering plants in the family Xceae. They are native to tropical Africa, and are the source of bananas and plantains.	NotIs	What X is not? Name three.			True	
+X is a genus of flowering plants in the banana family.	NotIs	What X is not? Name three.			True	
+X is a genus of flowering plants in the banana family.	NotIs	What X is not? Name three.			True	
+X is a genus of flowering plants in the banana family.	NotIs	What X is not? Name three.			True	
+X are long, curved fruits that are yellow when ripe. They are sweet and have a thick skin.	NotIs	What X is not? Name three.			True	
+X are long, curved fruits that are yellow when ripe. They are sweet and have a thick skin.	NotIs	What X is not? Name three.			True	
+X are long, curved fruits that are yellow when ripe. They are sweet and have a thick skin.	NotIs	What X is not? Name three.			True	
+X is a brand of cookies that are sandwich cookies with a filling in the middle. The cookies are usually chocolate with a white filling, but there are also other flavors such as mint or Golden Xs.	NotIs	What X is not? Name three.			True	
+X is a brand of cookies that are sandwich cookies with a filling in the middle. The cookies are usually chocolate with a white filling, but there are also other flavors such as mint or Golden Xs.	NotIs	What X is not? Name three.			True	
+X is a brand of cookies that are sandwich cookies with a filling in the middle. The cookies are usually chocolate with a white filling, but there are also other flavors such as mint or Golden Xs.	NotIs	What X is not? Name three.			True	
+A X is a fruit that is yellow in color.	NotIs	What X is not? Name three.			True	
+A X is a fruit that is yellow in color.	NotIs	What X is not? Name three.			True	
+A X is a fruit that is yellow in color.	NotIs	What X is not? Name three.			True	

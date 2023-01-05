@@ -7,7 +7,8 @@ from utils.atomic_utils import verbalize_subject_predicate, atomic_preds, limite
 if __name__ == "__main__":
     print('Loading spacy ...')
     parser = argparse.ArgumentParser()
-    parser.add_argument("--kg", type=str, default="atomic2020", choices=["conceptnet", "transomcs", "atomic", "atomic2020", "wpkg", "wpkg_expanded"])
+    parser.add_argument("--kg", type=str, default="atomic2020", choices=["conceptnet", "transomcs", "atomic", "atomic2020", "wpkg", "wpkg_expanded", "negated_cs"])
+    # If all, use -1 for size_per_predicate
     parser.add_argument("--size_per_predicate", type=int, default=10)
     parser.add_argument("--input", type=str, default="data/atomic2020/test.tsv")
     parser.add_argument("--experiment_path", type=str, default="experiments/atomic_2020_eval")
@@ -15,7 +16,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     seed = 66
 
-    if args.kg != "atomic2020":
+    if args.kg not in ["atomic2020", "negated_cs"]:
         raise NotImplementedError("Only atomic2020 is supported for now")
 
     # Out file paths
@@ -31,7 +32,13 @@ if __name__ == "__main__":
     all_normal_sampled_df = pd.DataFrame(columns=['head', 'relation', 'tail', 'prompt'])
     all_negated_sampled_df = pd.DataFrame(columns=['head', 'relation', 'tail', 'prompt'])
     # Choose the preds to use
-    preds = atomic_preds if not args.limited_preds else limited_atomic_preds
+    if args.kg == "atomic2020":
+        preds = atomic_preds if not args.limited_preds else limited_atomic_preds
+    else:
+        # Get list of all unique relations in df
+        preds = df['relation'].unique().tolist()
+        if 'relation' in preds:
+            preds.remove('relation')
     # Remove isFilledBy from atomic_preds as it is not a valid relation (all include "___")
     if 'isFilledBy' in preds:
         preds.remove('isFilledBy')
@@ -46,7 +53,10 @@ if __name__ == "__main__":
         # Exception handling if there is an error in the following lines
         try:
             # Sample args.size_per_predicate rows with predicate pred
-            sampled_df = df[df['relation'] == pred].sample(n=args.size_per_predicate, random_state=seed)
+            if args.size_per_predicate == -1:
+                sampled_df = df[df['relation'] == pred]
+            else:
+                sampled_df = df[df['relation'] == pred].sample(n=args.size_per_predicate, random_state=seed)
             sampled_df_negated = sampled_df.copy()
             # Change all relation values to negated_pred in sampled_df_negated
             sampled_df_negated['relation'] = negated_pred
