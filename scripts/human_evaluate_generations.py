@@ -42,6 +42,12 @@ def auto_evaluate_row(index, row):
     if '___' in row['generated_tail']:
         return True, 4
 
+    # If the answer returned is empty
+    if pd.isnull(row['raw_answer']):
+        return True, 4
+    if row['raw_answer'].strip() == '':
+        return True, 4
+
     # All other cases    
     return False, 0
 

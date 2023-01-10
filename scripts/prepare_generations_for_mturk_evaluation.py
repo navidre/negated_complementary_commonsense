@@ -31,12 +31,8 @@ def auto_evaluate_generations(in_tsv, out_tsv):
 
     # Check if manual evaluation is needed
     for index, row in df.iterrows():
-        # if row['head'] == "PersonX can not believe PersonX's eyes":
-        #     import IPython; IPython. embed(); exit(1)
-        # Check if row['full_text'] is float NaN
-        if pd.isnull(row['full_text']) and row['flagged_answer'] and not pd.isnull(row['generated_tail']):
-            raise Exception(f"Manual evaluation is needed for {row['head']} of {args.in_tsv}. Please check all with not filled results and fill the full_text column, adjust generated_tail, and set flagged_answer to False. Then run this script again.")
-            import IPython; IPython. embed(); exit(1)
+        if pd.isnull(row['full_text']) and row['flagged_answer'] and not pd.isnull(row['generated_tail']) and pd.isnull(row['raw_answer']):
+            raise Exception(f"*** Manual evaluation is needed for {row['head']} of {args.in_tsv}. Please check all with not filled results and fill the full_text column, adjust generated_tail, and set flagged_answer to False. Then run this script again.")
         
     # Placeholder for review columns (three annotators)
     df['review_1'], df['review_2'], df['review_3'], df['review'] = 0, 0, 0, 0

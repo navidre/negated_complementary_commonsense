@@ -6,7 +6,9 @@ EXPERIMENTS = {
         'few_shot': 'experiments/sampled_10_atomic2020_few_shot_limited_preds',
         'few_shot_qa': 'experiments/sampled_10_atomic2020_few_shot_qa_limited_preds',
         'cot_qa': 'experiments/sampled_10_atomic2020_cot_qa_limited_preds',
-        'updated_cot_qa': 'experiments/sampled_10_atomic2020_updated_cot_qa_limited_preds'
+        'updated_cot_qa': 'experiments/sampled_10_atomic2020_updated_cot_qa_limited_preds',
+        # 'cot_qa_neg_teach': 'experiments/sampled_10_atomic2020_cot_qa_neg_teach_limited_preds',
+        'cot_qa_neg_teach_var_temp': 'experiments/sampled_10_atomic2020_cot_qa_neg_teach_var_temp_limited_preds'
     },
     'self_examples': {
         'few_shot': '',

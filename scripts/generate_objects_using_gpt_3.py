@@ -25,7 +25,7 @@ def extract_answers(text_answer, style, num_generations):
     answers = []
     if style == "few_shot_qa":
         answers = text_answer.split(';')
-    elif style == "cot_qa" or style == "updated_cot_qa":
+    elif style in ["cot_qa", "updated_cot_qa", "cot_qa_neg_teach", "cot_qa_neg_teach_var_temp"]:
         start_phrase = 'The answers are: '
         if start_phrase in text_answer:
             answers = text_answer.split(start_phrase)[-1].split(';')
@@ -49,7 +49,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", type=str, default="experiments/atomic_2020_eval/sampled_to_eval_negated_pred.tsv")
     parser.add_argument("--num_generations", type=int, default=3)
-    parser.add_argument("--style", type=str, default="few_shot", choices=["few_shot", "cot_qa", "few_shot_qa", "updated_cot_qa"])
+    parser.add_argument("--style", type=str, default="few_shot", choices=["few_shot", "cot_qa", "few_shot_qa", "updated_cot_qa", "cot_qa_neg_teach", "cot_qa_neg_teach_var_temp"])
     parser.add_argument("--negated", action="store_true")
     args = parser.parse_args()
 
@@ -109,14 +109,20 @@ if __name__ == "__main__":
                     generated_df = generated_df.append(row_copy, ignore_index=True)
             else:
                 # Styles with multiple rows generation each time
-                if args.style == "few_shot_qa" or args.style == "cot_qa" or args.style == "updated_cot_qa":
+                if args.style in ["few_shot_qa", "cot_qa", "updated_cot_qa", "cot_qa_neg_teach", "cot_qa_neg_teach_var_temp"]:
                     # Either should be out of loop or should not generate the next times and only first time!
                     normal_relation = row_copy['relation'] if args.negated is False else row_copy['relation'][3:]
                     question = QUESTION_TEMPLATES[normal_relation][negation_str]
                     subj, n = row_copy['head'], NUMBER_TO_TEXT[args.num_generations]
                     question_str = eval('f' + repr(question))
                     old_prompt, row_copy['prompt'] = row_copy['prompt'], question_str
-                    text_answer, response = generate_few_shot_qa(PROMPTS[args.style][negation_str], question_str, max_tokens=100)
+                    if args.style in ["cot_qa_neg_teach_var_temp"]:
+                        for temperature in [0.7, 1]:
+                            text_answer, response = generate_few_shot_qa(PROMPTS[args.style][negation_str], question_str, max_tokens=100, temperature=temperature)
+                            if text_answer != '':
+                                break
+                    else:
+                        text_answer, response = generate_few_shot_qa(PROMPTS[args.style][negation_str], question_str, max_tokens=100)
                     # Extracting the answers from the text_answer
                     answers = extract_answers(text_answer, args.style, args.num_generations)
                     if answers is None:
