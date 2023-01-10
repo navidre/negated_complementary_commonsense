@@ -4,3 +4,4 @@ few_shot_qa	83.33333333333333	66.66666666666667
 cot_qa	75.0	65.0
 updated_cot_qa	5.0	65.0
 cot_qa_neg_teach_var_temp	95.0	68.33333333333333
+cot_qa_updated_neg_teach_var_temp	0.0	86.66666666666667
