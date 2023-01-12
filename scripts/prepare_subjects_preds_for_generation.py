@@ -2,7 +2,7 @@ import argparse, sys, traceback
 import pandas as pd
 from tqdm import tqdm
 sys.path.append('./')
-from utils.atomic_utils import verbalize_subject_predicate, atomic_preds, limited_atomic_preds
+from utils.atomic_utils import verbalize_subject_predicate, atomic_preds, limited_atomic_preds, ten_atomic_preds
 
 if __name__ == "__main__":
     print('Loading spacy ...')
@@ -41,6 +41,7 @@ if __name__ == "__main__":
             # Print the line that caused the exception
             print('Variable with this name not found {}. Maybe you need to import or define it!'.format(args.preds_var_name))
             traceback.print_exc()
+            import IPython; IPython. embed(); exit(1)
     else:
         # Get list of all unique relations in df
         preds = df['relation'].unique().tolist()

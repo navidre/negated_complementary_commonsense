@@ -1,0 +1,7 @@
+head	relation	prompt	generated_tail	full_text	flagged_answer	raw_answer
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	quit	PersonX gets a part time job. After, PersonX will not want to quit	False	 quit; get fired; work fewer hours.
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	get fired	PersonX gets a part time job. After, PersonX will not want to get fired	False	 quit; get fired; work fewer hours.
+PersonX gets a part time job	NotxWant	PersonX gets a part time job. What does PersonX not want to do? Name three.	work fewer hours.	PersonX gets a part time job. After, PersonX will not want to work fewer hours.	False	 quit; get fired; work fewer hours.
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	touch it	PersonX sees wood. After, PersonX will not want to touch it	False	 touch it; smell it; taste it.
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	smell it	PersonX sees wood. After, PersonX will not want to smell it	False	 touch it; smell it; taste it.
+PersonX sees wood	NotxWant	PersonX sees wood. What does PersonX not want to do? Name three.	taste it.	PersonX sees wood. After, PersonX will not want to taste it.	False	 touch it; smell it; taste it.

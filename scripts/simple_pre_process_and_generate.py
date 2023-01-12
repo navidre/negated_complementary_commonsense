@@ -15,6 +15,8 @@ if __name__ == "__main__":
     python scripts/simple_pre_process_and_generate.py --method few_shot --kg negated_cs --size_per_predicate -1
     - All predicates:
     python scripts/simple_pre_process_and_generate.py --method few_shot --kg atomic2020 --size_per_predicate 10
+    - Ten limited atomic preds with 10 samples each:
+    python scripts/simple_pre_process_and_generate.py --method few_shot_qa --kg atomic2020 --size_per_predicate 10 --limited_preds --preds_var_name ten_atomic_preds
     """
 
     #region Argument parsing

@@ -18,6 +18,7 @@ atomic_preds = atomic_physical_preds + atomic_event_preds + atomic_social_preds
 # Based on the worst negated performance in the initial simple experiments
 # limited_atomic_preds = ['xWant', 'xReact', 'oWant', 'CapableOf', 'Desires', 'HinderedBy']
 limited_atomic_preds = ['xWant', 'xReact']
+ten_atomic_preds = ['xWant', 'xReact', 'oWant', 'CapableOf', 'Desires', 'HinderedBy', 'isBefore', 'isAfter', 'AtLocation', 'HasSubEvent']
 
 def article(word):
     # TODO: Eliminate articles for plural nouns for now
