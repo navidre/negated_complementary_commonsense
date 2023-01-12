@@ -1,0 +1,13 @@
+head	relation	prompt	generated_tail	full_text	flagged_answer	raw_answer	review_1	review_2	review_3	review
+PersonX gets a part time job	xWant	PersonX gets a part time job. What does PersonX want to do? Name three.	save money	PersonX gets a part time job. After, PersonX will want to save money	False	 save money; learn new skills; make friends.	0	0	0	0
+PersonX gets a part time job	xWant	PersonX gets a part time job. What does PersonX want to do? Name three.	learn new skills	PersonX gets a part time job. After, PersonX will want to learn new skills	False	 save money; learn new skills; make friends.	0	0	0	0
+PersonX gets a part time job	xWant	PersonX gets a part time job. What does PersonX want to do? Name three.	make friends.	PersonX gets a part time job. After, PersonX will want to make friends.	False	 save money; learn new skills; make friends.	0	0	0	0
+PersonX sees wood	xWant	PersonX sees wood. What does PersonX want to do? Name three.	carve	PersonX sees wood. After, PersonX will want to carve	False	 carve; build; saw.	0	0	0	0
+PersonX sees wood	xWant	PersonX sees wood. What does PersonX want to do? Name three.	build	PersonX sees wood. After, PersonX will want to build	False	 carve; build; saw.	0	0	0	0
+PersonX sees wood	xWant	PersonX sees wood. What does PersonX want to do? Name three.	saw.	PersonX sees wood. After, PersonX will want to saw.	False	 carve; build; saw.	0	0	0	0
+PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. What does PersonX feel about it? Name three.	curious	PersonX sees PersonY's crush. PersonX will be curious	False	 curious; excited; nervous.	0	0	0	0
+PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. What does PersonX feel about it? Name three.	excited	PersonX sees PersonY's crush. PersonX will be excited	False	 curious; excited; nervous.	0	0	0	0
+PersonX sees PersonY's crush	xReact	PersonX sees PersonY's crush. What does PersonX feel about it? Name three.	nervous.	PersonX sees PersonY's crush. PersonX will be nervous.	False	 curious; excited; nervous.	0	0	0	0
+PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. What does PersonX feel about it? Name three.	curious	PersonX watches PersonX's mouth. PersonX will be curious	False	 curious; confused; uncomfortable.	0	0	0	0
+PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. What does PersonX feel about it? Name three.	confused	PersonX watches PersonX's mouth. PersonX will be confused	False	 curious; confused; uncomfortable.	0	0	0	0
+PersonX watches PersonX's mouth	xReact	PersonX watches PersonX's mouth. What does PersonX feel about it? Name three.	uncomfortable.	PersonX watches PersonX's mouth. PersonX will be uncomfortable.	False	 curious; confused; uncomfortable.	0	0	0	0

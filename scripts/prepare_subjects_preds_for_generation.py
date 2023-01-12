@@ -1,4 +1,4 @@
-import argparse, sys
+import argparse, sys, traceback
 import pandas as pd
 from tqdm import tqdm
 sys.path.append('./')
@@ -13,6 +13,8 @@ if __name__ == "__main__":
     parser.add_argument("--input", type=str, default="data/atomic2020/test.tsv")
     parser.add_argument("--experiment_path", type=str, default="experiments/atomic_2020_eval")
     parser.add_argument("--limited_preds", action="store_true")
+    # Preds variable name. It can be found under atomic_utils.py
+    parser.add_argument("--preds_var_name", type=str, default="limited_atomic_preds")
     args = parser.parse_args()
     seed = 66
 
@@ -33,7 +35,12 @@ if __name__ == "__main__":
     all_negated_sampled_df = pd.DataFrame(columns=['head', 'relation', 'tail', 'prompt'])
     # Choose the preds to use
     if args.kg == "atomic2020":
-        preds = atomic_preds if not args.limited_preds else limited_atomic_preds
+        try:
+            preds = atomic_preds if not args.limited_preds else eval(args.preds_var_name)
+        except:
+            # Print the line that caused the exception
+            print('Variable with this name not found {}. Maybe you need to import or define it!'.format(args.preds_var_name))
+            traceback.print_exc()
     else:
         # Get list of all unique relations in df
         preds = df['relation'].unique().tolist()

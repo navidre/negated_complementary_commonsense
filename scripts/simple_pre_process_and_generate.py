@@ -10,7 +10,7 @@ DATASET_FILE = {'atomic2020': 'data/atomic2020/test.tsv',
 if __name__ == "__main__":
     """Sample command runs
     - Limited predicates:
-    python scripts/simple_pre_process_and_generate.py --method few_shot --kg atomic2020 --size_per_predicate 10 --limited_preds
+    python scripts/simple_pre_process_and_generate.py --method few_shot --kg atomic2020 --size_per_predicate 10 --limited_preds --preds_var_name limited_atomic_preds
     - No size limit per predicate:
     python scripts/simple_pre_process_and_generate.py --method few_shot --kg negated_cs --size_per_predicate -1
     - All predicates:
@@ -29,6 +29,8 @@ if __name__ == "__main__":
     # Selectively choosing limited predicates, especially the worse ones to test
     # Limited preds is only supported for atomic2020 at the moment
     parser.add_argument("--limited_preds", action="store_true")
+    # Preds variable name. It can be found under atomic_utils.py
+    parser.add_argument("--preds_var_name", type=str, default="limited_atomic_preds")
     # Number of generations to make for each subject-predicate pair
     parser.add_argument("--num_generations", type=int, default=3)
     args = parser.parse_args()
@@ -44,7 +46,8 @@ if __name__ == "__main__":
     #region Creating experiments folder
     print('*** Creating experiments folder ***')
     limited_preds_str = '_limited_preds' if args.limited_preds else ''
-    experiment_name = f'sampled_{args.size_per_predicate}_{args.kg}_{args.method}{limited_preds_str}'
+    preds_name_str = f'_{args.preds_var_name}' if args.limited_preds else ''
+    experiment_name = f'sampled_{args.size_per_predicate}_{args.kg}_{args.method}{limited_preds_str}{preds_name_str}'
     experiment_path = f'experiments/{experiment_name}'
     if not os.path.exists(experiment_path):
         os.makedirs(experiment_path)
@@ -54,8 +57,9 @@ if __name__ == "__main__":
     print('*** Sampling normal and negated predicates ***')
     if not os.path.exists(f'{experiment_path}/sampled_normal_preds.tsv') or not os.path.exists(f'{experiment_path}/sampled_negated_preds.tsv'):
         limited_preds_arg_str = '--limited_preds' if args.limited_preds else ''
+        preds_name_var_str = f'--preds_var_name {args.preds_var_name}' if args.limited_preds else ''
         input_file_path = DATASET_FILE[args.kg]
-        os.system(f'python scripts/prepare_subjects_preds_for_generation.py --kg {args.kg} --size_per_predicate {args.size_per_predicate} --input {input_file_path} --experiment_path {experiment_path} {limited_preds_arg_str}')
+        os.system(f'python scripts/prepare_subjects_preds_for_generation.py --kg {args.kg} --size_per_predicate {args.size_per_predicate} --input {input_file_path} --experiment_path {experiment_path} {limited_preds_arg_str} {preds_name_var_str}')
     
     assert os.path.exists(f'{experiment_path}/sampled_normal_preds.tsv'), f'*** File {experiment_path}/sampled_normal_preds.tsv does not exist. Sampled predicates are not generated.'
     assert os.path.exists(f'{experiment_path}/sampled_negated_preds.tsv'), f'*** File {experiment_path}/sampled_negated_preds.tsv does not exist. Sampled predicates are not generated.'
