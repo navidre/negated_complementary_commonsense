@@ -1,8 +1,13 @@
 import argparse, os, sys, traceback
 import pandas as pd
 from tqdm import tqdm
+import language_tool_python
 sys.path.append('./')
 from human_evaluate_generations import auto_evaluate_row
+
+FIX_GRAMMER = True
+
+INSTRUCTION_NOTES = "INSTRUCTION NOTES:\\n1. Instead of names, PersonX and PersonY are used to be gender neutral.\\n2. Please ignore grammatical errors and focus on commonsense.\\n3. If response is vague, such as 'not fireman', or a random word that does not fit the scenario, please choose 4 (not enough information).\\n\\nEvaluate this based on your commonsense:\\n"
 
 def generate_jsonl_for_mturk(in_file_path, out_jsonl_path):
     # read tsv file with columns head, relation, prompt, generated_tail, full_text
@@ -16,11 +21,12 @@ def generate_jsonl_for_mturk(in_file_path, out_jsonl_path):
             if row['review_1'] != 0:
                 continue
             # Add to jsonl file
-            line_to_write = '{"source": "' + row['full_text'] + '"}\n' 
+            full_text = row['full_text'] if not FIX_GRAMMER else easy_fix_grammar(row['full_text'])
+            line_to_write = '{"source": "' + INSTRUCTION_NOTES + full_text + '"}\n' 
             jsonl_file.writelines([line_to_write])
         except Exception as e:
             # Print the line that caused the exception
-            print('\nError in {}'.format(row['head']))
+            print('\\nError in {}'.format(row['head']))
             traceback.print_exc()
             import IPython; IPython. embed(); exit(1)
     jsonl_file.close()
@@ -47,6 +53,16 @@ def auto_evaluate_generations(in_tsv, out_tsv):
     # Saving the dataframe
     df.to_csv(out_tsv, sep='\t', index=False)
 
+def fix_grammar(s):
+    tool = language_tool_python.LanguageTool('en-US')
+    is_bad_rule = lambda rule: rule.message == 'Possible spelling mistake found.' and rule.context[rule.offsetInContext:rule.offsetInContext] in ['PersonX', 'PersonY']
+    matches = tool.check(s)
+    matches = [rule for rule in matches if not is_bad_rule(rule)]
+    return language_tool_python.utils.correct(s, matches)
+
+def easy_fix_grammar(s):
+    s = s.replace('to to', 'to').replace('  ', ' ')
+    return s
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
