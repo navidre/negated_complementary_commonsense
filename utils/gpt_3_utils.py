@@ -87,7 +87,7 @@ QUESTION_TEMPLATES = {'AtLocation': {'normal': 'Where is the {subj} located? Nam
                       'HinderedBy': {'normal': '{subj}. What can hinder/obstruct it? Name {n}.', 'negated': '{subj}. What cannot hinder/obstruct it? Name {n}.'},
                       'isBefore': {'normal': '{subj}. What happens before it? Name {n}.', 'negated': '{subj}. What does not happen before it? Name {n}.'},
                       'isAfter': {'normal': '{subj}. What happens after it? Name {n}.', 'negated': '{subj}. What does not happen after it? Name {n}.'},
-                      'HasSubevent': {'normal': '{subj}. What will you do while: {subj}? Name {n}.', 'negated': '{subj}. What you will not do while: {subj}? Name {n}.'},
+                      'HasSubEvent': {'normal': '{subj}. What will you do while: {subj}? Name {n}.', 'negated': '{subj}. What you will not do while: {subj}? Name {n}.'},
                       # Negated-CS
                       'Is': {'normal': 'What is the concept (denoted by X) described here? Name {n}.', 'negated': 'What is not the concept (denoted by X) described here? Name {n}.'},
                       }
