@@ -15,6 +15,10 @@ EXPERIMENTS = {
         'few_shot': '',
         'few_shot_qa': '',
         'cot_qa': ''
+    },
+    'atomic2020_ten_preds': {
+        'few_shot_qa': 'experiments/sampled_10_atomic2020_few_shot_qa_limited_preds_ten_atomic_preds',
+        'cot_qa_updated_neg_teach_var_temp': ''
     }
 }
 

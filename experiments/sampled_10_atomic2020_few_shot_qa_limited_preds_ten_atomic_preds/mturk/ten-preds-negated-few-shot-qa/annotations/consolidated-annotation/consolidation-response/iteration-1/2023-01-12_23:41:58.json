@@ -1,0 +1,1 @@
+[{"datasetObjectId":"278","consolidatedAnnotation":{"content":{"ten-preds-negated-few-shot-qa":2,"ten-preds-negated-few-shot-qa-metadata":{"class-name":"Does not make sense or Incorrect","job-name":"labeling-job/ten-preds-negated-few-shot-qa","confidence":0.84,"type":"groundtruth/text-classification","human-annotated":"yes","creation-date":"2023-01-12T23:41:57.999376"}}}}]
