@@ -118,7 +118,7 @@ if __name__ == "__main__":
                     old_prompt, row_copy['prompt'] = row_copy['prompt'], question_str
                     if args.style in ["cot_qa_neg_teach_var_temp", "cot_qa_updated_neg_teach_var_temp"]:
                         for temperature in [0.7, 1]:
-                            text_answer, response = generate_few_shot_qa(PROMPTS[args.style][negation_str], question_str, max_tokens=100, temperature=temperature)
+                            text_answer, response = generate_few_shot_qa(PROMPTS[args.style][negation_str], question_str, max_tokens=150, temperature=temperature)
                             if text_answer != '':
                                 break
                     else:
