@@ -28,22 +28,31 @@ CLASS_TO_INDEX = {
 def calculate_alpha_and_kappa_scores(annotations_df):
     """ Calculate alpha score (agreement between reviewers)
     """
-    ratings = np.zeros((len(annotations_df), 3))
+    two_category_ratings = np.zeros((len(annotations_df), 2))
+    three_category_ratings = np.zeros((len(annotations_df), 3))
+    five_category_ratings = np.zeros((len(annotations_df), 5))
     for i, row in annotations_df.iterrows():
         for j in range(1, 4):
             # Correct, Incorrect, Unfamiliar
             review = int(float(row[f'review_{j}']))
+            # Three categories
             if review == 1 or review == 2:
-                ratings[i, 0] += 1
+                three_category_ratings[i, 0] += 1
             elif review == 3 or review == 4:
-                ratings[i, 1] += 1
+                three_category_ratings[i, 1] += 1
             else:
-                ratings[i, 2] += 1
+                three_category_ratings[i, 2] += 1
+            # Two categories
+            if review == 1 or review == 2:
+                two_category_ratings[i, 0] += 1
+            else:
+                two_category_ratings[i, 1] += 1
             # Five categories
-            # ratings[i, int(float(row[f'review_{j}']))-1] += 1
-    alpha = krippendorff.alpha(ratings)
-    kappa = irr.fleiss_kappa(ratings, method='fleiss')
-    return alpha, kappa
+            five_category_ratings[i, int(float(row[f'review_{j}']))-1] += 1
+    two_category_alpha = krippendorff.alpha(two_category_ratings)
+    three_category_alpha = krippendorff.alpha(three_category_ratings)
+    five_category_alpha = krippendorff.alpha(five_category_ratings)
+    return two_category_alpha, three_category_alpha, five_category_alpha
 
 def majority(votes, aws_vote):
     majority_vote = 0
@@ -135,7 +144,7 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
         out_tsv_df.at[index, 'majority_vote'] = majority_vote
 
     # Calculate alpha and kappa scores (agreement between reviewers) and store in a sepapte txt file
-    alpha, kappa = calculate_alpha_and_kappa_scores(out_tsv_df)
+    two_category_alpha, three_category_alpha, five_category_alpha = calculate_alpha_and_kappa_scores(out_tsv_df)
 
     # Save the updated output TSV file
     out_tsv_df.to_csv(out_tsv_path, sep='\t', index=False)
@@ -144,9 +153,10 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     # Save the information, including the alpha score, in a separate txt file
     out_filename_txt = f'{out_filename}.txt'
     with open(f'{out_folder}/{out_filename_txt}', 'w') as f:
-        f.write(f'Krippendorf Alpha score: {alpha}\n')
-        f.write(f'Fleiss Kappa score: {kappa}')
-        print(f'Wrote the alpha and kappa scores to {out_folder}/{out_filename_txt}.')
+        f.write(f'Two-Categorry Krippendorf Alpha score: {two_category_alpha}\n')
+        f.write(f'Three-Categorry Krippendorf Alpha score: {three_category_alpha}\n')
+        f.write(f'Five-Categorry Krippendorf Alpha score: {five_category_alpha}\n')
+        print(f'Wrote the alpha scores to {out_folder}/{out_filename_txt}.')
 
 if __name__ == "__main__":
 

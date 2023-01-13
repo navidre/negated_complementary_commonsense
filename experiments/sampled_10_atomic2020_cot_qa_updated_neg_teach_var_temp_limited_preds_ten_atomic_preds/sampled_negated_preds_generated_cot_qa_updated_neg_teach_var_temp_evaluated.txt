@@ -1,2 +1,3 @@
-Krippendorf Alpha score: 0.5885943431433374
-Fleiss Kappa score: -0.036855273287144066
+Two-Categorry Krippendorf Alpha score: 0.24965643052599584
+Three-Categorry Krippendorf Alpha score: 0.5885943431433374
+Five-Categorry Krippendorf Alpha score: 0.320206430869736
