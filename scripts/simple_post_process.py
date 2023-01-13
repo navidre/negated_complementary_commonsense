@@ -42,7 +42,9 @@ if __name__ == "__main__":
         mturk_path = f'{mturk_parent_path}/{experiment_name}'
         if not os.path.exists(mturk_path):
             os.makedirs(mturk_path)
-        os.system(f'aws s3 cp --recursive {args.s3_path} {mturk_path}')
+        # If the folder is empty, download the results
+        if len(os.listdir(mturk_path)) == 0:
+            os.system(f'aws s3 cp --recursive {args.s3_path} {mturk_path}')
 
         # Post-process the results
         print('*** Post-processing the results ***')

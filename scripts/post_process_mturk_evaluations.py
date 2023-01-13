@@ -45,11 +45,30 @@ def calculate_alpha_and_kappa_scores(annotations_df):
     kappa = irr.fleiss_kappa(ratings, method='fleiss')
     return alpha, kappa
 
-def majority(votes):
-    try:
-        return mode(votes)
-    except StatisticsError:
-        return 0
+def majority(votes, aws_vote):
+    majority_vote = 0
+    # Check if there is a duplicate to result in majority vote
+    if len(set(votes)) != len(votes):
+        majority_vote = mode(votes)
+    else:  
+        # If there is no duplicate, we categorize the votes. 1 & 2 are positive, 3 & 4 are negative, 5 is neutral
+        positive_votes = [vote for vote in votes if vote == 1 or vote == 2]
+        negative_votes = [vote for vote in votes if vote == 3 or vote == 4]
+        neutral_votes = [vote for vote in votes if vote == 5]
+        # If there are more positive votes than negative votes, we assign 1 as majority vote
+        if len(positive_votes) > len(negative_votes):
+            majority_vote = 1
+        # If there are more negative votes than positive votes, we assign 3 as majority vote
+        elif len(negative_votes) > len(positive_votes):
+            majority_vote = 3
+        # If there are more neutral votes than positive or negative votes, we assign 5 as majority vote
+        elif len(neutral_votes) > len(positive_votes) and len(neutral_votes) > len(negative_votes):
+            majority_vote = 5
+        # Else, we assign the AWS vote as majority vote
+        else:
+            majority_vote = aws_vote
+    return majority_vote
+
 
 def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     """ Update the out_tsv file from prepare_generations_for_mturk_evaluation.py with the results from the manifest file
@@ -111,7 +130,8 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     out_tsv_df['majority_vote'] = 0
     for index, row in out_tsv_df.iterrows():
         votes = [int(row['review_1']), int(row['review_2']), int(row['review_3'])]
-        majority_vote = majority(votes)
+        aws_vote = int(row['review'])
+        majority_vote = majority(votes, aws_vote)
         out_tsv_df.at[index, 'majority_vote'] = majority_vote
 
     # Calculate alpha and kappa scores (agreement between reviewers) and store in a sepapte txt file
