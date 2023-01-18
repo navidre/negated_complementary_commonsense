@@ -29,6 +29,7 @@ def calculate_alpha_and_kappa_scores(annotations_df):
     """ Calculate alpha score (agreement between reviewers)
     """
     two_category_ratings = np.zeros((len(annotations_df), 2))
+    correct_incorrect_ratings = np.zeros((len(annotations_df), 2))
     three_category_ratings = np.zeros((len(annotations_df), 3))
     five_category_ratings = np.zeros((len(annotations_df), 5))
     for i, row in annotations_df.iterrows():
@@ -47,18 +48,25 @@ def calculate_alpha_and_kappa_scores(annotations_df):
                 two_category_ratings[i, 0] += 1
             else:
                 two_category_ratings[i, 1] += 1
+            # Correct/Incorrect categories
+            if review == 1 or review == 2:
+                correct_incorrect_ratings[i, 0] += 1
+            elif review == 3 or review == 4:
+                correct_incorrect_ratings[i, 1] += 1
             # Five categories
             five_category_ratings[i, int(float(row[f'review_{j}']))-1] += 1
     two_category_alpha = krippendorff.alpha(two_category_ratings)
+    correct_incorrect_alpha = krippendorff.alpha(correct_incorrect_ratings)
     three_category_alpha = krippendorff.alpha(three_category_ratings)
     five_category_alpha = krippendorff.alpha(five_category_ratings)
-    return two_category_alpha, three_category_alpha, five_category_alpha
+    return two_category_alpha, correct_incorrect_alpha, three_category_alpha, five_category_alpha
 
 def majority(votes, aws_vote):
-    majority_vote = 0
+    majority_vote, absolute_majority_vote = 0, 0
     # Check if there is a duplicate to result in majority vote
     if len(set(votes)) != len(votes):
         majority_vote = mode(votes)
+        absolute_majority_vote = majority_vote
     else:  
         # If there is no duplicate, we categorize the votes. 1 & 2 are positive, 3 & 4 are negative, 5 is neutral
         positive_votes = [vote for vote in votes if vote == 1 or vote == 2]
@@ -67,16 +75,20 @@ def majority(votes, aws_vote):
         # If there are more positive votes than negative votes, we assign 1 as majority vote
         if len(positive_votes) > len(negative_votes):
             majority_vote = 1
+            absolute_majority_vote = 1
         # If there are more negative votes than positive votes, we assign 3 as majority vote
         elif len(negative_votes) > len(positive_votes):
             majority_vote = 3
+            absolute_majority_vote = 3
         # If there are more neutral votes than positive or negative votes, we assign 5 as majority vote
         elif len(neutral_votes) > len(positive_votes) and len(neutral_votes) > len(negative_votes):
             majority_vote = 5
+            absolute_majority_vote = 5
         # Else, we assign the AWS vote as majority vote
         else:
             majority_vote = aws_vote
-    return majority_vote
+            absolute_majority_vote = 0
+    return majority_vote, absolute_majority_vote
 
 
 def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
@@ -136,15 +148,19 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     
     # Calculating majority vote
     # Add empty columns for majority vote
+    # majority_vote considers Sagemaker's vote if there is no majority
+    # absolute_majority_vote sets 0 if there is no majority
     out_tsv_df['majority_vote'] = 0
+    out_tsv_df['absolute_majority_vote'] = 0
     for index, row in out_tsv_df.iterrows():
         votes = [int(row['review_1']), int(row['review_2']), int(row['review_3'])]
         aws_vote = int(row['review'])
-        majority_vote = majority(votes, aws_vote)
+        majority_vote, absolute_majority_vote = majority(votes, aws_vote)
         out_tsv_df.at[index, 'majority_vote'] = majority_vote
+        out_tsv_df.at[index, 'absolute_majority_vote'] = absolute_majority_vote
 
-    # Calculate alpha and kappa scores (agreement between reviewers) and store in a sepapte txt file
-    two_category_alpha, three_category_alpha, five_category_alpha = calculate_alpha_and_kappa_scores(out_tsv_df)
+    # Calculate alpha score (agreement between reviewers) and store in a sepapte txt file
+    two_category_alpha, correct_incorrect_alpha, three_category_alpha, five_category_alpha = calculate_alpha_and_kappa_scores(out_tsv_df)
 
     # Save the updated output TSV file
     out_tsv_df.to_csv(out_tsv_path, sep='\t', index=False)
@@ -154,6 +170,7 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     out_filename_txt = f'{out_filename}.txt'
     with open(f'{out_folder}/{out_filename_txt}', 'w') as f:
         f.write(f'Two-Categorry Krippendorf Alpha score: {two_category_alpha}\n')
+        f.write(f'Correct/Incorrect Krippendorf Alpha score: {correct_incorrect_alpha}\n')
         f.write(f'Three-Categorry Krippendorf Alpha score: {three_category_alpha}\n')
         f.write(f'Five-Categorry Krippendorf Alpha score: {five_category_alpha}\n')
         print(f'Wrote the alpha scores to {out_folder}/{out_filename_txt}.')

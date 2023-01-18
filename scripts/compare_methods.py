@@ -58,6 +58,8 @@ if __name__ == "__main__":
         
         # Post-process each method
         for method, folder_path in folder_paths.items():
+
+            #region Loading the evaluations
             print(f'*** Evaluating {method} in {experiment} ***')
             # Negated
             negated_evaluation_filename = f'sampled_negated_preds_generated_{method}_evaluated.tsv'
@@ -65,8 +67,9 @@ if __name__ == "__main__":
             # Normal
             normal_evaluation_filename = f'sampled_normal_preds_generated_{method}_evaluated.tsv'
             os.system(f'python scripts/simple_post_process.py --in_tsv {folder_path}/{normal_evaluation_filename}')
-            # Get accuracy of the method from the evaluation JSON file sampled_negated_preds_generated_cot_qa_evaluated_results.json
-            
+            #endregion
+
+            #region Calculating the accuracy based on SageMaker review
             # Open the evaluation JSON file
             # Negated
             negated_json_evaluation_filename = f'sampled_negated_preds_generated_{method}_evaluated_results.json'
@@ -82,8 +85,9 @@ if __name__ == "__main__":
             # Append the results to the out_tsv file
             with open(out_tsv_path, 'a') as f:
                 f.write(f'{method}\t{normal_accuracy}\t{negated_accuracy}\n')
+            #endregion
             
-            # Majority vote
+            #region Calculating the accuracy based on majority vote
             # Negated
             negated_json_evaluation_filename_majority = f'sampled_negated_preds_generated_{method}_evaluated_results_majority.json'
             majority_negated_accuracy, majority_normal_accuracy = 0, 0
@@ -98,3 +102,4 @@ if __name__ == "__main__":
             # Append the results to the out_tsv file
             with open(out_tsv_path_majority, 'a') as f:
                 f.write(f'{method}\t{majority_normal_accuracy}\t{majority_negated_accuracy}\n')
+            #endregion
