@@ -25,6 +25,7 @@ if __name__ == "__main__":
     if args.in_tsv == '':
         # This is the case to download the results from S3 and post-process them
         # Extracting experiment name from s3_path and the constructing experiment folder
+        annotation_name = str(Path(args.s3_path)).split('/')[-1]
         experiment_name = str(Path(args.s3_path).parent).split('/')[-1]
         experiment_folder = f'experiments/{experiment_name}'
 
@@ -39,7 +40,7 @@ if __name__ == "__main__":
         mturk_parent_path = f'{experiment_folder}/mturk'
         if not os.path.exists(mturk_parent_path):
             os.makedirs(mturk_parent_path)
-        mturk_path = f'{mturk_parent_path}/{experiment_name}'
+        mturk_path = f'{mturk_parent_path}/{annotation_name}'
         if not os.path.exists(mturk_path):
             os.makedirs(mturk_path)
         # If the folder is empty, download the results
@@ -49,6 +50,7 @@ if __name__ == "__main__":
         # Post-process the results
         print('*** Post-processing the results ***')
         os.system(f'python scripts/post_process_mturk_evaluations.py --mturk_path {mturk_path} --out_tsv {out_tsv_path}')
+        out_tsv_path = f'{experiment_folder}/{annotation_name}/{out_tsv_filename}'
     else:
         out_tsv_path = args.in_tsv
     

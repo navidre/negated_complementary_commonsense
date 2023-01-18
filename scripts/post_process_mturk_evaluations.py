@@ -94,8 +94,20 @@ def majority(votes, aws_vote):
 def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     """ Update the out_tsv file from prepare_generations_for_mturk_evaluation.py with the results from the manifest file
     """
+    # Get experiments path
+    experiments_path = '/'.join(mturk_path.split('/')[:-2])
     # Extracting folder name
     folder_name = [ch for ch in mturk_path.split('/') if ch != ''][-1]
+    # New folder with annotations folder name under experiments path
+    annotations_folder = f'{experiments_path}/{folder_name}'
+    # Create annotations folder if it does not exist
+    if not os.path.exists(annotations_folder):
+        os.makedirs(annotations_folder)
+    # Copy out_tsv_path file to annotations folder
+    os.system(f'cp {out_tsv_path} {annotations_folder}')
+    # Updated out_tsv_path
+    out_tsv_path = f'{annotations_folder}/{os.path.basename(out_tsv_path)}'
+    # Get metadata key
     metadata_key = f'{folder_name}-metadata'
     # Get file name of out_tsv_path without extension
     out_filename = os.path.basename(out_tsv_path).split('.')[0]
