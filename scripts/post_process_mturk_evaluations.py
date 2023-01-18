@@ -127,7 +127,7 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     manifest_index = 0
     for index, row in tqdm(out_tsv_df.iterrows()):
         # skip if already auto-evaluated
-        if row['review'] != 0:
+        if row['review'] != 0 and (row['review_1'] == row['review_2'] == row['review_3'] == row['review']):
             continue
         # Extracting the source
         source = row['full_text']
