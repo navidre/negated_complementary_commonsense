@@ -49,12 +49,13 @@ def add_new_vals_to_merged_evals(merged_evaluation_df, eval_df, review_column_co
         merged_evaluation_df = pd.merge(merged_evaluation_df, current_evals, left_index=True, right_index=True)
     return merged_evaluation_df
 
-def calculate_krippendorf_alpha(merged_evaluation_df, review_column_count, merged_evaluations_folder_path, filename):
+def calculate_krippendorf_alpha(merged_evaluation_df, merged_evaluations_folder_path, dropped_column=None, was_dissimilar=False):
     three_category_ratings = np.zeros((len(merged_evaluation_df), 3))
+    review_columns = [col for col in merged_evaluation_df.columns if 'review_' in col]
     for i, row in merged_evaluation_df.iterrows():
-        for j in range(review_column_count):
-            index = j + 1
-            review = int(float(row[f'review_{index}']))
+        for j in range(len(review_columns)):
+            column_name = review_columns[j]
+            review = int(float(row[column_name]))
             if review == 1 or review == 2:
                 three_category_ratings[i, 0] += 1
             elif review == 3 or review == 4:
@@ -63,10 +64,29 @@ def calculate_krippendorf_alpha(merged_evaluation_df, review_column_count, merge
                 three_category_ratings[i, 2] += 1
     three_category_alpha = krippendorff.alpha(three_category_ratings)
     # Save the results
-    save_file_path = f'{merged_evaluations_folder_path}/{filename}'
-    with open(save_file_path, 'a') as f:
+    dropped_column_text = f'_dropped_{dropped_column}' if dropped_column != None else ''
+    dissimilar_text = '_dissimilar' if was_dissimilar else ''
+    save_alpha_filename = f'krippendorff_alpha_negated_{len(review_columns)}_reviews{dropped_column_text}{dissimilar_text}.txt'
+    save_file_path = f'{merged_evaluations_folder_path}/{save_alpha_filename}'
+    with open(save_file_path, 'w') as f:
         f.write(f'Alpha:\t{three_category_alpha}\n')
     print(f'Krippendorff alpha saved at: {save_file_path}')
+
+def drop_the_most_dissimilar_review(merged_evaluation_df):
+    # get review columns
+    review_columns = [col for col in merged_evaluation_df.columns if 'review_' in col]
+    if len(review_columns) > 0: 
+        # extract the columns
+        review_columns_df = merged_evaluation_df[review_columns]
+        # calculate the similarity
+        similarity = review_columns_df.corr()
+        # Add all the values across columns
+        similarity = similarity.sum(axis=1)
+        # find least value
+        least_similar_column = similarity.idxmin()
+        # Drop the least similar column
+        merged_evaluation_df = merged_evaluation_df.drop(columns=[least_similar_column])
+    return merged_evaluation_df, least_similar_column
 
 if __name__ == "__main__":
 
@@ -204,36 +224,19 @@ if __name__ == "__main__":
             # Negated
             # neg_review_column_count
             if len(merged_negated_evaluation) > 0:
-                # # Find the most similar columns
-                # # get review columns
-                # review_columns = [col for col in eval_df.columns if 'review_' in col]
-                # if len(review_columns) > 3: 
-                #     # extract the columns
-                #     review_columns_df = merged_negated_evaluation[review_columns]
-                #     # calculate the similarity
-                #     similarity = review_columns_df.corr()
-                #     # Add all the values across columns
-                #     similarity = similarity.sum(axis=1)
-                #     # find least value
-                #     least_similar_column = similarity.idxmin()
-                #     # Drop the least similar column
-                #     merged_negated_evaluation = merged_negated_evaluation.drop(columns=[least_similar_column])
-                #     # extract the columns
-                #     review_columns_df = merged_negated_evaluation[review_columns]
-                #     # calculate the similarity
-                #     similarity = review_columns_df.corr()
-                #     # Add all the values across columns
-                #     similarity = similarity.sum(axis=1)
-                #     # find least value
-                #     least_similar_column = similarity.idxmin()
-                #     # Drop the least similar column
-                #     merged_negated_evaluation = merged_negated_evaluation.drop(columns=[least_similar_column])
-
                 # Calculate Krippendorff's alpha
-                save_alpha_filename = f'krippendorff_alpha_negated_{neg_review_column_count}_reviews.txt'
-                calculate_krippendorf_alpha(merged_negated_evaluation, neg_review_column_count, merged_evaluations_folder_path, save_alpha_filename)
-                # if neg_review_column_count > 1:
-                #     # Calculate Krippendorff's alpha for with one dropped column
+                calculate_krippendorf_alpha(merged_negated_evaluation, merged_evaluations_folder_path)
+                # Drop the most dissimilar review
+                updated_merged_evaluation, dropped_column_name = drop_the_most_dissimilar_review(merged_negated_evaluation)
+                # Re-calculate Krippendorff's alpha
+                calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, dropped_column_name, was_dissimilar=True)
+                # Dropping columns one by one
+                review_columns = [col for col in merged_negated_evaluation.columns if 'review_' in col]
+                for review_column in review_columns:
+                    # Drop review_column
+                    updated_merged_evaluation = merged_negated_evaluation.drop(columns=[review_column])
+                    # Re-calculate Krippendorff's alpha
+                    calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, review_column)
             # Normal
             # TODO: normal
             # endregion
