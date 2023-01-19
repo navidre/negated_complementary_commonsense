@@ -1,6 +1,8 @@
 import argparse, os, json
 from tqdm import tqdm
 import pandas as pd
+import krippendorff
+import numpy as np
 
 EXPERIMENTS = { 
     # 'atmoic2020_limited_preds': {
@@ -46,6 +48,25 @@ def add_new_vals_to_merged_evals(merged_evaluation_df, eval_df, review_column_co
         # Merge the current evaluation with the merged_negated_evaluation
         merged_evaluation_df = pd.merge(merged_evaluation_df, current_evals, left_index=True, right_index=True)
     return merged_evaluation_df
+
+def calculate_krippendorf_alpha(merged_evaluation_df, review_column_count, merged_evaluations_folder_path, filename):
+    three_category_ratings = np.zeros((len(merged_evaluation_df), 3))
+    for i, row in merged_evaluation_df.iterrows():
+        for j in range(review_column_count):
+            index = j + 1
+            review = int(float(row[f'review_{index}']))
+            if review == 1 or review == 2:
+                three_category_ratings[i, 0] += 1
+            elif review == 3 or review == 4:
+                three_category_ratings[i, 1] += 1
+            else:
+                three_category_ratings[i, 2] += 1
+    three_category_alpha = krippendorff.alpha(three_category_ratings)
+    # Save the results
+    save_file_path = f'{merged_evaluations_folder_path}/{filename}'
+    with open(save_file_path, 'a') as f:
+        f.write(f'Alpha:\t{three_category_alpha}\n')
+    print(f'Krippendorff alpha saved at: {save_file_path}')
 
 if __name__ == "__main__":
 
@@ -178,3 +199,41 @@ if __name__ == "__main__":
             if len(merged_normal_evaluation) > 0:
                 merged_normal_evaluation.to_csv(merged_normal_evaluation_path, sep='\t', index=False)
             #endregion
+
+            #region Calculating Krippendorff's alpha 
+            # Negated
+            # neg_review_column_count
+            if len(merged_negated_evaluation) > 0:
+                # # Find the most similar columns
+                # # get review columns
+                # review_columns = [col for col in eval_df.columns if 'review_' in col]
+                # if len(review_columns) > 3: 
+                #     # extract the columns
+                #     review_columns_df = merged_negated_evaluation[review_columns]
+                #     # calculate the similarity
+                #     similarity = review_columns_df.corr()
+                #     # Add all the values across columns
+                #     similarity = similarity.sum(axis=1)
+                #     # find least value
+                #     least_similar_column = similarity.idxmin()
+                #     # Drop the least similar column
+                #     merged_negated_evaluation = merged_negated_evaluation.drop(columns=[least_similar_column])
+                #     # extract the columns
+                #     review_columns_df = merged_negated_evaluation[review_columns]
+                #     # calculate the similarity
+                #     similarity = review_columns_df.corr()
+                #     # Add all the values across columns
+                #     similarity = similarity.sum(axis=1)
+                #     # find least value
+                #     least_similar_column = similarity.idxmin()
+                #     # Drop the least similar column
+                #     merged_negated_evaluation = merged_negated_evaluation.drop(columns=[least_similar_column])
+
+                # Calculate Krippendorff's alpha
+                save_alpha_filename = f'krippendorff_alpha_negated_{neg_review_column_count}_reviews.txt'
+                calculate_krippendorf_alpha(merged_negated_evaluation, neg_review_column_count, merged_evaluations_folder_path, save_alpha_filename)
+                # if neg_review_column_count > 1:
+                #     # Calculate Krippendorff's alpha for with one dropped column
+            # Normal
+            # TODO: normal
+            # endregion
