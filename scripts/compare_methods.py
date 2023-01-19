@@ -49,7 +49,7 @@ def add_new_vals_to_merged_evals(merged_evaluation_df, eval_df, review_column_co
         merged_evaluation_df = pd.merge(merged_evaluation_df, current_evals, left_index=True, right_index=True)
     return merged_evaluation_df
 
-def calculate_krippendorf_alpha(merged_evaluation_df, merged_evaluations_folder_path, dropped_column=None, was_dissimilar=False):
+def calculate_krippendorf_alpha(merged_evaluation_df, merged_evaluations_folder_path, negated_normal, dropped_column=None, was_dissimilar=False):
     two_category_ratings = np.zeros((len(merged_evaluation_df), 2))
     correct_incorrect_ratings = np.zeros((len(merged_evaluation_df), 2))
     three_category_ratings = np.zeros((len(merged_evaluation_df), 3))
@@ -85,7 +85,7 @@ def calculate_krippendorf_alpha(merged_evaluation_df, merged_evaluations_folder_
     # Save the results
     dropped_column_text = f'_dropped_{dropped_column}' if dropped_column != None else ''
     dissimilar_text = '_dissimilar' if was_dissimilar else ''
-    save_alpha_filename = f'krippendorff_alpha_negated_{len(review_columns)}_reviews{dropped_column_text}{dissimilar_text}.txt'
+    save_alpha_filename = f'krippendorff_alpha_{negated_normal}_{len(review_columns)}_reviews{dropped_column_text}{dissimilar_text}.txt'
     save_file_path = f'{merged_evaluations_folder_path}/{save_alpha_filename}'
     with open(save_file_path, 'w') as f:
         f.write(f'two_category_alpha:\t{two_category_alpha}\n')
@@ -109,6 +109,24 @@ def drop_the_most_dissimilar_review(merged_evaluation_df):
         # Drop the least similar column
         merged_evaluation_df = merged_evaluation_df.drop(columns=[least_similar_column])
     return merged_evaluation_df, least_similar_column
+
+def calculate_majority_vote(merged_evaluation_df):
+    # Add column for majority vote
+    merged_evaluation_df['majority_vote'] = 0
+    # get review columns
+    review_columns = [col for col in merged_evaluation_df.columns if 'review_' in col]
+    for index, row in merged_evaluation_df.iterrows():
+        # get the values
+        values = row[review_columns].values
+        positive_votes = len([vote for vote in values if vote == 1 or vote == 2])
+        negative_votes = len([vote for vote in values if vote == 3 or vote == 4])
+        neutral_votes = len([vote for vote in values if vote == 5])
+        votes = {'1': positive_votes, '3': negative_votes, '5': neutral_votes}
+        # calculate the majority vote
+        majority_vote = int(max(votes, key=votes.get))
+        # add the majority vote to the row
+        merged_evaluation_df.at[index, 'majority_vote'] = majority_vote
+    return merged_evaluation_df
 
 if __name__ == "__main__":
 
@@ -233,14 +251,6 @@ if __name__ == "__main__":
                     # Count columns with the name 'review_*'
                     normal_review_column_count += len([col for col in eval_df.columns if 'review_' in col])
                 #endregion
-            
-            #region Saving merged evaluations
-            # Save the merged evaluations
-            if len(merged_negated_evaluation) > 0:
-                merged_negated_evaluation.to_csv(merged_negated_evaluation_path, sep='\t', index=False)
-            if len(merged_normal_evaluation) > 0:
-                merged_normal_evaluation.to_csv(merged_normal_evaluation_path, sep='\t', index=False)
-            #endregion
 
             #region Calculating Krippendorff's alpha 
             
@@ -248,32 +258,44 @@ if __name__ == "__main__":
             # neg_review_column_count
             if len(merged_negated_evaluation) > 0:
                 # Calculate Krippendorff's alpha
-                calculate_krippendorf_alpha(merged_negated_evaluation, merged_evaluations_folder_path)
+                calculate_krippendorf_alpha(merged_negated_evaluation, merged_evaluations_folder_path, 'negated')
                 # Drop the most dissimilar review
                 updated_merged_evaluation, dropped_column_name = drop_the_most_dissimilar_review(merged_negated_evaluation)
                 # Re-calculate Krippendorff's alpha
-                calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, dropped_column_name, was_dissimilar=True)
+                calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, 'negated', dropped_column_name, was_dissimilar=True)
                 # Dropping columns one by one
                 review_columns = [col for col in merged_negated_evaluation.columns if 'review_' in col]
                 for review_column in review_columns:
                     # Drop review_column
                     updated_merged_evaluation = merged_negated_evaluation.drop(columns=[review_column])
                     # Re-calculate Krippendorff's alpha
-                    calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, review_column)
+                    calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, 'negated', review_column)
+                # calculate majority vote
+                merged_negated_evaluation = calculate_majority_vote(merged_negated_evaluation)
             
             # Normal
             if len(merged_normal_evaluation) > 0:
                 # Calculate Krippendorff's alpha
-                calculate_krippendorf_alpha(merged_normal_evaluation, merged_evaluations_folder_path)
+                calculate_krippendorf_alpha(merged_normal_evaluation, merged_evaluations_folder_path, 'normal')
                 # Drop the most dissimilar review
                 updated_merged_evaluation, dropped_column_name = drop_the_most_dissimilar_review(merged_normal_evaluation)
                 # Re-calculate Krippendorff's alpha
-                calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, dropped_column_name, was_dissimilar=True)
+                calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, 'normal', dropped_column_name, was_dissimilar=True)
                 # Dropping columns one by one
                 review_columns = [col for col in merged_normal_evaluation.columns if 'review_' in col]
                 for review_column in review_columns:
                     # Drop review_column
                     updated_merged_evaluation = merged_normal_evaluation.drop(columns=[review_column])
                     # Re-calculate Krippendorff's alpha
-                    calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, review_column)
+                    calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, 'normal', review_column)
+                # calculate majority vote
+                merged_normal_evaluation = calculate_majority_vote(merged_normal_evaluation)
             # endregion
+
+            #region Saving merged evaluations
+            # Save the merged evaluations
+            if len(merged_negated_evaluation) > 0:
+                merged_negated_evaluation.to_csv(merged_negated_evaluation_path, sep='\t', index=False)
+            if len(merged_normal_evaluation) > 0:
+                merged_normal_evaluation.to_csv(merged_normal_evaluation_path, sep='\t', index=False)
+            #endregion
