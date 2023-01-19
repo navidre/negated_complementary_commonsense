@@ -57,13 +57,16 @@ if __name__ == "__main__":
         # Majority vote
         out_tsv_filename_majority = f'compared_results_majority.tsv'
         out_tsv_path_majority = f'{experiment_path}/{out_tsv_filename_majority}'
+        # Move out_tsv to a _bak file if exists
+        if os.path.exists(out_tsv_path):
+            os.system(f'mv {out_tsv_path} {experiment_path}/compared_results_bak.tsv')
+        if os.path.exists(out_tsv_path_majority):
+            os.system(f'mv {out_tsv_path_majority} {experiment_path}/compared_results_majority_bak.tsv')
         # Create the out_tsv file if not exists
-        if not os.path.exists(out_tsv_path):
-            with open(out_tsv_path, 'w') as f:
-                f.write('method\tsub_folder\tnormal_accuracy\tnegated_accuracy\n')
-        if not os.path.exists(out_tsv_path_majority):
-            with open(out_tsv_path_majority, 'w') as f:
-                f.write('method\tsubfolder\tnormal_accuracy\tnegated_accuracy\n')
+        with open(out_tsv_path, 'w') as f:
+            f.write('method\tsub_folder\tnormal_accuracy\tnegated_accuracy\n')
+        with open(out_tsv_path_majority, 'w') as f:
+            f.write('method\tsubfolder\tnormal_accuracy\tnegated_accuracy\n')
         
         # Post-process each method
         for method, folder_path in folder_paths.items():
