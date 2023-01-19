@@ -1,6 +1,4 @@
-method	normal_accuracy	negated_accuracy
-few_shot_qa	0.0	60.333333333333336
-cot_qa_updated_neg_teach_var_temp	0.0	75.66666666666667few_shot_qa	0.0	60.333333333333336
-cot_qa_updated_neg_teach_var_temp	0.0	75.66666666666667
-few_shot_qa	0.0	60.333333333333336
-cot_qa_updated_neg_teach_var_temp	0.0	75.66666666666667
+method	subfolder	normal_accuracy	negated_accuracy
+few_shot_qa	ten-preds-negated-few-shot-qa	0	60.333333333333336
+cot_qa_updated_neg_teach_var_temp	ten-preds-negated-cot-qa-updated-neg-teach-var-temp-2	0	73.0
+cot_qa_updated_neg_teach_var_temp	ten-preds-negated-cot-qa-updated-neg-teach-var-temp	0	75.66666666666667

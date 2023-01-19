@@ -94,8 +94,20 @@ def majority(votes, aws_vote):
 def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     """ Update the out_tsv file from prepare_generations_for_mturk_evaluation.py with the results from the manifest file
     """
+    # Get experiments path
+    experiments_path = '/'.join(mturk_path.split('/')[:-2])
     # Extracting folder name
     folder_name = [ch for ch in mturk_path.split('/') if ch != ''][-1]
+    # New folder with annotations folder name under experiments path
+    annotations_folder = f'{experiments_path}/{folder_name}'
+    # Create annotations folder if it does not exist
+    if not os.path.exists(annotations_folder):
+        os.makedirs(annotations_folder)
+    # Copy out_tsv_path file to annotations folder
+    os.system(f'cp {out_tsv_path} {annotations_folder}')
+    # Updated out_tsv_path
+    out_tsv_path = f'{annotations_folder}/{os.path.basename(out_tsv_path)}'
+    # Get metadata key
     metadata_key = f'{folder_name}-metadata'
     # Get file name of out_tsv_path without extension
     out_filename = os.path.basename(out_tsv_path).split('.')[0]
@@ -110,12 +122,14 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     out_tsv_df = pd.read_csv(out_tsv_path, sep='\t', header=0)
     # Annotations path
     annotations_path = f'{mturk_path}/annotations/worker-response/iteration-1'
+    # Number of folders under annotations path
+    num_of_annotations = len(os.listdir(annotations_path))
     # Iterate over the output manifest and update the output TSV file
     # Iterate over loaded TSV file
     manifest_index = 0
     for index, row in tqdm(out_tsv_df.iterrows()):
         # skip if already auto-evaluated
-        if row['review'] != 0:
+        if row['review'] != 0 and (row['review_1'] == row['review_2'] == row['review_3'] == row['review']) and row['flagged_answer']:
             continue
         # Extracting the source
         source = row['full_text']
@@ -146,6 +160,9 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
         # Update the manifest index (note that auto-evaluated rows are skipped in the output TSV file only)
         manifest_index += 1
     
+    # Assert that all annotations are processed
+    assert manifest_index == num_of_annotations, f'Number of annotations ({num_of_annotations}) does not match the number of processed annotations ({manifest_index})'
+
     # Calculating majority vote
     # Add empty columns for majority vote
     # majority_vote considers Sagemaker's vote if there is no majority

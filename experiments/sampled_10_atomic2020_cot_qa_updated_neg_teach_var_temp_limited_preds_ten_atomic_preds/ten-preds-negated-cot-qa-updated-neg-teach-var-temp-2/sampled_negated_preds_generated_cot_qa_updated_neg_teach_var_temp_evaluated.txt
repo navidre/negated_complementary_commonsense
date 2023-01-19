@@ -1,0 +1,4 @@
+Two-Categorry Krippendorf Alpha score: 0.2001530683674264
+Correct/Incorrect Krippendorf Alpha score: 0.23827624610389575
+Three-Categorry Krippendorf Alpha score: 0.5685054654578854
+Five-Categorry Krippendorf Alpha score: 0.1979007941423402
