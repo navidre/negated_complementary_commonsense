@@ -133,10 +133,8 @@ def calculate_accuracy_based_on_majority_vote(merged_evaluation):
     total_count_majority = len(merged_evaluation)
     if total_count_majority == 0:
         return 0
+    # calculate the accuracy
     for index, row in merged_evaluation.iterrows():
-        # get the values
-        majority_vote = int(row['majority_vote'])
-        # calculate the accuracy
         if row['majority_vote'] == 1 or row['majority_vote'] == 2:
             total_correct_majority += 1
         elif row['majority_vote'] == 3 or row['majority_vote'] == 4:

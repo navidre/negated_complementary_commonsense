@@ -1,0 +1,68 @@
+{
+    "NotAtLocation": {
+        "count": "30",
+        "correct": 18,
+        "incorrect": 12,
+        "unfamiliar": 0
+    },
+    "NotCapableOf": {
+        "count": "30",
+        "correct": 13,
+        "incorrect": 15,
+        "unfamiliar": 2
+    },
+    "NotDesires": {
+        "count": "30",
+        "correct": 14,
+        "incorrect": 15,
+        "unfamiliar": 1
+    },
+    "NotHasSubEvent": {
+        "count": "30",
+        "correct": 17,
+        "incorrect": 13,
+        "unfamiliar": 0
+    },
+    "NotHinderedBy": {
+        "count": "30",
+        "correct": 17,
+        "incorrect": 12,
+        "unfamiliar": 1
+    },
+    "NotisAfter": {
+        "count": "30",
+        "correct": 17,
+        "incorrect": 12,
+        "unfamiliar": 1
+    },
+    "NotisBefore": {
+        "count": "30",
+        "correct": 19,
+        "incorrect": 9,
+        "unfamiliar": 2
+    },
+    "NotoWant": {
+        "count": "30",
+        "correct": 9,
+        "incorrect": 15,
+        "unfamiliar": 6
+    },
+    "NotxReact": {
+        "count": "30",
+        "correct": 17,
+        "incorrect": 11,
+        "unfamiliar": 2
+    },
+    "NotxWant": {
+        "count": "30",
+        "correct": 16,
+        "incorrect": 10,
+        "unfamiliar": 4
+    },
+    "total": {
+        "count": "300",
+        "correct": 157,
+        "incorrect": 124,
+        "unfamiliar": 19
+    }
+}

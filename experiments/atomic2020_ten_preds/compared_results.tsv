@@ -1,4 +1,5 @@
 method	sub_folder	normal_accuracy	negated_accuracy
 few_shot_qa	ten-preds-negated-few-shot-qa	0	51.333333333333336
+few_shot_qa	ten-preds-negated-few-shot-qa-2	0	52.333333333333336
 cot_qa_updated_neg_teach_var_temp	ten-preds-negated-cot-qa-updated-neg-teach-var-temp-2	0	61.333333333333336
 cot_qa_updated_neg_teach_var_temp	ten-preds-negated-cot-qa-updated-neg-teach-var-temp	0	82.0
