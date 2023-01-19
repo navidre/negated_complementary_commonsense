@@ -122,12 +122,14 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
     out_tsv_df = pd.read_csv(out_tsv_path, sep='\t', header=0)
     # Annotations path
     annotations_path = f'{mturk_path}/annotations/worker-response/iteration-1'
+    # Number of folders under annotations path
+    num_of_annotations = len(os.listdir(annotations_path))
     # Iterate over the output manifest and update the output TSV file
     # Iterate over loaded TSV file
     manifest_index = 0
     for index, row in tqdm(out_tsv_df.iterrows()):
         # skip if already auto-evaluated
-        if row['review'] != 0 and (row['review_1'] == row['review_2'] == row['review_3'] == row['review']):
+        if row['review'] != 0 and (row['review_1'] == row['review_2'] == row['review_3'] == row['review']) and row['flagged_answer']:
             continue
         # Extracting the source
         source = row['full_text']
@@ -158,6 +160,9 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
         # Update the manifest index (note that auto-evaluated rows are skipped in the output TSV file only)
         manifest_index += 1
     
+    # Assert that all annotations are processed
+    assert manifest_index == num_of_annotations, f'Number of annotations ({num_of_annotations}) does not match the number of processed annotations ({manifest_index})'
+
     # Calculating majority vote
     # Add empty columns for majority vote
     # majority_vote considers Sagemaker's vote if there is no majority

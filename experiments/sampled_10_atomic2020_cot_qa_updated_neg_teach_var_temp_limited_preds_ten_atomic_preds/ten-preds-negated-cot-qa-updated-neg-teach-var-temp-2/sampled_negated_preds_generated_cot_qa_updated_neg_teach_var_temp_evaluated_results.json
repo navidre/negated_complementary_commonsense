@@ -2,67 +2,67 @@
     "NotAtLocation": {
         "count": "30",
         "correct": 22,
-        "incorrect": 8,
-        "unfamiliar": 0
+        "incorrect": 7,
+        "unfamiliar": 1
     },
     "NotCapableOf": {
         "count": "30",
-        "correct": 22,
-        "incorrect": 5,
+        "correct": 18,
+        "incorrect": 9,
         "unfamiliar": 3
     },
     "NotDesires": {
         "count": "30",
-        "correct": 19,
-        "incorrect": 11,
+        "correct": 20,
+        "incorrect": 10,
         "unfamiliar": 0
     },
     "NotHasSubEvent": {
         "count": "30",
-        "correct": 24,
-        "incorrect": 5,
+        "correct": 17,
+        "incorrect": 12,
         "unfamiliar": 1
     },
     "NotHinderedBy": {
         "count": "30",
-        "correct": 22,
-        "incorrect": 7,
-        "unfamiliar": 1
+        "correct": 20,
+        "incorrect": 8,
+        "unfamiliar": 2
     },
     "NotisAfter": {
         "count": "30",
-        "correct": 18,
-        "incorrect": 11,
+        "correct": 21,
+        "incorrect": 8,
         "unfamiliar": 1
     },
     "NotisBefore": {
+        "count": "30",
+        "correct": 18,
+        "incorrect": 12,
+        "unfamiliar": 0
+    },
+    "NotoWant": {
         "count": "30",
         "correct": 19,
         "incorrect": 10,
         "unfamiliar": 1
     },
-    "NotoWant": {
-        "count": "30",
-        "correct": 15,
-        "incorrect": 13,
-        "unfamiliar": 2
-    },
     "NotxReact": {
         "count": "30",
-        "correct": 18,
-        "incorrect": 10,
-        "unfamiliar": 2
+        "correct": 14,
+        "incorrect": 13,
+        "unfamiliar": 3
     },
     "NotxWant": {
         "count": "30",
-        "correct": 16,
-        "incorrect": 14,
+        "correct": 15,
+        "incorrect": 15,
         "unfamiliar": 0
     },
     "total": {
         "count": "300",
-        "correct": 195,
-        "incorrect": 94,
-        "unfamiliar": 11
+        "correct": 184,
+        "incorrect": 104,
+        "unfamiliar": 12
     }
 }
