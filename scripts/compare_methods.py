@@ -243,6 +243,7 @@ if __name__ == "__main__":
             #endregion
 
             #region Calculating Krippendorff's alpha 
+            
             # Negated
             # neg_review_column_count
             if len(merged_negated_evaluation) > 0:
@@ -259,6 +260,20 @@ if __name__ == "__main__":
                     updated_merged_evaluation = merged_negated_evaluation.drop(columns=[review_column])
                     # Re-calculate Krippendorff's alpha
                     calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, review_column)
+            
             # Normal
-            # TODO: normal
+            if len(merged_normal_evaluation) > 0:
+                # Calculate Krippendorff's alpha
+                calculate_krippendorf_alpha(merged_normal_evaluation, merged_evaluations_folder_path)
+                # Drop the most dissimilar review
+                updated_merged_evaluation, dropped_column_name = drop_the_most_dissimilar_review(merged_normal_evaluation)
+                # Re-calculate Krippendorff's alpha
+                calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, dropped_column_name, was_dissimilar=True)
+                # Dropping columns one by one
+                review_columns = [col for col in merged_normal_evaluation.columns if 'review_' in col]
+                for review_column in review_columns:
+                    # Drop review_column
+                    updated_merged_evaluation = merged_normal_evaluation.drop(columns=[review_column])
+                    # Re-calculate Krippendorff's alpha
+                    calculate_krippendorf_alpha(updated_merged_evaluation, merged_evaluations_folder_path, review_column)
             # endregion
