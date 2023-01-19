@@ -128,6 +128,24 @@ def calculate_majority_vote(merged_evaluation_df):
         merged_evaluation_df.at[index, 'majority_vote'] = majority_vote
     return merged_evaluation_df
 
+def calculate_accuracy_based_on_majority_vote(merged_evaluation):
+    total_count_majority, total_correct_majority, total_incorrect_majority, total_unfamiliar_majority = 0, 0, 0, 0
+    total_count_majority = len(merged_evaluation)
+    if total_count_majority == 0:
+        return 0
+    for index, row in merged_evaluation.iterrows():
+        # get the values
+        majority_vote = int(row['majority_vote'])
+        # calculate the accuracy
+        if row['majority_vote'] == 1 or row['majority_vote'] == 2:
+            total_correct_majority += 1
+        elif row['majority_vote'] == 3 or row['majority_vote'] == 4:
+            total_incorrect_majority += 1
+        elif row['majority_vote'] == 5:
+            total_unfamiliar_majority += 1
+    accuracy = total_correct_majority*100.0/total_count_majority
+    return accuracy
+
 if __name__ == "__main__":
 
     """Usage example:
@@ -298,4 +316,12 @@ if __name__ == "__main__":
                 merged_negated_evaluation.to_csv(merged_negated_evaluation_path, sep='\t', index=False)
             if len(merged_normal_evaluation) > 0:
                 merged_normal_evaluation.to_csv(merged_normal_evaluation_path, sep='\t', index=False)
+            #endregion
+
+            #region Calculating the accuracy based on majority vote
+            negated_majority_accuracy = calculate_accuracy_based_on_majority_vote(merged_negated_evaluation)
+            normal_majority_accuracy = calculate_accuracy_based_on_majority_vote(merged_normal_evaluation)
+            # Append the results to the out_tsv file
+            with open(out_tsv_path_majority, 'a') as f:
+                f.write(f'{method}\tMerged\t{normal_majority_accuracy}\t{negated_majority_accuracy}\n')
             #endregion
