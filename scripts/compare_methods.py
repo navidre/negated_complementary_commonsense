@@ -50,26 +50,48 @@ def add_new_vals_to_merged_evals(merged_evaluation_df, eval_df, review_column_co
     return merged_evaluation_df
 
 def calculate_krippendorf_alpha(merged_evaluation_df, merged_evaluations_folder_path, dropped_column=None, was_dissimilar=False):
+    two_category_ratings = np.zeros((len(merged_evaluation_df), 2))
+    correct_incorrect_ratings = np.zeros((len(merged_evaluation_df), 2))
     three_category_ratings = np.zeros((len(merged_evaluation_df), 3))
+    five_category_ratings = np.zeros((len(merged_evaluation_df), 5))
     review_columns = [col for col in merged_evaluation_df.columns if 'review_' in col]
     for i, row in merged_evaluation_df.iterrows():
         for j in range(len(review_columns)):
             column_name = review_columns[j]
             review = int(float(row[column_name]))
+            # Three categories
             if review == 1 or review == 2:
                 three_category_ratings[i, 0] += 1
             elif review == 3 or review == 4:
                 three_category_ratings[i, 1] += 1
             else:
                 three_category_ratings[i, 2] += 1
+            # Two categories
+            if review == 1 or review == 2:
+                two_category_ratings[i, 0] += 1
+            else:
+                two_category_ratings[i, 1] += 1
+            # Correct/Incorrect categories
+            if review == 1 or review == 2:
+                correct_incorrect_ratings[i, 0] += 1
+            elif review == 3 or review == 4:
+                correct_incorrect_ratings[i, 1] += 1
+            # Five categories
+            five_category_ratings[i, review-1] += 1
+    two_category_alpha = krippendorff.alpha(two_category_ratings)
+    correct_incorrect_alpha = krippendorff.alpha(correct_incorrect_ratings)
     three_category_alpha = krippendorff.alpha(three_category_ratings)
+    five_category_alpha = krippendorff.alpha(five_category_ratings)
     # Save the results
     dropped_column_text = f'_dropped_{dropped_column}' if dropped_column != None else ''
     dissimilar_text = '_dissimilar' if was_dissimilar else ''
     save_alpha_filename = f'krippendorff_alpha_negated_{len(review_columns)}_reviews{dropped_column_text}{dissimilar_text}.txt'
     save_file_path = f'{merged_evaluations_folder_path}/{save_alpha_filename}'
     with open(save_file_path, 'w') as f:
-        f.write(f'Alpha:\t{three_category_alpha}\n')
+        f.write(f'two_category_alpha:\t{two_category_alpha}\n')
+        f.write(f'correct_incorrect_alpha:\t{correct_incorrect_alpha}\n')
+        f.write(f'three_category_alpha:\t{three_category_alpha}\n')
+        f.write(f'five_category_alpha:\t{five_category_alpha}\n')
     print(f'Krippendorff alpha saved at: {save_file_path}')
 
 def drop_the_most_dissimilar_review(merged_evaluation_df):
