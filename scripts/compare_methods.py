@@ -1,5 +1,6 @@
 import argparse, os, json
 from tqdm import tqdm
+import pandas as pd
 
 EXPERIMENTS = { 
     # 'atmoic2020_limited_preds': {
@@ -30,6 +31,21 @@ def extract_accurcy_from_json(json_filepath):
             results = json.load(f)
             accuracy = int(results['total']['correct'])*100.0/int(results['total']['count'])
     return accuracy
+
+def add_new_vals_to_merged_evals(merged_evaluation_df, eval_df, review_column_count):
+    if len(merged_evaluation_df) == 0:
+        # Drop columns review, majority_vote, and absolute_majority_vote from eval_df
+        eval_df.drop(columns=['review', 'majority_vote', 'absolute_majority_vote'], inplace=True)
+        # Assign the current evaluation to merged_negated_evaluation
+        merged_evaluation_df = eval_df
+    else:
+        # Select columns review_1, review_2, and review_3 of the current evaluation
+        current_evals = eval_df[['review_1', 'review_2', 'review_3']]
+        # Rename the columns of the current evaluation
+        current_evals.columns = [f'review_{review_column_count + 1}', f'review_{review_column_count + 2}', f'review_{review_column_count + 3}']
+        # Merge the current evaluation with the merged_negated_evaluation
+        merged_evaluation_df = pd.merge(merged_evaluation_df, current_evals, left_index=True, right_index=True)
+    return merged_evaluation_df
 
 if __name__ == "__main__":
 
@@ -70,24 +86,44 @@ if __name__ == "__main__":
         
         # Post-process each method
         for method, folder_path in folder_paths.items():
+            # Evaluation filenames
+            negated_evaluation_filename = f'sampled_negated_preds_generated_{method}_evaluated.tsv'
+            normal_evaluation_filename = f'sampled_normal_preds_generated_{method}_evaluated.tsv'
+
+            # Empty daframes for the merged evaluations
+            merged_negated_evaluation = pd.DataFrame()
+            merged_normal_evaluation = pd.DataFrame()
+
+            # Merged evaluation folder paths
+            merged_evaluations_folder_path = f'{experiment_path}/{method}'
+            if not os.path.exists(merged_evaluations_folder_path):
+                os.makedirs(merged_evaluations_folder_path)
+
+            # Merged evaluation file paths
+            merged_negated_evaluation_path = f'{merged_evaluations_folder_path}/{negated_evaluation_filename}'
+            merged_normal_evaluation_path = f'{merged_evaluations_folder_path}/{normal_evaluation_filename}'
 
             # Each method result has multiple subfolders resulting from different human evaluation rounds
             # We need to post-process each subfolder
             subfolders = [f.path for f in os.scandir(folder_path) if f.is_dir() and '/mturk' not in f.path]
+            neg_review_column_count, normal_review_column_count = 0, 0
             for subfolder in subfolders:
+                eval_file_path = ''
                 subfolder_name = subfolder.split('/')[-1]
                 #region Loading the evaluations
                 print(f'*** Evaluating {method} in {experiment} ***')
                 # Negated
                 # Check if subfolder is related to negated questions
                 if '-negated-' in subfolder_name:
-                    negated_evaluation_filename = f'sampled_negated_preds_generated_{method}_evaluated.tsv'
-                    os.system(f'python scripts/simple_post_process.py --in_tsv {subfolder}/{negated_evaluation_filename}')    
+                    eval_file_path = f'{subfolder}/{negated_evaluation_filename}'
+                    os.system(f'python scripts/simple_post_process.py --in_tsv {eval_file_path}')    
                 # Normal
                 # Check if subfolder is related to normal questions
                 if '-normal-' in subfolder_name:
-                    normal_evaluation_filename = f'sampled_normal_preds_generated_{method}_evaluated.tsv'
-                    os.system(f'python scripts/simple_post_process.py --in_tsv {subfolder}/{normal_evaluation_filename}')
+                    eval_file_path = f'{subfolder}/{normal_evaluation_filename}'
+                    os.system(f'python scripts/simple_post_process.py --in_tsv {eval_file_path}')
+                # Loading the evaluations as pandas dataframes
+                eval_df = pd.read_csv(eval_file_path, sep='\t')
                 #endregion
 
                 #region Calculating the accuracy based on SageMaker review
@@ -117,3 +153,28 @@ if __name__ == "__main__":
                 with open(out_tsv_path_majority, 'a') as f:
                     f.write(f'{method}\t{subfolder_name}\t{normal_majority_accuracy}\t{negated_majority_accuracy}\n')
                 #endregion
+
+                #region Merging the evaluations
+                # Negated
+                if '-negated-' in subfolder_name:
+                    # Merge new evaluations with the previous ones
+                    merged_negated_evaluation = add_new_vals_to_merged_evals(merged_negated_evaluation, eval_df, neg_review_column_count)
+                    # Count columns with the name 'review_*'
+                    neg_review_column_count += len([col for col in eval_df.columns if 'review_' in col])
+
+                        
+                # Normal
+                if '-normal-' in subfolder_name:
+                    # Merge new evaluations with the previous ones
+                    merged_normal_evaluation = add_new_vals_to_merged_evals(merged_normal_evaluation, eval_df, normal_review_column_count)
+                    # Count columns with the name 'review_*'
+                    normal_review_column_count += len([col for col in eval_df.columns if 'review_' in col])
+                #endregion
+            
+            #region Saving merged evaluations
+            # Save the merged evaluations
+            if len(merged_negated_evaluation) > 0:
+                merged_negated_evaluation.to_csv(merged_negated_evaluation_path, sep='\t', index=False)
+            if len(merged_normal_evaluation) > 0:
+                merged_normal_evaluation.to_csv(merged_normal_evaluation_path, sep='\t', index=False)
+            #endregion
