@@ -1,4 +1,4 @@
-import argparse, os, sys, json
+import argparse, os, sys, json, traceback
 import pandas as pd
 from tqdm import tqdm
 import numpy as np
@@ -137,6 +137,8 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
         try:
             consolidated_class_name = evaluations_list[manifest_index][metadata_key]['class-name']
         except:
+            print(f'Error in {source} under update_out_tsv_from_manifest method!')
+            traceback.print_exc()
             import IPython; IPython. embed(); exit(1)
         review = CLASS_TO_INDEX[consolidated_class_name]
         # Updating the output TSV file
