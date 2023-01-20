@@ -1,4 +1,4 @@
-import os, ast
+import os, ast, traceback
 from pathlib import Path
 import pandas as pd
 import numpy as np
@@ -17,9 +17,14 @@ max_tokens = 8000  # the maximum for text-embedding-ada-002 is 8191
 
 HOME = str(Path.home())
 
+# Negated
 OUR_METHOD_RESULT_PATH = 'experiments/atomic2020_ten_preds/cot_qa_updated_neg_teach_var_temp/sampled_negated_preds_generated_cot_qa_updated_neg_teach_var_temp_evaluated.tsv'
 target_file_path = 'experiments/atomic2020_ten_preds/cot_qa_updated_neg_teach_var_temp/sampled_negated_preds_generated_cot_qa_updated_neg_teach_var_temp_evaluated_with_ada_embeddings.csv'
 figure_path = 'experiments/atomic2020_ten_preds/cot_qa_updated_neg_teach_var_temp/sampled_negated_preds_generated_cot_qa_updated_neg_teach_var_temp_evaluated_with_ada_embeddings.pdf'
+# Normal
+NORMAL_OUR_METHOD_RESULT_PATH = 'experiments/atomic2020_ten_preds/cot_qa_updated_neg_teach_var_temp/sampled_normal_preds_generated_cot_qa_updated_neg_teach_var_temp_evaluated.tsv'
+normal_target_file_path = 'experiments/atomic2020_ten_preds/cot_qa_updated_neg_teach_var_temp/sampled_normal_preds_generated_cot_qa_updated_neg_teach_var_temp_evaluated_with_ada_embeddings.csv'
+normal_figure_path = 'experiments/atomic2020_ten_preds/cot_qa_updated_neg_teach_var_temp/sampled_normal_preds_generated_cot_qa_updated_neg_teach_var_temp_evaluated_with_ada_embeddings.pdf'
 
 def get_embedding(text, model="text-embedding-ada-002"):
     # Check if text is a string
@@ -28,45 +33,76 @@ def get_embedding(text, model="text-embedding-ada-002"):
     text = text.replace("\n", " ")
     return openai.Embedding.create(input = [text], model=model)['data'][0]['embedding']
 
-# If target file exists, load it and return
-if os.path.exists(target_file_path):
-    print(f"Loading embeddings from {target_file_path}...")
-    df = pd.read_csv(target_file_path)
-    try:
-        # Ignore nan values
-        df = df[~df.ada_embedding.isna()]
-        df['ada_embedding'] = df.ada_embedding.apply(eval).apply(np.array)
-    except:
-        import IPython; IPython. embed(); exit(1)
-else:
-    # Calculating embeddings
-    print(f"Calculating embeddings for {OUR_METHOD_RESULT_PATH}...")
-    df = pd.read_csv(OUR_METHOD_RESULT_PATH, sep='\t')
-    df["combined"] = (
-        "Question: " + df.prompt.str.strip() + "; Answer: " + df.generated_tail.str.strip()
-    )
-    # Get combined column value from row zero of the dataframe
+def get_embeddings_for_tsv(tsv_path, target_file_path):
+    # If target file exists, load it and return
+    if os.path.exists(target_file_path):
+        print(f"Loading embeddings from {target_file_path}...")
+        df = pd.read_csv(target_file_path)
+        try:
+            # Ignore nan values
+            df = df[~df.combined_ada_embedding.isna()]
+            if 'combined_ada_embedding' in df.columns:
+                df['combined_ada_embedding'] = df.combined_ada_embedding.apply(eval).apply(np.array)
+            # If answer_ada_embedding column exists, load it
+            if 'answer_ada_embedding' in df.columns:
+                df['answer_ada_embedding'] = df.answer_ada_embedding.apply(eval).apply(np.array)
+            # If question_ada_embedding column exists, load it
+            if 'question_ada_embedding' in df.columns:
+                df['question_ada_embedding'] = df.question_ada_embedding.apply(eval).apply(np.array)
+        except:
+            print("Error loading embeddings from file. Please delete the file and try again.")
+            traceback.print_exc()
+            import IPython; IPython. embed(); exit(1)
+    else:
+        # Calculating embeddings
+        print(f"Calculating embeddings for {tsv_path}...")
+        df = pd.read_csv(tsv_path, sep='\t')
+        df["combined"] = (
+            "Question: " + df.prompt.str.strip() + "; Answer: " + df.generated_tail.str.strip()
+        )
+        # Get combined column value from row zero of the dataframe
 
-    # Apply get_embedding to each question
-    df['ada_embedding'] = df.combined.apply(lambda x: get_embedding(x, model='text-embedding-ada-002'))
-    # Save dataframe to file
-    df.to_csv(target_file_path, index=False)
+        # Apply get_embedding to each question
+        df['combined_ada_embedding'] = df.combined.apply(lambda x: get_embedding(x, model='text-embedding-ada-002'))
+        df['answer_ada_embedding'] = df.generated_tail.apply(lambda x: get_embedding(x, model='text-embedding-ada-002'))
+        df['question_ada_embedding'] = df.prompt.apply(lambda x: get_embedding(x, model='text-embedding-ada-002'))
+        # Save dataframe to file
+        df.to_csv(target_file_path, index=False)
+    return df
+
+def plot_embeddings(df, column_name, figure_path):
+    # Create a t-SNE model and transform the data
+    # matrix = df.ada_embedding.apply(ast.literal_eval).to_list()
+    try:
+        matrix = df[column_name].apply(np.ndarray.tolist).to_list()
+    except:
+        print("Error converting embeddings to list.")
+        traceback.print_exc()
+        import IPython; IPython. embed(); exit(1)
+    tsne = TSNE(n_components=2, perplexity=15, random_state=42, init='random', learning_rate=200)
+    vis_dims = tsne.fit_transform(matrix)
+
+    # five colors from green to red
+    colors = ['#00FF00', '#00FF7F', '#FF0000', '#FF0000', '#FF0000']
+    x = [x for x,y in vis_dims]
+    y = [y for x,y in vis_dims]
+    color_indices = df.majority_vote.values - 1
+
+    colormap = matplotlib.colors.ListedColormap(colors)
+    plt.scatter(x, y, c=color_indices, cmap=colormap, alpha=0.3)
+    plt.title(f"{column_name} embeddings visualized using t-SNE")
+    plt.savefig(figure_path)
+    print(f"Saved figure to {figure_path}")
+
+df = get_embeddings_for_tsv(OUR_METHOD_RESULT_PATH, target_file_path)
+normal_df = get_embeddings_for_tsv(NORMAL_OUR_METHOD_RESULT_PATH, normal_target_file_path)
 
 # Now using the embeddings, we can do some cool stuff like clustering, etc.
+plot_embeddings(df, 'combined_ada_embedding', figure_path)
+plot_embeddings(normal_df, 'combined_ada_embedding', normal_figure_path)
 
-# Create a t-SNE model and transform the data
-# matrix = df.ada_embedding.apply(ast.literal_eval).to_list()
-matrix = df.ada_embedding.apply(np.ndarray.tolist).to_list()
-tsne = TSNE(n_components=2, perplexity=15, random_state=42, init='random', learning_rate=200)
-vis_dims = tsne.fit_transform(matrix)
-
-# five colors from green to red
-colors = ['#00FF00', '#00FF7F', '#FF0000', '#FF0000', '#FF0000']
-x = [x for x,y in vis_dims]
-y = [y for x,y in vis_dims]
-color_indices = df.majority_vote.values - 1
-
-colormap = matplotlib.colors.ListedColormap(colors)
-plt.scatter(x, y, c=color_indices, cmap=colormap, alpha=0.3)
-plt.title("Question+Answer embeddings visualized using t-SNE")
-plt.savefig(figure_path)
+# TODO:
+# 1. Plot question embeddings minus answer embeddings
+# 2. Plot negated answer emdeddings minus normal answer embeddings
+# 3. Plot negated question embeddings minus normal question embeddings
+# 4. Plot negated answer embeddings minus average answer embeddings of the same question
