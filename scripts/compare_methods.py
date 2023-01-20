@@ -37,7 +37,13 @@ def extract_accurcy_from_json(json_filepath):
 def add_new_vals_to_merged_evals(merged_evaluation_df, eval_df, review_column_count):
     if len(merged_evaluation_df) == 0:
         # Drop columns review, majority_vote, and absolute_majority_vote from eval_df
-        eval_df.drop(columns=['review', 'majority_vote', 'absolute_majority_vote'], inplace=True)
+        # Drop column if it exists
+        if 'review' in eval_df.columns:
+            eval_df.drop(columns=['review'], inplace=True)
+        if 'majority_vote' in eval_df.columns:
+            eval_df.drop(columns=['majority_vote'], inplace=True)
+        if 'absolute_majority_vote' in eval_df.columns:
+            eval_df.drop(columns=['absolute_majority_vote'], inplace=True)
         # Assign the current evaluation to merged_negated_evaluation
         merged_evaluation_df = eval_df
     else:

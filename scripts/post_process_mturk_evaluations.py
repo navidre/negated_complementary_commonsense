@@ -134,7 +134,10 @@ def update_out_tsv_from_manifest(mturk_path, out_tsv_path):
         # Extracting the source
         source = row['full_text']
         # Extracting the review
-        consolidated_class_name = evaluations_list[manifest_index][metadata_key]['class-name']
+        try:
+            consolidated_class_name = evaluations_list[manifest_index][metadata_key]['class-name']
+        except:
+            import IPython; IPython. embed(); exit(1)
         review = CLASS_TO_INDEX[consolidated_class_name]
         # Updating the output TSV file
         out_tsv_df.at[index, 'review'] = review
