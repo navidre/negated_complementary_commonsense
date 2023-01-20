@@ -21,7 +21,8 @@ EXPERIMENTS = {
     },
     'atomic2020_ten_preds': {
         'few_shot_qa': 'experiments/sampled_10_atomic2020_few_shot_qa_limited_preds_ten_atomic_preds',
-        'cot_qa_updated_neg_teach_var_temp': 'experiments/sampled_10_atomic2020_cot_qa_updated_neg_teach_var_temp_limited_preds_ten_atomic_preds'
+        'cot_qa_updated_neg_teach_var_temp': 'experiments/sampled_10_atomic2020_cot_qa_updated_neg_teach_var_temp_limited_preds_ten_atomic_preds',
+        'cot_qa_updated_neg_teach_var_temp_ablated': 'experiments/sampled_10_atomic2020_cot_qa_updated_neg_teach_var_temp_ablated_limited_preds_ten_atomic_preds',
     }
 }
 

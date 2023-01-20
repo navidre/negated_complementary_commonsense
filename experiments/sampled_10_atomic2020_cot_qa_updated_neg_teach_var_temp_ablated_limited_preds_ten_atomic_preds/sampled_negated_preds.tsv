@@ -1,0 +1,101 @@
+head	relation	tail	prompt
+PersonX gets a part time job	NotxWant	to go to work	PersonX gets a part time job. After, PersonX will not want to
+PersonX sees wood	NotxWant	to collect the wood	PersonX sees wood. After, PersonX will not want to
+PersonX turns PersonX's music down	NotxWant	to keep the music softer.	PersonX turns PersonX's music down. After, PersonX will not want to
+PersonX is coming to an end	NotxWant	to fight till it's over	PersonX is coming to an end. After, PersonX will not want to
+PersonX touches PersonY's skin	NotxWant	to feel the problem	PersonX touches PersonY's skin. After, PersonX will not want to
+PersonX is PersonY's mother	NotxWant	to share memories	PersonX is PersonY's mother. After, PersonX will not want to
+PersonX can not believe PersonX's eyes	NotxWant	to fix the situation.	PersonX can not believe PersonX's eyes. After, PersonX will not want to
+PersonX catches the bus to work	NotxWant	goes shopping	PersonX catches the bus to work. After, PersonX will not want to
+PersonX wears gloves	NotxWant	to put them on	PersonX wears gloves. After, PersonX will not want to
+PersonX operates in PersonY environment	NotxWant	To complete work and go home	PersonX operates in PersonY environment. After, PersonX will not want to
+PersonX sees PersonY's crush	NotxReact	indifferent	PersonX sees PersonY's crush. PersonX will not be
+PersonX watches PersonX's mouth	NotxReact	good they avoided that gaffe.	PersonX watches PersonX's mouth. PersonX will not be
+PersonX moves past PersonY	NotxReact	neutral.	PersonX moves past PersonY. PersonX will not be
+PersonX denies PersonY's existence	NotxReact	powerful.	PersonX denies PersonY's existence. PersonX will not be
+PersonX never been to one	NotxReact	satisfied	PersonX never been to one. PersonX will not be
+PersonX hits PersonY's friend	NotxReact	like a bully	PersonX hits PersonY's friend. PersonX will not be
+PersonX sends PersonY to the showers	NotxReact	in charge	PersonX sends PersonY to the showers. PersonX will not be
+PersonX fudges the issue	NotxReact	guilty	PersonX fudges the issue. PersonX will not be
+PersonX contains PersonY number	NotxReact	dominant	PersonX contains PersonY number. PersonX will not be
+PersonX breaks PersonX's hip	NotxReact	encumbered by the injury	PersonX breaks PersonX's hip. PersonX will not be
+PersonX loves riding PersonX's bike	NotoWant	none	PersonX loves riding PersonX's bike. After, others will not want to
+PersonX is making a cake	NotoWant	to eat the cake	PersonX is making a cake. After, others will not want to
+PersonX wins money	NotoWant	none	PersonX wins money. After, others will not want to
+PersonX escorts PersonY back	NotoWant	to get inside while PersonX is watching	PersonX escorts PersonY back. After, others will not want to
+PersonX wraps PersonY's hand	NotoWant	thank them	PersonX wraps PersonY's hand. After, others will not want to
+PersonX falls on PersonY	NotoWant	to help PersonX	PersonX falls on PersonY. After, others will not want to
+PersonX throws some bread	NotoWant	none	PersonX throws some bread. After, others will not want to
+PersonX stings by a jellyfish	NotoWant	none	PersonX stings by a jellyfish. After, others will not want to
+PersonX develops cancer	NotoWant	to treat person X	PersonX develops cancer. After, others will not want to
+PersonX tells PersonY a little	NotoWant	to know more about the matter	PersonX tells PersonY a little. After, others will not want to
+detective	NotCapableOf	find missing person	detective cannot
+wet dog	NotCapableOf	get cold	wet dog cannot
+quaterback	NotCapableOf	shoulder blame for loss	quaterback cannot
+dentist	NotCapableOf	view teeth	dentist cannot
+oscar winner	NotCapableOf	thank many people	oscar winner cannot
+possum	NotCapableOf	play dead	possum cannot
+supermodel	NotCapableOf	turn heads	supermodel cannot
+alto	NotCapableOf	high pitched voice	alto cannot
+energetic person	NotCapableOf	wash own car	energetic person cannot
+salior	NotCapableOf	weather storm	salior cannot
+terrorist	NotDesires	violence	terrorist does not desire
+exhibitionist	NotDesires	private parts to seen	exhibitionist does not desire
+lover	NotDesires	stable relationship	lover does not desire
+pedobear	NotDesires	cake	pedobear does not desire
+alcoholic	NotDesires	liquor	alcoholic does not desire
+gardener	NotDesires	good weather	gardener does not desire
+teenager	NotDesires	leave home	teenager does not desire
+hen	NotDesires	bread crumbs	hen does not desire
+detective	NotDesires	catch criminals	detective does not desire
+aol	NotDesires	everyone to use aol	aol does not desire
+PersonX enters an art contest	NotHinderedBy	PersonX's mom told him he shouldn't.	PersonX enters an art contest. This happens even if
+PersonX spends time	NotHinderedBy	PersonX has to work too many hours.	PersonX spends time. This happens even if
+PersonX gives PersonY another	NotHinderedBy	Person Y has taken them all.	PersonX gives PersonY another. This happens even if
+PersonX sees PersonY night	NotHinderedBy	PersonX is working a double shift.	PersonX sees PersonY night. This happens even if
+PersonX changes PersonY's diaper	NotHinderedBy	PersonX has no fresh diaper to use.	PersonX changes PersonY's diaper. This happens even if
+PersonX is having a party at PersonX's house	NotHinderedBy	PersonX has to work.	PersonX is having a party at PersonX's house. This happens even if
+PersonX pulls out all the stops	NotHinderedBy	PersonX is lazy.	PersonX pulls out all the stops. This happens even if
+PersonX looks in the pantry	NotHinderedBy	PersonX can't find the key to the pantry door.	PersonX looks in the pantry. This happens even if
+PersonX brushes PersonY's hair	NotHinderedBy	person y will not allow it	PersonX brushes PersonY's hair. This happens even if
+PersonX invites PersonY to play	NotHinderedBy	PersonY is grounded for the week.	PersonX invites PersonY to play. This happens even if
+PersonX eats it	NotisBefore	PersonX drinks tea to wash it down	PersonX eats it. After that, does not usually
+PersonX sends PersonY a gift	NotisBefore	PersonX waits for PersonY to thank PersonX	PersonX sends PersonY a gift. After that, does not usually
+PersonX finishes the book last night	NotisBefore	PersonX goes back to the bookstore for another one	PersonX finishes the book last night. After that, does not usually
+PersonX makes PersonY's arrangements	NotisBefore	PersonX and PersonY go on the trip	PersonX makes PersonY's arrangements. After that, does not usually
+PersonX has a better idea	NotisBefore	PersonX amends the presentation to include the new idea	PersonX has a better idea. After that, does not usually
+PersonX keeps PersonX's head down	NotisBefore	PersonX laughs at his friend because he knew he saved him fromg etting hit	PersonX keeps PersonX's head down. After that, does not usually
+PersonX walks into PersonY's room	NotisBefore	PersonX asks his friend what he is doing later and if he wants to eat	PersonX walks into PersonY's room. After that, does not usually
+PersonX makes decisions based	NotisBefore	PersonX tells the employees their tasks	PersonX makes decisions based. After that, does not usually
+PersonX has trouble staying awake	NotisBefore	PersonX cracks open an energy drink to stay awake	PersonX has trouble staying awake. After that, does not usually
+PersonX rears PersonY's children	NotisBefore	PersonX works hard to support the children	PersonX rears PersonY's children. After that, does not usually
+PersonX leaves for school	NotisAfter	PersonX prepares for school	PersonX leaves for school. Before that, it is not needed that
+PersonX visits the zoo	NotisAfter	PersonX treats their children to a day off school	PersonX visits the zoo. Before that, it is not needed that
+PersonX holds onto nothing	NotisAfter	PersonX falls over	PersonX holds onto nothing. Before that, it is not needed that
+PersonX summons for jury duty	NotisAfter	PersonX opens a letter	PersonX summons for jury duty. Before that, it is not needed that
+PersonX pumps iron	NotisAfter	PersonX goes to the gym	PersonX pumps iron. Before that, it is not needed that
+PersonX has tons of fun	NotisAfter	PersonX goes to the amusement park	PersonX has tons of fun. Before that, it is not needed that
+PersonX imitates PersonY's example	NotisAfter	PersonX watches PersonY do standup comedy	PersonX imitates PersonY's example. Before that, it is not needed that
+PersonX invites all PersonX's friends over	NotisAfter	PersonX decorates the house for a birthday celebration	PersonX invites all PersonX's friends over. Before that, it is not needed that
+PersonX wears glasses	NotisAfter	PersonX tries to read the message	PersonX wears glasses. Before that, it is not needed that
+PersonX sprays by a skunk	NotisAfter	PersonX encounters a skunk	PersonX sprays by a skunk. Before that, it is not needed that
+knight	NotAtLocation	battle groung	You are not likely to find  knight in
+harmonica	NotAtLocation	blues band	You are not likely to find  harmonica in
+salt	NotAtLocation	cabinet	You are not likely to find  salt in
+book light	NotAtLocation	bookstore	You are not likely to find  book light in
+handle	NotAtLocation	bathroom	You are not likely to find  handle in
+dark matter	NotAtLocation	outerspace	You are not likely to find  dark matter in
+indian ocean	NotAtLocation	asia	You are not likely to find  indian ocean in
+large container	NotAtLocation	cabinet	You are not likely to find  large container in
+lacebug	NotAtLocation	underside of leaves	You are not likely to find  lacebug in
+cpu	NotAtLocation	computer	You are not likely to find  cpu in
+get old	NotHasSubEvent	give up all hope	While getting old, you would not
+get in line	NotHasSubEvent	find back of line	While getting in line, you would not
+comfort	NotHasSubEvent	hug	While comfort, you would not
+gargle	NotHasSubEvent	spit	While gargle, you would not
+drink	NotHasSubEvent	fill cup with liquid	While drinking, you would not
+love another	NotHasSubEvent	accept totally without change	While loving another, you would not
+give assistance	NotHasSubEvent	ask how can help	While giving assistance, you would not
+stay in bed	NotHasSubEvent	shut off alarm clock	While staying in bed, you would not
+interfere	NotHasSubEvent	waves cause interference patterns	While interfering, you would not
+play chess	NotHasSubEvent	contemplate move	While playing chess, you would not

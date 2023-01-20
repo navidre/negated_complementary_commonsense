@@ -22,7 +22,7 @@ if __name__ == "__main__":
     #region Argument parsing
     parser = argparse.ArgumentParser()
     # Generation method
-    parser.add_argument("--method", type=str, default="few_shot", choices=["few_shot", "cot_qa", "few_shot_qa", "updated_cot_qa", "cot_qa_neg_teach", "cot_qa_neg_teach_var_temp", "cot_qa_updated_neg_teach_var_temp"])
+    parser.add_argument("--method", type=str, default="few_shot", choices=["few_shot", "cot_qa", "few_shot_qa", "updated_cot_qa", "cot_qa_neg_teach", "cot_qa_neg_teach_var_temp", "cot_qa_updated_neg_teach_var_temp", "cot_qa_updated_neg_teach_var_temp_ablated"])
     # Knowledge graph to use
     parser.add_argument("--kg", type=str, default="atomic2020", choices=["conceptnet", "transomcs", "atomic", "atomic2020", "wpkg", "wpkg_expanded", "visualcomet", "negated_cs"])
     # Number of subject-object pairs to sample per predicate
