@@ -13,3 +13,6 @@ cot_qa_updated_neg_teach_var_temp	ten-preds-negated-cot-qa-updated-neg-teach-var
 cot_qa_updated_neg_teach_var_temp	ten-preds-normal-cot-qa-updated-neg-teach-var-temp-1	74.66666666666667	0
 cot_qa_updated_neg_teach_var_temp	ten-preds-negated-cot-qa-updated-neg-teach-var-temp	0	75.66666666666667
 cot_qa_updated_neg_teach_var_temp	Merged	86.33333333333333	89.0
+cot_qa_updated_neg_teach_var_temp_ablated	ten-preds-negated-cot-qa-updated-neg-teach-var-temp-ablated-1	0	74.0
+cot_qa_updated_neg_teach_var_temp_ablated	ten-preds-negated-cot-qa-updated-neg-teach-var-temp-ablated-2	0	61.333333333333336
+cot_qa_updated_neg_teach_var_temp_ablated	Merged	0	82.66666666666667
