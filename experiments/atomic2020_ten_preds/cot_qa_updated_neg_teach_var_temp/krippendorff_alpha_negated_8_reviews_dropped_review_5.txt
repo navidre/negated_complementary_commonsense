@@ -1,0 +1,4 @@
+two_category_alpha:	0.43321859799926987
+correct_incorrect_alpha:	0.5086180720242828
+three_category_alpha:	0.759628170029066
+five_category_alpha:	0.44367085118409466
