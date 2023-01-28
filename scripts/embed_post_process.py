@@ -5,6 +5,7 @@ import numpy as np
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 import matplotlib
+from scipy.spatial import distance
 from dotenv import load_dotenv
 import openai
 load_dotenv(f'{Path().resolve()}/.env')
@@ -25,6 +26,10 @@ figure_path = 'experiments/atomic2020_ten_preds/cot_qa_updated_neg_teach_var_tem
 NORMAL_OUR_METHOD_RESULT_PATH = 'experiments/atomic2020_ten_preds/cot_qa_updated_neg_teach_var_temp/sampled_normal_preds_generated_cot_qa_updated_neg_teach_var_temp_evaluated.tsv'
 normal_target_file_path = 'experiments/atomic2020_ten_preds/cot_qa_updated_neg_teach_var_temp/sampled_normal_preds_generated_cot_qa_updated_neg_teach_var_temp_evaluated_with_ada_embeddings.csv'
 normal_figure_path = 'experiments/atomic2020_ten_preds/cot_qa_updated_neg_teach_var_temp/sampled_normal_preds_generated_cot_qa_updated_neg_teach_var_temp_evaluated_with_ada_embeddings.pdf'
+
+# create a function to calculate cosine similarity
+def cosine_similarity(x, y):
+    return 1 - distance.cosine(x, y)
 
 def get_embedding(text, model="text-embedding-ada-002"):
     # Check if text is a string
@@ -100,6 +105,29 @@ normal_df = get_embeddings_for_tsv(NORMAL_OUR_METHOD_RESULT_PATH, normal_target_
 # Now using the embeddings, we can do some cool stuff like clustering, etc.
 plot_embeddings(df, 'combined_ada_embedding', figure_path)
 plot_embeddings(normal_df, 'combined_ada_embedding', normal_figure_path)
+
+# Write code to plot similarity between question and answer embeddings
+# Negated
+# Calculate similarity between question and answer embeddings
+# create a dataframe
+df = pd.DataFrame({'question': [[1, 2, 3], [4, 5, 6], [7, 8, 9]], 'answer': [[4, 5, 6], [7, 8, 9], [1, 2, 3]], 'vote': [1, 2, 3]})
+
+# calculate similarity between question and answer columns
+df['similarity'] = df.apply(lambda row: cosine_similarity(row['question'], row['answer']), axis=1)
+
+# create a scatter plot
+plt.scatter(x=df['similarity'], y=df['vote'], c=df['vote'], cmap='rainbow', s=df.groupby(['vote', 'similarity']).size()*20)
+
+# add a colorbar
+plt.colorbar()
+
+# add labels and title
+plt.xlabel('Similarity')
+plt.ylabel('Vote')
+plt.title('Similarity vs Vote')
+
+# show the plot
+plt.show()
 
 # TODO:
 # 1. Plot question embeddings minus answer embeddings

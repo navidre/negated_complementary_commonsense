@@ -57,7 +57,7 @@ def generate_concept_definitions(concepts):
         prompt="Q: What is Apple? Describe briefly.\nA: An apple is a spherical fruit, which is usually sweet and can be in different colors of red, green, and yellow."
         question = "Q: What is " + concept + "? Describe briefly."
         # Generate answer using GPT-3
-        text_answer, response = q_and_a_gpt3(question, prompt)
+        text_answer, response = q_and_a_gpt3(prompt, question)
         # Replace concept in text_answer with 'X' and case insensitive
         pattern = re.compile(rf'{concept}', re.IGNORECASE)
         updated_text = str(re.sub(pattern, "X", text_answer)).strip()
