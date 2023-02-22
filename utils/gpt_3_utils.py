@@ -157,8 +157,8 @@ def generate_few_shot_using_gpt_3(few_shot_prompt:str, premise:str, temperature:
                 temperature=temperature,
                 max_tokens=max_tokens,
                 top_p=top_p,
-                frequency_penalty=presence_penalty,
-                presence_penalty=frequency_penalty,
+                frequency_penalty=frequency_penalty,
+                presence_penalty=presence_penalty,
                 logprobs=20,
                 stop=[". ", "\n"]
                 )
@@ -224,8 +224,8 @@ def q_and_a_gpt3(prompt:str, question:str, temperature:float=TEMPERATURE, max_to
                 temperature=temperature,
                 max_tokens=max_tokens,
                 top_p=top_p,
-                frequency_penalty=presence_penalty,
-                presence_penalty=frequency_penalty,
+                frequency_penalty=frequency_penalty,
+                presence_penalty=presence_penalty,
                 logprobs=20,
                 stop=["\n"]
                 )
