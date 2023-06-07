@@ -1,5 +1,10 @@
 
-## Scripts order:
+## Paper
+This code is used in the following paper accepted at Natural Language Reasoning and Structured Explanations (NLRSE) workshop co-located at ACL 2023:
+
+Negated Complementary Commonsense using Large Language Models
+
+## Scripts order
 1. [Preparation](/scripts/prepare_subjects_preds_for_generation.py)
         - Input: The list of possible triples that we want to generate base on of, such as [ATOMIC-2020's test split](data/atomic2020/test.tsv).
         - Output: TSV file including rows sampled from each predicate, such as 10 triples per predicate. [A sample output file for the negated predicates](experiments/atomic_2020_eval/sampled_to_eval_negated_pred.tsv). The output has the verbalized verbalized version of subject & object as prompt column.
