@@ -4,6 +4,18 @@ This code is used in the following paper accepted at Natural Language Reasoning 
 
 Negated Complementary Commonsense using Large Language Models
 
+Citation:
+```
+@misc{rezaei2023negated,
+      title={Negated Complementary Commonsense using Large Language Models}, 
+      author={Navid Rezaei and Marek Z. Reformat},
+      year={2023},
+      eprint={2307.06794},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
 ## Scripts order
 1. [Preparation](/scripts/prepare_subjects_preds_for_generation.py)
         - Input: The list of possible triples that we want to generate base on of, such as [ATOMIC-2020's test split](data/atomic2020/test.tsv).
